@@ -216,3 +216,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Project-specific ---
+
+# Extracted / unpacked game asset source (large, regenerable input)
+unpacked/
+
+# NOTE: generated/ is intentionally tracked — it's the release resource
+# consumed by other apps, built from unpacked/ via the parse/generate scripts.
+
+# AI agent / tooling working directories
+.agents/
+.codex*/
+.claude/
+
+# Editor / IDE
+.idea/
+.vscode/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
