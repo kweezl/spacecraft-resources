@@ -15,6 +15,7 @@ import subprocess
 import unittest
 from pathlib import Path
 
+import deduplicate_icons
 import generate_icons
 
 REPO = Path(__file__).resolve().parent
@@ -135,6 +136,30 @@ class JsonValidityTests(unittest.TestCase):
             self.assertIsInstance(entry, dict, f"{key}: entry not an object")
             self.assertEqual(entry.get("id"), key, f"{key}: 'id' must match its key")
             self.assertIsInstance(entry.get("output"), str, f"{key}: missing 'output' path")
+
+
+class AliasMapTests(unittest.TestCase):
+    """generated/aliases.json must stay in sync with the manifest and resolve."""
+
+    def setUp(self):
+        path = GENERATED / "aliases.json"
+        if not path.exists():
+            self.skipTest("aliases.json not present")
+        with path.open(encoding="utf-8") as handle:
+            self.aliases = json.load(handle)
+        with (GENERATED / "icons_manifest.json").open(encoding="utf-8") as handle:
+            self.manifest = json.load(handle)
+
+    def test_alias_map_matches_manifest(self):
+        # Recompute from the manifest; a drifted aliases.json fails here.
+        report = deduplicate_icons.analyze(self.manifest)
+        expected = deduplicate_icons.build_alias_map(self.manifest, report)
+        self.assertEqual(self.aliases, expected, "aliases.json is stale; regenerate it")
+
+    def test_every_aliased_icon_file_exists(self):
+        for icon_id, fname in self.aliases["icons"].items():
+            with self.subTest(icon=icon_id):
+                self.assertTrue((ICONS / fname).exists(), f"{icon_id} -> missing {fname}")
 
 
 class PngAssetSanityTests(unittest.TestCase):
