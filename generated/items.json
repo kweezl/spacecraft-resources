@@ -3449,7 +3449,7 @@
     "SteelCasingMK1": {
       "id": "SteelCasingMK1",
       "type": "Casings",
-      "price": 346,
+      "price": 205,
       "storage": 10,
       "attributes": [
         {
@@ -3469,7 +3469,7 @@
     "TitaniumCasingMK1": {
       "id": "TitaniumCasingMK1",
       "type": "Casings",
-      "price": 810,
+      "price": 590,
       "storage": 10,
       "refDesc": "SteelCasingMK1",
       "attributes": [
@@ -3490,7 +3490,7 @@
     "TitaniumCasingMK2": {
       "id": "TitaniumCasingMK2",
       "type": "Casings",
-      "price": 4150,
+      "price": 3200,
       "storage": 25,
       "refDesc": "SteelCasingMK1",
       "attributes": [
@@ -3760,7 +3760,7 @@
     "HullMK1_004": {
       "id": "HullMK1_004",
       "type": "ShipHull_Steel",
-      "price": 800,
+      "price": 500,
       "storage": 20,
       "tags": [
         "Material_Steel"
@@ -3815,7 +3815,7 @@
     "Wing_01": {
       "id": "Wing_01",
       "type": "ShipWing",
-      "price": 202,
+      "price": 126,
       "storage": 5,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -3871,7 +3871,7 @@
     "Wing_02": {
       "id": "Wing_02",
       "type": "ShipWing",
-      "price": 202,
+      "price": 126,
       "storage": 5,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -3927,7 +3927,7 @@
     "Wing_03": {
       "id": "Wing_03",
       "type": "ShipWing",
-      "price": 404,
+      "price": 252,
       "storage": 10,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -3983,7 +3983,7 @@
     "HullMK1_005": {
       "id": "HullMK1_005",
       "type": "ShipHull_Steel",
-      "price": 1210,
+      "price": 750,
       "storage": 20,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -4039,7 +4039,7 @@
     "HullMK1_006": {
       "id": "HullMK1_006",
       "type": "ShipHull_Steel",
-      "price": 1610,
+      "price": 1000,
       "storage": 20,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -4095,7 +4095,7 @@
     "HullMK1_001": {
       "id": "HullMK1_001",
       "type": "ShipHull_Steel",
-      "price": 870,
+      "price": 560,
       "storage": 20,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -4151,7 +4151,7 @@
     "HullMK1_002": {
       "id": "HullMK1_002",
       "type": "ShipHull_Steel",
-      "price": 1300,
+      "price": 840,
       "storage": 20,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -4207,7 +4207,7 @@
     "HullMK1_003": {
       "id": "HullMK1_003",
       "type": "ShipHull_Steel",
-      "price": 1740,
+      "price": 1130,
       "storage": 20,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -4263,7 +4263,7 @@
     "HullMK1_004_Steel_AluK": {
       "id": "HullMK1_004_Steel_AluK",
       "type": "ShipHull_Steel_AluK",
-      "price": 890,
+      "price": 560,
       "storage": 20,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -4319,7 +4319,7 @@
     "Wing_01_Steel_AluK": {
       "id": "Wing_01_Steel_AluK",
       "type": "ShipWing",
-      "price": 225,
+      "price": 142,
       "storage": 5,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -4375,7 +4375,7 @@
     "Wing_02_Steel_AluK": {
       "id": "Wing_02_Steel_AluK",
       "type": "ShipWing",
-      "price": 225,
+      "price": 142,
       "storage": 5,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -4431,7 +4431,7 @@
     "Wing_03_Steel_AluK": {
       "id": "Wing_03_Steel_AluK",
       "type": "ShipWing",
-      "price": 450,
+      "price": 285,
       "storage": 5,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -4487,7 +4487,7 @@
     "HullMK1_005_Steel_AluK": {
       "id": "HullMK1_005_Steel_AluK",
       "type": "ShipHull_Steel_AluK",
-      "price": 1340,
+      "price": 850,
       "storage": 20,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -4543,7 +4543,7 @@
     "HullMK1_006_Steel_AluK": {
       "id": "HullMK1_006_Steel_AluK",
       "type": "ShipHull_Steel_AluK",
-      "price": 1790,
+      "price": 1130,
       "storage": 20,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -4599,7 +4599,7 @@
     "HullMK1_001_Steel_AluK": {
       "id": "HullMK1_001_Steel_AluK",
       "type": "ShipHull_Steel_AluK",
-      "price": 980,
+      "price": 640,
       "storage": 20,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -4655,7 +4655,7 @@
     "HullMK1_002_Steel_AluK": {
       "id": "HullMK1_002_Steel_AluK",
       "type": "ShipHull_Steel_AluK",
-      "price": 1460,
+      "price": 960,
       "storage": 20,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -4711,7 +4711,7 @@
     "HullMK1_003_Steel_AluK": {
       "id": "HullMK1_003_Steel_AluK",
       "type": "ShipHull_Steel_AluK",
-      "price": 1960,
+      "price": 1300,
       "storage": 20,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -4767,7 +4767,7 @@
     "HullMK1_004_Tit": {
       "id": "HullMK1_004_Tit",
       "type": "ShipHull_Titanium",
-      "price": 1810,
+      "price": 1330,
       "storage": 20,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -4823,7 +4823,7 @@
     "HullMK1_005_Tit": {
       "id": "HullMK1_005_Tit",
       "type": "ShipHull_Titanium",
-      "price": 2720,
+      "price": 2000,
       "storage": 20,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -4879,7 +4879,7 @@
     "HullMK1_006_Tit": {
       "id": "HullMK1_006_Tit",
       "type": "ShipHull_Titanium",
-      "price": 3620,
+      "price": 2670,
       "storage": 20,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -4935,7 +4935,7 @@
     "HullMK1_001_Tit": {
       "id": "HullMK1_001_Tit",
       "type": "ShipHull_Titanium",
-      "price": 1870,
+      "price": 1390,
       "storage": 20,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -4991,7 +4991,7 @@
     "HullMK1_002_Tit": {
       "id": "HullMK1_002_Tit",
       "type": "ShipHull_Titanium",
-      "price": 2810,
+      "price": 2090,
       "storage": 20,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -5047,7 +5047,7 @@
     "HullMK1_003_Tit": {
       "id": "HullMK1_003_Tit",
       "type": "ShipHull_Titanium",
-      "price": 3750,
+      "price": 2790,
       "storage": 20,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -5103,7 +5103,7 @@
     "HullMK2_004_Tit": {
       "id": "HullMK2_004_Tit",
       "type": "ShipHull_Titanium",
-      "price": 9200,
+      "price": 7100,
       "storage": 50,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -5159,7 +5159,7 @@
     "Wing_04": {
       "id": "Wing_04",
       "type": "ShipWing",
-      "price": 9200,
+      "price": 7100,
       "storage": 50,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -5215,7 +5215,7 @@
     "HullMK2_005_Tit": {
       "id": "HullMK2_005_Tit",
       "type": "ShipHull_Titanium",
-      "price": 13800,
+      "price": 10700,
       "storage": 50,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -5271,7 +5271,7 @@
     "HullMK2_006_Tit": {
       "id": "HullMK2_006_Tit",
       "type": "ShipHull_Titanium",
-      "price": 18400,
+      "price": 14300,
       "storage": 50,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -5327,7 +5327,7 @@
     "HullMK1_004_Tit_AluK": {
       "id": "HullMK1_004_Tit_AluK",
       "type": "ShipHull_Titanium_AluK",
-      "price": 1980,
+      "price": 1460,
       "storage": 20,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -5383,7 +5383,7 @@
     "HullMK1_005_Tit_AluK": {
       "id": "HullMK1_005_Tit_AluK",
       "type": "ShipHull_Titanium_AluK",
-      "price": 2980,
+      "price": 2200,
       "storage": 20,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -5439,7 +5439,7 @@
     "HullMK1_006_Tit_AluK": {
       "id": "HullMK1_006_Tit_AluK",
       "type": "ShipHull_Titanium_AluK",
-      "price": 3960,
+      "price": 2940,
       "storage": 20,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -5495,7 +5495,7 @@
     "HullMK1_001_Tit_AluK": {
       "id": "HullMK1_001_Tit_AluK",
       "type": "ShipHull_Titanium_AluK",
-      "price": 2060,
+      "price": 1540,
       "storage": 20,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -5551,7 +5551,7 @@
     "HullMK1_002_Tit_AluK": {
       "id": "HullMK1_002_Tit_AluK",
       "type": "ShipHull_Titanium_AluK",
-      "price": 3090,
+      "price": 2320,
       "storage": 20,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -5607,7 +5607,7 @@
     "HullMK1_003_Tit_AluK": {
       "id": "HullMK1_003_Tit_AluK",
       "type": "ShipHull_Titanium_AluK",
-      "price": 4130,
+      "price": 3090,
       "storage": 20,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -5663,7 +5663,7 @@
     "HullMK2_004_Tit_AluK": {
       "id": "HullMK2_004_Tit_AluK",
       "type": "ShipHull_Titanium_AluK",
-      "price": 10000,
+      "price": 7700,
       "storage": 50,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -5719,7 +5719,7 @@
     "Wing_04_Tit_AluK": {
       "id": "Wing_04_Tit_AluK",
       "type": "ShipWing",
-      "price": 10000,
+      "price": 7700,
       "storage": 50,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -5775,7 +5775,7 @@
     "HullMK2_005_Tit_AluK": {
       "id": "HullMK2_005_Tit_AluK",
       "type": "ShipHull_Titanium_AluK",
-      "price": 15000,
+      "price": 11700,
       "storage": 50,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -5831,7 +5831,7 @@
     "HullMK2_006_Tit_AluK": {
       "id": "HullMK2_006_Tit_AluK",
       "type": "ShipHull_Titanium_AluK",
-      "price": 20100,
+      "price": 15600,
       "storage": 50,
       "refDesc": "HullMK1_004",
       "tags": [
@@ -7311,7 +7311,7 @@
     "Cockpit_LR1": {
       "id": "Cockpit_LR1",
       "type": "ShipCockpit",
-      "price": 1300,
+      "price": 840,
       "storage": 20,
       "skills": [
         "KeepDistance",
@@ -7363,7 +7363,7 @@
     "Cockpit_LR2": {
       "id": "Cockpit_LR2",
       "type": "ShipCockpit",
-      "price": 18900,
+      "price": 14800,
       "storage": 50,
       "skills": [
         "KeepDistance",
@@ -7411,7 +7411,7 @@
     "Cockpit_LR3": {
       "id": "Cockpit_LR3",
       "type": "ShipCockpit",
-      "price": 18900,
+      "price": 14800,
       "storage": 1,
       "skills": [
         "KeepDistance",
@@ -7459,7 +7459,7 @@
     "Cockpit_AE1": {
       "id": "Cockpit_AE1",
       "type": "ShipCockpit",
-      "price": 1550,
+      "price": 1050,
       "storage": 20,
       "tags": [
         "Battery"
@@ -7526,7 +7526,7 @@
     "Cockpit_AE2": {
       "id": "Cockpit_AE2",
       "type": "ShipCockpit",
-      "price": 21700,
+      "price": 17100,
       "storage": 50,
       "skills": [
         "TeleportBack"
@@ -7577,7 +7577,7 @@
     "Cockpit_AE3": {
       "id": "Cockpit_AE3",
       "type": "ShipCockpit",
-      "price": 18900,
+      "price": 14800,
       "storage": 1,
       "attributes": [
         {
@@ -7661,7 +7661,7 @@
     "Cockpit_MK1": {
       "id": "Cockpit_MK1",
       "type": "ShipCockpit",
-      "price": 1510,
+      "price": 1020,
       "storage": 20,
       "attributes": [
         {
@@ -7713,7 +7713,7 @@
     "Cockpit_MK2": {
       "id": "Cockpit_MK2",
       "type": "ShipCockpit",
-      "price": 22900,
+      "price": 18300,
       "storage": 50,
       "skills": [
         "OnBoardSmelter"
@@ -7764,7 +7764,7 @@
     "Cockpit_MK3": {
       "id": "Cockpit_MK3",
       "type": "ShipCockpit",
-      "price": 18900,
+      "price": 14800,
       "storage": 1,
       "attributes": [
         {
@@ -7804,7 +7804,7 @@
     "Cockpit_DA1": {
       "id": "Cockpit_DA1",
       "type": "ShipCockpit",
-      "price": 1490,
+      "price": 1020,
       "storage": 20,
       "tags": [
         "Radiator",
@@ -8203,7 +8203,7 @@
     "Thruster1": {
       "id": "Thruster1",
       "type": "ShipEngine",
-      "price": 14400,
+      "price": 11200,
       "storage": 1,
       "refDesc": "Thruster0",
       "tags": [
@@ -8258,7 +8258,7 @@
     "Thruster2": {
       "id": "Thruster2",
       "type": "ShipEngine",
-      "price": 9600,
+      "price": 7400,
       "storage": 1,
       "refDesc": "Thruster0",
       "tags": [
@@ -8313,7 +8313,7 @@
     "ThrusterAE1": {
       "id": "ThrusterAE1",
       "type": "ShipEngine",
-      "price": 1250,
+      "price": 920,
       "storage": 20,
       "refDesc": "Thruster0",
       "skills": [
@@ -8369,7 +8369,7 @@
     "ThrusterMK1": {
       "id": "ThrusterMK1",
       "type": "ShipEngine",
-      "price": 1270,
+      "price": 930,
       "storage": 20,
       "refDesc": "Thruster0",
       "skills": [
@@ -8433,7 +8433,7 @@
     "ThrusterDA1": {
       "id": "ThrusterDA1",
       "type": "ShipEngine",
-      "price": 1230,
+      "price": 890,
       "storage": 20,
       "refDesc": "Thruster0",
       "skills": [
@@ -12706,7 +12706,7 @@
     "Shuttle0": {
       "id": "Shuttle0",
       "type": "Shuttle",
-      "price": 3090,
+      "price": 2380,
       "storage": 50,
       "attributes": [
         {
@@ -12734,7 +12734,7 @@
     "Shuttle1": {
       "id": "Shuttle1",
       "type": "Shuttle",
-      "price": 2820,
+      "price": 1790,
       "storage": 1,
       "attributes": [
         {
@@ -12754,7 +12754,7 @@
     "PShuttle": {
       "id": "PShuttle",
       "type": "Automate",
-      "price": 2820,
+      "price": 1790,
       "storage": 1,
       "attributes": [
         {
@@ -13173,7 +13173,7 @@
         },
         {
           "attr": "MaxBuildPoints",
-          "value": 50
+          "value": 60
         },
         {
           "attr": "MaxDecoPoints",
@@ -13411,7 +13411,7 @@
       "attributes": [
         {
           "attr": "BuildPointsCost",
-          "value": 10
+          "value": 4
         },
         {
           "attr": "DeployXP",
@@ -13527,7 +13527,7 @@
     "B_Cistern": {
       "id": "B_Cistern",
       "type": "BaseBuilding_Storage",
-      "price": 3240,
+      "price": 1560,
       "storage": 1,
       "tags": [
         "Cistern"
