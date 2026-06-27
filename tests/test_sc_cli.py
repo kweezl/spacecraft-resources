@@ -13,6 +13,7 @@ EXPECTED_COMMANDS = [
     "generate-icons",
     "deduplicate-icons",
     "pipeline",
+    "serve",
 ]
 
 

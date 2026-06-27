@@ -9,6 +9,7 @@ from src.commands import (
     parse_items,
     parse_translations,
     pipeline,
+    serve,
 )
 from src.lib.env import load_env
 
@@ -33,3 +34,4 @@ app.command("parse-translations")(parse_translations.command)
 app.command("generate-icons")(generate_icons.command)
 app.command("deduplicate-icons")(deduplicate_icons.command)
 app.command("pipeline")(pipeline.command)
+app.command("serve")(serve.command)

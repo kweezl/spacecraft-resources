@@ -112,3 +112,7 @@ icon_path = entry["output"] if entry else None   # e.g. "generated/icons/IronOre
 Regenerate this folder after a game update with `python sc.py pipeline`
 (or the individual `parse-items` / `parse-translations` / `generate-icons`
 commands). See the repository README/tooling for details.
+
+To browse these items visually (icons + properties, search, filters), run
+`python sc.py serve` from the repo root and open the inspector at
+`http://localhost:8000/server/items.html`.
