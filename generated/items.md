@@ -15,18 +15,19 @@ the **item `id`**, which is the shared key across every file here.
 ```
 items.json                 icons_manifest.json              aliases.json
   "IronOre": {               "IronOre": {                     "icons": {
-    "id": "IronOre",           "id": "IronOre",                 "IronOre": "IronDeposit.png",
-    "icon": {                  "output": ".../IronDeposit.png", "Access_Corpo2": "Access_Corpo1.png",
+    "id": "IronOre",           "id": "IronOre",                 "IronOre": "IronOre.png",
+    "icon": {                  "output": ".../IronOre.png",     "Access_Corpo2": "Access_Corpo1.png",
       "file","x","y",... }     "source": { "file","x",... }     ...
   }                          }                                }
         |                            |                               |
         +--------------- shared key: the item id ---------------------+
 ```
 
-Note how `IronOre` resolves to `IronDeposit.png` — its icon is visually
-identical to `IronDeposit`'s, so after deduplication they share one file. This
-is exactly why you must resolve the filename through the map instead of assuming
-`IronOre.png`.
+Icons are generated from each item's own `icon` coordinates, so a file is
+normally named after its item id (`IronOre` → `IronOre.png`). Visually identical
+icons are then deduplicated and **share one file**: e.g. `Access_Corpo2` resolves
+to `Access_Corpo1.png`. That is why you must resolve the filename through the map
+rather than assuming `<id>.png` always exists.
 
 ## How to resolve an item's icon
 
@@ -41,11 +42,11 @@ items    = json.load(open("items.json", encoding="utf-8"))["items"]
 aliases  = json.load(open("aliases.json", encoding="utf-8"))["icons"]
 
 item_id  = "IronOre"
-filename = aliases.get(item_id)              # -> "IronDeposit.png" (shared canonical)
+filename = aliases.get(item_id)              # -> "IronOre.png" (or a shared canonical)
 if filename:
     icon_path = f"icons/{filename}"          # the file that exists on disk
 else:
-    icon_path = None                         # item has no generated icon
+    icon_path = None                         # item has no generated icon (no icon block)
 ```
 
 Equivalent lookup via the manifest:
@@ -53,20 +54,21 @@ Equivalent lookup via the manifest:
 ```python
 manifest = json.load(open("icons_manifest.json", encoding="utf-8"))["icons"]
 entry    = manifest.get("IronOre")
-icon_path = entry["output"] if entry else None   # e.g. "generated/icons/IronDeposit.png"
+icon_path = entry["output"] if entry else None   # e.g. "generated/icons/IronOre.png"
 ```
 
 ## Caveats
 
 1. **Do not assume `icons/<id>.png` exists.** Visually identical icons are
-   deduplicated: only the ~298 *canonical* PNGs are on disk. Many ids resolve to
-   a **shared** file (e.g. `Access_Corpo2` → `Access_Corpo1.png`). Resolve the
-   filename through `aliases.json` / the manifest, then open it.
+   deduplicated: only ~260 *canonical* PNGs are on disk for 571 items. Many ids
+   resolve to a **shared** file (e.g. `Access_Corpo2` → `Access_Corpo1.png`).
+   Resolve the filename through `aliases.json` / the manifest, then open it.
 
-2. **Not every item has a generated icon.** The shipped icons cover the
-   `sprite_sheet_icon_64` sheet variants. An item can carry an `icon` block in
-   `items.json` yet have no PNG here. `items.json` (the `item` sheet) and the
-   icon set are not 1:1, so a lookup may return nothing — handle that case.
+2. **A few items have no icon at all.** Icons are generated for every item that
+   carries an `icon` block (571 of them). The remaining items — pseudo/virtual
+   entries such as `ScriptItem`, the `*_Virtual` hulls, loot tokens and spawn
+   markers — have no `icon` block and therefore no PNG. A lookup returns nothing
+   for those; handle that case.
 
 3. **You can crop from the source yourself.** `items.json` includes the crop
    coordinates (`file`, `size`, `x`, `y`, `width`, `height`) and any `color`
