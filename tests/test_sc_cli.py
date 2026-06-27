@@ -9,6 +9,7 @@ runner = CliRunner()
 EXPECTED_COMMANDS = [
     "extract",
     "parse-items",
+    "parse-craft",
     "parse-translations",
     "generate-icons",
     "deduplicate-icons",

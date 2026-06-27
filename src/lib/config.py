@@ -15,6 +15,7 @@ ASSETS = Setting("SC_ASSETS", "unpacked")
 EXTRACT_PAK = Setting("SC_EXTRACT_PAK", "")
 EXTRACT_OUT = Setting("SC_EXTRACT_OUT", "unpacked")
 PARSE_ITEMS_OUT = Setting("SC_PARSE_ITEMS_OUT", "generated/items.json")
+PARSE_CRAFT_OUT = Setting("SC_PARSE_CRAFT_OUT", "generated/craft.json")
 PARSE_TRANSLATIONS_OUT = Setting("SC_PARSE_TRANSLATIONS_OUT", "generated/i18n")
 PARSE_TRANSLATIONS_LANG_DIR = Setting("SC_PARSE_TRANSLATIONS_LANG_DIR", "unpacked/extra/lang")
 GENERATE_ICONS_OUT = Setting("SC_GENERATE_ICONS_OUT", "generated/icons")
@@ -40,6 +41,7 @@ ALL_SETTINGS = [
     EXTRACT_PAK,
     EXTRACT_OUT,
     PARSE_ITEMS_OUT,
+    PARSE_CRAFT_OUT,
     PARSE_TRANSLATIONS_OUT,
     PARSE_TRANSLATIONS_LANG_DIR,
     GENERATE_ICONS_OUT,
