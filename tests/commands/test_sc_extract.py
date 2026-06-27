@@ -1,3 +1,4 @@
+import os
 import unittest
 from unittest import mock
 
@@ -35,6 +36,26 @@ class ExtractCommandTests(unittest.TestCase):
         argv = m.call_args.args[0]
         self.assertIn("from_cli", argv)
         self.assertNotIn("from_env", argv)
+
+    def test_pak_from_env_when_no_argument(self):
+        with mock.patch.dict(os.environ, {"SC_EXTRACT_PAK": "env.pak"}, clear=True):
+            with mock.patch("extract.main") as m:
+                code = cmd.run()
+        self.assertEqual(code, 0)
+        self.assertEqual(m.call_args.args[0][0], "env.pak")
+
+    def test_cli_pak_overrides_env(self):
+        with mock.patch.dict(os.environ, {"SC_EXTRACT_PAK": "env.pak"}, clear=True):
+            with mock.patch("extract.main") as m:
+                cmd.run(pak="cli.pak")
+        self.assertEqual(m.call_args.args[0][0], "cli.pak")
+
+    def test_missing_pak_errors_without_calling_main(self):
+        with mock.patch.dict(os.environ, {}, clear=True):
+            with mock.patch("extract.main") as m:
+                code = cmd.run()
+        self.assertEqual(code, 2)
+        m.assert_not_called()
 
 
 if __name__ == "__main__":

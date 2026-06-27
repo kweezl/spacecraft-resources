@@ -8,7 +8,7 @@ from src.lib.env import resolve
 
 
 def run(
-    pak: str,
+    pak: Optional[str] = None,
     out: Optional[str] = None,
     list_files: bool = False,
     ext: Optional[List[str]] = None,
@@ -16,7 +16,14 @@ def run(
     kind2: Optional[int] = None,
     debug_at: Optional[str] = None,
 ) -> int:
-    argv = [pak, "--out", resolve(out, config.EXTRACT_OUT)]
+    resolved_pak = resolve(pak, config.EXTRACT_PAK)
+    if not resolved_pak:
+        typer.echo(
+            "extract: no .pak path given. Pass it as an argument or set SC_EXTRACT_PAK.",
+            err=True,
+        )
+        return 2
+    argv = [resolved_pak, "--out", resolve(out, config.EXTRACT_OUT)]
     if list_files:
         argv.append("--list")
     if ext:
@@ -32,7 +39,7 @@ def run(
 
 
 def command(
-    pak: str = typer.Argument(..., help="Path to the .pak archive."),
+    pak: Optional[str] = typer.Argument(None, help="Path to the .pak archive. Env: SC_EXTRACT_PAK."),
     out: Optional[str] = typer.Option(None, "--out", help="Output dir. Env: SC_EXTRACT_OUT (default: unpacked)."),
     list_files: bool = typer.Option(False, "--list", help="List archive contents instead of extracting."),
     ext: Optional[List[str]] = typer.Option(None, "--ext", help="Only files with these extensions."),
