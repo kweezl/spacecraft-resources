@@ -8,7 +8,7 @@
       "id": "IronOre",
       "name": "Iron Ore",
       "sheet": "item",
-      "output": "generated/icons/IronOre.png",
+      "output": "generated/icons/IronOre.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -34,7 +34,7 @@
       "id": "IronNugget",
       "name": "Iron Nugget",
       "sheet": "item",
-      "output": "generated/icons/IronNugget.png",
+      "output": "generated/icons/IronNugget.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -60,7 +60,7 @@
       "id": "Hematite",
       "name": "Hematite",
       "sheet": "item",
-      "output": "generated/icons/Hematite.png",
+      "output": "generated/icons/Hematite.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -86,7 +86,7 @@
       "id": "Carbon",
       "name": "a-Carbon",
       "sheet": "item",
-      "output": "generated/icons/Carbon.png",
+      "output": "generated/icons/Carbon.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -112,7 +112,7 @@
       "id": "GraphiteCrystal",
       "name": "Graphite Crystal",
       "sheet": "item",
-      "output": "generated/icons/GraphiteCrystal.png",
+      "output": "generated/icons/GraphiteCrystal.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -138,7 +138,7 @@
       "id": "Diamond",
       "name": "Diamond",
       "sheet": "item",
-      "output": "generated/icons/Diamond.png",
+      "output": "generated/icons/Diamond.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -166,7 +166,7 @@
       "id": "CopperOre",
       "name": "Copper Ore",
       "sheet": "item",
-      "output": "generated/icons/CopperOre.png",
+      "output": "generated/icons/CopperOre.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -194,7 +194,7 @@
       "id": "CopperNugget",
       "name": "Copper Nugget",
       "sheet": "item",
-      "output": "generated/icons/CopperNugget.png",
+      "output": "generated/icons/CopperNugget.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -222,7 +222,7 @@
       "id": "AzuriteStone",
       "name": "Azurite Stone",
       "sheet": "item",
-      "output": "generated/icons/AzuriteStone.png",
+      "output": "generated/icons/AzuriteStone.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -246,7 +246,7 @@
       "id": "MalachiteStone",
       "name": "Malachite Stone",
       "sheet": "item",
-      "output": "generated/icons/MalachiteStone.png",
+      "output": "generated/icons/MalachiteStone.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -270,7 +270,7 @@
       "id": "ZirconiumOre",
       "name": "Zirconium Ore",
       "sheet": "item",
-      "output": "generated/icons/ZirconiumOre.png",
+      "output": "generated/icons/ZirconiumOre.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -300,7 +300,7 @@
       "id": "ZirconiumNugget",
       "name": "Zirconium Nugget",
       "sheet": "item",
-      "output": "generated/icons/ZirconiumNugget.png",
+      "output": "generated/icons/ZirconiumNugget.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -330,7 +330,7 @@
       "id": "Quartz",
       "name": "Quartz",
       "sheet": "item",
-      "output": "generated/icons/Quartz.png",
+      "output": "generated/icons/Quartz.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -358,7 +358,7 @@
       "id": "Sandstone",
       "name": "Silicate",
       "sheet": "item",
-      "output": "generated/icons/Sandstone.png",
+      "output": "generated/icons/Sandstone.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -386,7 +386,7 @@
       "id": "Kaolinite",
       "name": "Kaolinite",
       "sheet": "item",
-      "output": "generated/icons/Kaolinite.png",
+      "output": "generated/icons/Kaolinite.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -414,7 +414,7 @@
       "id": "QuartzShavings",
       "name": "Quartz Powder",
       "sheet": "item",
-      "output": "generated/icons/QuartzShavings.png",
+      "output": "generated/icons/QuartzShavings.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -442,7 +442,7 @@
       "id": "Calcite",
       "name": "Calcite",
       "sheet": "item",
-      "output": "generated/icons/Calcite.png",
+      "output": "generated/icons/Calcite.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -470,7 +470,7 @@
       "id": "TitaniumOre",
       "name": "Titanium Ore",
       "sheet": "item",
-      "output": "generated/icons/TitaniumOre.png",
+      "output": "generated/icons/TitaniumOre.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -494,7 +494,7 @@
       "id": "TitaniumNugget",
       "name": "Titanium Nugget",
       "sheet": "item",
-      "output": "generated/icons/TitaniumNugget.png",
+      "output": "generated/icons/TitaniumNugget.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -518,7 +518,7 @@
       "id": "AluminiumOre",
       "name": "Aluminum Ore",
       "sheet": "item",
-      "output": "generated/icons/AluminiumOre.png",
+      "output": "generated/icons/AluminiumOre.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -546,7 +546,7 @@
       "id": "AluminiumNugget",
       "name": "Aluminum Nugget",
       "sheet": "item",
-      "output": "generated/icons/AluminiumNugget.png",
+      "output": "generated/icons/AluminiumNugget.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -574,7 +574,7 @@
       "id": "Turquoise",
       "name": "Turquoise",
       "sheet": "item",
-      "output": "generated/icons/Turquoise.png",
+      "output": "generated/icons/Turquoise.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -602,7 +602,7 @@
       "id": "Aquamarine",
       "name": "Aquamarine",
       "sheet": "item",
-      "output": "generated/icons/Aquamarine.png",
+      "output": "generated/icons/Aquamarine.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -630,7 +630,7 @@
       "id": "Emerald",
       "name": "Emerald",
       "sheet": "item",
-      "output": "generated/icons/Emerald.png",
+      "output": "generated/icons/Emerald.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -660,7 +660,7 @@
       "id": "Pyrite",
       "name": "Pyrite",
       "sheet": "item",
-      "output": "generated/icons/Pyrite.png",
+      "output": "generated/icons/Pyrite.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -688,7 +688,7 @@
       "id": "Cinnabar",
       "name": "Cinnabar",
       "sheet": "item",
-      "output": "generated/icons/Cinnabar.png",
+      "output": "generated/icons/Cinnabar.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -718,7 +718,7 @@
       "id": "Sulfur",
       "name": "Sulfur",
       "sheet": "item",
-      "output": "generated/icons/Sulfur.png",
+      "output": "generated/icons/Sulfur.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -746,7 +746,7 @@
       "id": "VanadiumOre",
       "name": "Vanadium Ore",
       "sheet": "item",
-      "output": "generated/icons/VanadiumOre.png",
+      "output": "generated/icons/VanadiumOre.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -774,7 +774,7 @@
       "id": "SilverNugget",
       "name": "Silver Nugget",
       "sheet": "item",
-      "output": "generated/icons/SilverNugget.png",
+      "output": "generated/icons/SilverNugget.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -802,7 +802,7 @@
       "id": "PlatinumOre",
       "name": "Platinum Ore",
       "sheet": "item",
-      "output": "generated/icons/PlatinumOre.png",
+      "output": "generated/icons/PlatinumOre.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -830,7 +830,7 @@
       "id": "PlatinumNugget",
       "name": "Platinum Nugget",
       "sheet": "item",
-      "output": "generated/icons/PlatinumNugget.png",
+      "output": "generated/icons/PlatinumNugget.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -858,7 +858,7 @@
       "id": "TungstenOre",
       "name": "Tungsten Ore",
       "sheet": "item",
-      "output": "generated/icons/TungstenOre.png",
+      "output": "generated/icons/TungstenOre.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -886,7 +886,7 @@
       "id": "TungstenNugget",
       "name": "Tungsten Nugget",
       "sheet": "item",
-      "output": "generated/icons/TungstenNugget.png",
+      "output": "generated/icons/TungstenNugget.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -914,7 +914,7 @@
       "id": "UraniumNugget",
       "name": "Uranium Nugget",
       "sheet": "item",
-      "output": "generated/icons/UraniumNugget.png",
+      "output": "generated/icons/UraniumNugget.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -942,7 +942,7 @@
       "id": "ElmeriumNugget",
       "name": "Elmerium Nugget",
       "sheet": "item",
-      "output": "generated/icons/ElmeriumNugget.png",
+      "output": "generated/icons/ElmeriumNugget.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -970,7 +970,7 @@
       "id": "ElmeriumShavings",
       "name": "Elmerium Dust",
       "sheet": "item",
-      "output": "generated/icons/ElmeriumShavings.png",
+      "output": "generated/icons/ElmeriumShavings.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -998,7 +998,7 @@
       "id": "LowCrystal",
       "name": "Cloudy Gemstone",
       "sheet": "item",
-      "output": "generated/icons/LowCrystal.png",
+      "output": "generated/icons/LowCrystal.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1026,7 +1026,7 @@
       "id": "Crystal",
       "name": "Fair Gemstone",
       "sheet": "item",
-      "output": "generated/icons/Crystal.png",
+      "output": "generated/icons/Crystal.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1054,7 +1054,7 @@
       "id": "BigCrystal",
       "name": "Beautiful Gemstone",
       "sheet": "item",
-      "output": "generated/icons/BigCrystal.png",
+      "output": "generated/icons/BigCrystal.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1084,7 +1084,7 @@
       "id": "HudgeCrystal",
       "name": "Marvelous Gemstone",
       "sheet": "item",
-      "output": "generated/icons/HudgeCrystal.png",
+      "output": "generated/icons/HudgeCrystal.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1116,7 +1116,7 @@
       "id": "TurquoiseBead",
       "name": "Turquoise Bead",
       "sheet": "item",
-      "output": "generated/icons/TurquoiseBead.png",
+      "output": "generated/icons/TurquoiseBead.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1144,7 +1144,7 @@
       "id": "CalcifiedInvariant",
       "name": "Calcified Invariant",
       "sheet": "item",
-      "output": "generated/icons/CalcifiedInvariant.png",
+      "output": "generated/icons/CalcifiedInvariant.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1178,7 +1178,7 @@
       "id": "SpaceWheat_Seed",
       "name": "Spacekorn Seed",
       "sheet": "item",
-      "output": "generated/icons/SpaceWheat_Seed.png",
+      "output": "generated/icons/SpaceWheat_Seed.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1206,7 +1206,7 @@
       "id": "SpaceWheat_PlainPulp",
       "name": "Plain Pulp",
       "sheet": "item",
-      "output": "generated/icons/SpaceWheat_PlainPulp.png",
+      "output": "generated/icons/SpaceWheat_PlainPulp.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1234,7 +1234,7 @@
       "id": "SpaceWheat_SourPulp",
       "name": "Sour Pulp",
       "sheet": "item",
-      "output": "generated/icons/SpaceWheat_SourPulp.png",
+      "output": "generated/icons/SpaceWheat_SourPulp.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1262,7 +1262,7 @@
       "id": "SpaceWheat_WoolyKorn",
       "name": "Wooly Korn",
       "sheet": "item",
-      "output": "generated/icons/SpaceWheat_WoolyKorn.png",
+      "output": "generated/icons/SpaceWheat_WoolyKorn.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1290,7 +1290,7 @@
       "id": "SpaceWheat_FrostPulp",
       "name": "Frost Pulp",
       "sheet": "item",
-      "output": "generated/icons/SpaceWheat_FrostPulp.png",
+      "output": "generated/icons/SpaceWheat_FrostPulp.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1318,7 +1318,7 @@
       "id": "Rockwood_Seed",
       "name": "Rockwood Nut",
       "sheet": "item",
-      "output": "generated/icons/Rockwood_Seed.png",
+      "output": "generated/icons/Rockwood_Seed.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1342,7 +1342,7 @@
       "id": "Rockwood_DreamwoodFruit",
       "name": "Dream Sporule",
       "sheet": "item",
-      "output": "generated/icons/Rockwood_DreamwoodFruit.png",
+      "output": "generated/icons/Rockwood_DreamwoodFruit.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1370,7 +1370,7 @@
       "id": "Rockwood_GlowwoodFruit",
       "name": "Glowing Nodule",
       "sheet": "item",
-      "output": "generated/icons/Rockwood_GlowwoodFruit.png",
+      "output": "generated/icons/Rockwood_GlowwoodFruit.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1398,7 +1398,7 @@
       "id": "Rockwood_GlowwoodBark",
       "name": "Rough Bark",
       "sheet": "item",
-      "output": "generated/icons/Rockwood_GlowwoodBark.png",
+      "output": "generated/icons/Rockwood_GlowwoodBark.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1426,7 +1426,7 @@
       "id": "Water",
       "name": "Water",
       "sheet": "item",
-      "output": "generated/icons/Water.png",
+      "output": "generated/icons/Water.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1454,7 +1454,7 @@
       "id": "Water_Brine",
       "name": "Brine Water",
       "sheet": "item",
-      "output": "generated/icons/Water_Brine.png",
+      "output": "generated/icons/Water_Brine.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1482,7 +1482,7 @@
       "id": "Water_Waste",
       "name": "Polluted Water",
       "sheet": "item",
-      "output": "generated/icons/Water.png",
+      "output": "generated/icons/Water.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1510,7 +1510,7 @@
       "id": "Ethanol",
       "name": "Ethanol",
       "sheet": "item",
-      "output": "generated/icons/Ethanol.png",
+      "output": "generated/icons/Ethanol.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1538,7 +1538,7 @@
       "id": "XenicOil",
       "name": "Xenic Oil",
       "sheet": "item",
-      "output": "generated/icons/XenicOil.png",
+      "output": "generated/icons/XenicOil.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1564,7 +1564,7 @@
       "id": "ThermalPaste",
       "name": "Thermal Paste",
       "sheet": "item",
-      "output": "generated/icons/ThermalPaste.png",
+      "output": "generated/icons/ThermalPaste.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1592,7 +1592,7 @@
       "id": "Mercury",
       "name": "Mercury",
       "sheet": "item",
-      "output": "generated/icons/Mercury.png",
+      "output": "generated/icons/Mercury.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1622,7 +1622,7 @@
       "id": "Vitriol",
       "name": "Sulphuric Acid",
       "sheet": "item",
-      "output": "generated/icons/Vitriol.png",
+      "output": "generated/icons/Vitriol.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1646,7 +1646,7 @@
       "id": "Helium",
       "name": "Helium",
       "sheet": "item",
-      "output": "generated/icons/Helium.png",
+      "output": "generated/icons/Helium.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1674,7 +1674,7 @@
       "id": "Radon",
       "name": "Radon",
       "sheet": "item",
-      "output": "generated/icons/Helium.png",
+      "output": "generated/icons/Helium.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1702,7 +1702,7 @@
       "id": "FToiL",
       "name": "Mag-Plasma",
       "sheet": "item",
-      "output": "generated/icons/FToiL.png",
+      "output": "generated/icons/FToiL.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1730,7 +1730,7 @@
       "id": "Bottle_Empty",
       "name": "Stainless Bottle",
       "sheet": "item",
-      "output": "generated/icons/Bottle_Empty.png",
+      "output": "generated/icons/Bottle_Empty.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1758,7 +1758,7 @@
       "id": "Bottle_Water",
       "name": "Water Bottle",
       "sheet": "item",
-      "output": "generated/icons/Bottle_Water.png",
+      "output": "generated/icons/Bottle_Water.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1786,7 +1786,7 @@
       "id": "Bottle_WaterBrine",
       "name": "Brine Water Bottle",
       "sheet": "item",
-      "output": "generated/icons/Bottle_WaterBrine.png",
+      "output": "generated/icons/Bottle_WaterBrine.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1814,7 +1814,7 @@
       "id": "Bottle_Ethanol",
       "name": "Ethanol Bottle",
       "sheet": "item",
-      "output": "generated/icons/Bottle_Ethanol.png",
+      "output": "generated/icons/Bottle_Ethanol.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1842,7 +1842,7 @@
       "id": "Bottle_XenicOil",
       "name": "Xenic Oil Bottle",
       "sheet": "item",
-      "output": "generated/icons/Bottle_XenicOil.png",
+      "output": "generated/icons/Bottle_XenicOil.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1868,7 +1868,7 @@
       "id": "Bottle_ThermalPaste",
       "name": "Thermal Paste Bottle",
       "sheet": "item",
-      "output": "generated/icons/Bottle_ThermalPaste.png",
+      "output": "generated/icons/Bottle_ThermalPaste.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1896,7 +1896,7 @@
       "id": "Bottle_Vitriol",
       "name": "Sulphuric Acid Bottle",
       "sheet": "item",
-      "output": "generated/icons/Bottle_Vitriol.png",
+      "output": "generated/icons/Bottle_Vitriol.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1920,7 +1920,7 @@
       "id": "Bottle_Mercury",
       "name": "Mercury Bottle",
       "sheet": "item",
-      "output": "generated/icons/Bottle_Mercury.png",
+      "output": "generated/icons/Bottle_Mercury.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1948,7 +1948,7 @@
       "id": "BottlePlasma_Empty",
       "name": "Confinement Bottle",
       "sheet": "item",
-      "output": "generated/icons/BottlePlasma_Empty.png",
+      "output": "generated/icons/BottlePlasma_Empty.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1976,7 +1976,7 @@
       "id": "BottlePlasma_FToiL",
       "name": "Mag-Plasma Bottle",
       "sheet": "item",
-      "output": "generated/icons/BottlePlasma_FToiL.png",
+      "output": "generated/icons/BottlePlasma_FToiL.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2004,7 +2004,7 @@
       "id": "IronIngot",
       "name": "Iron Ingot",
       "sheet": "item",
-      "output": "generated/icons/IronIngot.png",
+      "output": "generated/icons/IronIngot.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2030,7 +2030,7 @@
       "id": "Graphene",
       "name": "Graphene",
       "sheet": "item",
-      "output": "generated/icons/Graphene.png",
+      "output": "generated/icons/Graphene.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2056,7 +2056,7 @@
       "id": "CopperIngot",
       "name": "Copper Ingot",
       "sheet": "item",
-      "output": "generated/icons/CopperIngot.png",
+      "output": "generated/icons/CopperIngot.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2084,7 +2084,7 @@
       "id": "ZirconiumIngot",
       "name": "Zirconium Ingot",
       "sheet": "item",
-      "output": "generated/icons/ZirconiumIngot.png",
+      "output": "generated/icons/ZirconiumIngot.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2114,7 +2114,7 @@
       "id": "TitaniumIngot",
       "name": "Titanium Ingot",
       "sheet": "item",
-      "output": "generated/icons/TitaniumIngot.png",
+      "output": "generated/icons/TitaniumIngot.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2138,7 +2138,7 @@
       "id": "SiliciumIngot",
       "name": "Silicon Ingot",
       "sheet": "item",
-      "output": "generated/icons/SiliciumIngot.png",
+      "output": "generated/icons/SiliciumIngot.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2166,7 +2166,7 @@
       "id": "AluminiumIngot",
       "name": "Aluminum Ingot",
       "sheet": "item",
-      "output": "generated/icons/AluminiumIngot.png",
+      "output": "generated/icons/AluminiumIngot.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2194,7 +2194,7 @@
       "id": "VanadiumIngot",
       "name": "Vanadium Ingot",
       "sheet": "item",
-      "output": "generated/icons/VanadiumIngot.png",
+      "output": "generated/icons/VanadiumIngot.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2222,7 +2222,7 @@
       "id": "SilverIngot",
       "name": "Silver Ingot",
       "sheet": "item",
-      "output": "generated/icons/SilverIngot.png",
+      "output": "generated/icons/SilverIngot.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2250,7 +2250,7 @@
       "id": "PlatinumIngot",
       "name": "Platinum Ingot",
       "sheet": "item",
-      "output": "generated/icons/PlatinumIngot.png",
+      "output": "generated/icons/PlatinumIngot.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2278,7 +2278,7 @@
       "id": "TungstenIngot",
       "name": "Tungsten Ingot",
       "sheet": "item",
-      "output": "generated/icons/TungstenIngot.png",
+      "output": "generated/icons/TungstenIngot.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2306,7 +2306,7 @@
       "id": "Steel",
       "name": "Steel Ingot",
       "sheet": "item",
-      "output": "generated/icons/Steel.png",
+      "output": "generated/icons/Steel.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2334,7 +2334,7 @@
       "id": "AluK",
       "name": "Alu-K Ingot",
       "sheet": "item",
-      "output": "generated/icons/AluK.png",
+      "output": "generated/icons/AluK.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2362,7 +2362,7 @@
       "id": "BTitanium",
       "name": "B-Titanium Ingot",
       "sheet": "item",
-      "output": "generated/icons/BTitanium.png",
+      "output": "generated/icons/BTitanium.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2386,7 +2386,7 @@
       "id": "Levinium",
       "name": "Levinium Ingot",
       "sheet": "item",
-      "output": "generated/icons/Levinium.png",
+      "output": "generated/icons/Levinium.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2414,7 +2414,7 @@
       "id": "Unbendinium",
       "name": "Unbendinium Ingot",
       "sheet": "item",
-      "output": "generated/icons/Unbendinium.png",
+      "output": "generated/icons/Unbendinium.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2442,7 +2442,7 @@
       "id": "Elmerium",
       "name": "Elmerium Core",
       "sheet": "item",
-      "output": "generated/icons/Elmerium.png",
+      "output": "generated/icons/Elmerium.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2470,7 +2470,7 @@
       "id": "Wire",
       "name": "Wire",
       "sheet": "item",
-      "output": "generated/icons/Wire.png",
+      "output": "generated/icons/Wire.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2498,7 +2498,7 @@
       "id": "Pipe1",
       "name": "Watertight Pipe",
       "sheet": "item",
-      "output": "generated/icons/Pipe1.png",
+      "output": "generated/icons/Pipe1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2526,7 +2526,7 @@
       "id": "Pipe2",
       "name": "Pressure-tight Pipe",
       "sheet": "item",
-      "output": "generated/icons/Pipe2.png",
+      "output": "generated/icons/Pipe2.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2556,7 +2556,7 @@
       "id": "Coil",
       "name": "Magnetic Coil",
       "sheet": "item",
-      "output": "generated/icons/Coil.png",
+      "output": "generated/icons/Coil.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2582,7 +2582,7 @@
       "id": "Motor",
       "name": "Motor",
       "sheet": "item",
-      "output": "generated/icons/Motor.png",
+      "output": "generated/icons/Motor.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2608,7 +2608,7 @@
       "id": "Pump",
       "name": "Pump",
       "sheet": "item",
-      "output": "generated/icons/Pump.png",
+      "output": "generated/icons/Pump.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2636,7 +2636,7 @@
       "id": "Actuator",
       "name": "Hydraulic Actuator",
       "sheet": "item",
-      "output": "generated/icons/Actuator.png",
+      "output": "generated/icons/Actuator.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2664,7 +2664,7 @@
       "id": "ElmeriumEngine",
       "name": "Elmerium Engine",
       "sheet": "item",
-      "output": "generated/icons/ElmeriumEngine.png",
+      "output": "generated/icons/ElmeriumEngine.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2692,7 +2692,7 @@
       "id": "Focuser",
       "name": "Crystalline Focuser",
       "sheet": "item",
-      "output": "generated/icons/Focuser.png",
+      "output": "generated/icons/Focuser.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2720,7 +2720,7 @@
       "id": "Focuser2",
       "name": "Hyper Lens",
       "sheet": "item",
-      "output": "generated/icons/Focuser2.png",
+      "output": "generated/icons/Focuser2.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2748,7 +2748,7 @@
       "id": "Focuser3",
       "name": "Ciliary Lens",
       "sheet": "item",
-      "output": "generated/icons/Focuser3.png",
+      "output": "generated/icons/Focuser3.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2778,7 +2778,7 @@
       "id": "Graphenoid",
       "name": "Quantic Graphenoid",
       "sheet": "item",
-      "output": "generated/icons/Graphenoid.png",
+      "output": "generated/icons/Graphenoid.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2804,7 +2804,7 @@
       "id": "Alternator",
       "name": "Hall Alternator",
       "sheet": "item",
-      "output": "generated/icons/Alternator.png",
+      "output": "generated/icons/Alternator.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2830,7 +2830,7 @@
       "id": "Grating",
       "name": "Diffraction Grating",
       "sheet": "item",
-      "output": "generated/icons/Grating.png",
+      "output": "generated/icons/Grating.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2862,7 +2862,7 @@
       "id": "MagneticChamber",
       "name": "Confinement Chamber",
       "sheet": "item",
-      "output": "generated/icons/MagneticChamber.png",
+      "output": "generated/icons/MagneticChamber.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2890,7 +2890,7 @@
       "id": "MetalBolt",
       "name": "Nut and Bolt",
       "sheet": "item",
-      "output": "generated/icons/MetalBolt.png",
+      "output": "generated/icons/MetalBolt.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2916,7 +2916,7 @@
       "id": "MetalSheet1",
       "name": "Metal Sheet",
       "sheet": "item",
-      "output": "generated/icons/MetalSheet1.png",
+      "output": "generated/icons/MetalSheet1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2942,7 +2942,7 @@
       "id": "MetalSheet2",
       "name": "Strong Metal Sheet",
       "sheet": "item",
-      "output": "generated/icons/MetalSheet2.png",
+      "output": "generated/icons/MetalSheet2.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2966,7 +2966,7 @@
       "id": "MetalSheet3",
       "name": "High-Grade Metal Sheet",
       "sheet": "item",
-      "output": "generated/icons/MetalSheet3.png",
+      "output": "generated/icons/MetalSheet3.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2994,7 +2994,7 @@
       "id": "MagSheet",
       "name": "Monomagnetic Sheet",
       "sheet": "item",
-      "output": "generated/icons/MagSheet.png",
+      "output": "generated/icons/MagSheet.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3022,7 +3022,7 @@
       "id": "ThermalSheet",
       "name": "Thermal Sheet",
       "sheet": "item",
-      "output": "generated/icons/ThermalSheet.png",
+      "output": "generated/icons/ThermalSheet.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3050,7 +3050,7 @@
       "id": "Plate1",
       "name": "Stainless Plate",
       "sheet": "item",
-      "output": "generated/icons/Plate1.png",
+      "output": "generated/icons/Plate1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3078,7 +3078,7 @@
       "id": "Plate2",
       "name": "Inert Plate",
       "sheet": "item",
-      "output": "generated/icons/MetalSheet2.png",
+      "output": "generated/icons/MetalSheet2.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3102,7 +3102,7 @@
       "id": "Plate_Light",
       "name": "Very Light Plate",
       "sheet": "item",
-      "output": "generated/icons/Plate_Light.png",
+      "output": "generated/icons/Plate_Light.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3130,7 +3130,7 @@
       "id": "Beam1",
       "name": "Structural Beam",
       "sheet": "item",
-      "output": "generated/icons/Beam1.png",
+      "output": "generated/icons/Beam1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3158,7 +3158,7 @@
       "id": "Beam2",
       "name": "Heavy-Duty Beam",
       "sheet": "item",
-      "output": "generated/icons/Beam2.png",
+      "output": "generated/icons/Beam2.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3182,7 +3182,7 @@
       "id": "Beam3",
       "name": "Unbending Beam",
       "sheet": "item",
-      "output": "generated/icons/Beam3.png",
+      "output": "generated/icons/Beam3.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3210,7 +3210,7 @@
       "id": "SolarCell",
       "name": "Solar Cell",
       "sheet": "item",
-      "output": "generated/icons/SolarCell.png",
+      "output": "generated/icons/SolarCell.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3238,7 +3238,7 @@
       "id": "SiliconeGel",
       "name": "Silicone Gel",
       "sheet": "item",
-      "output": "generated/icons/SiliconeGel.png",
+      "output": "generated/icons/SiliconeGel.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3266,7 +3266,7 @@
       "id": "Semiconductor",
       "name": "Semiconductor Substrate",
       "sheet": "item",
-      "output": "generated/icons/Semiconductor.png",
+      "output": "generated/icons/Semiconductor.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3290,7 +3290,7 @@
       "id": "MicroChip",
       "name": "Microchip",
       "sheet": "item",
-      "output": "generated/icons/MicroChip.png",
+      "output": "generated/icons/MicroChip.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3314,7 +3314,7 @@
       "id": "Gunpowder",
       "name": "Solid Explosive",
       "sheet": "item",
-      "output": "generated/icons/Gunpowder.png",
+      "output": "generated/icons/Gunpowder.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3340,7 +3340,7 @@
       "id": "AluPowder",
       "name": "Aluminum Powder",
       "sheet": "item",
-      "output": "generated/icons/AluPowder.png",
+      "output": "generated/icons/AluPowder.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3368,7 +3368,7 @@
       "id": "Fertilizer_Neutral",
       "name": "Neutral Fertilizer",
       "sheet": "item",
-      "output": "generated/icons/Fertilizer_Neutral.png",
+      "output": "generated/icons/Fertilizer_Neutral.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3396,7 +3396,7 @@
       "id": "Fertilizer_Acidic",
       "name": "Acidic Fertilizer",
       "sheet": "item",
-      "output": "generated/icons/Fertilizer_Acidic.png",
+      "output": "generated/icons/Fertilizer_Acidic.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3420,7 +3420,7 @@
       "id": "Fertilizer_Carbonic",
       "name": "Carbonic Fertilizer",
       "sheet": "item",
-      "output": "generated/icons/Fertilizer_Carbonic.png",
+      "output": "generated/icons/Fertilizer_Carbonic.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3446,7 +3446,7 @@
       "id": "Fertilizer_Metallic",
       "name": "Metallic Fertilizer",
       "sheet": "item",
-      "output": "generated/icons/Fertilizer_Metallic.png",
+      "output": "generated/icons/Fertilizer_Metallic.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3474,7 +3474,7 @@
       "id": "ActivatedCoal",
       "name": "Activated Charcoal",
       "sheet": "item",
-      "output": "generated/icons/Gunpowder.png",
+      "output": "generated/icons/Gunpowder.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3500,7 +3500,7 @@
       "id": "CarbonicFuel",
       "name": "Carbonic Superfuel",
       "sheet": "item",
-      "output": "generated/icons/CarbonicFuel.png",
+      "output": "generated/icons/CarbonicFuel.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3526,7 +3526,7 @@
       "id": "Battery",
       "name": "Chemical Battery",
       "sheet": "item",
-      "output": "generated/icons/Battery.png",
+      "output": "generated/icons/Battery.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3554,7 +3554,7 @@
       "id": "ThermalIsolant",
       "name": "Thermal Wool",
       "sheet": "item",
-      "output": "generated/icons/ThermalIsolant.png",
+      "output": "generated/icons/ThermalIsolant.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3582,7 +3582,7 @@
       "id": "Antimatter_Empty",
       "name": "Antimatter Core (empty)",
       "sheet": "item",
-      "output": "generated/icons/Antimatter_Empty.png",
+      "output": "generated/icons/Antimatter_Empty.webp",
       "source": {
         "file": "ui/windows/hd_sprite-sheet_ic.png",
         "size": 32,
@@ -3596,7 +3596,7 @@
       "id": "Antimatter_Full",
       "name": "Antimatter Core (full)",
       "sheet": "item",
-      "output": "generated/icons/Antimatter_Empty.png",
+      "output": "generated/icons/Antimatter_Empty.webp",
       "source": {
         "file": "ui/windows/hd_sprite-sheet_ic.png",
         "size": 32,
@@ -3610,7 +3610,7 @@
       "id": "MissileAirframe_Small",
       "name": "Small Missile Airframe",
       "sheet": "item",
-      "output": "generated/icons/MissileAirframe_Small.png",
+      "output": "generated/icons/MissileAirframe_Small.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3638,7 +3638,7 @@
       "id": "Concrete",
       "name": "Concrete",
       "sheet": "item",
-      "output": "generated/icons/Concrete.png",
+      "output": "generated/icons/Concrete.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3666,7 +3666,7 @@
       "id": "Protein",
       "name": "Xenic Protein",
       "sheet": "item",
-      "output": "generated/icons/Protein.png",
+      "output": "generated/icons/Protein.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3696,7 +3696,7 @@
       "id": "Lime",
       "name": "Lime",
       "sheet": "item",
-      "output": "generated/icons/Concrete.png",
+      "output": "generated/icons/Concrete.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3724,7 +3724,7 @@
       "id": "CrystalLattice_M",
       "name": "m-Crystal Matrix",
       "sheet": "item",
-      "output": "generated/icons/CrystalLattice_M.png",
+      "output": "generated/icons/CrystalLattice_M.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3752,7 +3752,7 @@
       "id": "CrystalLattice_H",
       "name": "h-Crystal Matrix",
       "sheet": "item",
-      "output": "generated/icons/CrystalLattice_H.png",
+      "output": "generated/icons/CrystalLattice_H.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3780,7 +3780,7 @@
       "id": "CrystalLattice_C",
       "name": "c-Crystal Matrix",
       "sheet": "item",
-      "output": "generated/icons/CrystalLattice_C.png",
+      "output": "generated/icons/CrystalLattice_C.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3808,7 +3808,7 @@
       "id": "SteelScraps",
       "name": "Steel Scraps",
       "sheet": "item",
-      "output": "generated/icons/SteelScraps.png",
+      "output": "generated/icons/SteelScraps.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3834,7 +3834,7 @@
       "id": "AluScraps",
       "name": "Aluminum Scraps",
       "sheet": "item",
-      "output": "generated/icons/AluScraps.png",
+      "output": "generated/icons/AluScraps.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3862,7 +3862,7 @@
       "id": "IronScraps",
       "name": "Iron Scraps",
       "sheet": "item",
-      "output": "generated/icons/AluScraps.png",
+      "output": "generated/icons/AluScraps.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3890,7 +3890,7 @@
       "id": "TitaniumScraps",
       "name": "Titanium Scraps",
       "sheet": "item",
-      "output": "generated/icons/TitaniumScraps.png",
+      "output": "generated/icons/TitaniumScraps.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3914,7 +3914,7 @@
       "id": "BuildingScraps",
       "name": "Industrial Rubble",
       "sheet": "item",
-      "output": "generated/icons/BuildingScraps.png",
+      "output": "generated/icons/BuildingScraps.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3942,7 +3942,7 @@
       "id": "SystemScraps",
       "name": "Huge Electronics Scraps",
       "sheet": "item",
-      "output": "generated/icons/SystemScraps.png",
+      "output": "generated/icons/SystemScraps.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3970,7 +3970,7 @@
       "id": "SteelHullScraps",
       "name": "Wrecked Hull",
       "sheet": "item",
-      "output": "generated/icons/AluScraps.png",
+      "output": "generated/icons/AluScraps.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -3998,7 +3998,7 @@
       "id": "ModuleCasing1",
       "name": "Small Module Kit",
       "sheet": "item",
-      "output": "generated/icons/ModuleCasing1.png",
+      "output": "generated/icons/ModuleCasing1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4024,7 +4024,7 @@
       "id": "ModuleCasing2",
       "name": "Module Kit",
       "sheet": "item",
-      "output": "generated/icons/ModuleCasing2.png",
+      "output": "generated/icons/ModuleCasing2.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4048,7 +4048,7 @@
       "id": "ModuleCasing3",
       "name": "Large Module Kit",
       "sheet": "item",
-      "output": "generated/icons/ModuleCasing3.png",
+      "output": "generated/icons/ModuleCasing3.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4076,7 +4076,7 @@
       "id": "SupportCasing",
       "name": "Support Hardware",
       "sheet": "item",
-      "output": "generated/icons/SupportCasing.png",
+      "output": "generated/icons/SupportCasing.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4104,7 +4104,7 @@
       "id": "SteelCasingMK1",
       "name": "Small Steel Part Casing",
       "sheet": "item",
-      "output": "generated/icons/SteelCasingMK1.png",
+      "output": "generated/icons/SteelCasingMK1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4132,7 +4132,7 @@
       "id": "TitaniumCasingMK1",
       "name": "Small Titanium Part Casing",
       "sheet": "item",
-      "output": "generated/icons/TitaniumCasingMK1.png",
+      "output": "generated/icons/TitaniumCasingMK1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4156,7 +4156,7 @@
       "id": "TitaniumCasingMK2",
       "name": "Titanium Part Casing",
       "sheet": "item",
-      "output": "generated/icons/TitaniumCasingMK2.png",
+      "output": "generated/icons/TitaniumCasingMK2.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4180,7 +4180,7 @@
       "id": "PlatinumCasingMK1",
       "name": "Small Solid Frame Casing",
       "sheet": "item",
-      "output": "generated/icons/PlatinumCasingMK1.png",
+      "output": "generated/icons/PlatinumCasingMK1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4208,7 +4208,7 @@
       "id": "PlatinumCasingMK2",
       "name": "Solid Frame Casing",
       "sheet": "item",
-      "output": "generated/icons/PlatinumCasingMK2.png",
+      "output": "generated/icons/PlatinumCasingMK2.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4236,7 +4236,7 @@
       "id": "LeviniumCasingMK1",
       "name": "Small Levinium Part Casing",
       "sheet": "item",
-      "output": "generated/icons/LeviniumCasingMK1.png",
+      "output": "generated/icons/LeviniumCasingMK1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4264,7 +4264,7 @@
       "id": "AlloyXCasingMK1",
       "name": "Small Alloy X Part Casing",
       "sheet": "item",
-      "output": "generated/icons/AlloyXCasingMK1.png",
+      "output": "generated/icons/AlloyXCasingMK1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4296,7 +4296,7 @@
       "id": "AlloyXCasingMK2",
       "name": "Alloy X Part Casing",
       "sheet": "item",
-      "output": "generated/icons/AlloyXCasingMK2.png",
+      "output": "generated/icons/AlloyXCasingMK2.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4328,7 +4328,7 @@
       "id": "ControlBaseKit",
       "name": "Base Deploy Kit",
       "sheet": "item",
-      "output": "generated/icons/ControlBaseKit.png",
+      "output": "generated/icons/ControlBaseKit.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4356,7 +4356,7 @@
       "id": "ControlBaseCore",
       "name": "Base Core Drive",
       "sheet": "item",
-      "output": "generated/icons/ControlBaseCore.png",
+      "output": "generated/icons/ControlBaseCore.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4384,7 +4384,7 @@
       "id": "HullMK1_004",
       "name": "Steel 4x3x1",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004.png",
+      "output": "generated/icons/HullMK1_004.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4412,7 +4412,7 @@
       "id": "Wing_01",
       "name": "\"Nimbus\" Spoiler",
       "sheet": "item",
-      "output": "generated/icons/Wing_01.png",
+      "output": "generated/icons/Wing_01.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4440,7 +4440,7 @@
       "id": "Wing_02",
       "name": "\"Catfin\" Spoiler",
       "sheet": "item",
-      "output": "generated/icons/Wing_01.png",
+      "output": "generated/icons/Wing_01.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4468,7 +4468,7 @@
       "id": "Wing_03",
       "name": "\"Warden\" Wing",
       "sheet": "item",
-      "output": "generated/icons/Wing_01.png",
+      "output": "generated/icons/Wing_01.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4496,7 +4496,7 @@
       "id": "HullMK1_005",
       "name": "Steel 6x3x1",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004.png",
+      "output": "generated/icons/HullMK1_004.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4524,7 +4524,7 @@
       "id": "HullMK1_006",
       "name": "Steel 8x3x1",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004.png",
+      "output": "generated/icons/HullMK1_004.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4552,7 +4552,7 @@
       "id": "HullMK1_001",
       "name": "Steel 4x3x2",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004.png",
+      "output": "generated/icons/HullMK1_004.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4580,7 +4580,7 @@
       "id": "HullMK1_002",
       "name": "Steel 6x3x2",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004.png",
+      "output": "generated/icons/HullMK1_004.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4608,7 +4608,7 @@
       "id": "HullMK1_003",
       "name": "Steel 8x3x2",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004.png",
+      "output": "generated/icons/HullMK1_004.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4636,7 +4636,7 @@
       "id": "HullMK1_004_Steel_AluK",
       "name": "Thermal Steel 4x3x1",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004.png",
+      "output": "generated/icons/HullMK1_004.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4664,7 +4664,7 @@
       "id": "Wing_01_Steel_AluK",
       "name": "Thermal \"Nimbus\" Spoiler",
       "sheet": "item",
-      "output": "generated/icons/Wing_01.png",
+      "output": "generated/icons/Wing_01.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4692,7 +4692,7 @@
       "id": "Wing_02_Steel_AluK",
       "name": "Thermal \"Catfin\" Spoiler",
       "sheet": "item",
-      "output": "generated/icons/Wing_01.png",
+      "output": "generated/icons/Wing_01.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4720,7 +4720,7 @@
       "id": "Wing_03_Steel_AluK",
       "name": "Thermal \"Warden\" Spoiler",
       "sheet": "item",
-      "output": "generated/icons/Wing_01.png",
+      "output": "generated/icons/Wing_01.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4748,7 +4748,7 @@
       "id": "HullMK1_005_Steel_AluK",
       "name": "Thermal Steel 6x3x1",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004.png",
+      "output": "generated/icons/HullMK1_004.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4776,7 +4776,7 @@
       "id": "HullMK1_006_Steel_AluK",
       "name": "Thermal Steel 8x3x1",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004.png",
+      "output": "generated/icons/HullMK1_004.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4804,7 +4804,7 @@
       "id": "HullMK1_001_Steel_AluK",
       "name": "Thermal Steel 4x3x2",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004.png",
+      "output": "generated/icons/HullMK1_004.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4832,7 +4832,7 @@
       "id": "HullMK1_002_Steel_AluK",
       "name": "Thermal Steel 6x3x2",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004.png",
+      "output": "generated/icons/HullMK1_004.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4860,7 +4860,7 @@
       "id": "HullMK1_003_Steel_AluK",
       "name": "Thermal Steel 8x3x2",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004.png",
+      "output": "generated/icons/HullMK1_004.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4888,7 +4888,7 @@
       "id": "HullMK1_004_Tit",
       "name": "Titanium 4x3x1",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004_Tit.png",
+      "output": "generated/icons/HullMK1_004_Tit.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4912,7 +4912,7 @@
       "id": "HullMK1_005_Tit",
       "name": "Titanium 6x3x1",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004_Tit.png",
+      "output": "generated/icons/HullMK1_004_Tit.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4936,7 +4936,7 @@
       "id": "HullMK1_006_Tit",
       "name": "Titanium 8x3x1",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004_Tit.png",
+      "output": "generated/icons/HullMK1_004_Tit.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4960,7 +4960,7 @@
       "id": "HullMK1_001_Tit",
       "name": "Titanium 4x3x2",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004_Tit.png",
+      "output": "generated/icons/HullMK1_004_Tit.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4984,7 +4984,7 @@
       "id": "HullMK1_002_Tit",
       "name": "Titanium 6x3x2",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004_Tit.png",
+      "output": "generated/icons/HullMK1_004_Tit.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5008,7 +5008,7 @@
       "id": "HullMK1_003_Tit",
       "name": "Titanium 8x3x2",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004_Tit.png",
+      "output": "generated/icons/HullMK1_004_Tit.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5032,7 +5032,7 @@
       "id": "HullMK2_004_Tit",
       "name": "Titanium 8x6x2",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004_Tit.png",
+      "output": "generated/icons/HullMK1_004_Tit.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5056,7 +5056,7 @@
       "id": "Wing_04",
       "name": "\"Condor\" Wing",
       "sheet": "item",
-      "output": "generated/icons/Wing_04.png",
+      "output": "generated/icons/Wing_04.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5080,7 +5080,7 @@
       "id": "HullMK2_005_Tit",
       "name": "Titanium 12x6x2",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004_Tit.png",
+      "output": "generated/icons/HullMK1_004_Tit.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5104,7 +5104,7 @@
       "id": "HullMK2_006_Tit",
       "name": "Titanium 16x6x2",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004_Tit.png",
+      "output": "generated/icons/HullMK1_004_Tit.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5128,7 +5128,7 @@
       "id": "HullMK1_004_Tit_AluK",
       "name": "Thermal Titanium 4x3x1",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004_Tit.png",
+      "output": "generated/icons/HullMK1_004_Tit.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5152,7 +5152,7 @@
       "id": "HullMK1_005_Tit_AluK",
       "name": "Thermal Titanium 6x3x1",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004_Tit.png",
+      "output": "generated/icons/HullMK1_004_Tit.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5176,7 +5176,7 @@
       "id": "HullMK1_006_Tit_AluK",
       "name": "Thermal Titanium 8x3x1",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004_Tit.png",
+      "output": "generated/icons/HullMK1_004_Tit.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5200,7 +5200,7 @@
       "id": "HullMK1_001_Tit_AluK",
       "name": "Thermal Titanium 4x3x2",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004_Tit.png",
+      "output": "generated/icons/HullMK1_004_Tit.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5224,7 +5224,7 @@
       "id": "HullMK1_002_Tit_AluK",
       "name": "Thermal Titanium 6x3x2",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004_Tit.png",
+      "output": "generated/icons/HullMK1_004_Tit.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5248,7 +5248,7 @@
       "id": "HullMK1_003_Tit_AluK",
       "name": "Thermal Titanium 8x3x2",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004_Tit.png",
+      "output": "generated/icons/HullMK1_004_Tit.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5272,7 +5272,7 @@
       "id": "HullMK2_004_Tit_AluK",
       "name": "Thermal Titanium 8x6x2",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004_Tit.png",
+      "output": "generated/icons/HullMK1_004_Tit.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5296,7 +5296,7 @@
       "id": "Wing_04_Tit_AluK",
       "name": "Thermal \"Condor\" Wing",
       "sheet": "item",
-      "output": "generated/icons/Wing_04.png",
+      "output": "generated/icons/Wing_04.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5320,7 +5320,7 @@
       "id": "HullMK2_005_Tit_AluK",
       "name": "Thermal Titanium 12x6x2",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004_Tit.png",
+      "output": "generated/icons/HullMK1_004_Tit.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5344,7 +5344,7 @@
       "id": "HullMK2_006_Tit_AluK",
       "name": "Thermal Titanium 16x6x2",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004_Tit.png",
+      "output": "generated/icons/HullMK1_004_Tit.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5368,7 +5368,7 @@
       "id": "HullMK1_001_Pla",
       "name": "Platinium 4x3x2 [DEPRECATED BUT STILL USED IN SHIPWRECK]",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_001_Pla.png",
+      "output": "generated/icons/HullMK1_001_Pla.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5396,7 +5396,7 @@
       "id": "HullMK1_002_Pla",
       "name": "Platinium 6x3x2 [DEPRECATED BUT STILL USED IN SHIPWRECK]",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_001_Pla.png",
+      "output": "generated/icons/HullMK1_001_Pla.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5424,7 +5424,7 @@
       "id": "HullMK1_003_Pla",
       "name": "Platinium 8x3x2 [DEPRECATED BUT STILL USED IN SHIPWRECK]",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_001_Pla.png",
+      "output": "generated/icons/HullMK1_001_Pla.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5452,7 +5452,7 @@
       "id": "HullMK2_001_Pla",
       "name": "Platinium 8x6x4 [DEPRECATED BUT STILL USED IN SHIPWRECK]",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_001_Pla.png",
+      "output": "generated/icons/HullMK1_001_Pla.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5480,7 +5480,7 @@
       "id": "HullMK2_002_Pla",
       "name": "Platinium 12x6x4 [DEPRECATED BUT STILL USED IN SHIPWRECK]",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_001_Pla.png",
+      "output": "generated/icons/HullMK1_001_Pla.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5508,7 +5508,7 @@
       "id": "HullMK2_003_Pla",
       "name": "Platinium 16x6x4 [DEPRECATED BUT STILL USED IN SHIPWRECK]",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_001_Pla.png",
+      "output": "generated/icons/HullMK1_001_Pla.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5536,7 +5536,7 @@
       "id": "HullMK1_006_Lev",
       "name": "Levinium 8x3x1[DEPRECATED BUT STILL USED IN SHIPWRECK]",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_006_Lev.png",
+      "output": "generated/icons/HullMK1_006_Lev.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5564,7 +5564,7 @@
       "id": "HullMK1_005_Lev",
       "name": "Levinium 6x3x1[DEPRECATED BUT STILL USED IN SHIPWRECK]",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_006_Lev.png",
+      "output": "generated/icons/HullMK1_006_Lev.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5592,7 +5592,7 @@
       "id": "HullMK1_004_Lev",
       "name": "Levinium 4x3x1 [DEPRECATED BUT STILL USED IN SHIPWRECK]",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_006_Lev.png",
+      "output": "generated/icons/HullMK1_006_Lev.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5620,7 +5620,7 @@
       "id": "HullMK1_001_Lev",
       "name": "Levinium 4x3x2",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_006_Lev.png",
+      "output": "generated/icons/HullMK1_006_Lev.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5648,7 +5648,7 @@
       "id": "HullMK1_002_Lev",
       "name": "Levinium 6x3x2",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_006_Lev.png",
+      "output": "generated/icons/HullMK1_006_Lev.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5676,7 +5676,7 @@
       "id": "HullMK1_003_Lev",
       "name": "Levinium 8x3x2",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_006_Lev.png",
+      "output": "generated/icons/HullMK1_006_Lev.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5704,7 +5704,7 @@
       "id": "HullMK1_004_Plat",
       "name": "Solid Frame 4x3x1",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_001_Pla.png",
+      "output": "generated/icons/HullMK1_001_Pla.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5732,7 +5732,7 @@
       "id": "HullMK1_005_Plat",
       "name": "Solid Frame 6x3x1",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_001_Pla.png",
+      "output": "generated/icons/HullMK1_001_Pla.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5760,7 +5760,7 @@
       "id": "HullMK1_006_Plat",
       "name": "Solid Frame 8x3x1",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_001_Pla.png",
+      "output": "generated/icons/HullMK1_001_Pla.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5788,7 +5788,7 @@
       "id": "HullMK2_004_Plat",
       "name": "Solid Frame 8x6x2",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_001_Pla.png",
+      "output": "generated/icons/HullMK1_001_Pla.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5816,7 +5816,7 @@
       "id": "HullMK2_005_Plat",
       "name": "Solid Frame 12x6x2",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_001_Pla.png",
+      "output": "generated/icons/HullMK1_001_Pla.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5844,7 +5844,7 @@
       "id": "HullMK2_006_Plat",
       "name": "Solid Frame 16x6x2",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_001_Pla.png",
+      "output": "generated/icons/HullMK1_001_Pla.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5872,7 +5872,7 @@
       "id": "HullMK1_004_AX",
       "name": "Alloy X 4x3x1",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004_AX.png",
+      "output": "generated/icons/HullMK1_004_AX.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5904,7 +5904,7 @@
       "id": "HullMK1_005_AX",
       "name": "Alloy X 6x3x1",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004_AX.png",
+      "output": "generated/icons/HullMK1_004_AX.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5936,7 +5936,7 @@
       "id": "HullMK1_006_AX",
       "name": "Alloy X 8x3x1",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004_AX.png",
+      "output": "generated/icons/HullMK1_004_AX.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -5968,7 +5968,7 @@
       "id": "HullMK1_001_AX",
       "name": "Alloy X 4x3x2",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004_AX.png",
+      "output": "generated/icons/HullMK1_004_AX.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6000,7 +6000,7 @@
       "id": "HullMK1_002_AX",
       "name": "Alloy X 6x3x2",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004_AX.png",
+      "output": "generated/icons/HullMK1_004_AX.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6032,7 +6032,7 @@
       "id": "HullMK1_003_AX",
       "name": "Alloy X 8x3x2",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004_AX.png",
+      "output": "generated/icons/HullMK1_004_AX.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6064,7 +6064,7 @@
       "id": "HullMK2_004_AX",
       "name": "Alloy X 8x6x2",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004_AX.png",
+      "output": "generated/icons/HullMK1_004_AX.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6096,7 +6096,7 @@
       "id": "HullMK2_005_AX",
       "name": "Alloy X 12x6x2",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004_AX.png",
+      "output": "generated/icons/HullMK1_004_AX.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6128,7 +6128,7 @@
       "id": "HullMK2_006_AX1",
       "name": "Alloy X 12x6x4",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004_AX.png",
+      "output": "generated/icons/HullMK1_004_AX.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6160,7 +6160,7 @@
       "id": "HullMK2_007_AX",
       "name": "Alloy X 16x6x2",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004_AX.png",
+      "output": "generated/icons/HullMK1_004_AX.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6192,7 +6192,7 @@
       "id": "HullMK2_008_AX1",
       "name": "Alloy X 16x6x4",
       "sheet": "item",
-      "output": "generated/icons/HullMK1_004_AX.png",
+      "output": "generated/icons/HullMK1_004_AX.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6224,7 +6224,7 @@
       "id": "Cockpit_LR1",
       "name": "LR \"Interceptor\" Cockpit",
       "sheet": "item",
-      "output": "generated/icons/Cockpit_LR1.png",
+      "output": "generated/icons/Cockpit_LR1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6252,7 +6252,7 @@
       "id": "Cockpit_LR2",
       "name": "LR \"Raptor\" Cockpit",
       "sheet": "item",
-      "output": "generated/icons/Cockpit_LR2.png",
+      "output": "generated/icons/Cockpit_LR2.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6278,7 +6278,7 @@
       "id": "Cockpit_LR3",
       "name": "LR \"Marauder\" Deck",
       "sheet": "item",
-      "output": "generated/icons/Cockpit_LR1.png",
+      "output": "generated/icons/Cockpit_LR1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6306,7 +6306,7 @@
       "id": "Cockpit_AE1",
       "name": "\"Pathfinder\" Cockpit",
       "sheet": "item",
-      "output": "generated/icons/Cockpit_LR1.png",
+      "output": "generated/icons/Cockpit_LR1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6334,7 +6334,7 @@
       "id": "Cockpit_AE2",
       "name": "\"Wanderback\" Cockpit",
       "sheet": "item",
-      "output": "generated/icons/Cockpit_LR2.png",
+      "output": "generated/icons/Cockpit_LR2.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6360,7 +6360,7 @@
       "id": "Cockpit_AE3",
       "name": "AE \"Skygazer\" Deck",
       "sheet": "item",
-      "output": "generated/icons/Cockpit_LR1.png",
+      "output": "generated/icons/Cockpit_LR1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6388,7 +6388,7 @@
       "id": "Cockpit_TC1",
       "name": "\"Brick\" Cockpit",
       "sheet": "item",
-      "output": "generated/icons/Cockpit_LR1.png",
+      "output": "generated/icons/Cockpit_LR1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6416,7 +6416,7 @@
       "id": "Cockpit_MK1",
       "name": "\"Beaver\" Cockpit",
       "sheet": "item",
-      "output": "generated/icons/Cockpit_LR1.png",
+      "output": "generated/icons/Cockpit_LR1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6444,7 +6444,7 @@
       "id": "Cockpit_MK2",
       "name": "\"Anvil\" Cockpit",
       "sheet": "item",
-      "output": "generated/icons/Cockpit_LR2.png",
+      "output": "generated/icons/Cockpit_LR2.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6470,7 +6470,7 @@
       "id": "Cockpit_MK3",
       "name": "M&K \"Foreman\" Deck",
       "sheet": "item",
-      "output": "generated/icons/Cockpit_LR1.png",
+      "output": "generated/icons/Cockpit_LR1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6498,7 +6498,7 @@
       "id": "Cockpit_DA1",
       "name": "\"Cocoon\" Cockpit",
       "sheet": "item",
-      "output": "generated/icons/Cockpit_LR1.png",
+      "output": "generated/icons/Cockpit_LR1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6526,7 +6526,7 @@
       "id": "Cockpit_DA2",
       "name": "\"Reality\" Cockpit",
       "sheet": "item",
-      "output": "generated/icons/Cockpit_LR2.png",
+      "output": "generated/icons/Cockpit_LR2.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6552,7 +6552,7 @@
       "id": "Cockpit_DA3",
       "name": "DA \"PlaceholderName\" Deck",
       "sheet": "item",
-      "output": "generated/icons/Cockpit_LR1.png",
+      "output": "generated/icons/Cockpit_LR1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6580,7 +6580,7 @@
       "id": "Deco_01",
       "name": "Round Hatch",
       "sheet": "item",
-      "output": "generated/icons/Deco_01.png",
+      "output": "generated/icons/Deco_01.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6608,7 +6608,7 @@
       "id": "Deco_04",
       "name": "Intake Vent",
       "sheet": "item",
-      "output": "generated/icons/Deco_04.png",
+      "output": "generated/icons/Deco_04.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6636,7 +6636,7 @@
       "id": "Deco_05",
       "name": "Big Intake Vent",
       "sheet": "item",
-      "output": "generated/icons/Deco_04.png",
+      "output": "generated/icons/Deco_04.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6664,7 +6664,7 @@
       "id": "Light_01",
       "name": "Spot Light",
       "sheet": "item",
-      "output": "generated/icons/Light_01.png",
+      "output": "generated/icons/Light_01.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6692,7 +6692,7 @@
       "id": "Light_02",
       "name": "Light Strip",
       "sheet": "item",
-      "output": "generated/icons/Light_01.png",
+      "output": "generated/icons/Light_01.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6720,7 +6720,7 @@
       "id": "Light_03",
       "name": "Headlight",
       "sheet": "item",
-      "output": "generated/icons/Light_01.png",
+      "output": "generated/icons/Light_01.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6748,7 +6748,7 @@
       "id": "Thruster0",
       "name": "\"Cart Pusher\" Thruster",
       "sheet": "item",
-      "output": "generated/icons/Thruster0.png",
+      "output": "generated/icons/Thruster0.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6776,7 +6776,7 @@
       "id": "Thruster1",
       "name": "\"Long Haul Booster\"",
       "sheet": "item",
-      "output": "generated/icons/Thruster0.png",
+      "output": "generated/icons/Thruster0.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6804,7 +6804,7 @@
       "id": "Thruster2",
       "name": "\"Silent Thruster\"",
       "sheet": "item",
-      "output": "generated/icons/Thruster0.png",
+      "output": "generated/icons/Thruster0.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6832,7 +6832,7 @@
       "id": "ThrusterAE1",
       "name": "\"Quiet Breeze\" Thruster",
       "sheet": "item",
-      "output": "generated/icons/Thruster0.png",
+      "output": "generated/icons/Thruster0.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6860,7 +6860,7 @@
       "id": "ThrusterMK1",
       "name": "\"Grasshopper\" Thruster",
       "sheet": "item",
-      "output": "generated/icons/Thruster0.png",
+      "output": "generated/icons/Thruster0.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6888,7 +6888,7 @@
       "id": "ThrusterDA1",
       "name": "\"Voidseeker\" Thruster",
       "sheet": "item",
-      "output": "generated/icons/Thruster0.png",
+      "output": "generated/icons/Thruster0.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6916,7 +6916,7 @@
       "id": "Storage1",
       "name": "Small Cargo Hold",
       "sheet": "item",
-      "output": "generated/icons/Storage1.png",
+      "output": "generated/icons/Storage1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6944,7 +6944,7 @@
       "id": "Storage2",
       "name": "Cargo Hold",
       "sheet": "item",
-      "output": "generated/icons/Storage1.png",
+      "output": "generated/icons/Storage1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -6972,7 +6972,7 @@
       "id": "Storage3",
       "name": "Large Cargo Hold",
       "sheet": "item",
-      "output": "generated/icons/Storage1.png",
+      "output": "generated/icons/Storage1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7000,7 +7000,7 @@
       "id": "LiquidStorage1",
       "name": "Small Liquid Tank",
       "sheet": "item",
-      "output": "generated/icons/LiquidStorage1.png",
+      "output": "generated/icons/LiquidStorage1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7028,7 +7028,7 @@
       "id": "LiquidStorage2",
       "name": "Medium Liquid Tank",
       "sheet": "item",
-      "output": "generated/icons/LiquidStorage1.png",
+      "output": "generated/icons/LiquidStorage1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7056,7 +7056,7 @@
       "id": "LiquidStorage3PH",
       "name": "Large Liquid Tank",
       "sheet": "item",
-      "output": "generated/icons/LiquidStorage1.png",
+      "output": "generated/icons/LiquidStorage1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7084,7 +7084,7 @@
       "id": "PressureStorage1",
       "name": "Small Pressure Chamber",
       "sheet": "item",
-      "output": "generated/icons/PressureStorage1.png",
+      "output": "generated/icons/PressureStorage1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7112,7 +7112,7 @@
       "id": "PressureStorage2PH",
       "name": "Medium Pressure Chamber",
       "sheet": "item",
-      "output": "generated/icons/PressureStorage1.png",
+      "output": "generated/icons/PressureStorage1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7140,7 +7140,7 @@
       "id": "PressureStorage3PH",
       "name": "Large Pressure Chamber",
       "sheet": "item",
-      "output": "generated/icons/PressureStorage1.png",
+      "output": "generated/icons/PressureStorage1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7168,7 +7168,7 @@
       "id": "FTLEngine1",
       "name": "FTL Engine - Eco",
       "sheet": "item",
-      "output": "generated/icons/FTLEngine1.png",
+      "output": "generated/icons/FTLEngine1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7196,7 +7196,7 @@
       "id": "FTLEngine2_Light",
       "name": "FTL Engine - Light",
       "sheet": "item",
-      "output": "generated/icons/FTLEngine1.png",
+      "output": "generated/icons/FTLEngine1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7224,7 +7224,7 @@
       "id": "FTLEngine2_Medium",
       "name": "FTL Engine - Mid-weight",
       "sheet": "item",
-      "output": "generated/icons/FTLEngine1.png",
+      "output": "generated/icons/FTLEngine1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7252,7 +7252,7 @@
       "id": "FTLEngine2_Heavy",
       "name": "FTL Engine - Heavy",
       "sheet": "item",
-      "output": "generated/icons/FTLEngine1.png",
+      "output": "generated/icons/FTLEngine1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7280,7 +7280,7 @@
       "id": "FTLEngine3_Solo",
       "name": "Advanced FTL Engine - Solo",
       "sheet": "item",
-      "output": "generated/icons/FTLEngine1.png",
+      "output": "generated/icons/FTLEngine1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7308,7 +7308,7 @@
       "id": "FTLEngine3_Support",
       "name": "Advanced FTL Engine - Support",
       "sheet": "item",
-      "output": "generated/icons/FTLEngine1.png",
+      "output": "generated/icons/FTLEngine1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7336,7 +7336,7 @@
       "id": "FTLTank1",
       "name": "Small Mag-Plasma Tank",
       "sheet": "item",
-      "output": "generated/icons/FTLTank1.png",
+      "output": "generated/icons/FTLTank1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7364,7 +7364,7 @@
       "id": "FTLTank2",
       "name": "Mag-Plasma Tank",
       "sheet": "item",
-      "output": "generated/icons/FTLTank1.png",
+      "output": "generated/icons/FTLTank1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7392,7 +7392,7 @@
       "id": "FTLTank3",
       "name": "Big Mag-Plasma Tank",
       "sheet": "item",
-      "output": "generated/icons/FTLTank1.png",
+      "output": "generated/icons/FTLTank1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7420,7 +7420,7 @@
       "id": "Navigator",
       "name": "Cosmic Navigator",
       "sheet": "item",
-      "output": "generated/icons/Navigator.png",
+      "output": "generated/icons/Navigator.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7448,7 +7448,7 @@
       "id": "Battery0",
       "name": "Crude Battery",
       "sheet": "item",
-      "output": "generated/icons/Battery0.png",
+      "output": "generated/icons/Battery0.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7476,7 +7476,7 @@
       "id": "Battery1",
       "name": "Battery Module",
       "sheet": "item",
-      "output": "generated/icons/Battery0.png",
+      "output": "generated/icons/Battery0.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7504,7 +7504,7 @@
       "id": "Battery2",
       "name": "BESS Module",
       "sheet": "item",
-      "output": "generated/icons/Battery0.png",
+      "output": "generated/icons/Battery0.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7532,7 +7532,7 @@
       "id": "RBattery0",
       "name": "Flywheel Battery",
       "sheet": "item",
-      "output": "generated/icons/Battery0.png",
+      "output": "generated/icons/Battery0.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7560,7 +7560,7 @@
       "id": "PBattery",
       "name": "Paradoxical Battery",
       "sheet": "item",
-      "output": "generated/icons/Battery0.png",
+      "output": "generated/icons/Battery0.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7588,7 +7588,7 @@
       "id": "IsotopicGenerator",
       "name": "Isotopic Generator",
       "sheet": "item",
-      "output": "generated/icons/Antimatter_Empty.png",
+      "output": "generated/icons/Antimatter_Empty.webp",
       "source": {
         "file": "ui/windows/hd_sprite-sheet_ic.png",
         "size": 32,
@@ -7602,7 +7602,7 @@
       "id": "FusionGenerator",
       "name": "Fusion Generator",
       "sheet": "item",
-      "output": "generated/icons/Antimatter_Empty.png",
+      "output": "generated/icons/Antimatter_Empty.webp",
       "source": {
         "file": "ui/windows/hd_sprite-sheet_ic.png",
         "size": 32,
@@ -7616,7 +7616,7 @@
       "id": "PowerSharerPH",
       "name": "Power Projector",
       "sheet": "item",
-      "output": "generated/icons/Antimatter_Empty.png",
+      "output": "generated/icons/Antimatter_Empty.webp",
       "source": {
         "file": "ui/windows/hd_sprite-sheet_ic.png",
         "size": 32,
@@ -7630,7 +7630,7 @@
       "id": "Nitrogenerator",
       "name": "LR Nitrogenerator",
       "sheet": "item",
-      "output": "generated/icons/Antimatter_Empty.png",
+      "output": "generated/icons/Antimatter_Empty.webp",
       "source": {
         "file": "ui/windows/hd_sprite-sheet_ic.png",
         "size": 32,
@@ -7644,7 +7644,7 @@
       "id": "CarbonGenerator",
       "name": "Small Fuel Generator",
       "sheet": "item",
-      "output": "generated/icons/CarbonGenerator.png",
+      "output": "generated/icons/CarbonGenerator.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7670,7 +7670,7 @@
       "id": "CarbonGenerator2",
       "name": "Large Fuel Generator",
       "sheet": "item",
-      "output": "generated/icons/CarbonGenerator.png",
+      "output": "generated/icons/CarbonGenerator.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7696,7 +7696,7 @@
       "id": "Heater",
       "name": "Electric Heater",
       "sheet": "item",
-      "output": "generated/icons/Heater.png",
+      "output": "generated/icons/Heater.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7722,7 +7722,7 @@
       "id": "Heater2",
       "name": "Boiler Heater",
       "sheet": "item",
-      "output": "generated/icons/Heater.png",
+      "output": "generated/icons/Heater.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7748,7 +7748,7 @@
       "id": "HeatRecouper",
       "name": "Heat Condenser",
       "sheet": "item",
-      "output": "generated/icons/HeatRecouper.png",
+      "output": "generated/icons/HeatRecouper.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7762,7 +7762,7 @@
       "id": "KineticShield1",
       "name": "Small Reactive Shield",
       "sheet": "item",
-      "output": "generated/icons/KineticShield1.png",
+      "output": "generated/icons/KineticShield1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7790,7 +7790,7 @@
       "id": "KineticShield2",
       "name": "Reactive Shield",
       "sheet": "item",
-      "output": "generated/icons/KineticShield1.png",
+      "output": "generated/icons/KineticShield1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7818,7 +7818,7 @@
       "id": "KineticShield3",
       "name": "Hyper Reactive Shield",
       "sheet": "item",
-      "output": "generated/icons/KineticShield1.png",
+      "output": "generated/icons/KineticShield1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7846,7 +7846,7 @@
       "id": "BarrierShield1",
       "name": "Small Barrier Shield",
       "sheet": "item",
-      "output": "generated/icons/KineticShield1.png",
+      "output": "generated/icons/KineticShield1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7874,7 +7874,7 @@
       "id": "BarrierShield2",
       "name": "Barrier Shield",
       "sheet": "item",
-      "output": "generated/icons/KineticShield1.png",
+      "output": "generated/icons/KineticShield1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7902,7 +7902,7 @@
       "id": "BarrierShield3",
       "name": "Large Barrier Shield",
       "sheet": "item",
-      "output": "generated/icons/KineticShield1.png",
+      "output": "generated/icons/KineticShield1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7930,7 +7930,7 @@
       "id": "HeavyShield2",
       "name": "Heavy Shield",
       "sheet": "item",
-      "output": "generated/icons/KineticShield1.png",
+      "output": "generated/icons/KineticShield1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7958,7 +7958,7 @@
       "id": "HeavyShield3",
       "name": "Large Heavy Shield",
       "sheet": "item",
-      "output": "generated/icons/KineticShield1.png",
+      "output": "generated/icons/KineticShield1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -7986,7 +7986,7 @@
       "id": "KineticShield_Group",
       "name": "Kinetic Shield Projector",
       "sheet": "item",
-      "output": "generated/icons/KineticShield1.png",
+      "output": "generated/icons/KineticShield1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8014,7 +8014,7 @@
       "id": "HeatShield",
       "name": "Thermal Shield",
       "sheet": "item",
-      "output": "generated/icons/KineticShield1.png",
+      "output": "generated/icons/KineticShield1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8042,7 +8042,7 @@
       "id": "MagShield",
       "name": "Magnetokinetic Shield Generator",
       "sheet": "item",
-      "output": "generated/icons/KineticShield1.png",
+      "output": "generated/icons/KineticShield1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8070,7 +8070,7 @@
       "id": "StealthModule_Personnal",
       "name": "Stealth Micro-Projector",
       "sheet": "item",
-      "output": "generated/icons/KineticShield1.png",
+      "output": "generated/icons/KineticShield1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8098,7 +8098,7 @@
       "id": "StealthModule_Group",
       "name": "Stealth Macro-Projector",
       "sheet": "item",
-      "output": "generated/icons/KineticShield1.png",
+      "output": "generated/icons/KineticShield1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8126,7 +8126,7 @@
       "id": "AutoBoostModule",
       "name": "Booster Control Mod",
       "sheet": "item",
-      "output": "generated/icons/AutoBoostModule.png",
+      "output": "generated/icons/AutoBoostModule.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8154,7 +8154,7 @@
       "id": "AutoMineModule",
       "name": "Mining Laser Control Mod",
       "sheet": "item",
-      "output": "generated/icons/AutoBoostModule.png",
+      "output": "generated/icons/AutoBoostModule.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8182,7 +8182,7 @@
       "id": "EngineBooster",
       "name": "LR \"Speedster\"",
       "sheet": "item",
-      "output": "generated/icons/EngineBooster.png",
+      "output": "generated/icons/EngineBooster.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8210,7 +8210,7 @@
       "id": "SolarPanel1",
       "name": "Small Solar Panel",
       "sheet": "item",
-      "output": "generated/icons/SolarPanel1.png",
+      "output": "generated/icons/SolarPanel1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8238,7 +8238,7 @@
       "id": "SolarPanel2",
       "name": "Medium Solar Panel",
       "sheet": "item",
-      "output": "generated/icons/SolarPanel1.png",
+      "output": "generated/icons/SolarPanel1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8266,7 +8266,7 @@
       "id": "SolarPanel3",
       "name": "Large Solar Panel",
       "sheet": "item",
-      "output": "generated/icons/SolarPanel1.png",
+      "output": "generated/icons/SolarPanel1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8294,7 +8294,7 @@
       "id": "Radiator",
       "name": "Small Radiator",
       "sheet": "item",
-      "output": "generated/icons/Radiator.png",
+      "output": "generated/icons/Radiator.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8320,7 +8320,7 @@
       "id": "Radiator1",
       "name": "Medium Radiator",
       "sheet": "item",
-      "output": "generated/icons/Radiator.png",
+      "output": "generated/icons/Radiator.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8346,7 +8346,7 @@
       "id": "Radar0",
       "name": "Crude Resource Detector",
       "sheet": "item",
-      "output": "generated/icons/Radar0.png",
+      "output": "generated/icons/Radar0.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8374,7 +8374,7 @@
       "id": "RadarMK1",
       "name": "Simple Resource Detector",
       "sheet": "item",
-      "output": "generated/icons/Radar0.png",
+      "output": "generated/icons/Radar0.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8402,7 +8402,7 @@
       "id": "Radar_Sniffer",
       "name": "Mimetic Detector",
       "sheet": "item",
-      "output": "generated/icons/Radar_Sniffer.png",
+      "output": "generated/icons/Radar_Sniffer.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8430,7 +8430,7 @@
       "id": "Radar_Smart",
       "name": "Spectral Resource Detector",
       "sheet": "item",
-      "output": "generated/icons/Radar_Sniffer.png",
+      "output": "generated/icons/Radar_Sniffer.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8458,7 +8458,7 @@
       "id": "GraviteDetector",
       "name": "Gravitron",
       "sheet": "item",
-      "output": "generated/icons/GraviteDetector.png",
+      "output": "generated/icons/GraviteDetector.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8486,7 +8486,7 @@
       "id": "Scanner0",
       "name": "Scanalyzer Alpha",
       "sheet": "item",
-      "output": "generated/icons/Scanner0.png",
+      "output": "generated/icons/Scanner0.webp",
       "source": {
         "file": "ui/windows/hd_sprite-sheet_ic.png",
         "size": 32,
@@ -8514,7 +8514,7 @@
       "id": "Scanner1",
       "name": "Scanalyzer Beta",
       "sheet": "item",
-      "output": "generated/icons/Scanner0.png",
+      "output": "generated/icons/Scanner0.webp",
       "source": {
         "file": "ui/windows/hd_sprite-sheet_ic.png",
         "size": 32,
@@ -8542,7 +8542,7 @@
       "id": "MiningTool0",
       "name": "Crude Mining Laser",
       "sheet": "item",
-      "output": "generated/icons/MiningTool0.png",
+      "output": "generated/icons/MiningTool0.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8570,7 +8570,7 @@
       "id": "MiningTool1",
       "name": "Simple Mining Laser",
       "sheet": "item",
-      "output": "generated/icons/MiningTool0.png",
+      "output": "generated/icons/MiningTool0.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8598,7 +8598,7 @@
       "id": "MiningTool1_OC",
       "name": "Overclocked Mining Laser",
       "sheet": "item",
-      "output": "generated/icons/MiningTool0.png",
+      "output": "generated/icons/MiningTool0.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8626,7 +8626,7 @@
       "id": "MiningTool_Cold",
       "name": "Cooling Laser",
       "sheet": "item",
-      "output": "generated/icons/MiningTool0.png",
+      "output": "generated/icons/MiningTool0.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8654,7 +8654,7 @@
       "id": "MiningTool2",
       "name": "Hi-Pi Laser",
       "sheet": "item",
-      "output": "generated/icons/MiningTool2.png",
+      "output": "generated/icons/MiningTool2.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8678,7 +8678,7 @@
       "id": "MiningTool2_OC",
       "name": "Overclocked Hi-Pi Laser",
       "sheet": "item",
-      "output": "generated/icons/MiningTool2.png",
+      "output": "generated/icons/MiningTool2.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8702,7 +8702,7 @@
       "id": "MiningTool3",
       "name": "Giant Laser",
       "sheet": "item",
-      "output": "generated/icons/MiningTool3.png",
+      "output": "generated/icons/MiningTool3.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8730,7 +8730,7 @@
       "id": "MiningTool3_OC",
       "name": "Overclocked Giant Laser",
       "sheet": "item",
-      "output": "generated/icons/MiningTool3.png",
+      "output": "generated/icons/MiningTool3.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8758,7 +8758,7 @@
       "id": "FluidPumpingTool1",
       "name": "Simple Hose Pump",
       "sheet": "item",
-      "output": "generated/icons/FluidPumpingTool1.png",
+      "output": "generated/icons/FluidPumpingTool1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8786,7 +8786,7 @@
       "id": "ExplodingToolMk1",
       "name": "Single-Tube Missile Launcher",
       "sheet": "item",
-      "output": "generated/icons/ExplodingToolMk1.png",
+      "output": "generated/icons/ExplodingToolMk1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8814,7 +8814,7 @@
       "id": "ExplodingToolMk2",
       "name": "8-Tube Missile Launcher",
       "sheet": "item",
-      "output": "generated/icons/ExplodingToolMk1.png",
+      "output": "generated/icons/ExplodingToolMk1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8842,7 +8842,7 @@
       "id": "GunTurretTool",
       "name": "Small Gun Turret",
       "sheet": "item",
-      "output": "generated/icons/GunTurretTool.png",
+      "output": "generated/icons/GunTurretTool.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8870,7 +8870,7 @@
       "id": "GunTurretTool1",
       "name": "Gun Turret",
       "sheet": "item",
-      "output": "generated/icons/GunTurretTool.png",
+      "output": "generated/icons/GunTurretTool.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8898,7 +8898,7 @@
       "id": "PathwayPuncher",
       "name": "Spacetime Puncher",
       "sheet": "item",
-      "output": "generated/icons/PathwayPuncher.png",
+      "output": "generated/icons/PathwayPuncher.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8926,7 +8926,7 @@
       "id": "SeekerMissile0",
       "name": "Seeker Missile",
       "sheet": "item",
-      "output": "generated/icons/SeekerMissile0.png",
+      "output": "generated/icons/SeekerMissile0.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8950,7 +8950,7 @@
       "id": "BlastMissile0",
       "name": "Blasting Missile",
       "sheet": "item",
-      "output": "generated/icons/BlastMissile0.png",
+      "output": "generated/icons/BlastMissile0.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -8976,7 +8976,7 @@
       "id": "CombatMissile_AntiMatter",
       "name": "Anti-matter Torpedo",
       "sheet": "item",
-      "output": "generated/icons/SeekerMissile0.png",
+      "output": "generated/icons/SeekerMissile0.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9000,7 +9000,7 @@
       "id": "Beacon",
       "name": "Quantum Beacon",
       "sheet": "item",
-      "output": "generated/icons/Beacon.png",
+      "output": "generated/icons/Beacon.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9030,7 +9030,7 @@
       "id": "PathwayAmmo",
       "name": "Pathway Kernel",
       "sheet": "item",
-      "output": "generated/icons/PathwayAmmo.png",
+      "output": "generated/icons/PathwayAmmo.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9058,7 +9058,7 @@
       "id": "HypergateBeacon",
       "name": "Hypergate Beacon",
       "sheet": "item",
-      "output": "generated/icons/Antimatter_Empty.png",
+      "output": "generated/icons/Antimatter_Empty.webp",
       "source": {
         "file": "ui/windows/hd_sprite-sheet_ic.png",
         "size": 32,
@@ -9072,7 +9072,7 @@
       "id": "LockedCapsule",
       "name": "Personal Capsule",
       "sheet": "item",
-      "output": "generated/icons/Antimatter_Empty.png",
+      "output": "generated/icons/Antimatter_Empty.webp",
       "source": {
         "file": "ui/windows/hd_sprite-sheet_ic.png",
         "size": 32,
@@ -9086,7 +9086,7 @@
       "id": "BeaconKey",
       "name": "Quantum Signature",
       "sheet": "item",
-      "output": "generated/icons/BeaconKey.png",
+      "output": "generated/icons/BeaconKey.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9116,7 +9116,7 @@
       "id": "NitroCapsule",
       "name": "Nitro Capsule",
       "sheet": "item",
-      "output": "generated/icons/Antimatter_Empty.png",
+      "output": "generated/icons/Antimatter_Empty.webp",
       "source": {
         "file": "ui/windows/hd_sprite-sheet_ic.png",
         "size": 32,
@@ -9130,7 +9130,7 @@
       "id": "Cartridge_Iron",
       "name": "Small Cartridge",
       "sheet": "item",
-      "output": "generated/icons/Cartridge_Iron.png",
+      "output": "generated/icons/Cartridge_Iron.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9156,7 +9156,7 @@
       "id": "P_MultiTool",
       "name": "Debug Machine",
       "sheet": "item",
-      "output": "generated/icons/P_MultiTool.png",
+      "output": "generated/icons/P_MultiTool.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9184,7 +9184,7 @@
       "id": "P_ConstructionTool",
       "name": "Construction Tool",
       "sheet": "item",
-      "output": "generated/icons/P_MultiTool.png",
+      "output": "generated/icons/P_MultiTool.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9212,7 +9212,7 @@
       "id": "P_DismentlingTool",
       "name": "Construction Tool 2.0",
       "sheet": "item",
-      "output": "generated/icons/P_DismentlingTool.png",
+      "output": "generated/icons/P_DismentlingTool.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9240,7 +9240,7 @@
       "id": "P_MovingTool",
       "name": "Construction Tool 3.0",
       "sheet": "item",
-      "output": "generated/icons/P_MovingTool.png",
+      "output": "generated/icons/P_MovingTool.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9268,7 +9268,7 @@
       "id": "P_FarmingTool",
       "name": "Farming Tool",
       "sheet": "item",
-      "output": "generated/icons/P_FarmingTool.png",
+      "output": "generated/icons/P_FarmingTool.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9296,7 +9296,7 @@
       "id": "P_Jetpack",
       "name": "Jetpack",
       "sheet": "item",
-      "output": "generated/icons/Antimatter_Empty.png",
+      "output": "generated/icons/Antimatter_Empty.webp",
       "source": {
         "file": "ui/windows/hd_sprite-sheet_ic.png",
         "size": 32,
@@ -9310,7 +9310,7 @@
       "id": "P_JetpackV2",
       "name": "Jetpack v2",
       "sheet": "item",
-      "output": "generated/icons/Antimatter_Empty.png",
+      "output": "generated/icons/Antimatter_Empty.webp",
       "source": {
         "file": "ui/windows/hd_sprite-sheet_ic.png",
         "size": 32,
@@ -9324,7 +9324,7 @@
       "id": "P_CritterPheromon",
       "name": "Pheromone Mix",
       "sheet": "item",
-      "output": "generated/icons/Antimatter_Empty.png",
+      "output": "generated/icons/Antimatter_Empty.webp",
       "source": {
         "file": "ui/windows/hd_sprite-sheet_ic.png",
         "size": 32,
@@ -9338,7 +9338,7 @@
       "id": "P_ThermoSuit",
       "name": "Thermo Suit Chip",
       "sheet": "item",
-      "output": "generated/icons/P_ThermoSuit.png",
+      "output": "generated/icons/P_ThermoSuit.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9366,7 +9366,7 @@
       "id": "P_HeatSuit",
       "name": "Heat-Protec Suit Chip",
       "sheet": "item",
-      "output": "generated/icons/P_HeatSuit.png",
+      "output": "generated/icons/P_HeatSuit.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9394,7 +9394,7 @@
       "id": "P_ColdSuit",
       "name": "Cold-Protec Suit Chip",
       "sheet": "item",
-      "output": "generated/icons/P_ColdSuit.png",
+      "output": "generated/icons/P_ColdSuit.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9422,7 +9422,7 @@
       "id": "P_RadSuit",
       "name": "Rad Suit Chip",
       "sheet": "item",
-      "output": "generated/icons/P_RadSuit.png",
+      "output": "generated/icons/P_RadSuit.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9450,7 +9450,7 @@
       "id": "Access_Corpo1",
       "name": "CPAF Pass (Test Subject)",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9464,7 +9464,7 @@
       "id": "Access_Corpo2",
       "name": "CPAF Pass (Designer)",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9478,7 +9478,7 @@
       "id": "Access_Warehouse",
       "name": "Warehouse Pass",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9492,7 +9492,7 @@
       "id": "Access_Prospecting",
       "name": "Prospecting Hub Pass",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9506,7 +9506,7 @@
       "id": "Access_Mine1",
       "name": "Administrative Quarter Pass",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9520,7 +9520,7 @@
       "id": "Access_Mine2",
       "name": "Elevator Pass",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9534,7 +9534,7 @@
       "id": "Access_LabMonsters",
       "name": "Janitor Pass",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9548,7 +9548,7 @@
       "id": "Access_Dark2",
       "name": "[TODO] Director Pass",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9562,7 +9562,7 @@
       "id": "Access_Dark4",
       "name": "[TODO] Maintenance Key",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9576,7 +9576,7 @@
       "id": "QuestFakeAlienArtefact",
       "name": "Possible Alien Artifact",
       "sheet": "item",
-      "output": "generated/icons/QuestFakeAlienArtefact.png",
+      "output": "generated/icons/QuestFakeAlienArtefact.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9604,7 +9604,7 @@
       "id": "WreckBlackBox",
       "name": "Black Box",
       "sheet": "item",
-      "output": "generated/icons/WreckBlackBox.png",
+      "output": "generated/icons/WreckBlackBox.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9632,7 +9632,7 @@
       "id": "InfoItemCompanyCommon",
       "name": "Data - The Company",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9646,7 +9646,7 @@
       "id": "InfoItemCompanyUnco",
       "name": "Data - The Company II",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9660,7 +9660,7 @@
       "id": "InfoItemCompanyRare",
       "name": "Data - The Company III",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9674,7 +9674,7 @@
       "id": "InfoItemRepublicCommon",
       "name": "Data - The Republic",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9688,7 +9688,7 @@
       "id": "InfoItemRepublicUnco",
       "name": "Data - The Republic II",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9702,7 +9702,7 @@
       "id": "InfoItemRepublicRare",
       "name": "Data - The Republic III",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9716,7 +9716,7 @@
       "id": "InfoItemPiratesCommon",
       "name": "Data - Pirates",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9730,7 +9730,7 @@
       "id": "InfoItemPiratesUnco",
       "name": "Data - Pirates II",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9744,7 +9744,7 @@
       "id": "InfoItemPiratesRare",
       "name": "Data - Pirates III",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9758,7 +9758,7 @@
       "id": "InfoItemConglomeratesCommon",
       "name": "Data - Conglomerates",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9772,7 +9772,7 @@
       "id": "InfoItemConglomeratesUnco",
       "name": "Data - Conglomerates II",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9786,7 +9786,7 @@
       "id": "InfoItemConglomeratesRare",
       "name": "Data - Conglomerates III",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9800,7 +9800,7 @@
       "id": "InfoItemAliensCommon",
       "name": "Data - Non-humans",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9814,7 +9814,7 @@
       "id": "InfoItemAliensUnco",
       "name": "Data - Non-humans II",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9828,7 +9828,7 @@
       "id": "InfoItemAliensRare",
       "name": "Data - Non-humans III",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9842,7 +9842,7 @@
       "id": "KnowCompany1",
       "name": "The Company",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9856,7 +9856,7 @@
       "id": "KnowCompany2",
       "name": "The Company: Tripod War",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9870,7 +9870,7 @@
       "id": "KnowCompany3",
       "name": "The Company: The Signal",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9884,7 +9884,7 @@
       "id": "KnowCompany4",
       "name": "The Company: Artificial Shortages",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9898,7 +9898,7 @@
       "id": "KnowCompany5",
       "name": "The Company: Affiliate Surveillance",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9912,7 +9912,7 @@
       "id": "KnowCompany6",
       "name": "The Company: Theft Operations",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9926,7 +9926,7 @@
       "id": "KnowCompanySpecific",
       "name": "The Company: Laniakea Corp",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9940,7 +9940,7 @@
       "id": "KnowCompanySpecific2",
       "name": "The Company: The Atlas Lie",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9954,7 +9954,7 @@
       "id": "KnowRepublic1",
       "name": "The Republic",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9968,7 +9968,7 @@
       "id": "KnowRepublic2",
       "name": "The Republic: United Planets Federation",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9982,7 +9982,7 @@
       "id": "KnowRepublic3",
       "name": "The Republic: Law Enforcement",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -9996,7 +9996,7 @@
       "id": "KnowRepublic4",
       "name": "The Republic: Glorified Cartel",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10010,7 +10010,7 @@
       "id": "KnowRepublic5",
       "name": "The Republic: Masked Repression",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10024,7 +10024,7 @@
       "id": "KnowRepublic6",
       "name": "The Republic: Forced Labor",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10038,7 +10038,7 @@
       "id": "KnowRepublic7",
       "name": "The Republic: Failed Revolution",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10052,7 +10052,7 @@
       "id": "KnowRepublicSpecific",
       "name": "The Republic: Project Milky Way",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10066,7 +10066,7 @@
       "id": "KnowPirates1",
       "name": "Pirate Factions",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10080,7 +10080,7 @@
       "id": "KnowPirates2",
       "name": "Pirate Factions: Vox Populi",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10094,7 +10094,7 @@
       "id": "KnowPirates3",
       "name": "Pirate Factions: Rallize",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10108,7 +10108,7 @@
       "id": "KnowPirates4",
       "name": "Pirate Factions: ICA",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10122,7 +10122,7 @@
       "id": "KnowPirates5",
       "name": "Pirate Factions: Green Alliance",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10136,7 +10136,7 @@
       "id": "KnowPirates6",
       "name": "Pirate Factions: Original Schism",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10150,7 +10150,7 @@
       "id": "KnowPirates7",
       "name": "Pirate Factions: Primeval Mutiny",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10164,7 +10164,7 @@
       "id": "KnowPirates8",
       "name": "Pirate Factions: Inconvenient Truths",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10178,7 +10178,7 @@
       "id": "KnowPirates9",
       "name": "Pirate Factions: Lost Station",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10192,7 +10192,7 @@
       "id": "KnowPiratesSpecific",
       "name": "Pirate Factions: Terrorist Critters",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10206,7 +10206,7 @@
       "id": "KnowConglomerates1",
       "name": "Conglomerates",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10220,7 +10220,7 @@
       "id": "KnowConglomerates2",
       "name": "Conglomerates: IUOB",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10234,7 +10234,7 @@
       "id": "KnowConglomerates3",
       "name": "Conglomerates: Stellar Engineering",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10248,7 +10248,7 @@
       "id": "KnowConglomerates4",
       "name": "Conglomerates: Ninmah Group",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10262,7 +10262,7 @@
       "id": "KnowConglomerates5",
       "name": "Conglomerates: Eris Corp.",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10276,7 +10276,7 @@
       "id": "KnowConglomerates6",
       "name": "Conglomerates: Disowned Child",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10290,7 +10290,7 @@
       "id": "KnowConglomerates7",
       "name": "Conglomerates: Industrial Espionage",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10304,7 +10304,7 @@
       "id": "KnowConglomerates8",
       "name": "Conglomerates: Pirate Acquaintances",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10318,7 +10318,7 @@
       "id": "KnowConglomerates9",
       "name": "Conglomerates: War Crimes",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10332,7 +10332,7 @@
       "id": "KnowConglomeratesSpecific",
       "name": "Conglomerates: Failing Upwards",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10346,7 +10346,7 @@
       "id": "KnowConglomeratesSpecific2",
       "name": "Conglomerates: Sacrificed Workers",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10360,7 +10360,7 @@
       "id": "KnowConglomeratesSpecific3",
       "name": "Conglomerates: The Great Incident",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10374,7 +10374,7 @@
       "id": "KnowAliens",
       "name": "Non-human Intelligence",
       "sheet": "item",
-      "output": "generated/icons/Access_Corpo1.png",
+      "output": "generated/icons/Access_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10388,7 +10388,7 @@
       "id": "Drone0",
       "name": "Drone",
       "sheet": "item",
-      "output": "generated/icons/Drone0.png",
+      "output": "generated/icons/Drone0.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10416,7 +10416,7 @@
       "id": "Shuttle0",
       "name": "Shuttle",
       "sheet": "item",
-      "output": "generated/icons/Shuttle0.png",
+      "output": "generated/icons/Shuttle0.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10444,7 +10444,7 @@
       "id": "Shuttle1",
       "name": "Freighter",
       "sheet": "item",
-      "output": "generated/icons/Antimatter_Empty.png",
+      "output": "generated/icons/Antimatter_Empty.webp",
       "source": {
         "file": "ui/windows/hd_sprite-sheet_ic.png",
         "size": 32,
@@ -10458,7 +10458,7 @@
       "id": "PShuttle",
       "name": "Power Shuttle",
       "sheet": "item",
-      "output": "generated/icons/Antimatter_Empty.png",
+      "output": "generated/icons/Antimatter_Empty.webp",
       "source": {
         "file": "ui/windows/hd_sprite-sheet_ic.png",
         "size": 32,
@@ -10472,7 +10472,7 @@
       "id": "FPS_Instance_Entrance",
       "name": "FPS_Instance_Entrance",
       "sheet": "item",
-      "output": "generated/icons/FPS_Instance_Entrance.png",
+      "output": "generated/icons/FPS_Instance_Entrance.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10486,7 +10486,7 @@
       "id": "SpaceStation0",
       "name": "Threshold Station",
       "sheet": "item",
-      "output": "generated/icons/SpaceStation0.png",
+      "output": "generated/icons/SpaceStation0.webp",
       "source": {
         "file": "ui/icons/icon_interface_fichier_export_vecto.png",
         "size": 24,
@@ -10500,7 +10500,7 @@
       "id": "SpaceStation1",
       "name": "Solar Alpha Station",
       "sheet": "item",
-      "output": "generated/icons/SpaceStation0.png",
+      "output": "generated/icons/SpaceStation0.webp",
       "source": {
         "file": "ui/icons/icon_interface_fichier_export_vecto.png",
         "size": 24,
@@ -10514,7 +10514,7 @@
       "id": "SpaceStation4",
       "name": "Justice Station",
       "sheet": "item",
-      "output": "generated/icons/SpaceStation0.png",
+      "output": "generated/icons/SpaceStation0.webp",
       "source": {
         "file": "ui/icons/icon_interface_fichier_export_vecto.png",
         "size": 24,
@@ -10528,7 +10528,7 @@
       "id": "SpaceStation5",
       "name": "Horizon Station",
       "sheet": "item",
-      "output": "generated/icons/SpaceStation0.png",
+      "output": "generated/icons/SpaceStation0.webp",
       "source": {
         "file": "ui/icons/icon_interface_fichier_export_vecto.png",
         "size": 24,
@@ -10542,7 +10542,7 @@
       "id": "SpaceStation2",
       "name": "Terminus Station",
       "sheet": "item",
-      "output": "generated/icons/SpaceStation0.png",
+      "output": "generated/icons/SpaceStation0.webp",
       "source": {
         "file": "ui/icons/icon_interface_fichier_export_vecto.png",
         "size": 24,
@@ -10556,7 +10556,7 @@
       "id": "SpaceStation3",
       "name": "Cairn Station",
       "sheet": "item",
-      "output": "generated/icons/SpaceStation0.png",
+      "output": "generated/icons/SpaceStation0.webp",
       "source": {
         "file": "ui/icons/icon_interface_fichier_export_vecto.png",
         "size": 24,
@@ -10570,7 +10570,7 @@
       "id": "Knowledge_ShipControl",
       "name": "Ship Controls",
       "sheet": "item",
-      "output": "generated/icons/Knowledge_ShipControl.png",
+      "output": "generated/icons/Knowledge_ShipControl.webp",
       "source": {
         "file": "ui/icons/Icons_01.png",
         "size": 128,
@@ -10584,7 +10584,7 @@
       "id": "Knowledge_Landing",
       "name": "Landing",
       "sheet": "item",
-      "output": "generated/icons/Knowledge_ShipControl.png",
+      "output": "generated/icons/Knowledge_ShipControl.webp",
       "source": {
         "file": "ui/icons/Icons_01.png",
         "size": 128,
@@ -10598,7 +10598,7 @@
       "id": "Knowledge_Mining",
       "name": "Mining",
       "sheet": "item",
-      "output": "generated/icons/Knowledge_ShipControl.png",
+      "output": "generated/icons/Knowledge_ShipControl.webp",
       "source": {
         "file": "ui/icons/Icons_01.png",
         "size": 128,
@@ -10612,7 +10612,7 @@
       "id": "Knowledge_Gravite",
       "name": "Gravite",
       "sheet": "item",
-      "output": "generated/icons/Knowledge_ShipControl.png",
+      "output": "generated/icons/Knowledge_ShipControl.webp",
       "source": {
         "file": "ui/icons/Icons_01.png",
         "size": 128,
@@ -10626,7 +10626,7 @@
       "id": "Knowledge_OrganicResource",
       "name": "Organic Resources and Farming",
       "sheet": "item",
-      "output": "generated/icons/Knowledge_ShipControl.png",
+      "output": "generated/icons/Knowledge_ShipControl.webp",
       "source": {
         "file": "ui/icons/Icons_01.png",
         "size": 128,
@@ -10640,7 +10640,7 @@
       "id": "Knowledge_Exploration",
       "name": "Planet Exploration",
       "sheet": "item",
-      "output": "generated/icons/Knowledge_ShipControl.png",
+      "output": "generated/icons/Knowledge_ShipControl.webp",
       "source": {
         "file": "ui/icons/Icons_01.png",
         "size": 128,
@@ -10654,7 +10654,7 @@
       "id": "Knowledge_Science",
       "name": "Science",
       "sheet": "item",
-      "output": "generated/icons/Knowledge_ShipControl.png",
+      "output": "generated/icons/Knowledge_ShipControl.webp",
       "source": {
         "file": "ui/icons/Icons_01.png",
         "size": 128,
@@ -10668,7 +10668,7 @@
       "id": "Knowledge_BaseBuilding",
       "name": "Base Building",
       "sheet": "item",
-      "output": "generated/icons/Knowledge_ShipControl.png",
+      "output": "generated/icons/Knowledge_ShipControl.webp",
       "source": {
         "file": "ui/icons/Icons_01.png",
         "size": 128,
@@ -10682,7 +10682,7 @@
       "id": "Knowledge_FTL",
       "name": "Faster-Than-Light Travel",
       "sheet": "item",
-      "output": "generated/icons/Knowledge_ShipControl.png",
+      "output": "generated/icons/Knowledge_ShipControl.webp",
       "source": {
         "file": "ui/icons/Icons_01.png",
         "size": 128,
@@ -10696,7 +10696,7 @@
       "id": "Knowledge_Wreck",
       "name": "Shipwreck",
       "sheet": "item",
-      "output": "generated/icons/Knowledge_ShipControl.png",
+      "output": "generated/icons/Knowledge_ShipControl.webp",
       "source": {
         "file": "ui/icons/Icons_01.png",
         "size": 128,
@@ -10710,7 +10710,7 @@
       "id": "Knowledge_ShipEditor",
       "name": "Ship Editor",
       "sheet": "item",
-      "output": "generated/icons/Knowledge_ShipControl.png",
+      "output": "generated/icons/Knowledge_ShipControl.webp",
       "source": {
         "file": "ui/icons/Icons_01.png",
         "size": 128,
@@ -10724,7 +10724,7 @@
       "id": "Knowledge_Fluid",
       "name": "Liquid and Gas",
       "sheet": "item",
-      "output": "generated/icons/Knowledge_ShipControl.png",
+      "output": "generated/icons/Knowledge_ShipControl.webp",
       "source": {
         "file": "ui/icons/Icons_01.png",
         "size": 128,
@@ -10738,7 +10738,7 @@
       "id": "Knowledge_Shell",
       "name": "Mineral Shells",
       "sheet": "item",
-      "output": "generated/icons/Knowledge_ShipControl.png",
+      "output": "generated/icons/Knowledge_ShipControl.webp",
       "source": {
         "file": "ui/icons/Icons_01.png",
         "size": 128,
@@ -10752,7 +10752,7 @@
       "id": "Knowledge_Radioactivity",
       "name": "Radioactivity",
       "sheet": "item",
-      "output": "generated/icons/Knowledge_ShipControl.png",
+      "output": "generated/icons/Knowledge_ShipControl.webp",
       "source": {
         "file": "ui/icons/Icons_01.png",
         "size": 128,
@@ -10766,7 +10766,7 @@
       "id": "Knowledge_Heat",
       "name": "Heat and Cold",
       "sheet": "item",
-      "output": "generated/icons/Knowledge_ShipControl.png",
+      "output": "generated/icons/Knowledge_ShipControl.webp",
       "source": {
         "file": "ui/icons/Icons_01.png",
         "size": 128,
@@ -10780,7 +10780,7 @@
       "id": "Knowledge_Instances",
       "name": "Restricted Area",
       "sheet": "item",
-      "output": "generated/icons/Knowledge_ShipControl.png",
+      "output": "generated/icons/Knowledge_ShipControl.webp",
       "source": {
         "file": "ui/icons/Icons_01.png",
         "size": 128,
@@ -10794,7 +10794,7 @@
       "id": "B_ControlBase",
       "name": "Base Command Center",
       "sheet": "item",
-      "output": "generated/icons/B_ControlBase.png",
+      "output": "generated/icons/B_ControlBase.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10822,7 +10822,7 @@
       "id": "B_ControlBase2",
       "name": "Command Tower",
       "sheet": "item",
-      "output": "generated/icons/B_ControlBase2.png",
+      "output": "generated/icons/B_ControlBase2.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10850,7 +10850,7 @@
       "id": "B_ControlBase3PH",
       "name": "Command Relay",
       "sheet": "item",
-      "output": "generated/icons/B_ControlBase.png",
+      "output": "generated/icons/B_ControlBase.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10878,7 +10878,7 @@
       "id": "B_ControlBase_Corpo1",
       "name": "Corporation Command Center",
       "sheet": "item",
-      "output": "generated/icons/B_ControlBase_Corpo1.png",
+      "output": "generated/icons/B_ControlBase_Corpo1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10906,7 +10906,7 @@
       "id": "B_Extractor",
       "name": "Extractor",
       "sheet": "item",
-      "output": "generated/icons/B_Extractor.png",
+      "output": "generated/icons/B_Extractor.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10934,7 +10934,7 @@
       "id": "B_LiquidExtractor",
       "name": "Liquid Extractor",
       "sheet": "item",
-      "output": "generated/icons/B_LiquidExtractor.png",
+      "output": "generated/icons/B_LiquidExtractor.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10962,7 +10962,7 @@
       "id": "B_Extractor1PH",
       "name": "Advanced Extractor",
       "sheet": "item",
-      "output": "generated/icons/B_Extractor.png",
+      "output": "generated/icons/B_Extractor.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -10990,7 +10990,7 @@
       "id": "B_SolarPanel",
       "name": "Solar Plant",
       "sheet": "item",
-      "output": "generated/icons/B_SolarPanel.png",
+      "output": "generated/icons/B_SolarPanel.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -11018,7 +11018,7 @@
       "id": "B_Warehouse",
       "name": "Warehouse",
       "sheet": "item",
-      "output": "generated/icons/B_Warehouse.png",
+      "output": "generated/icons/B_Warehouse.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -11046,7 +11046,7 @@
       "id": "B_Organiser",
       "name": "Drone Dispatcher",
       "sheet": "item",
-      "output": "generated/icons/B_Organiser.png",
+      "output": "generated/icons/B_Organiser.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -11074,7 +11074,7 @@
       "id": "B_Chest",
       "name": "Trading Box",
       "sheet": "item",
-      "output": "generated/icons/B_Chest.png",
+      "output": "generated/icons/B_Chest.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -11102,7 +11102,7 @@
       "id": "B_Cistern",
       "name": "Cistern",
       "sheet": "item",
-      "output": "generated/icons/B_Cistern.png",
+      "output": "generated/icons/B_Cistern.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -11130,7 +11130,7 @@
       "id": "B_FTLCistern",
       "name": "Mag-Plasma Cistern",
       "sheet": "item",
-      "output": "generated/icons/B_FTLCistern.png",
+      "output": "generated/icons/B_FTLCistern.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -11158,7 +11158,7 @@
       "id": "B_FTLGatherer",
       "name": "Cosmic Condenser",
       "sheet": "item",
-      "output": "generated/icons/Antimatter_Empty.png",
+      "output": "generated/icons/Antimatter_Empty.webp",
       "source": {
         "file": "ui/windows/hd_sprite-sheet_ic.png",
         "size": 32,
@@ -11172,7 +11172,7 @@
       "id": "B_Crystaliser",
       "name": "Crystallizer",
       "sheet": "item",
-      "output": "generated/icons/B_Crystaliser.png",
+      "output": "generated/icons/B_Crystaliser.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -11200,7 +11200,7 @@
       "id": "B_Farm",
       "name": "Xenic Farm",
       "sheet": "item",
-      "output": "generated/icons/B_Farm.png",
+      "output": "generated/icons/B_Farm.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -11228,7 +11228,7 @@
       "id": "B_AntimatterSynthPH",
       "name": "Antimatter Synthesizer",
       "sheet": "item",
-      "output": "generated/icons/Antimatter_Empty.png",
+      "output": "generated/icons/Antimatter_Empty.webp",
       "source": {
         "file": "ui/windows/hd_sprite-sheet_ic.png",
         "size": 32,
@@ -11242,7 +11242,7 @@
       "id": "B_LaboPH",
       "name": "Laboratory",
       "sheet": "item",
-      "output": "generated/icons/B_LaboPH.png",
+      "output": "generated/icons/B_LaboPH.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -11270,7 +11270,7 @@
       "id": "B_Connector",
       "name": "Cable",
       "sheet": "item",
-      "output": "generated/icons/B_Connector.png",
+      "output": "generated/icons/B_Connector.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -11298,7 +11298,7 @@
       "id": "B_ElectricPillar",
       "name": "Pylon",
       "sheet": "item",
-      "output": "generated/icons/B_ElectricPillar.png",
+      "output": "generated/icons/B_ElectricPillar.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -11326,7 +11326,7 @@
       "id": "B_Generator",
       "name": "Fuel Power Plant",
       "sheet": "item",
-      "output": "generated/icons/B_Generator.png",
+      "output": "generated/icons/B_Generator.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -11354,7 +11354,7 @@
       "id": "B_Generator2",
       "name": "Advanced Fuel Power Plant",
       "sheet": "item",
-      "output": "generated/icons/B_Generator.png",
+      "output": "generated/icons/B_Generator.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -11382,7 +11382,7 @@
       "id": "B_FusionGenerator",
       "name": "Fusion Plant",
       "sheet": "item",
-      "output": "generated/icons/B_FusionGenerator.png",
+      "output": "generated/icons/B_FusionGenerator.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -11410,7 +11410,7 @@
       "id": "B_HeatRecouper",
       "name": "Heat Capacitor",
       "sheet": "item",
-      "output": "generated/icons/B_FusionGenerator.png",
+      "output": "generated/icons/B_FusionGenerator.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -11438,7 +11438,7 @@
       "id": "B_PowerTransmitter",
       "name": "Power Transmitter",
       "sheet": "item",
-      "output": "generated/icons/B_PowerTransmitter.png",
+      "output": "generated/icons/B_PowerTransmitter.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -11466,7 +11466,7 @@
       "id": "B_Battery",
       "name": "Battery Array",
       "sheet": "item",
-      "output": "generated/icons/B_Battery.png",
+      "output": "generated/icons/B_Battery.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -11494,7 +11494,7 @@
       "id": "B_Factory1",
       "name": "Assembler",
       "sheet": "item",
-      "output": "generated/icons/B_Factory1.png",
+      "output": "generated/icons/B_Factory1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -11522,7 +11522,7 @@
       "id": "B_Factory2",
       "name": "Factory",
       "sheet": "item",
-      "output": "generated/icons/B_Factory1.png",
+      "output": "generated/icons/B_Factory1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -11550,7 +11550,7 @@
       "id": "B_Smelter",
       "name": "Smelter",
       "sheet": "item",
-      "output": "generated/icons/B_Smelter.png",
+      "output": "generated/icons/B_Smelter.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -11578,7 +11578,7 @@
       "id": "B_SmelterSA",
       "name": "Micro-Furnace",
       "sheet": "item",
-      "output": "generated/icons/B_SmelterSA.png",
+      "output": "generated/icons/B_SmelterSA.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -11606,7 +11606,7 @@
       "id": "B_Chemical",
       "name": "Chemical Factory",
       "sheet": "item",
-      "output": "generated/icons/B_Chemical.png",
+      "output": "generated/icons/B_Chemical.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -11634,7 +11634,7 @@
       "id": "B_BottlingPlant",
       "name": "Bottling Plant",
       "sheet": "item",
-      "output": "generated/icons/B_BottlingPlant.png",
+      "output": "generated/icons/B_BottlingPlant.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -11662,7 +11662,7 @@
       "id": "B_RecyclingPlant",
       "name": "Recycling Plant",
       "sheet": "item",
-      "output": "generated/icons/B_RecyclingPlant.png",
+      "output": "generated/icons/B_RecyclingPlant.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -11690,7 +11690,7 @@
       "id": "B_ShuttlePad",
       "name": "Shuttle Landing Pad",
       "sheet": "item",
-      "output": "generated/icons/B_ShuttlePad.png",
+      "output": "generated/icons/B_ShuttlePad.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -11718,7 +11718,7 @@
       "id": "B_LandingPad",
       "name": "Landing Pad",
       "sheet": "item",
-      "output": "generated/icons/B_LandingPad.png",
+      "output": "generated/icons/B_LandingPad.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -11746,7 +11746,7 @@
       "id": "B_Shipyard",
       "name": "Shipyard",
       "sheet": "item",
-      "output": "generated/icons/B_Shipyard.png",
+      "output": "generated/icons/B_Shipyard.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -11774,7 +11774,7 @@
       "id": "B_StandaloneFoundation",
       "name": "Stand-alone Foundation",
       "sheet": "item",
-      "output": "generated/icons/B_StandaloneFoundation.png",
+      "output": "generated/icons/B_StandaloneFoundation.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -11802,7 +11802,7 @@
       "id": "B_PathwayHolder",
       "name": "Pathway Stand",
       "sheet": "item",
-      "output": "generated/icons/B_PathwayHolder.png",
+      "output": "generated/icons/B_PathwayHolder.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -11830,7 +11830,7 @@
       "id": "B_AtmoDome",
       "name": "Atmo-dome Generator",
       "sheet": "item",
-      "output": "generated/icons/B_AtmoDome.png",
+      "output": "generated/icons/B_AtmoDome.webp",
       "source": {
         "file": "ui/windows/hd_sprite-sheet_ic.png",
         "size": 32,
@@ -11854,7 +11854,7 @@
       "id": "B_Observatory",
       "name": "Observatory",
       "sheet": "item",
-      "output": "generated/icons/Antimatter_Empty.png",
+      "output": "generated/icons/Antimatter_Empty.webp",
       "source": {
         "file": "ui/windows/hd_sprite-sheet_ic.png",
         "size": 32,
@@ -11868,7 +11868,7 @@
       "id": "B_Hypergate",
       "name": "Hypergate",
       "sheet": "item",
-      "output": "generated/icons/Antimatter_Empty.png",
+      "output": "generated/icons/Antimatter_Empty.webp",
       "source": {
         "file": "ui/windows/hd_sprite-sheet_ic.png",
         "size": 32,
@@ -11882,7 +11882,7 @@
       "id": "B_SunStation",
       "name": "Sun Station",
       "sheet": "item",
-      "output": "generated/icons/Antimatter_Empty.png",
+      "output": "generated/icons/Antimatter_Empty.webp",
       "source": {
         "file": "ui/windows/hd_sprite-sheet_ic.png",
         "size": 32,
@@ -11896,7 +11896,7 @@
       "id": "B_DecoTest",
       "name": "Test deco",
       "sheet": "item",
-      "output": "generated/icons/B_ControlBase2.png",
+      "output": "generated/icons/B_ControlBase2.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -11924,7 +11924,7 @@
       "id": "B_DecoPirate",
       "name": "Pirate Hologram",
       "sheet": "item",
-      "output": "generated/icons/B_ControlBase2.png",
+      "output": "generated/icons/B_ControlBase2.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -11952,7 +11952,7 @@
       "id": "B_DecoTranscendance",
       "name": "Transcendance Hologram",
       "sheet": "item",
-      "output": "generated/icons/B_ControlBase2.png",
+      "output": "generated/icons/B_ControlBase2.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -11980,7 +11980,7 @@
       "id": "B_DecoPlanet",
       "name": "Planet Hologram",
       "sheet": "item",
-      "output": "generated/icons/B_ControlBase2.png",
+      "output": "generated/icons/B_ControlBase2.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -12008,7 +12008,7 @@
       "id": "B_DecoSakura",
       "name": "Sakura Hologram",
       "sheet": "item",
-      "output": "generated/icons/B_ControlBase2.png",
+      "output": "generated/icons/B_ControlBase2.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -12036,7 +12036,7 @@
       "id": "B_DecoSnake",
       "name": "Snake Hologram",
       "sheet": "item",
-      "output": "generated/icons/B_ControlBase2.png",
+      "output": "generated/icons/B_ControlBase2.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -12064,7 +12064,7 @@
       "id": "B_DecoDiver",
       "name": "Diver Hologram",
       "sheet": "item",
-      "output": "generated/icons/B_ControlBase2.png",
+      "output": "generated/icons/B_ControlBase2.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -12092,7 +12092,7 @@
       "id": "EmptyInventory",
       "name": "Empty",
       "sheet": "item",
-      "output": "generated/icons/EmptyInventory.png",
+      "output": "generated/icons/EmptyInventory.webp",
       "source": {
         "file": "ui/windows/hd_sprite-sheet_graph.png",
         "size": 32,
@@ -12106,7 +12106,7 @@
       "id": "EmptyAttachment",
       "name": "",
       "sheet": "item",
-      "output": "generated/icons/Knowledge_ShipControl.png",
+      "output": "generated/icons/Knowledge_ShipControl.webp",
       "source": {
         "file": "ui/icons/Icons_01.png",
         "size": 128,
@@ -12120,7 +12120,7 @@
       "id": "Unknown",
       "name": "???",
       "sheet": "item",
-      "output": "generated/icons/Knowledge_ShipControl.png",
+      "output": "generated/icons/Knowledge_ShipControl.webp",
       "source": {
         "file": "ui/icons/Icons_01.png",
         "size": 128,
@@ -12134,7 +12134,7 @@
       "id": "Deprecated",
       "name": "Debris",
       "sheet": "item",
-      "output": "generated/icons/Knowledge_ShipControl.png",
+      "output": "generated/icons/Knowledge_ShipControl.webp",
       "source": {
         "file": "ui/icons/Icons_01.png",
         "size": 128,
@@ -12148,7 +12148,7 @@
       "id": "EmptySlot",
       "name": "Select...",
       "sheet": "item",
-      "output": "generated/icons/EmptyInventory.png",
+      "output": "generated/icons/EmptyInventory.webp",
       "source": {
         "file": "ui/windows/hd_sprite-sheet_graph.png",
         "size": 32,
@@ -12162,7 +12162,7 @@
       "id": "EmptyCraft",
       "name": "Select...",
       "sheet": "item",
-      "output": "generated/icons/EmptyInventory.png",
+      "output": "generated/icons/EmptyInventory.webp",
       "source": {
         "file": "ui/windows/hd_sprite-sheet_graph.png",
         "size": 32,
@@ -12176,7 +12176,7 @@
       "id": "EmptyFuel",
       "name": "Select...",
       "sheet": "item",
-      "output": "generated/icons/EmptyInventory.png",
+      "output": "generated/icons/EmptyInventory.webp",
       "source": {
         "file": "ui/windows/hd_sprite-sheet_graph.png",
         "size": 32,
@@ -12190,7 +12190,7 @@
       "id": "EmptyLiquid",
       "name": "Select...",
       "sheet": "item",
-      "output": "generated/icons/EmptyInventory.png",
+      "output": "generated/icons/EmptyInventory.webp",
       "source": {
         "file": "ui/windows/hd_sprite-sheet_graph.png",
         "size": 32,
@@ -12204,7 +12204,7 @@
       "id": "EmptyPatch",
       "name": "Add patch...",
       "sheet": "item",
-      "output": "generated/icons/EmptyPatch.png",
+      "output": "generated/icons/EmptyPatch.webp",
       "source": {
         "file": "ui/actionIcons.png",
         "size": 24,
@@ -12218,7 +12218,7 @@
       "id": "Credits",
       "name": "Credits",
       "sheet": "item",
-      "output": "generated/icons/Credits.png",
+      "output": "generated/icons/Credits.webp",
       "source": {
         "file": "ui/icons/icon_interface_fichier_export_vecto.png",
         "size": 24,
@@ -12232,7 +12232,7 @@
       "id": "CorpoCredits",
       "name": "Corpo Credits",
       "sheet": "item",
-      "output": "generated/icons/CorpoCredits.png",
+      "output": "generated/icons/CorpoCredits.webp",
       "source": {
         "file": "ui/icons/actionIcons.png",
         "size": 24,
@@ -12246,7 +12246,7 @@
       "id": "SoftMoney",
       "name": "NXT",
       "sheet": "item",
-      "output": "generated/icons/SoftMoney.png",
+      "output": "generated/icons/SoftMoney.webp",
       "source": {
         "file": "ui/icons/actionIcons.png",
         "size": 24,
@@ -12260,7 +12260,7 @@
       "id": "HardMoney",
       "name": "PXE",
       "sheet": "item",
-      "output": "generated/icons/HardMoney.png",
+      "output": "generated/icons/HardMoney.webp",
       "source": {
         "file": "ui/icons/actionIcons.png",
         "size": 24,
@@ -12284,7 +12284,7 @@
       "id": "CorpoReputation",
       "name": "Reputation",
       "sheet": "item",
-      "output": "generated/icons/CorpoReputation.png",
+      "output": "generated/icons/CorpoReputation.webp",
       "source": {
         "file": "ui/icons/icon_interface_fichier_export_vecto.png",
         "size": 24,
@@ -12298,7 +12298,7 @@
       "id": "LicensePoints",
       "name": "License Points",
       "sheet": "item",
-      "output": "generated/icons/LicensePoints.png",
+      "output": "generated/icons/LicensePoints.webp",
       "source": {
         "file": "ui/icons/icon_interface_fichier_export_vecto.png",
         "size": 24,
@@ -12312,7 +12312,7 @@
       "id": "RandomLoot",
       "name": "Bundle",
       "sheet": "item",
-      "output": "generated/icons/RandomLoot.png",
+      "output": "generated/icons/RandomLoot.webp",
       "source": {
         "file": "ui/windows/hd_sprite-sheet_ic.png",
         "size": 32,
@@ -12326,7 +12326,7 @@
       "id": "EditorDecal",
       "name": "Decal",
       "sheet": "item",
-      "output": "generated/icons/Antimatter_Empty.png",
+      "output": "generated/icons/Antimatter_Empty.webp",
       "source": {
         "file": "ui/windows/hd_sprite-sheet_ic.png",
         "size": 32,
@@ -12340,7 +12340,7 @@
       "id": "TestReadable",
       "name": "Test Readable",
       "sheet": "item",
-      "output": "generated/icons/IronOre.png",
+      "output": "generated/icons/IronOre.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -12366,7 +12366,7 @@
       "id": "Blueprint",
       "name": "Blueprint",
       "sheet": "item",
-      "output": "generated/icons/Blueprint.png",
+      "output": "generated/icons/Blueprint.webp",
       "source": {
         "file": "ui/icons/actionIcons.png",
         "size": 24,
@@ -12380,7 +12380,7 @@
       "id": "Patch_SystemIntegration_1",
       "name": "Module Patch: System I",
       "sheet": "item",
-      "output": "generated/icons/Patch_SystemIntegration_1.png",
+      "output": "generated/icons/Patch_SystemIntegration_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -12404,7 +12404,7 @@
       "id": "Patch_SystemIntegration_2",
       "name": "Module Patch: System II",
       "sheet": "item",
-      "output": "generated/icons/Patch_SystemIntegration_1.png",
+      "output": "generated/icons/Patch_SystemIntegration_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -12428,7 +12428,7 @@
       "id": "Patch_SystemIntegration_3",
       "name": "Module Patch: System III",
       "sheet": "item",
-      "output": "generated/icons/Patch_SystemIntegration_1.png",
+      "output": "generated/icons/Patch_SystemIntegration_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -12452,7 +12452,7 @@
       "id": "Patch_HeatAbsorber_1",
       "name": "Module Patch: Heat Absorber I",
       "sheet": "item",
-      "output": "generated/icons/Patch_SystemIntegration_1.png",
+      "output": "generated/icons/Patch_SystemIntegration_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -12476,7 +12476,7 @@
       "id": "Patch_HeatAbsorber_2",
       "name": "Module Patch: Heat Absorber II",
       "sheet": "item",
-      "output": "generated/icons/Patch_SystemIntegration_1.png",
+      "output": "generated/icons/Patch_SystemIntegration_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -12500,7 +12500,7 @@
       "id": "Patch_HeatAbsorber_3",
       "name": "Module Patch: Heat Absorber III",
       "sheet": "item",
-      "output": "generated/icons/Patch_SystemIntegration_1.png",
+      "output": "generated/icons/Patch_SystemIntegration_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -12524,7 +12524,7 @@
       "id": "Patch_PowerEfficiency_1",
       "name": "Module Patch: Power Efficiency I",
       "sheet": "item",
-      "output": "generated/icons/Patch_SystemIntegration_1.png",
+      "output": "generated/icons/Patch_SystemIntegration_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -12548,7 +12548,7 @@
       "id": "Patch_PowerEfficiency_2",
       "name": "Module Patch: Power Efficiency II",
       "sheet": "item",
-      "output": "generated/icons/Patch_SystemIntegration_1.png",
+      "output": "generated/icons/Patch_SystemIntegration_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -12572,7 +12572,7 @@
       "id": "Patch_PowerEfficiency_3",
       "name": "Module Patch: Power Efficiency III",
       "sheet": "item",
-      "output": "generated/icons/Patch_SystemIntegration_1.png",
+      "output": "generated/icons/Patch_SystemIntegration_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -12596,7 +12596,7 @@
       "id": "Patch_FuelEfficiency_1",
       "name": "Module Patch: Fuel Efficiency I",
       "sheet": "item",
-      "output": "generated/icons/Patch_SystemIntegration_1.png",
+      "output": "generated/icons/Patch_SystemIntegration_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -12620,7 +12620,7 @@
       "id": "Patch_FuelEfficiency_2",
       "name": "Module Patch: Fuel Efficiency II",
       "sheet": "item",
-      "output": "generated/icons/Patch_SystemIntegration_1.png",
+      "output": "generated/icons/Patch_SystemIntegration_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -12644,7 +12644,7 @@
       "id": "Patch_FuelEfficiency_3",
       "name": "Module Patch: Fuel Efficiency III",
       "sheet": "item",
-      "output": "generated/icons/Patch_SystemIntegration_1.png",
+      "output": "generated/icons/Patch_SystemIntegration_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -12668,7 +12668,7 @@
       "id": "Patch_BatteryMultiplicator_1",
       "name": "Battery Patch: Overload I",
       "sheet": "item",
-      "output": "generated/icons/Patch_BatteryMultiplicator_1.png",
+      "output": "generated/icons/Patch_BatteryMultiplicator_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -12692,7 +12692,7 @@
       "id": "Patch_BatteryMultiplicator_2",
       "name": "Battery Patch: Overload II",
       "sheet": "item",
-      "output": "generated/icons/Patch_BatteryMultiplicator_1.png",
+      "output": "generated/icons/Patch_BatteryMultiplicator_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -12716,7 +12716,7 @@
       "id": "Patch_BatteryMultiplicator_3",
       "name": "Battery Patch: Overload III",
       "sheet": "item",
-      "output": "generated/icons/Patch_BatteryMultiplicator_1.png",
+      "output": "generated/icons/Patch_BatteryMultiplicator_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -12740,7 +12740,7 @@
       "id": "Patch_PrecisionTargeting_1",
       "name": "Weapon Patch: Precision I",
       "sheet": "item",
-      "output": "generated/icons/Patch_PrecisionTargeting_1.png",
+      "output": "generated/icons/Patch_PrecisionTargeting_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -12764,7 +12764,7 @@
       "id": "Patch_PrecisionTargeting_2",
       "name": "Weapon Patch: Precision II",
       "sheet": "item",
-      "output": "generated/icons/Patch_PrecisionTargeting_1.png",
+      "output": "generated/icons/Patch_PrecisionTargeting_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -12788,7 +12788,7 @@
       "id": "Patch_PrecisionTargeting_3",
       "name": "Weapon Patch: Precision III",
       "sheet": "item",
-      "output": "generated/icons/Patch_PrecisionTargeting_1.png",
+      "output": "generated/icons/Patch_PrecisionTargeting_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -12812,7 +12812,7 @@
       "id": "Patch_WildShot_1",
       "name": "Weapon Patch: Wild Shot I",
       "sheet": "item",
-      "output": "generated/icons/Patch_PrecisionTargeting_1.png",
+      "output": "generated/icons/Patch_PrecisionTargeting_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -12836,7 +12836,7 @@
       "id": "Patch_WildShot_2",
       "name": "Weapon Patch: Wild Shot II",
       "sheet": "item",
-      "output": "generated/icons/Patch_PrecisionTargeting_1.png",
+      "output": "generated/icons/Patch_PrecisionTargeting_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -12860,7 +12860,7 @@
       "id": "Patch_WildShot_3",
       "name": "Weapon Patch: Wild Shot III",
       "sheet": "item",
-      "output": "generated/icons/Patch_PrecisionTargeting_1.png",
+      "output": "generated/icons/Patch_PrecisionTargeting_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -12884,7 +12884,7 @@
       "id": "Patch_SureShot_1",
       "name": "Weapon Patch: Sure Shot I",
       "sheet": "item",
-      "output": "generated/icons/Patch_PrecisionTargeting_1.png",
+      "output": "generated/icons/Patch_PrecisionTargeting_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -12908,7 +12908,7 @@
       "id": "Patch_SureShot_2",
       "name": "Weapon Patch: Sure Shot II",
       "sheet": "item",
-      "output": "generated/icons/Patch_PrecisionTargeting_1.png",
+      "output": "generated/icons/Patch_PrecisionTargeting_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -12932,7 +12932,7 @@
       "id": "Patch_SureShot_3",
       "name": "Weapon Patch: Sure Shot III",
       "sheet": "item",
-      "output": "generated/icons/Patch_PrecisionTargeting_1.png",
+      "output": "generated/icons/Patch_PrecisionTargeting_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -12956,7 +12956,7 @@
       "id": "Patch_EdgeExplorer_1",
       "name": "FTL Patch: Edge Explorer I",
       "sheet": "item",
-      "output": "generated/icons/Patch_EdgeExplorer_1.png",
+      "output": "generated/icons/Patch_EdgeExplorer_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -12980,7 +12980,7 @@
       "id": "Patch_EdgeExplorer_2",
       "name": "FTL Patch: Edge Explorer II",
       "sheet": "item",
-      "output": "generated/icons/Patch_EdgeExplorer_1.png",
+      "output": "generated/icons/Patch_EdgeExplorer_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13004,7 +13004,7 @@
       "id": "Patch_Magplasma_1",
       "name": "FTL Patch: Mag-Plasma I",
       "sheet": "item",
-      "output": "generated/icons/Patch_EdgeExplorer_1.png",
+      "output": "generated/icons/Patch_EdgeExplorer_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13028,7 +13028,7 @@
       "id": "Patch_Magplasma_2",
       "name": "FTL Patch: Mag-Plasma II",
       "sheet": "item",
-      "output": "generated/icons/Patch_EdgeExplorer_1.png",
+      "output": "generated/icons/Patch_EdgeExplorer_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13052,7 +13052,7 @@
       "id": "Patch_Magplasma_3",
       "name": "FTL Patch: Mag-Plasma III",
       "sheet": "item",
-      "output": "generated/icons/Patch_EdgeExplorer_1.png",
+      "output": "generated/icons/Patch_EdgeExplorer_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13076,7 +13076,7 @@
       "id": "Patch_FTLDodge_1",
       "name": "FTL Patch: Light Dodging I",
       "sheet": "item",
-      "output": "generated/icons/Patch_EdgeExplorer_1.png",
+      "output": "generated/icons/Patch_EdgeExplorer_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13100,7 +13100,7 @@
       "id": "Patch_FTLDodge_2",
       "name": "FTL Patch: Light Dodging II",
       "sheet": "item",
-      "output": "generated/icons/Patch_EdgeExplorer_1.png",
+      "output": "generated/icons/Patch_EdgeExplorer_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13124,7 +13124,7 @@
       "id": "Patch_FTLDodge_3",
       "name": "FTL Patch: Light Dodging III",
       "sheet": "item",
-      "output": "generated/icons/Patch_EdgeExplorer_1.png",
+      "output": "generated/icons/Patch_EdgeExplorer_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13148,7 +13148,7 @@
       "id": "Patch_Charted_1",
       "name": "FTL Patch: Charted Skies I",
       "sheet": "item",
-      "output": "generated/icons/Patch_EdgeExplorer_1.png",
+      "output": "generated/icons/Patch_EdgeExplorer_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13172,7 +13172,7 @@
       "id": "Patch_Charted_2",
       "name": "FTL Patch: Charted Skies II",
       "sheet": "item",
-      "output": "generated/icons/Patch_EdgeExplorer_1.png",
+      "output": "generated/icons/Patch_EdgeExplorer_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13196,7 +13196,7 @@
       "id": "Patch_Charted_3",
       "name": "FTL Patch: Charted Skies III",
       "sheet": "item",
-      "output": "generated/icons/Patch_EdgeExplorer_1.png",
+      "output": "generated/icons/Patch_EdgeExplorer_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13220,7 +13220,7 @@
       "id": "Patch_MiningTier_1",
       "name": "Laser Patch: Mining Tier I",
       "sheet": "item",
-      "output": "generated/icons/Patch_PrecisionTargeting_1.png",
+      "output": "generated/icons/Patch_PrecisionTargeting_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13244,7 +13244,7 @@
       "id": "Patch_MiningTier_2",
       "name": "Laser Patch: Mining Tier II",
       "sheet": "item",
-      "output": "generated/icons/Patch_PrecisionTargeting_1.png",
+      "output": "generated/icons/Patch_PrecisionTargeting_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13268,7 +13268,7 @@
       "id": "Patch_LastYield_1",
       "name": "Laser Patch: Last Yield I",
       "sheet": "item",
-      "output": "generated/icons/Patch_PrecisionTargeting_1.png",
+      "output": "generated/icons/Patch_PrecisionTargeting_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13292,7 +13292,7 @@
       "id": "Patch_MiningPower_1",
       "name": "Laser Patch: Mining Power I",
       "sheet": "item",
-      "output": "generated/icons/Patch_PrecisionTargeting_1.png",
+      "output": "generated/icons/Patch_PrecisionTargeting_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13316,7 +13316,7 @@
       "id": "Patch_MiningPower_2",
       "name": "Laser Patch: Mining Power II",
       "sheet": "item",
-      "output": "generated/icons/Patch_PrecisionTargeting_1.png",
+      "output": "generated/icons/Patch_PrecisionTargeting_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13340,7 +13340,7 @@
       "id": "Patch_MiningPower_3",
       "name": "Laser Patch: Mining Power III",
       "sheet": "item",
-      "output": "generated/icons/Patch_PrecisionTargeting_1.png",
+      "output": "generated/icons/Patch_PrecisionTargeting_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13364,7 +13364,7 @@
       "id": "Patch_IncreasedOutput_1",
       "name": "Laser Patch: Increased Output I",
       "sheet": "item",
-      "output": "generated/icons/Patch_PrecisionTargeting_1.png",
+      "output": "generated/icons/Patch_PrecisionTargeting_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13388,7 +13388,7 @@
       "id": "Patch_IncreasedOutput_2",
       "name": "Laser Patch: Increased Output II",
       "sheet": "item",
-      "output": "generated/icons/Patch_PrecisionTargeting_1.png",
+      "output": "generated/icons/Patch_PrecisionTargeting_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13412,7 +13412,7 @@
       "id": "Patch_IncreasedOutput_3",
       "name": "Laser Patch: Increased Output III",
       "sheet": "item",
-      "output": "generated/icons/Patch_PrecisionTargeting_1.png",
+      "output": "generated/icons/Patch_PrecisionTargeting_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13436,7 +13436,7 @@
       "id": "Patch_RareFind_1",
       "name": "Laser Patch: Rare Find I",
       "sheet": "item",
-      "output": "generated/icons/Patch_PrecisionTargeting_1.png",
+      "output": "generated/icons/Patch_PrecisionTargeting_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13460,7 +13460,7 @@
       "id": "Patch_RareFind_2",
       "name": "Laser Patch: Rare Find II",
       "sheet": "item",
-      "output": "generated/icons/Patch_PrecisionTargeting_1.png",
+      "output": "generated/icons/Patch_PrecisionTargeting_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13484,7 +13484,7 @@
       "id": "Patch_RareFind_3",
       "name": "Laser Patch: Rare Find III",
       "sheet": "item",
-      "output": "generated/icons/Patch_PrecisionTargeting_1.png",
+      "output": "generated/icons/Patch_PrecisionTargeting_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13508,7 +13508,7 @@
       "id": "Patch_PowerProduction_1",
       "name": "Generator Patch: Power I",
       "sheet": "item",
-      "output": "generated/icons/Patch_SystemIntegration_1.png",
+      "output": "generated/icons/Patch_SystemIntegration_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13532,7 +13532,7 @@
       "id": "Patch_PowerProduction_2",
       "name": "Generator Patch: Power II",
       "sheet": "item",
-      "output": "generated/icons/Patch_SystemIntegration_1.png",
+      "output": "generated/icons/Patch_SystemIntegration_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13556,7 +13556,7 @@
       "id": "Patch_PowerProduction_3",
       "name": "Generator Patch: Power III",
       "sheet": "item",
-      "output": "generated/icons/Patch_SystemIntegration_1.png",
+      "output": "generated/icons/Patch_SystemIntegration_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13580,7 +13580,7 @@
       "id": "Patch_RadarRange_1",
       "name": "Radar Patch: Range I",
       "sheet": "item",
-      "output": "generated/icons/Patch_SystemIntegration_1.png",
+      "output": "generated/icons/Patch_SystemIntegration_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13604,7 +13604,7 @@
       "id": "Patch_RadarRange_2",
       "name": "Radar Patch: Range II",
       "sheet": "item",
-      "output": "generated/icons/Patch_SystemIntegration_1.png",
+      "output": "generated/icons/Patch_SystemIntegration_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13628,7 +13628,7 @@
       "id": "Patch_RadarRange_3",
       "name": "Radar Patch: Range III",
       "sheet": "item",
-      "output": "generated/icons/Patch_SystemIntegration_1.png",
+      "output": "generated/icons/Patch_SystemIntegration_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13652,7 +13652,7 @@
       "id": "Patch_BarrierToughness_1",
       "name": "Shield Patch: Tough I",
       "sheet": "item",
-      "output": "generated/icons/Patch_BarrierToughness_1.png",
+      "output": "generated/icons/Patch_BarrierToughness_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13676,7 +13676,7 @@
       "id": "Patch_BarrierToughness_2",
       "name": "Shield Patch: Tough II",
       "sheet": "item",
-      "output": "generated/icons/Patch_BarrierToughness_1.png",
+      "output": "generated/icons/Patch_BarrierToughness_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13700,7 +13700,7 @@
       "id": "Patch_BarrierToughness_3",
       "name": "Shield Patch: Tough III",
       "sheet": "item",
-      "output": "generated/icons/Patch_BarrierToughness_1.png",
+      "output": "generated/icons/Patch_BarrierToughness_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13724,7 +13724,7 @@
       "id": "Patch_FastShield_1",
       "name": "Shield Patch: Fast I",
       "sheet": "item",
-      "output": "generated/icons/Patch_BarrierToughness_1.png",
+      "output": "generated/icons/Patch_BarrierToughness_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13748,7 +13748,7 @@
       "id": "Patch_FastShield_2",
       "name": "Shield Patch: Fast II",
       "sheet": "item",
-      "output": "generated/icons/Patch_BarrierToughness_1.png",
+      "output": "generated/icons/Patch_BarrierToughness_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13772,7 +13772,7 @@
       "id": "Patch_FastShield_3",
       "name": "Shield Patch: Fast III",
       "sheet": "item",
-      "output": "generated/icons/Patch_BarrierToughness_1.png",
+      "output": "generated/icons/Patch_BarrierToughness_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13796,7 +13796,7 @@
       "id": "Patch_HeavyBarrier_1",
       "name": "Shield Patch: Heavy I",
       "sheet": "item",
-      "output": "generated/icons/Patch_BarrierToughness_1.png",
+      "output": "generated/icons/Patch_BarrierToughness_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13820,7 +13820,7 @@
       "id": "Patch_HeavyBarrier_2",
       "name": "Shield Patch: Heavy II",
       "sheet": "item",
-      "output": "generated/icons/Patch_BarrierToughness_1.png",
+      "output": "generated/icons/Patch_BarrierToughness_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -13844,7 +13844,7 @@
       "id": "Patch_HeavyBarrier_3",
       "name": "Shield Patch: Heavy III",
       "sheet": "item",
-      "output": "generated/icons/Patch_BarrierToughness_1.png",
+      "output": "generated/icons/Patch_BarrierToughness_1.webp",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
