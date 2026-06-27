@@ -243,5 +243,6 @@ desktop.ini
 docs/
 
 # The generic lib/ rule above (Python packaging artifacts) would otherwise
-# ignore our source package src/lib/ — keep it tracked.
+# ignore our source package src/lib/ and tests/lib/ — keep them tracked.
 !src/lib/
+!tests/lib/

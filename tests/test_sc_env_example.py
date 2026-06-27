@@ -3,7 +3,8 @@ from pathlib import Path
 
 from src.lib import config
 
-ENV_EXAMPLE = Path(__file__).resolve().parent / ".env.example"
+# This test lives in tests/; the repo root (with .env.example) is one level up.
+ENV_EXAMPLE = Path(__file__).resolve().parents[1] / ".env.example"
 
 
 class EnvExampleTests(unittest.TestCase):

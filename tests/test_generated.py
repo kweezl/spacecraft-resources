@@ -18,7 +18,7 @@ from pathlib import Path
 import deduplicate_icons
 import generate_icons
 
-REPO = Path(__file__).resolve().parent
+REPO = Path(__file__).resolve().parents[1]
 GENERATED = REPO / "generated"
 I18N = GENERATED / "i18n"
 ICONS = GENERATED / "icons"
