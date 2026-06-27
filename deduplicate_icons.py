@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Deduplicate generated icons by their visual content.
+"""DEPRECATED: this root-level script is kept only for the src/commands wrappers
+that still call it. New parsing logic lives under src/ (see src/lib/craft.py and
+src/commands/parse_craft.py). Do not add features here; it will be migrated and
+removed in a follow-up task.
+
+Deduplicate generated icons by their visual content.
 
 Many items reuse the exact same icon: the same crop of the same sprite sheet
 with the same recolour gradient. ``generate_icons.py`` emits one PNG per item,
