@@ -241,3 +241,7 @@ desktop.ini
 
 # Design specs and implementation plans (kept local, not committed)
 docs/
+
+# The generic lib/ rule above (Python packaging artifacts) would otherwise
+# ignore our source package src/lib/ — keep it tracked.
+!src/lib/
