@@ -145,11 +145,13 @@ def load_cdb(path: Path) -> dict:
         return json.load(file)
 
 
-def iter_icon_jobs(cdb: dict, allowed_icon_files: set[str] | None = None):
+def iter_icon_jobs(cdb: dict, allowed_icon_files: set[str] | None = None, sheet: str | None = None):
     seen: set[str] = set()
-    for sheet in cdb.get("sheets", []):
-        sheet_name = sheet.get("name", "")
-        for row in sheet.get("lines", []):
+    for sheet_obj in cdb.get("sheets", []):
+        sheet_name = sheet_obj.get("name", "")
+        if sheet is not None and sheet_name != sheet:
+            continue
+        for row in sheet_obj.get("lines", []):
             if not isinstance(row, dict):
                 continue
 
@@ -370,9 +372,10 @@ def generate_icons(
     dry_run: bool,
     dedup: bool = True,
     aliases_path: Path | None = None,
+    sheet: str | None = None,
 ) -> tuple[int, list[dict]]:
     cdb = load_cdb(cdb_path)
-    jobs = list(iter_icon_jobs(cdb, allowed_icon_files))
+    jobs = list(iter_icon_jobs(cdb, allowed_icon_files, sheet))
     source_cache: dict[Path, RgbaImage] = {}
 
     # Pass 1: build a manifest record for every item (no files written yet).
@@ -454,6 +457,15 @@ def parse_args(argv=None):
         action="store_true",
         help="Generate every CDB icon entry with a tile source instead of only sprite_sheet_icon_64 variants.",
     )
+    parser.add_argument(
+        "--sheet",
+        default="item",
+        help=(
+            "Restrict generation to this CDB sheet, using each row's own icon "
+            "(default: item). Pass an empty string to scan all sheets with the "
+            "source-file filter instead."
+        ),
+    )
     parser.add_argument("--no-recolor", action="store_true", help="Crop icons without applying CDB color gradients.")
     parser.add_argument("--clean", action="store_true", help="Delete stale PNGs in the output directory.")
     parser.add_argument("--dry-run", action="store_true", help="Print what would be generated without writing files.")
@@ -481,10 +493,15 @@ def parse_args(argv=None):
 
 def main(argv=None) -> int:
     args = parse_args(argv)
-    if args.all_icon_files:
+    sheet = args.sheet or None
+    if args.icon_files:
+        allowed_icon_files = set(args.icon_files)
+    elif args.all_icon_files or sheet:
+        # A single-sheet scope keys icons by row id (unique within a sheet), so
+        # all source files can be used without cross-sheet id collisions.
         allowed_icon_files = None
     else:
-        allowed_icon_files = set(args.icon_files or DEFAULT_ICON_FILES)
+        allowed_icon_files = set(DEFAULT_ICON_FILES)
 
     try:
         count, records = generate_icons(
@@ -498,6 +515,7 @@ def main(argv=None) -> int:
             dry_run=args.dry_run,
             dedup=args.dedup,
             aliases_path=args.aliases,
+            sheet=sheet,
         )
     except Exception as error:
         print(f"Error: {error}", file=sys.stderr)
