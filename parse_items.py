@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Parse the `item` sheet from SpaceCraft data.cdb into a bot-friendly items.json.
+"""DEPRECATED: this root-level script is kept only for the src/commands wrappers
+that still call it. New parsing logic lives under src/ (see src/lib/craft.py and
+src/commands/parse_craft.py). Do not add features here; it will be migrated and
+removed in a follow-up task.
+
+Parse the `item` sheet from SpaceCraft data.cdb into a bot-friendly items.json.
 
 Re-run after the game updates its data.cdb to regenerate the output.
 Output is intentionally lean ("bot essentials") and keeps raw CDB codes for

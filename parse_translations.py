@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Extract translatable strings (name + desc) into per-language translation files.
+"""DEPRECATED: this root-level script is kept only for the src/commands wrappers
+that still call it. New parsing logic lives under src/ (see src/lib/craft.py and
+src/commands/parse_craft.py). Do not add features here; it will be migrated and
+removed in a follow-up task.
+
+Extract translatable strings (name + desc) into per-language translation files.
 
 English is the base language and comes from data.cdb itself.
 Other languages come from the extra/lang/export_<lang>.xml files.

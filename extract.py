@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+"""DEPRECATED: this root-level script is kept only for the src/commands wrappers
+that still call it. New parsing logic lives under src/ (see src/lib/craft.py and
+src/commands/parse_craft.py). Do not add features here; it will be migrated and
+removed in a follow-up task.
+"""
 import argparse
 import struct
 from pathlib import Path, PurePosixPath
