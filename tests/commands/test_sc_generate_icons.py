@@ -19,9 +19,17 @@ class GenerateIconsCommandTests(unittest.TestCase):
                 "--out", "generated/icons",
                 "--manifest", "generated/icons_manifest.json",
                 "--aliases", "generated/aliases.json",
+                "--sheet", "item",
                 "--dedup",
             ],
         )
+
+    def test_sheet_env(self):
+        with mock.patch.dict(os.environ, {"SC_GENERATE_ICONS_SHEET": "resource"}, clear=True):
+            with mock.patch("generate_icons.main", return_value=0) as m:
+                cmd.run()
+        argv = m.call_args.args[0]
+        self.assertEqual(argv[argv.index("--sheet") + 1], "resource")
 
     def test_no_dedup_flag(self):
         with mock.patch.dict(os.environ, {}, clear=True):

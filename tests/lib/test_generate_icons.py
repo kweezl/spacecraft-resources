@@ -45,6 +45,26 @@ class GenerateIconsTests(unittest.TestCase):
         self.assertEqual(jobs[0].crop_box, (0, 64, 64, 128))
         self.assertEqual(jobs[0].gradient.colors, [(0, 0, 0), (255, 255, 255)])
 
+    def test_iter_icon_jobs_sheet_filter_restricts_to_named_sheet(self):
+        data = {
+            "sheets": [
+                {
+                    "name": "item",
+                    "lines": [{"id": "ItemA", "icon": {"file": "f.png", "size": 64, "x": 0, "y": 0}}],
+                },
+                {
+                    "name": "icon",
+                    "lines": [{"id": "IconB", "icon": {"file": "f.png", "size": 64, "x": 1, "y": 0}}],
+                },
+            ]
+        }
+        # No sheet filter: both sheets contribute.
+        all_ids = {job.item_id for job in generate_icons.iter_icon_jobs(data)}
+        self.assertEqual(all_ids, {"ItemA", "IconB"})
+        # Restricted to the item sheet: only its rows.
+        item_ids = {job.item_id for job in generate_icons.iter_icon_jobs(data, sheet="item")}
+        self.assertEqual(item_ids, {"ItemA"})
+
     def test_recolor_rgba_uses_pixel_brightness_as_gradient_position(self):
         pixels = bytes(
             [

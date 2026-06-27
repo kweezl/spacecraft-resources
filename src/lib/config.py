@@ -20,6 +20,9 @@ PARSE_TRANSLATIONS_LANG_DIR = Setting("SC_PARSE_TRANSLATIONS_LANG_DIR", "unpacke
 GENERATE_ICONS_OUT = Setting("SC_GENERATE_ICONS_OUT", "generated/icons")
 GENERATE_ICONS_MANIFEST = Setting("SC_GENERATE_ICONS_MANIFEST", "generated/icons_manifest.json")
 GENERATE_ICONS_ALIASES = Setting("SC_GENERATE_ICONS_ALIASES", "generated/aliases.json")
+# CDB sheet to generate icons from (each row uses its own icon). "item" gives
+# every item its own icon; an empty value scans all sheets with the file filter.
+GENERATE_ICONS_SHEET = Setting("SC_GENERATE_ICONS_SHEET", "item")
 DEDUPLICATE_ICONS_MANIFEST = Setting("SC_DEDUPLICATE_ICONS_MANIFEST", "generated/icons_manifest.json")
 
 # Order groups shared settings first, then per-command settings. Used to
@@ -35,5 +38,6 @@ ALL_SETTINGS = [
     GENERATE_ICONS_OUT,
     GENERATE_ICONS_MANIFEST,
     GENERATE_ICONS_ALIASES,
+    GENERATE_ICONS_SHEET,
     DEDUPLICATE_ICONS_MANIFEST,
 ]
