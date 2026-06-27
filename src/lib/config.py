@@ -19,6 +19,7 @@ PARSE_TRANSLATIONS_OUT = Setting("SC_PARSE_TRANSLATIONS_OUT", "generated/i18n")
 PARSE_TRANSLATIONS_LANG_DIR = Setting("SC_PARSE_TRANSLATIONS_LANG_DIR", "unpacked/extra/lang")
 GENERATE_ICONS_OUT = Setting("SC_GENERATE_ICONS_OUT", "generated/icons")
 GENERATE_ICONS_MANIFEST = Setting("SC_GENERATE_ICONS_MANIFEST", "generated/icons_manifest.json")
+GENERATE_ICONS_ALIASES = Setting("SC_GENERATE_ICONS_ALIASES", "generated/aliases.json")
 DEDUPLICATE_ICONS_MANIFEST = Setting("SC_DEDUPLICATE_ICONS_MANIFEST", "generated/icons_manifest.json")
 
 # Order groups shared settings first, then per-command settings. Used to
@@ -33,5 +34,6 @@ ALL_SETTINGS = [
     PARSE_TRANSLATIONS_LANG_DIR,
     GENERATE_ICONS_OUT,
     GENERATE_ICONS_MANIFEST,
+    GENERATE_ICONS_ALIASES,
     DEDUPLICATE_ICONS_MANIFEST,
 ]

@@ -8,6 +8,8 @@ import zlib
 from dataclasses import dataclass
 from pathlib import Path
 
+import deduplicate_icons
+
 
 PNG_SIGNATURE = b"\x89PNG\r\n\x1a\n"
 DEFAULT_ICON_FILES = (
@@ -366,35 +368,53 @@ def generate_icons(
     recolor: bool,
     clean: bool,
     dry_run: bool,
+    dedup: bool = True,
+    aliases_path: Path | None = None,
 ) -> tuple[int, list[dict]]:
     cdb = load_cdb(cdb_path)
     jobs = list(iter_icon_jobs(cdb, allowed_icon_files))
-    expected_names = {job.output_name for job in jobs}
     source_cache: dict[Path, RgbaImage] = {}
-    records = []
+
+    # Pass 1: build a manifest record for every item (no files written yet).
+    records = [manifest_record(job, out_dir / job.output_name) for job in jobs]
+    records_by_id = {record["id"]: record for record in records}
+
+    # Decide which jobs get a PNG on disk. In dedup mode only one canonical icon
+    # per unique (crop + colour) is written; every other item is pointed at that
+    # canonical file via the manifest and an alias map.
+    alias_map = None
+    if dedup:
+        manifest_icons = {record["id"]: record for record in records}
+        report = deduplicate_icons.analyze({"icons": manifest_icons})
+        alias_map = deduplicate_icons.build_alias_map({"icons": manifest_icons}, report)
+        canonical_ids = set(report.groups)
+        for canonical, ids in report.groups.items():
+            canonical_output = records_by_id[canonical]["output"]
+            for item_id in ids:
+                records_by_id[item_id]["output"] = canonical_output
+        write_jobs = [job for job in jobs if job.item_id in canonical_ids]
+    else:
+        write_jobs = jobs
+
+    expected_names = {Path(records_by_id[job.item_id]["output"]).name for job in write_jobs}
 
     if clean and not dry_run and out_dir.exists():
         for png_path in out_dir.glob("*.png"):
             if png_path.name not in expected_names:
                 png_path.unlink()
 
-    for job in jobs:
-        source_path = assets_root / Path(job.source_file)
-        if source_path not in source_cache:
-            source_cache[source_path] = read_png_rgba(source_path)
-
-        image = source_cache[source_path].crop(job.crop_box)
-        if recolor and job.gradient is not None:
-            image = RgbaImage(image.width, image.height, recolor_rgba(image.pixels, job.gradient))
-
-        output_path = out_dir / job.output_name
-        record = manifest_record(job, output_path)
-        records.append(record)
-
-        if not dry_run:
-            write_png_rgba(output_path, image)
-
     if not dry_run:
+        for job in write_jobs:
+            source_path = assets_root / Path(job.source_file)
+            if source_path not in source_cache:
+                source_cache[source_path] = read_png_rgba(source_path)
+
+            image = source_cache[source_path].crop(job.crop_box)
+            if recolor and job.gradient is not None:
+                image = RgbaImage(image.width, image.height, recolor_rgba(image.pixels, job.gradient))
+
+            write_png_rgba(out_dir / job.output_name, image)
+
         manifest_path.parent.mkdir(parents=True, exist_ok=True)
         manifest = {
             "data": path_to_json(cdb_path),
@@ -404,6 +424,10 @@ def generate_icons(
             "icons": {record["id"]: record for record in records},
         }
         manifest_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+        if dedup and alias_map is not None and aliases_path is not None:
+            aliases_path.parent.mkdir(parents=True, exist_ok=True)
+            aliases_path.write_text(json.dumps(alias_map, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
     return len(jobs), records
 
@@ -433,6 +457,25 @@ def parse_args(argv=None):
     parser.add_argument("--no-recolor", action="store_true", help="Crop icons without applying CDB color gradients.")
     parser.add_argument("--clean", action="store_true", help="Delete stale PNGs in the output directory.")
     parser.add_argument("--dry-run", action="store_true", help="Print what would be generated without writing files.")
+    parser.add_argument(
+        "--dedup",
+        dest="dedup",
+        action="store_true",
+        default=True,
+        help="Write only unique icons + aliases.json (default).",
+    )
+    parser.add_argument(
+        "--no-dedup",
+        dest="dedup",
+        action="store_false",
+        help="Write one PNG per item and no aliases.json.",
+    )
+    parser.add_argument(
+        "--aliases",
+        type=Path,
+        default=Path("generated/aliases.json"),
+        help="Alias map output path (written in dedup mode).",
+    )
     return parser.parse_args(argv)
 
 
@@ -453,18 +496,26 @@ def main(argv=None) -> int:
             recolor=not args.no_recolor,
             clean=args.clean,
             dry_run=args.dry_run,
+            dedup=args.dedup,
+            aliases_path=args.aliases,
         )
     except Exception as error:
         print(f"Error: {error}", file=sys.stderr)
         return 1
 
+    written = len({record["output"] for record in records})
     action = "Would generate" if args.dry_run else "Generated"
-    print(f"{action} {count} icons")
+    if args.dedup:
+        print(f"{action} {written} unique icons for {count} items")
+    else:
+        print(f"{action} {count} icons")
     if records:
         print(f"First: {records[0]['output']}")
         print(f"Last:  {records[-1]['output']}")
     if not args.dry_run:
         print(f"Manifest: {args.manifest}")
+        if args.dedup:
+            print(f"Aliases:  {args.aliases}")
     return 0
 
 
