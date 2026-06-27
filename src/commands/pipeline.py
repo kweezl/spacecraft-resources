@@ -2,6 +2,7 @@ import typer
 
 from src.commands import (
     generate_icons,
+    parse_craft,
     parse_items,
     parse_translations,
 )
@@ -11,6 +12,7 @@ from src.commands import (
 # step is needed here; that command remains available standalone for analysis.
 STEPS = [
     ("parse-items", lambda dry_run: parse_items.run(dry_run=dry_run)),
+    ("parse-craft", lambda dry_run: parse_craft.run(dry_run=dry_run)),
     ("parse-translations", lambda dry_run: parse_translations.run(dry_run=dry_run)),
     ("generate-icons", lambda dry_run: generate_icons.run(dry_run=dry_run)),
 ]
