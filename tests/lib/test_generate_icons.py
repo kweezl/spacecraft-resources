@@ -1,4 +1,5 @@
 import json
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -132,6 +133,101 @@ class GenerateIconsTests(unittest.TestCase):
         self.assertEqual(record["id"], "IronOre")
         self.assertEqual(record["output"], "generated/icons/IronOre.png")
         self.assertEqual(record["source"]["file"], "ui/icons/sprite_sheet_icon_64.png")
+
+
+class GenerateIconsDedupTests(unittest.TestCase):
+    """End-to-end behaviour of generate_icons() with and without dedup.
+
+    Three items share the same 64x64 crop of the same sheet: A and B have no
+    colour (visually identical), C is recoloured (a distinct visual). Dedup
+    should therefore keep two canonical files (A, C) and alias B -> A.
+    """
+
+    SHEET = "ui/icons/sprite_sheet_icon_64.png"
+
+    def _make_project(self, root: Path) -> tuple[Path, Path, Path, Path]:
+        sheet_path = root / self.SHEET
+        sheet_path.parent.mkdir(parents=True, exist_ok=True)
+        blank = generate_icons.RgbaImage(64, 64, bytes(64 * 64 * 4))
+        sheet_path.write_bytes(generate_icons.encode_png_rgba(blank))
+
+        cdb = {
+            "sheets": [
+                {
+                    "name": "item",
+                    "lines": [
+                        {"id": "A", "icon": {"file": self.SHEET, "size": 64, "x": 0, "y": 0}},
+                        {"id": "B", "icon": {"file": self.SHEET, "size": 64, "x": 0, "y": 0}},
+                        {
+                            "id": "C",
+                            "icon": {"file": self.SHEET, "size": 64, "x": 0, "y": 0},
+                            "color": {"colors": [-16777216, -1], "positions": [0, 1]},
+                        },
+                    ],
+                }
+            ]
+        }
+        cdb_path = root / "data.cdb"
+        cdb_path.write_text(json.dumps(cdb), encoding="utf-8")
+        out_dir = root / "icons"
+        manifest_path = root / "icons_manifest.json"
+        aliases_path = root / "aliases.json"
+        return cdb_path, out_dir, manifest_path, aliases_path
+
+    def test_dedup_writes_canonical_only_with_alias_map(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            cdb_path, out_dir, manifest_path, aliases_path = self._make_project(root)
+
+            count, records = generate_icons.generate_icons(
+                cdb_path=cdb_path,
+                assets_root=root,
+                out_dir=out_dir,
+                manifest_path=manifest_path,
+                allowed_icon_files=None,
+                recolor=True,
+                clean=False,
+                dry_run=False,
+                dedup=True,
+                aliases_path=aliases_path,
+            )
+
+            self.assertEqual(count, 3)
+            pngs = sorted(p.name for p in out_dir.glob("*.png"))
+            self.assertEqual(pngs, ["A.png", "C.png"])
+
+            aliases = json.loads(aliases_path.read_text(encoding="utf-8"))
+            self.assertEqual(aliases["total"], 3)
+            self.assertEqual(aliases["unique"], 2)
+            self.assertEqual(aliases["icons"]["B"], "A.png")
+            self.assertEqual(aliases["icons"]["A"], "A.png")
+            self.assertEqual(aliases["icons"]["C"], "C.png")
+
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            self.assertEqual(manifest["count"], 3)
+            self.assertTrue(manifest["icons"]["B"]["output"].endswith("A.png"))
+
+    def test_no_dedup_writes_one_png_per_item_and_no_aliases(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            cdb_path, out_dir, manifest_path, aliases_path = self._make_project(root)
+
+            generate_icons.generate_icons(
+                cdb_path=cdb_path,
+                assets_root=root,
+                out_dir=out_dir,
+                manifest_path=manifest_path,
+                allowed_icon_files=None,
+                recolor=True,
+                clean=False,
+                dry_run=False,
+                dedup=False,
+                aliases_path=aliases_path,
+            )
+
+            pngs = sorted(p.name for p in out_dir.glob("*.png"))
+            self.assertEqual(pngs, ["A.png", "B.png", "C.png"])
+            self.assertFalse(aliases_path.exists(), "aliases.json must not be written without dedup")
 
 
 if __name__ == "__main__":

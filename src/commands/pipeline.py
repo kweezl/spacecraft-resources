@@ -1,20 +1,18 @@
 import typer
 
 from src.commands import (
-    deduplicate_icons,
     generate_icons,
     parse_items,
     parse_translations,
 )
 
-# Each step runs with env/default-resolved settings. deduplicate-icons has no
-# dry-run mode; it only reports (no writes) unless --write is given, so it is
-# safe to include under a dry-run pipeline.
+# Each step runs with env/default-resolved settings. generate-icons deduplicates
+# inline by default and writes aliases.json, so no separate deduplicate-icons
+# step is needed here; that command remains available standalone for analysis.
 STEPS = [
     ("parse-items", lambda dry_run: parse_items.run(dry_run=dry_run)),
     ("parse-translations", lambda dry_run: parse_translations.run(dry_run=dry_run)),
     ("generate-icons", lambda dry_run: generate_icons.run(dry_run=dry_run)),
-    ("deduplicate-icons", lambda dry_run: deduplicate_icons.run()),
 ]
 
 
