@@ -390,7 +390,7 @@ def format_extract_progress(index: int, total: int, item) -> str:
     )
 
 
-def main():
+def main(argv=None):
     parser = argparse.ArgumentParser()
     parser.add_argument("pak")
     parser.add_argument("--out", default="unpacked")
@@ -399,7 +399,7 @@ def main():
     parser.add_argument("--contains", nargs="*")
     parser.add_argument("--kind2", type=int, choices=[3, 4], default=4, help=argparse.SUPPRESS)
     parser.add_argument("--debug-at", type=lambda x: int(x, 0))
-    args = parser.parse_args()
+    args = parser.parse_args(argv)
 
     pak_path = Path(args.pak)
 
