@@ -23,6 +23,8 @@ GENERATE_ICONS_ALIASES = Setting("SC_GENERATE_ICONS_ALIASES", "generated/aliases
 # CDB sheet to generate icons from (each row uses its own icon). "item" gives
 # every item its own icon; an empty value scans all sheets with the file filter.
 GENERATE_ICONS_SHEET = Setting("SC_GENERATE_ICONS_SHEET", "item")
+# Icon output image format: "webp" (default, small; good for web/Discord) or "png".
+GENERATE_ICONS_FORMAT = Setting("SC_GENERATE_ICONS_FORMAT", "webp")
 DEDUPLICATE_ICONS_MANIFEST = Setting("SC_DEDUPLICATE_ICONS_MANIFEST", "generated/icons_manifest.json")
 
 # Order groups shared settings first, then per-command settings. Used to
@@ -39,5 +41,6 @@ ALL_SETTINGS = [
     GENERATE_ICONS_MANIFEST,
     GENERATE_ICONS_ALIASES,
     GENERATE_ICONS_SHEET,
+    GENERATE_ICONS_FORMAT,
     DEDUPLICATE_ICONS_MANIFEST,
 ]

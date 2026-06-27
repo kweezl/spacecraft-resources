@@ -20,9 +20,24 @@ class GenerateIconsCommandTests(unittest.TestCase):
                 "--manifest", "generated/icons_manifest.json",
                 "--aliases", "generated/aliases.json",
                 "--sheet", "item",
+                "--format", "webp",
                 "--dedup",
             ],
         )
+
+    def test_format_env_overrides_default(self):
+        with mock.patch.dict(os.environ, {"SC_GENERATE_ICONS_FORMAT": "png"}, clear=True):
+            with mock.patch("generate_icons.main", return_value=0) as m:
+                cmd.run()
+        argv = m.call_args.args[0]
+        self.assertEqual(argv[argv.index("--format") + 1], "png")
+
+    def test_format_cli_overrides_env(self):
+        with mock.patch.dict(os.environ, {"SC_GENERATE_ICONS_FORMAT": "png"}, clear=True):
+            with mock.patch("generate_icons.main", return_value=0) as m:
+                cmd.run(fmt="webp")
+        argv = m.call_args.args[0]
+        self.assertEqual(argv[argv.index("--format") + 1], "webp")
 
     def test_sheet_env(self):
         with mock.patch.dict(os.environ, {"SC_GENERATE_ICONS_SHEET": "resource"}, clear=True):

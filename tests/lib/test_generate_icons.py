@@ -210,6 +210,7 @@ class GenerateIconsDedupTests(unittest.TestCase):
                 dry_run=False,
                 dedup=True,
                 aliases_path=aliases_path,
+                fmt="png",
             )
 
             self.assertEqual(count, 3)
@@ -243,11 +244,44 @@ class GenerateIconsDedupTests(unittest.TestCase):
                 dry_run=False,
                 dedup=False,
                 aliases_path=aliases_path,
+                fmt="png",
             )
 
             pngs = sorted(p.name for p in out_dir.glob("*.png"))
             self.assertEqual(pngs, ["A.png", "B.png", "C.png"])
             self.assertFalse(aliases_path.exists(), "aliases.json must not be written without dedup")
+
+    def test_webp_format_writes_valid_webp_files(self):
+        from PIL import Image
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            cdb_path, out_dir, manifest_path, aliases_path = self._make_project(root)
+
+            generate_icons.generate_icons(
+                cdb_path=cdb_path,
+                assets_root=root,
+                out_dir=out_dir,
+                manifest_path=manifest_path,
+                allowed_icon_files=None,
+                recolor=True,
+                clean=False,
+                dry_run=False,
+                dedup=True,
+                aliases_path=aliases_path,
+                fmt="webp",
+            )
+
+            names = sorted(p.name for p in out_dir.glob("*.webp"))
+            self.assertEqual(names, ["A.webp", "C.webp"])
+            self.assertEqual(list(out_dir.glob("*.png")), [])
+
+            aliases = json.loads(aliases_path.read_text(encoding="utf-8"))
+            self.assertEqual(aliases["icons"]["B"], "A.webp")
+
+            with Image.open(out_dir / "A.webp") as img:
+                self.assertEqual(img.format, "WEBP")
+                self.assertEqual(img.size, (64, 64))
 
 
 if __name__ == "__main__":
