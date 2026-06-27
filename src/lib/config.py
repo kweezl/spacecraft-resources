@@ -9,6 +9,10 @@ class Setting:
 
 DATA = Setting("SC_DATA", "unpacked/data.cdb")
 ASSETS = Setting("SC_ASSETS", "unpacked")
+# The .pak path has no sensible built-in default; an empty default means
+# "required" — the extract command errors if neither the argument nor the env
+# var supplies it.
+EXTRACT_PAK = Setting("SC_EXTRACT_PAK", "")
 EXTRACT_OUT = Setting("SC_EXTRACT_OUT", "unpacked")
 PARSE_ITEMS_OUT = Setting("SC_PARSE_ITEMS_OUT", "generated/items.json")
 PARSE_TRANSLATIONS_OUT = Setting("SC_PARSE_TRANSLATIONS_OUT", "generated/i18n")
@@ -22,6 +26,7 @@ DEDUPLICATE_ICONS_MANIFEST = Setting("SC_DEDUPLICATE_ICONS_MANIFEST", "generated
 ALL_SETTINGS = [
     DATA,
     ASSETS,
+    EXTRACT_PAK,
     EXTRACT_OUT,
     PARSE_ITEMS_OUT,
     PARSE_TRANSLATIONS_OUT,
