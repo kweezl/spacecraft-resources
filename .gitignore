@@ -238,3 +238,6 @@ unpacked/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Design specs and implementation plans (kept local, not committed)
+docs/
