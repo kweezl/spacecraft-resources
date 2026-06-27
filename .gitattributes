@@ -1,2 +1,1 @@
-generated/icons/*.png filter=lfs diff=lfs merge=lfs -text
 generated/icons/*.webp filter=lfs diff=lfs merge=lfs -text
