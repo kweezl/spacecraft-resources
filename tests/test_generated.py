@@ -127,6 +127,20 @@ class JsonValidityTests(unittest.TestCase):
             self.assertEqual(entry.get("id"), key, f"{key}: 'id' must match its key")
             self.assertIsInstance(entry.get("type"), str, f"{key}: missing string 'type'")
 
+    def test_craft_schema(self):
+        data = self._load(GENERATED / "craft.json")
+        recipes = data.get("recipes")
+        self.assertIsInstance(recipes, dict, "missing 'recipes' object")
+        self.assertEqual(data.get("count"), len(recipes), "'count' must match recipe total")
+        for key, entry in recipes.items():
+            self.assertIsInstance(entry, dict, f"{key}: entry not an object")
+            self.assertEqual(entry.get("id"), key, f"{key}: 'id' must match its key")
+            for io_field in ("inputs", "outputs"):
+                self.assertIsInstance(entry.get(io_field), list, f"{key}: '{io_field}' not a list")
+                for io in entry[io_field]:
+                    self.assertIn("item", io, f"{key}: {io_field} entry missing 'item'")
+                    self.assertIn("qty", io, f"{key}: {io_field} entry missing explicit 'qty'")
+
     def test_icons_manifest_schema(self):
         data = self._load(GENERATED / "icons_manifest.json")
         icons = data.get("icons")
