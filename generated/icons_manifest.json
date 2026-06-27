@@ -2,787 +2,13 @@
   "data": "unpacked/data.cdb",
   "assets": "unpacked",
   "out": "generated/icons",
-  "count": 610,
+  "count": 571,
   "icons": {
-    "Base": {
-      "id": "Base",
-      "name": null,
-      "sheet": "icon",
-      "output": "generated/icons/Base.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 18,
-        "y": 9,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "Instance": {
-      "id": "Instance",
-      "name": null,
-      "sheet": "icon",
-      "output": "generated/icons/Instance.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 13,
-        "y": 3,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "DepositExploited": {
-      "id": "DepositExploited",
-      "name": null,
-      "sheet": "icon",
-      "output": "generated/icons/DepositExploited.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 17,
-        "y": 9,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "BaliseInstance": {
-      "id": "BaliseInstance",
-      "name": "Instance Balise Placeholder",
-      "sheet": "resource",
-      "output": "generated/icons/Instance.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 13,
-        "y": 3,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "IronDeposit": {
-      "id": "IronDeposit",
-      "name": "Iron Deposit",
-      "sheet": "resource",
-      "output": "generated/icons/IronDeposit.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64.png",
-        "size": 64,
-        "x": 0,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "color": {
-        "colors": [
-          "#2F323B",
-          "#665C5C",
-          "#A8A8A8"
-        ],
-        "positions": [
-          0.0,
-          0.46875,
-          1.0
-        ]
-      }
-    },
-    "IronNuggetDeposit": {
-      "id": "IronNuggetDeposit",
-      "name": "Dense Iron Deposit",
-      "sheet": "resource",
-      "output": "generated/icons/IronNuggetDeposit.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64.png",
-        "size": 64,
-        "x": 6,
-        "y": 5,
-        "width": 1,
-        "height": 1
-      },
-      "color": {
-        "colors": [
-          "#2F323B",
-          "#665C5C",
-          "#A8A8A8"
-        ],
-        "positions": [
-          0.0,
-          0.46875,
-          1.0
-        ]
-      }
-    },
-    "CoalDeposit": {
-      "id": "CoalDeposit",
-      "name": "Coal Deposit",
-      "sheet": "resource",
-      "output": "generated/icons/CoalDeposit.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64.png",
-        "size": 64,
-        "x": 0,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "color": {
-        "colors": [
-          "#2A2A2F",
-          "#3E3E46",
-          "#4B4B4B"
-        ],
-        "positions": [
-          0.0,
-          0.5065104365348816,
-          1.0
-        ]
-      }
-    },
-    "SulfurDeposit": {
-      "id": "SulfurDeposit",
-      "name": "Sulfur Deposit",
-      "sheet": "resource",
-      "output": "generated/icons/SulfurDeposit.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64.png",
-        "size": 64,
-        "x": 0,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "color": {
-        "colors": [
-          "#FEE433",
-          "#B0C26A",
-          "#7D746E"
-        ],
-        "positions": [
-          0.0,
-          0.427734375,
-          0.638671875
-        ]
-      }
-    },
-    "SandstoneDeposit": {
-      "id": "SandstoneDeposit",
-      "name": "Sandstone Deposit",
-      "sheet": "resource",
-      "output": "generated/icons/SandstoneDeposit.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64.png",
-        "size": 64,
-        "x": 0,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "color": {
-        "colors": [
-          "#A37E4A",
-          "#E0B67E",
-          "#EABDB1",
-          "#DFC0AD"
-        ],
-        "positions": [
-          0.0,
-          0.3945314288139343,
-          0.7304689288139343,
-          0.9765625
-        ]
-      }
-    },
-    "CopperDeposit": {
-      "id": "CopperDeposit",
-      "name": "Copper Deposit",
-      "sheet": "resource",
-      "output": "generated/icons/CopperDeposit.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64.png",
-        "size": 64,
-        "x": 0,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "color": {
-        "colors": [
-          "#6E583F",
-          "#916A4F",
-          "#B66B57",
-          "#F68567"
-        ],
-        "positions": [
-          0.0,
-          0.3138020932674408,
-          0.7278646230697632,
-          1.0
-        ]
-      }
-    },
-    "CopperNuggetDeposit": {
-      "id": "CopperNuggetDeposit",
-      "name": "Dense Copper Deposit",
-      "sheet": "resource",
-      "output": "generated/icons/CopperNuggetDeposit.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64.png",
-        "size": 64,
-        "x": 6,
-        "y": 5,
-        "width": 1,
-        "height": 1
-      },
-      "color": {
-        "colors": [
-          "#6E583F",
-          "#916A4F",
-          "#B66B57",
-          "#F68567"
-        ],
-        "positions": [
-          0.0,
-          0.3138020932674408,
-          0.7278646230697632,
-          1.0
-        ]
-      }
-    },
-    "TitaniumDeposit": {
-      "id": "TitaniumDeposit",
-      "name": "Titanium Deposit",
-      "sheet": "resource",
-      "output": "generated/icons/TitaniumDeposit.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64.png",
-        "size": 64,
-        "x": 0,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "color": {
-        "colors": [
-          "#465B75",
-          "#ACC7DC"
-        ],
-        "positions": [
-          0.0,
-          1.0
-        ]
-      }
-    },
-    "VanadiumDeposit": {
-      "id": "VanadiumDeposit",
-      "name": "Vanadium Deposit",
-      "sheet": "resource",
-      "output": "generated/icons/VanadiumDeposit.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64.png",
-        "size": 64,
-        "x": 0,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "color": {
-        "colors": [
-          "#CF5902",
-          "#CD4A38",
-          "#FFB400",
-          "#CF5902"
-        ],
-        "positions": [
-          0.0,
-          0.3190104365348816,
-          0.6809896230697632,
-          0.9674479365348816
-        ]
-      }
-    },
-    "PyriteDeposit": {
-      "id": "PyriteDeposit",
-      "name": "Pyrite Deposit",
-      "sheet": "resource",
-      "output": "generated/icons/PyriteDeposit.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64.png",
-        "size": 64,
-        "x": 2,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "color": {
-        "colors": [
-          "#A59450",
-          "#9BB799",
-          "#DAFADE",
-          "#E2D64F"
-        ],
-        "positions": [
-          0.015625,
-          0.3606770932674408,
-          0.609375,
-          1.0
-        ]
-      }
-    },
-    "AluDeposit": {
-      "id": "AluDeposit",
-      "name": "Aluminum Deposit",
-      "sheet": "resource",
-      "output": "generated/icons/AluDeposit.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64.png",
-        "size": 64,
-        "x": 0,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "color": {
-        "colors": [
-          "#6E6E6E",
-          "#787B7B",
-          "#ECDADA",
-          "#B4B4B4"
-        ],
-        "positions": [
-          0.0,
-          0.40625,
-          0.6627604365348816,
-          1.0
-        ]
-      }
-    },
-    "AluNuggetDeposit": {
-      "id": "AluNuggetDeposit",
-      "name": "Dense Aluminum Deposit",
-      "sheet": "resource",
-      "output": "generated/icons/AluNuggetDeposit.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64.png",
-        "size": 64,
-        "x": 6,
-        "y": 5,
-        "width": 1,
-        "height": 1
-      },
-      "color": {
-        "colors": [
-          "#6E6E6E",
-          "#787B7B",
-          "#ECDADA",
-          "#B4B4B4"
-        ],
-        "positions": [
-          0.0,
-          0.40625,
-          0.6627604365348816,
-          1.0
-        ]
-      }
-    },
-    "PlatinumDeposit": {
-      "id": "PlatinumDeposit",
-      "name": "Platinum Deposit",
-      "sheet": "resource",
-      "output": "generated/icons/PlatinumDeposit.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64.png",
-        "size": 64,
-        "x": 0,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "color": {
-        "colors": [
-          "#635944",
-          "#E3D5B9",
-          "#ECDADA",
-          "#A1906D"
-        ],
-        "positions": [
-          0.0,
-          0.40625,
-          0.6627604365348816,
-          1.0
-        ]
-      }
-    },
-    "PlatNuggetDeposit": {
-      "id": "PlatNuggetDeposit",
-      "name": "Dense Platinum Deposit",
-      "sheet": "resource",
-      "output": "generated/icons/PlatNuggetDeposit.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64.png",
-        "size": 64,
-        "x": 6,
-        "y": 5,
-        "width": 1,
-        "height": 1
-      },
-      "color": {
-        "colors": [
-          "#635944",
-          "#E3D5B9",
-          "#ECDADA",
-          "#A1906D"
-        ],
-        "positions": [
-          0.0,
-          0.40625,
-          0.6627604365348816,
-          1.0
-        ]
-      }
-    },
-    "TungstenDeposit": {
-      "id": "TungstenDeposit",
-      "name": "Tungsten Deposit",
-      "sheet": "resource",
-      "output": "generated/icons/TungstenDeposit.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64.png",
-        "size": 64,
-        "x": 0,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      },
-      "color": {
-        "colors": [
-          "#506323",
-          "#AABC80",
-          "#748254"
-        ],
-        "positions": [
-          0.0078125,
-          0.60546875,
-          1.0
-        ]
-      }
-    },
-    "WaterDeposit": {
-      "id": "WaterDeposit",
-      "name": "Brine Pool",
-      "sheet": "resource",
-      "output": "generated/icons/WaterDeposit.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64.png",
-        "size": 64,
-        "x": 14,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "color": {
-        "colors": [
-          "#30465A",
-          "#5685A9",
-          "#7CB5C0",
-          "#6590C1"
-        ],
-        "positions": [
-          0.0,
-          0.40625,
-          0.6627604365348816,
-          0.97265625
-        ]
-      }
-    },
-    "VitriolDeposit": {
-      "id": "VitriolDeposit",
-      "name": "Vitriol Pool",
-      "sheet": "resource",
-      "output": "generated/icons/VitriolDeposit.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64.png",
-        "size": 64,
-        "x": 14,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "color": {
-        "colors": [
-          "#687C2D",
-          "#AEDD48"
-        ],
-        "positions": [
-          0.0,
-          0.61328125
-        ]
-      }
-    },
-    "MercuryDeposit": {
-      "id": "MercuryDeposit",
-      "name": "Mercury Pool",
-      "sheet": "resource",
-      "output": "generated/icons/MercuryDeposit.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64.png",
-        "size": 64,
-        "x": 14,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "color": {
-        "colors": [
-          "#6E6E6E",
-          "#787B7B",
-          "#ECDADA",
-          "#B4B4B4"
-        ],
-        "positions": [
-          0.0,
-          0.40625,
-          0.6627604365348816,
-          1.0
-        ]
-      }
-    },
-    "SpaceWheatCore": {
-      "id": "SpaceWheatCore",
-      "name": "Strange Thicket",
-      "sheet": "resource",
-      "output": "generated/icons/SpaceWheatCore.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64.png",
-        "size": 64,
-        "x": 14,
-        "y": 4,
-        "width": 1,
-        "height": 1
-      },
-      "color": {
-        "colors": [
-          "#496302",
-          "#9AAB4D"
-        ],
-        "positions": [
-          0.0,
-          1.0
-        ]
-      }
-    },
-    "SpaceWheatRoot": {
-      "id": "SpaceWheatRoot",
-      "name": "Spacekorn Root",
-      "sheet": "resource",
-      "output": "generated/icons/SpaceWheatRoot.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64.png",
-        "size": 64,
-        "x": 14,
-        "y": 4,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "RockwoodCore": {
-      "id": "RockwoodCore",
-      "name": "Petrified Grove",
-      "sheet": "resource",
-      "output": "generated/icons/SpaceWheatCore.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64.png",
-        "size": 64,
-        "x": 14,
-        "y": 4,
-        "width": 1,
-        "height": 1
-      },
-      "color": {
-        "colors": [
-          "#496302",
-          "#9AAB4D"
-        ],
-        "positions": [
-          0.0,
-          1.0
-        ]
-      }
-    },
-    "RockwoodRoot": {
-      "id": "RockwoodRoot",
-      "name": "Rockwood Root",
-      "sheet": "resource",
-      "output": "generated/icons/SpaceWheatRoot.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64.png",
-        "size": 64,
-        "x": 14,
-        "y": 4,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "WaterGeyser": {
-      "id": "WaterGeyser",
-      "name": "Water Geyser",
-      "sheet": "resource",
-      "output": "generated/icons/WaterGeyser.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64.png",
-        "size": 64,
-        "x": 12,
-        "y": 5,
-        "width": 1,
-        "height": 1
-      },
-      "color": {
-        "colors": [
-          "#2D567C",
-          "#B9D1E3",
-          "#DAE9EC",
-          "#6D85A1"
-        ],
-        "positions": [
-          0.0,
-          0.40625,
-          0.6627604365348816,
-          1.0
-        ]
-      }
-    },
-    "BrineGeyser": {
-      "id": "BrineGeyser",
-      "name": "Brine Water Geyser",
-      "sheet": "resource",
-      "output": "generated/icons/BrineGeyser.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64.png",
-        "size": 64,
-        "x": 12,
-        "y": 5,
-        "width": 1,
-        "height": 1
-      },
-      "color": {
-        "colors": [
-          "#30465A",
-          "#5685A9",
-          "#7CB5C0",
-          "#6590C1"
-        ],
-        "positions": [
-          0.0,
-          0.40625,
-          0.6627604365348816,
-          0.97265625
-        ]
-      }
-    },
-    "VitriolGeyser": {
-      "id": "VitriolGeyser",
-      "name": "Vitriol Geyser",
-      "sheet": "resource",
-      "output": "generated/icons/VitriolGeyser.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64.png",
-        "size": 64,
-        "x": 12,
-        "y": 5,
-        "width": 1,
-        "height": 1
-      },
-      "color": {
-        "colors": [
-          "#687C2D",
-          "#AEDD48"
-        ],
-        "positions": [
-          0.0,
-          0.61328125
-        ]
-      }
-    },
-    "MercuryGeyser": {
-      "id": "MercuryGeyser",
-      "name": "Mercury Geyser",
-      "sheet": "resource",
-      "output": "generated/icons/MercuryGeyser.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64.png",
-        "size": 64,
-        "x": 12,
-        "y": 5,
-        "width": 1,
-        "height": 1
-      },
-      "color": {
-        "colors": [
-          "#6E6E6E",
-          "#787B7B",
-          "#ECDADA",
-          "#B4B4B4"
-        ],
-        "positions": [
-          0.0,
-          0.40625,
-          0.6627604365348816,
-          1.0
-        ]
-      }
-    },
-    "HeliumGeyser": {
-      "id": "HeliumGeyser",
-      "name": "Helium Geyser",
-      "sheet": "resource",
-      "output": "generated/icons/HeliumGeyser.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64.png",
-        "size": 64,
-        "x": 16,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "color": {
-        "colors": [
-          "#FFA200",
-          "#F0FF00"
-        ],
-        "positions": [
-          0.017578125,
-          1.0
-        ]
-      }
-    },
-    "RadonGeyser": {
-      "id": "RadonGeyser",
-      "name": "Radon Geyser",
-      "sheet": "resource",
-      "output": "generated/icons/RadonGeyser.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64.png",
-        "size": 64,
-        "x": 16,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      },
-      "color": {
-        "colors": [
-          "#869C83",
-          "#8FF991"
-        ],
-        "positions": [
-          0.017578125,
-          1.0
-        ]
-      }
-    },
     "IronOre": {
       "id": "IronOre",
       "name": "Iron Ore",
       "sheet": "item",
-      "output": "generated/icons/IronDeposit.png",
+      "output": "generated/icons/IronOre.png",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -808,7 +34,7 @@
       "id": "IronNugget",
       "name": "Iron Nugget",
       "sheet": "item",
-      "output": "generated/icons/IronNuggetDeposit.png",
+      "output": "generated/icons/IronNugget.png",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -860,7 +86,7 @@
       "id": "Carbon",
       "name": "a-Carbon",
       "sheet": "item",
-      "output": "generated/icons/CoalDeposit.png",
+      "output": "generated/icons/Carbon.png",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -940,7 +166,7 @@
       "id": "CopperOre",
       "name": "Copper Ore",
       "sheet": "item",
-      "output": "generated/icons/CopperDeposit.png",
+      "output": "generated/icons/CopperOre.png",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -968,7 +194,7 @@
       "id": "CopperNugget",
       "name": "Copper Nugget",
       "sheet": "item",
-      "output": "generated/icons/CopperNuggetDeposit.png",
+      "output": "generated/icons/CopperNugget.png",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1132,7 +358,7 @@
       "id": "Sandstone",
       "name": "Silicate",
       "sheet": "item",
-      "output": "generated/icons/SandstoneDeposit.png",
+      "output": "generated/icons/Sandstone.png",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1244,7 +470,7 @@
       "id": "TitaniumOre",
       "name": "Titanium Ore",
       "sheet": "item",
-      "output": "generated/icons/TitaniumDeposit.png",
+      "output": "generated/icons/TitaniumOre.png",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1292,7 +518,7 @@
       "id": "AluminiumOre",
       "name": "Aluminum Ore",
       "sheet": "item",
-      "output": "generated/icons/AluDeposit.png",
+      "output": "generated/icons/AluminiumOre.png",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1320,7 +546,7 @@
       "id": "AluminiumNugget",
       "name": "Aluminum Nugget",
       "sheet": "item",
-      "output": "generated/icons/AluNuggetDeposit.png",
+      "output": "generated/icons/AluminiumNugget.png",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1434,7 +660,7 @@
       "id": "Pyrite",
       "name": "Pyrite",
       "sheet": "item",
-      "output": "generated/icons/PyriteDeposit.png",
+      "output": "generated/icons/Pyrite.png",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1520,7 +746,7 @@
       "id": "VanadiumOre",
       "name": "Vanadium Ore",
       "sheet": "item",
-      "output": "generated/icons/VanadiumDeposit.png",
+      "output": "generated/icons/VanadiumOre.png",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1576,7 +802,7 @@
       "id": "PlatinumOre",
       "name": "Platinum Ore",
       "sheet": "item",
-      "output": "generated/icons/PlatinumDeposit.png",
+      "output": "generated/icons/PlatinumOre.png",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -1604,7 +830,7 @@
       "id": "PlatinumNugget",
       "name": "Platinum Nugget",
       "sheet": "item",
-      "output": "generated/icons/PlatNuggetDeposit.png",
+      "output": "generated/icons/PlatinumNugget.png",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2228,7 +1454,7 @@
       "id": "Water_Brine",
       "name": "Brine Water",
       "sheet": "item",
-      "output": "generated/icons/WaterDeposit.png",
+      "output": "generated/icons/Water_Brine.png",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -2396,7 +1622,7 @@
       "id": "Vitriol",
       "name": "Sulphuric Acid",
       "sheet": "item",
-      "output": "generated/icons/VitriolDeposit.png",
+      "output": "generated/icons/Vitriol.png",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -4350,6 +3576,34 @@
           0.7304689288139343,
           0.9765625
         ]
+      }
+    },
+    "Antimatter_Empty": {
+      "id": "Antimatter_Empty",
+      "name": "Antimatter Core (empty)",
+      "sheet": "item",
+      "output": "generated/icons/Antimatter_Empty.png",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Antimatter_Full": {
+      "id": "Antimatter_Full",
+      "name": "Antimatter Core (full)",
+      "sheet": "item",
+      "output": "generated/icons/Antimatter_Empty.png",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
       }
     },
     "MissileAirframe_Small": {
@@ -8330,6 +7584,62 @@
         ]
       }
     },
+    "IsotopicGenerator": {
+      "id": "IsotopicGenerator",
+      "name": "Isotopic Generator",
+      "sheet": "item",
+      "output": "generated/icons/Antimatter_Empty.png",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "FusionGenerator": {
+      "id": "FusionGenerator",
+      "name": "Fusion Generator",
+      "sheet": "item",
+      "output": "generated/icons/Antimatter_Empty.png",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "PowerSharerPH": {
+      "id": "PowerSharerPH",
+      "name": "Power Projector",
+      "sheet": "item",
+      "output": "generated/icons/Antimatter_Empty.png",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Nitrogenerator": {
+      "id": "Nitrogenerator",
+      "name": "LR Nitrogenerator",
+      "sheet": "item",
+      "output": "generated/icons/Antimatter_Empty.png",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
     "CarbonGenerator": {
       "id": "CarbonGenerator",
       "name": "Small Fuel Generator",
@@ -9172,6 +8482,62 @@
         ]
       }
     },
+    "Scanner0": {
+      "id": "Scanner0",
+      "name": "Scanalyzer Alpha",
+      "sheet": "item",
+      "output": "generated/icons/Scanner0.png",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 27,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      },
+      "color": {
+        "colors": [
+          "#2F323B",
+          "#665C5C",
+          "#E9D6D6",
+          "#9A9A9A"
+        ],
+        "positions": [
+          0.0,
+          0.251953125,
+          0.623046875,
+          0.919921875
+        ]
+      }
+    },
+    "Scanner1": {
+      "id": "Scanner1",
+      "name": "Scanalyzer Beta",
+      "sheet": "item",
+      "output": "generated/icons/Scanner0.png",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 27,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      },
+      "color": {
+        "colors": [
+          "#2F323B",
+          "#665C5C",
+          "#E9D6D6",
+          "#9A9A9A"
+        ],
+        "positions": [
+          0.0,
+          0.251953125,
+          0.623046875,
+          0.919921875
+        ]
+      }
+    },
     "MiningTool0": {
       "id": "MiningTool0",
       "name": "Crude Mining Laser",
@@ -9688,6 +9054,34 @@
         ]
       }
     },
+    "HypergateBeacon": {
+      "id": "HypergateBeacon",
+      "name": "Hypergate Beacon",
+      "sheet": "item",
+      "output": "generated/icons/Antimatter_Empty.png",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "LockedCapsule": {
+      "id": "LockedCapsule",
+      "name": "Personal Capsule",
+      "sheet": "item",
+      "output": "generated/icons/Antimatter_Empty.png",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
     "BeaconKey": {
       "id": "BeaconKey",
       "name": "Quantum Signature",
@@ -9716,6 +9110,20 @@
           0.7174479365348816,
           0.9674479365348816
         ]
+      }
+    },
+    "NitroCapsule": {
+      "id": "NitroCapsule",
+      "name": "Nitro Capsule",
+      "sheet": "item",
+      "output": "generated/icons/Antimatter_Empty.png",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
       }
     },
     "Cartridge_Iron": {
@@ -9882,6 +9290,48 @@
           0.70703125,
           1.0
         ]
+      }
+    },
+    "P_Jetpack": {
+      "id": "P_Jetpack",
+      "name": "Jetpack",
+      "sheet": "item",
+      "output": "generated/icons/Antimatter_Empty.png",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "P_JetpackV2": {
+      "id": "P_JetpackV2",
+      "name": "Jetpack v2",
+      "sheet": "item",
+      "output": "generated/icons/Antimatter_Empty.png",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "P_CritterPheromon": {
+      "id": "P_CritterPheromon",
+      "name": "Pheromone Mix",
+      "sheet": "item",
+      "output": "generated/icons/Antimatter_Empty.png",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
       }
     },
     "P_ThermoSuit": {
@@ -10990,6 +10440,34 @@
         ]
       }
     },
+    "Shuttle1": {
+      "id": "Shuttle1",
+      "name": "Freighter",
+      "sheet": "item",
+      "output": "generated/icons/Antimatter_Empty.png",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "PShuttle": {
+      "id": "PShuttle",
+      "name": "Power Shuttle",
+      "sheet": "item",
+      "output": "generated/icons/Antimatter_Empty.png",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
     "FPS_Instance_Entrance": {
       "id": "FPS_Instance_Entrance",
       "name": "FPS_Instance_Entrance",
@@ -11000,6 +10478,314 @@
         "size": 64,
         "x": 13,
         "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "SpaceStation0": {
+      "id": "SpaceStation0",
+      "name": "Threshold Station",
+      "sheet": "item",
+      "output": "generated/icons/SpaceStation0.png",
+      "source": {
+        "file": "ui/icons/icon_interface_fichier_export_vecto.png",
+        "size": 24,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "SpaceStation1": {
+      "id": "SpaceStation1",
+      "name": "Solar Alpha Station",
+      "sheet": "item",
+      "output": "generated/icons/SpaceStation0.png",
+      "source": {
+        "file": "ui/icons/icon_interface_fichier_export_vecto.png",
+        "size": 24,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "SpaceStation4": {
+      "id": "SpaceStation4",
+      "name": "Justice Station",
+      "sheet": "item",
+      "output": "generated/icons/SpaceStation0.png",
+      "source": {
+        "file": "ui/icons/icon_interface_fichier_export_vecto.png",
+        "size": 24,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "SpaceStation5": {
+      "id": "SpaceStation5",
+      "name": "Horizon Station",
+      "sheet": "item",
+      "output": "generated/icons/SpaceStation0.png",
+      "source": {
+        "file": "ui/icons/icon_interface_fichier_export_vecto.png",
+        "size": 24,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "SpaceStation2": {
+      "id": "SpaceStation2",
+      "name": "Terminus Station",
+      "sheet": "item",
+      "output": "generated/icons/SpaceStation0.png",
+      "source": {
+        "file": "ui/icons/icon_interface_fichier_export_vecto.png",
+        "size": 24,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "SpaceStation3": {
+      "id": "SpaceStation3",
+      "name": "Cairn Station",
+      "sheet": "item",
+      "output": "generated/icons/SpaceStation0.png",
+      "source": {
+        "file": "ui/icons/icon_interface_fichier_export_vecto.png",
+        "size": 24,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Knowledge_ShipControl": {
+      "id": "Knowledge_ShipControl",
+      "name": "Ship Controls",
+      "sheet": "item",
+      "output": "generated/icons/Knowledge_ShipControl.png",
+      "source": {
+        "file": "ui/icons/Icons_01.png",
+        "size": 128,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Knowledge_Landing": {
+      "id": "Knowledge_Landing",
+      "name": "Landing",
+      "sheet": "item",
+      "output": "generated/icons/Knowledge_ShipControl.png",
+      "source": {
+        "file": "ui/icons/Icons_01.png",
+        "size": 128,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Knowledge_Mining": {
+      "id": "Knowledge_Mining",
+      "name": "Mining",
+      "sheet": "item",
+      "output": "generated/icons/Knowledge_ShipControl.png",
+      "source": {
+        "file": "ui/icons/Icons_01.png",
+        "size": 128,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Knowledge_Gravite": {
+      "id": "Knowledge_Gravite",
+      "name": "Gravite",
+      "sheet": "item",
+      "output": "generated/icons/Knowledge_ShipControl.png",
+      "source": {
+        "file": "ui/icons/Icons_01.png",
+        "size": 128,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Knowledge_OrganicResource": {
+      "id": "Knowledge_OrganicResource",
+      "name": "Organic Resources and Farming",
+      "sheet": "item",
+      "output": "generated/icons/Knowledge_ShipControl.png",
+      "source": {
+        "file": "ui/icons/Icons_01.png",
+        "size": 128,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Knowledge_Exploration": {
+      "id": "Knowledge_Exploration",
+      "name": "Planet Exploration",
+      "sheet": "item",
+      "output": "generated/icons/Knowledge_ShipControl.png",
+      "source": {
+        "file": "ui/icons/Icons_01.png",
+        "size": 128,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Knowledge_Science": {
+      "id": "Knowledge_Science",
+      "name": "Science",
+      "sheet": "item",
+      "output": "generated/icons/Knowledge_ShipControl.png",
+      "source": {
+        "file": "ui/icons/Icons_01.png",
+        "size": 128,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Knowledge_BaseBuilding": {
+      "id": "Knowledge_BaseBuilding",
+      "name": "Base Building",
+      "sheet": "item",
+      "output": "generated/icons/Knowledge_ShipControl.png",
+      "source": {
+        "file": "ui/icons/Icons_01.png",
+        "size": 128,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Knowledge_FTL": {
+      "id": "Knowledge_FTL",
+      "name": "Faster-Than-Light Travel",
+      "sheet": "item",
+      "output": "generated/icons/Knowledge_ShipControl.png",
+      "source": {
+        "file": "ui/icons/Icons_01.png",
+        "size": 128,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Knowledge_Wreck": {
+      "id": "Knowledge_Wreck",
+      "name": "Shipwreck",
+      "sheet": "item",
+      "output": "generated/icons/Knowledge_ShipControl.png",
+      "source": {
+        "file": "ui/icons/Icons_01.png",
+        "size": 128,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Knowledge_ShipEditor": {
+      "id": "Knowledge_ShipEditor",
+      "name": "Ship Editor",
+      "sheet": "item",
+      "output": "generated/icons/Knowledge_ShipControl.png",
+      "source": {
+        "file": "ui/icons/Icons_01.png",
+        "size": 128,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Knowledge_Fluid": {
+      "id": "Knowledge_Fluid",
+      "name": "Liquid and Gas",
+      "sheet": "item",
+      "output": "generated/icons/Knowledge_ShipControl.png",
+      "source": {
+        "file": "ui/icons/Icons_01.png",
+        "size": 128,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Knowledge_Shell": {
+      "id": "Knowledge_Shell",
+      "name": "Mineral Shells",
+      "sheet": "item",
+      "output": "generated/icons/Knowledge_ShipControl.png",
+      "source": {
+        "file": "ui/icons/Icons_01.png",
+        "size": 128,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Knowledge_Radioactivity": {
+      "id": "Knowledge_Radioactivity",
+      "name": "Radioactivity",
+      "sheet": "item",
+      "output": "generated/icons/Knowledge_ShipControl.png",
+      "source": {
+        "file": "ui/icons/Icons_01.png",
+        "size": 128,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Knowledge_Heat": {
+      "id": "Knowledge_Heat",
+      "name": "Heat and Cold",
+      "sheet": "item",
+      "output": "generated/icons/Knowledge_ShipControl.png",
+      "source": {
+        "file": "ui/icons/Icons_01.png",
+        "size": 128,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Knowledge_Instances": {
+      "id": "Knowledge_Instances",
+      "name": "Restricted Area",
+      "sheet": "item",
+      "output": "generated/icons/Knowledge_ShipControl.png",
+      "source": {
+        "file": "ui/icons/Icons_01.png",
+        "size": 128,
+        "x": 0,
+        "y": 0,
         "width": 1,
         "height": 1
       }
@@ -11368,6 +11154,20 @@
         ]
       }
     },
+    "B_FTLGatherer": {
+      "id": "B_FTLGatherer",
+      "name": "Cosmic Condenser",
+      "sheet": "item",
+      "output": "generated/icons/Antimatter_Empty.png",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
     "B_Crystaliser": {
       "id": "B_Crystaliser",
       "name": "Crystallizer",
@@ -11422,6 +11222,20 @@
           0.673828125,
           0.9765625
         ]
+      }
+    },
+    "B_AntimatterSynthPH": {
+      "id": "B_AntimatterSynthPH",
+      "name": "Antimatter Synthesizer",
+      "sheet": "item",
+      "output": "generated/icons/Antimatter_Empty.png",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
       }
     },
     "B_LaboPH": {
@@ -12012,6 +11826,72 @@
         ]
       }
     },
+    "B_AtmoDome": {
+      "id": "B_AtmoDome",
+      "name": "Atmo-dome Generator",
+      "sheet": "item",
+      "output": "generated/icons/B_AtmoDome.png",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "color": {
+        "colors": [
+          "#000000",
+          "#FFFFFF"
+        ],
+        "positions": [
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "B_Observatory": {
+      "id": "B_Observatory",
+      "name": "Observatory",
+      "sheet": "item",
+      "output": "generated/icons/Antimatter_Empty.png",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "B_Hypergate": {
+      "id": "B_Hypergate",
+      "name": "Hypergate",
+      "sheet": "item",
+      "output": "generated/icons/Antimatter_Empty.png",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "B_SunStation": {
+      "id": "B_SunStation",
+      "name": "Sun Station",
+      "sheet": "item",
+      "output": "generated/icons/Antimatter_Empty.png",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
     "B_DecoTest": {
       "id": "B_DecoTest",
       "name": "Test deco",
@@ -12208,11 +12088,259 @@
         ]
       }
     },
+    "EmptyInventory": {
+      "id": "EmptyInventory",
+      "name": "Empty",
+      "sheet": "item",
+      "output": "generated/icons/EmptyInventory.png",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_graph.png",
+        "size": 32,
+        "x": 21,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "EmptyAttachment": {
+      "id": "EmptyAttachment",
+      "name": "",
+      "sheet": "item",
+      "output": "generated/icons/Knowledge_ShipControl.png",
+      "source": {
+        "file": "ui/icons/Icons_01.png",
+        "size": 128,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Unknown": {
+      "id": "Unknown",
+      "name": "???",
+      "sheet": "item",
+      "output": "generated/icons/Knowledge_ShipControl.png",
+      "source": {
+        "file": "ui/icons/Icons_01.png",
+        "size": 128,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Deprecated": {
+      "id": "Deprecated",
+      "name": "Debris",
+      "sheet": "item",
+      "output": "generated/icons/Knowledge_ShipControl.png",
+      "source": {
+        "file": "ui/icons/Icons_01.png",
+        "size": 128,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "EmptySlot": {
+      "id": "EmptySlot",
+      "name": "Select...",
+      "sheet": "item",
+      "output": "generated/icons/EmptyInventory.png",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_graph.png",
+        "size": 32,
+        "x": 21,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "EmptyCraft": {
+      "id": "EmptyCraft",
+      "name": "Select...",
+      "sheet": "item",
+      "output": "generated/icons/EmptyInventory.png",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_graph.png",
+        "size": 32,
+        "x": 21,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "EmptyFuel": {
+      "id": "EmptyFuel",
+      "name": "Select...",
+      "sheet": "item",
+      "output": "generated/icons/EmptyInventory.png",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_graph.png",
+        "size": 32,
+        "x": 21,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "EmptyLiquid": {
+      "id": "EmptyLiquid",
+      "name": "Select...",
+      "sheet": "item",
+      "output": "generated/icons/EmptyInventory.png",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_graph.png",
+        "size": 32,
+        "x": 21,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "EmptyPatch": {
+      "id": "EmptyPatch",
+      "name": "Add patch...",
+      "sheet": "item",
+      "output": "generated/icons/EmptyPatch.png",
+      "source": {
+        "file": "ui/actionIcons.png",
+        "size": 24,
+        "x": 1,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Credits": {
+      "id": "Credits",
+      "name": "Credits",
+      "sheet": "item",
+      "output": "generated/icons/Credits.png",
+      "source": {
+        "file": "ui/icons/icon_interface_fichier_export_vecto.png",
+        "size": 24,
+        "x": 20,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "CorpoCredits": {
+      "id": "CorpoCredits",
+      "name": "Corpo Credits",
+      "sheet": "item",
+      "output": "generated/icons/CorpoCredits.png",
+      "source": {
+        "file": "ui/icons/actionIcons.png",
+        "size": 24,
+        "x": 1,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "SoftMoney": {
+      "id": "SoftMoney",
+      "name": "NXT",
+      "sheet": "item",
+      "output": "generated/icons/SoftMoney.png",
+      "source": {
+        "file": "ui/icons/actionIcons.png",
+        "size": 24,
+        "x": 6,
+        "y": 5,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "HardMoney": {
+      "id": "HardMoney",
+      "name": "PXE",
+      "sheet": "item",
+      "output": "generated/icons/HardMoney.png",
+      "source": {
+        "file": "ui/icons/actionIcons.png",
+        "size": 24,
+        "x": 6,
+        "y": 5,
+        "width": 1,
+        "height": 1
+      },
+      "color": {
+        "colors": [
+          "#E2E50A",
+          "#FDB900"
+        ],
+        "positions": [
+          0.0,
+          0.97265625
+        ]
+      }
+    },
+    "CorpoReputation": {
+      "id": "CorpoReputation",
+      "name": "Reputation",
+      "sheet": "item",
+      "output": "generated/icons/CorpoReputation.png",
+      "source": {
+        "file": "ui/icons/icon_interface_fichier_export_vecto.png",
+        "size": 24,
+        "x": 9,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "LicensePoints": {
+      "id": "LicensePoints",
+      "name": "License Points",
+      "sheet": "item",
+      "output": "generated/icons/LicensePoints.png",
+      "source": {
+        "file": "ui/icons/icon_interface_fichier_export_vecto.png",
+        "size": 24,
+        "x": 19,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "RandomLoot": {
+      "id": "RandomLoot",
+      "name": "Bundle",
+      "sheet": "item",
+      "output": "generated/icons/RandomLoot.png",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 22,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "EditorDecal": {
+      "id": "EditorDecal",
+      "name": "Decal",
+      "sheet": "item",
+      "output": "generated/icons/Antimatter_Empty.png",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
     "TestReadable": {
       "id": "TestReadable",
       "name": "Test Readable",
       "sheet": "item",
-      "output": "generated/icons/IronDeposit.png",
+      "output": "generated/icons/IronOre.png",
       "source": {
         "file": "ui/icons/sprite_sheet_icon_64.png",
         "size": 64,
@@ -12232,6 +12360,20 @@
           0.46875,
           1.0
         ]
+      }
+    },
+    "Blueprint": {
+      "id": "Blueprint",
+      "name": "Blueprint",
+      "sheet": "item",
+      "output": "generated/icons/Blueprint.png",
+      "source": {
+        "file": "ui/icons/actionIcons.png",
+        "size": 24,
+        "x": 0,
+        "y": 4,
+        "width": 1,
+        "height": 1
       }
     },
     "Patch_SystemIntegration_1": {
@@ -13720,972 +13862,6 @@
           0.0,
           0.28515625
         ]
-      }
-    },
-    "QuestItem": {
-      "id": "QuestItem",
-      "name": "Contract Item",
-      "sheet": "itemType",
-      "output": "generated/icons/QuestItem.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 7,
-        "y": 3,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "DataDisc": {
-      "id": "DataDisc",
-      "name": "Data disc",
-      "sheet": "itemType",
-      "output": "generated/icons/QuestItem.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 7,
-        "y": 3,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "BeaconData": {
-      "id": "BeaconData",
-      "name": "Beacon Data",
-      "sheet": "itemType",
-      "output": "generated/icons/BeaconData.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 5,
-        "y": 9,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "Blueprint": {
-      "id": "Blueprint",
-      "name": "Blueprint",
-      "sheet": "itemType",
-      "output": "generated/icons/Blueprint.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 11,
-        "y": 4,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "Patch": {
-      "id": "Patch",
-      "name": "Patch",
-      "sheet": "itemType",
-      "output": "generated/icons/Patch.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 10,
-        "y": 4,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "PureComponents": {
-      "id": "PureComponents",
-      "name": "Material",
-      "sheet": "itemType",
-      "output": "generated/icons/PureComponents.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 1,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "Liquid": {
-      "id": "Liquid",
-      "name": "Liquid",
-      "sheet": "itemType",
-      "output": "generated/icons/Liquid.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 14,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "Gas": {
-      "id": "Gas",
-      "name": "Gas",
-      "sheet": "itemType",
-      "output": "generated/icons/Gas.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 16,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "Plasma": {
-      "id": "Plasma",
-      "name": "Plasma",
-      "sheet": "itemType",
-      "output": "generated/icons/Gas.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 16,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "Minerals": {
-      "id": "Minerals",
-      "name": "Gathering",
-      "sheet": "itemType",
-      "output": "generated/icons/Minerals.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 0,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "FactoredMaterial": {
-      "id": "FactoredMaterial",
-      "name": "Manufactured",
-      "sheet": "itemType",
-      "output": "generated/icons/FactoredMaterial.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 10,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "PlanetResource": {
-      "id": "PlanetResource",
-      "name": "Resource",
-      "sheet": "itemType",
-      "output": "generated/icons/PlanetResource.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 9,
-        "y": 4,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "FarmPlant": {
-      "id": "FarmPlant",
-      "name": "Farm Plant",
-      "sheet": "itemType",
-      "output": "generated/icons/FarmPlant.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 15,
-        "y": 4,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "ShipPart": {
-      "id": "ShipPart",
-      "name": "Ship Part",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipPart.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 14,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "ShipHull": {
-      "id": "ShipHull",
-      "name": "Hull Part",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipHull.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 3,
-        "y": 3,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "ShipHull_Steel": {
-      "id": "ShipHull_Steel",
-      "name": "Steel Hull Part",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipHull.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 3,
-        "y": 3,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "ShipHull_Steel_AluK": {
-      "id": "ShipHull_Steel_AluK",
-      "name": "Alu-K-plated Steel Hull Part",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipHull.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 3,
-        "y": 3,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "ShipHull_Titanium": {
-      "id": "ShipHull_Titanium",
-      "name": "Titanium Hull Part",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipHull.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 3,
-        "y": 3,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "ShipHull_Titanium_AluK": {
-      "id": "ShipHull_Titanium_AluK",
-      "name": "Alu-K-plated Titanium Hull Part",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipHull.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 3,
-        "y": 3,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "ShipHull_Platinum": {
-      "id": "ShipHull_Platinum",
-      "name": "Solid Frame Hull Part",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipHull.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 3,
-        "y": 3,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "ShipHull_Levinium": {
-      "id": "ShipHull_Levinium",
-      "name": "Levinium Hull Part",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipHull.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 3,
-        "y": 3,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "ShipHull_AlloyX": {
-      "id": "ShipHull_AlloyX",
-      "name": "Alloy X Hull Part",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipHull.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 3,
-        "y": 3,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "ShipHull_WreckOnly": {
-      "id": "ShipHull_WreckOnly",
-      "name": "[DEPRECATED BUT STILL USED IN SHIPWRECK]",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipHull.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 3,
-        "y": 3,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "ShipCockpit": {
-      "id": "ShipCockpit",
-      "name": "Cockpit",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipPart.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 14,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "ShipEngine": {
-      "id": "ShipEngine",
-      "name": "Thruster",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipEngine.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 17,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "ShipWing": {
-      "id": "ShipWing",
-      "name": "Wing",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipWing.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 8,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "ShipDecorative": {
-      "id": "ShipDecorative",
-      "name": "Decorative",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipDecorative.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 1,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "ShipTool": {
-      "id": "ShipTool",
-      "name": "External Module",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipTool.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 19,
-        "y": 2,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "ShipGatheringTools": {
-      "id": "ShipGatheringTools",
-      "name": "Gathering",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipTool.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 19,
-        "y": 2,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "ShipRadars": {
-      "id": "ShipRadars",
-      "name": "Radar",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipRadars.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 0,
-        "y": 3,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "ShipPowerTools": {
-      "id": "ShipPowerTools",
-      "name": "Solar Panel",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipPowerTools.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 17,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "ShipHeatTools": {
-      "id": "ShipHeatTools",
-      "name": "Heat Panel",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipHeatTools.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 15,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "ShipWeapon": {
-      "id": "ShipWeapon",
-      "name": "Weapon",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipWeapon.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 4,
-        "y": 3,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "ShipBooster": {
-      "id": "ShipBooster",
-      "name": "Booster",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipEngine.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 17,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "ShipLight": {
-      "id": "ShipLight",
-      "name": "Light",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipLight.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 3,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "ShipToolSpecial": {
-      "id": "ShipToolSpecial",
-      "name": "Specialized Tools",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipToolSpecial.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 1,
-        "y": 3,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "ShipModule": {
-      "id": "ShipModule",
-      "name": "Internal Module",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipModule.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 5,
-        "y": 2,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "ShipInventoryModules": {
-      "id": "ShipInventoryModules",
-      "name": "Storage Module",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipInventoryModules.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 8,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "ShipFTLModules": {
-      "id": "ShipFTLModules",
-      "name": "FTL Module",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipFTLModules.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 18,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "ShipShields": {
-      "id": "ShipShields",
-      "name": "Shield",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipShields.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 9,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "ShipPowerGenerators": {
-      "id": "ShipPowerGenerators",
-      "name": "Power Module",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipPowerTools.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 17,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "ShipBattery": {
-      "id": "ShipBattery",
-      "name": "Battery",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipBattery.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 9,
-        "y": 2,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "ShipHeatModule": {
-      "id": "ShipHeatModule",
-      "name": "Heat Module",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipHeatTools.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 15,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "ShipControlModule": {
-      "id": "ShipControlModule",
-      "name": "Control Mod",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipControlModule.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 14,
-        "y": 5,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "ShipAmmunition": {
-      "id": "ShipAmmunition",
-      "name": "Ammunition",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipAmmunition.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 13,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "BaseBuilding": {
-      "id": "BaseBuilding",
-      "name": "Base Building",
-      "sheet": "itemType",
-      "output": "generated/icons/Base.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 18,
-        "y": 9,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "Craft_RawResource": {
-      "id": "Craft_RawResource",
-      "name": "Mineral Processing",
-      "sheet": "itemType",
-      "output": "generated/icons/Minerals.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 0,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "Craft_CrystalSmelting": {
-      "id": "Craft_CrystalSmelting",
-      "name": "Crystal Processing",
-      "sheet": "itemType",
-      "output": "generated/icons/Craft_CrystalSmelting.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 2,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "Craft_Mixing": {
-      "id": "Craft_Mixing",
-      "name": "Mix",
-      "sheet": "itemType",
-      "output": "generated/icons/Craft_Mixing.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 16,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "Craft_Alloy": {
-      "id": "Craft_Alloy",
-      "name": "Alloy",
-      "sheet": "itemType",
-      "output": "generated/icons/PureComponents.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 1,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "Craft_IntermediaryComponent": {
-      "id": "Craft_IntermediaryComponent",
-      "name": "Material",
-      "sheet": "itemType",
-      "output": "generated/icons/Craft_IntermediaryComponent.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 2,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "Craft_CrystalLattice": {
-      "id": "Craft_CrystalLattice",
-      "name": "Crystal Geometry",
-      "sheet": "itemType",
-      "output": "generated/icons/Craft_CrystalLattice.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 9,
-        "y": 5,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "Craft_PlayerItem": {
-      "id": "Craft_PlayerItem",
-      "name": "Contractor Equipment",
-      "sheet": "itemType",
-      "output": "generated/icons/Craft_PlayerItem.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 17,
-        "y": 2,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "Craft_Tools": {
-      "id": "Craft_Tools",
-      "name": "External Module",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipTool.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 19,
-        "y": 2,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "Craft_Modules": {
-      "id": "Craft_Modules",
-      "name": "Internal Module",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipModule.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 5,
-        "y": 2,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "Craft_Casings": {
-      "id": "Craft_Casings",
-      "name": "Ship Component",
-      "sheet": "itemType",
-      "output": "generated/icons/Craft_Casings.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 7,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "Craft_Parts": {
-      "id": "Craft_Parts",
-      "name": "Ship Part",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipPart.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 14,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "Craft_Parts_Plating": {
-      "id": "Craft_Parts_Plating",
-      "name": "Ship Part Plating",
-      "sheet": "itemType",
-      "output": "generated/icons/Craft_Parts_Plating.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 3,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "Craft_Patch": {
-      "id": "Craft_Patch",
-      "name": "Patch",
-      "sheet": "itemType",
-      "output": "generated/icons/Patch.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 10,
-        "y": 4,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "Craft_BuildingKit": {
-      "id": "Craft_BuildingKit",
-      "name": "Factory Kit",
-      "sheet": "itemType",
-      "output": "generated/icons/Base.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 18,
-        "y": 9,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "Craft_Crystal": {
-      "id": "Craft_Crystal",
-      "name": "Crystallization",
-      "sheet": "itemType",
-      "output": "generated/icons/Craft_CrystalSmelting.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 2,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "Craft_StudyCrystal": {
-      "id": "Craft_StudyCrystal",
-      "name": "Crystal Sample",
-      "sheet": "itemType",
-      "output": "generated/icons/Craft_CrystalSmelting.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 2,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "Craft_StudyMineral": {
-      "id": "Craft_StudyMineral",
-      "name": "Mineral Sample",
-      "sheet": "itemType",
-      "output": "generated/icons/Minerals.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 0,
-        "y": 0,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "Craft_BottleIn": {
-      "id": "Craft_BottleIn",
-      "name": "Bottling",
-      "sheet": "itemType",
-      "output": "generated/icons/Craft_BottleIn.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 18,
-        "y": 3,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "Craft_BottleOut": {
-      "id": "Craft_BottleOut",
-      "name": "Unbottling",
-      "sheet": "itemType",
-      "output": "generated/icons/Liquid.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 14,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "Craft_Other": {
-      "id": "Craft_Other",
-      "name": "Other",
-      "sheet": "itemType",
-      "output": "generated/icons/ShipAmmunition.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 13,
-        "y": 1,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "PlayerItem": {
-      "id": "PlayerItem",
-      "name": "Contractor Equipment",
-      "sheet": "itemType",
-      "output": "generated/icons/Craft_PlayerItem.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 17,
-        "y": 2,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "Category_Craft": {
-      "id": "Category_Craft",
-      "name": "Craft",
-      "sheet": "itemType",
-      "output": "generated/icons/Category_Craft.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 4,
-        "y": 5,
-        "width": 1,
-        "height": 1
-      }
-    },
-    "Category_Blueprint": {
-      "id": "Category_Blueprint",
-      "name": "Blueprint",
-      "sheet": "itemType",
-      "output": "generated/icons/Blueprint.png",
-      "source": {
-        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
-        "size": 64,
-        "x": 11,
-        "y": 4,
-        "width": 1,
-        "height": 1
       }
     }
   }
