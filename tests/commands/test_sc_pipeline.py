@@ -8,13 +8,14 @@ class PipelineTests(unittest.TestCase):
     def test_runs_all_steps_in_order(self):
         calls = []
         with mock.patch("src.commands.parse_items.run", side_effect=lambda **k: calls.append("parse-items") or 0), \
+             mock.patch("src.commands.parse_craft.run", side_effect=lambda **k: calls.append("parse-craft") or 0), \
              mock.patch("src.commands.parse_translations.run", side_effect=lambda **k: calls.append("parse-translations") or 0), \
              mock.patch("src.commands.generate_icons.run", side_effect=lambda **k: calls.append("generate-icons") or 0):
             code = cmd.run()
         self.assertEqual(code, 0)
         self.assertEqual(
             calls,
-            ["parse-items", "parse-translations", "generate-icons"],
+            ["parse-items", "parse-craft", "parse-translations", "generate-icons"],
         )
 
     def test_aborts_on_first_failure(self):
