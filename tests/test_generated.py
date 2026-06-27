@@ -162,24 +162,30 @@ class AliasMapTests(unittest.TestCase):
                 self.assertTrue((ICONS / fname).exists(), f"{icon_id} -> missing {fname}")
 
 
-class PngAssetSanityTests(unittest.TestCase):
-    """Every shipped icon is a valid, non-empty, reasonably-sized PNG."""
+class IconAssetSanityTests(unittest.TestCase):
+    """Every shipped icon is a valid, non-empty, reasonably-sized image."""
+
+    def _icon_files(self):
+        return sorted(list(ICONS.glob("*.png")) + list(ICONS.glob("*.webp")))
 
     def test_icons_directory_present(self):
         self.assertTrue(ICONS.is_dir(), "generated/icons/ is missing")
-        self.assertTrue(list(ICONS.glob("*.png")), "no PNG icons found")
+        self.assertTrue(self._icon_files(), "no icons found")
 
-    def test_every_png_is_valid_and_bounded(self):
-        for path in sorted(ICONS.glob("*.png")):
+    def test_every_icon_is_valid_and_bounded(self):
+        from PIL import Image
+
+        for path in self._icon_files():
             with self.subTest(icon=path.name):
                 raw = path.read_bytes()
                 self.assertTrue(raw, "empty file")
                 self.assertLessEqual(
                     len(raw), MAX_ICON_BYTES, "icon larger than expected ceiling"
                 )
-                image = generate_icons.decode_png_rgba(raw, label=path.name)
-                self.assertGreater(image.width, 0, "zero width")
-                self.assertGreater(image.height, 0, "zero height")
+                with Image.open(path) as image:
+                    image.load()
+                    self.assertGreater(image.width, 0, "zero width")
+                    self.assertGreater(image.height, 0, "zero height")
 
 
 if __name__ == "__main__":

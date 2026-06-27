@@ -14,6 +14,7 @@ def run(
     manifest: Optional[str] = None,
     aliases: Optional[str] = None,
     sheet: Optional[str] = None,
+    fmt: Optional[str] = None,
     icon_file: Optional[List[str]] = None,
     all_icon_files: bool = False,
     no_recolor: bool = False,
@@ -28,6 +29,7 @@ def run(
         "--manifest", resolve(manifest, config.GENERATE_ICONS_MANIFEST),
         "--aliases", resolve(aliases, config.GENERATE_ICONS_ALIASES),
         "--sheet", resolve(sheet, config.GENERATE_ICONS_SHEET),
+        "--format", resolve(fmt, config.GENERATE_ICONS_FORMAT),
     ]
     for value in icon_file or []:
         argv += ["--icon-file", value]
@@ -50,6 +52,7 @@ def command(
     manifest: Optional[str] = typer.Option(None, "--manifest", help="Manifest path. Env: SC_GENERATE_ICONS_MANIFEST."),
     aliases: Optional[str] = typer.Option(None, "--aliases", help="Alias map path (dedup mode). Env: SC_GENERATE_ICONS_ALIASES."),
     sheet: Optional[str] = typer.Option(None, "--sheet", help="CDB sheet to generate from (default item). Env: SC_GENERATE_ICONS_SHEET."),
+    fmt: Optional[str] = typer.Option(None, "--format", help="Icon format: webp (default) or png. Env: SC_GENERATE_ICONS_FORMAT."),
     icon_file: Optional[List[str]] = typer.Option(None, "--icon-file", help="Restrict to this CDB icon file (repeatable)."),
     all_icon_files: bool = typer.Option(False, "--all-icon-files", help="Generate every CDB icon entry."),
     no_recolor: bool = typer.Option(False, "--no-recolor", help="Skip CDB color gradients."),
@@ -65,6 +68,7 @@ def command(
             manifest=manifest,
             aliases=aliases,
             sheet=sheet,
+            fmt=fmt,
             icon_file=icon_file,
             all_icon_files=all_icon_files,
             no_recolor=no_recolor,

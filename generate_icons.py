@@ -297,6 +297,31 @@ def write_png_rgba(path: Path, image: RgbaImage):
     path.write_bytes(encode_png_rgba(image))
 
 
+def write_webp_rgba(path: Path, image: RgbaImage):
+    # WebP has no stdlib encoder; Pillow (libwebp) handles it. Lossless keeps the
+    # recoloured pixel-art icons exact while being smaller than PNG.
+    try:
+        from PIL import Image
+    except ImportError as error:  # pragma: no cover - depends on environment
+        raise RuntimeError("WebP output requires Pillow (pip install Pillow)") from error
+
+    path.parent.mkdir(parents=True, exist_ok=True)
+    picture = Image.frombytes("RGBA", (image.width, image.height), image.pixels)
+    picture.save(path, format="WEBP", lossless=True)
+
+
+def write_icon(path: Path, image: RgbaImage, fmt: str):
+    if fmt == "webp":
+        write_webp_rgba(path, image)
+    else:
+        write_png_rgba(path, image)
+
+
+def icon_filename(item_id: str, fmt: str) -> str:
+    validate_filename_id(item_id)
+    return f"{item_id}.{fmt}"
+
+
 def encode_png_rgba(image: RgbaImage) -> bytes:
     rows = []
     stride = image.width * 4
@@ -373,13 +398,14 @@ def generate_icons(
     dedup: bool = True,
     aliases_path: Path | None = None,
     sheet: str | None = None,
+    fmt: str = "webp",
 ) -> tuple[int, list[dict]]:
     cdb = load_cdb(cdb_path)
     jobs = list(iter_icon_jobs(cdb, allowed_icon_files, sheet))
     source_cache: dict[Path, RgbaImage] = {}
 
     # Pass 1: build a manifest record for every item (no files written yet).
-    records = [manifest_record(job, out_dir / job.output_name) for job in jobs]
+    records = [manifest_record(job, out_dir / icon_filename(job.item_id, fmt)) for job in jobs]
     records_by_id = {record["id"]: record for record in records}
 
     # Decide which jobs get a PNG on disk. In dedup mode only one canonical icon
@@ -402,9 +428,10 @@ def generate_icons(
     expected_names = {Path(records_by_id[job.item_id]["output"]).name for job in write_jobs}
 
     if clean and not dry_run and out_dir.exists():
-        for png_path in out_dir.glob("*.png"):
-            if png_path.name not in expected_names:
-                png_path.unlink()
+        # Remove any stale icons, including ones left from a different format.
+        for icon_path in list(out_dir.glob("*.png")) + list(out_dir.glob("*.webp")):
+            if icon_path.name not in expected_names:
+                icon_path.unlink()
 
     if not dry_run:
         for job in write_jobs:
@@ -416,7 +443,7 @@ def generate_icons(
             if recolor and job.gradient is not None:
                 image = RgbaImage(image.width, image.height, recolor_rgba(image.pixels, job.gradient))
 
-            write_png_rgba(out_dir / job.output_name, image)
+            write_icon(out_dir / icon_filename(job.item_id, fmt), image, fmt)
 
         manifest_path.parent.mkdir(parents=True, exist_ok=True)
         manifest = {
@@ -465,6 +492,12 @@ def parse_args(argv=None):
             "(default: item). Pass an empty string to scan all sheets with the "
             "source-file filter instead."
         ),
+    )
+    parser.add_argument(
+        "--format",
+        choices=["webp", "png"],
+        default="webp",
+        help="Icon output image format (default: webp).",
     )
     parser.add_argument("--no-recolor", action="store_true", help="Crop icons without applying CDB color gradients.")
     parser.add_argument("--clean", action="store_true", help="Delete stale PNGs in the output directory.")
@@ -516,6 +549,7 @@ def main(argv=None) -> int:
             dedup=args.dedup,
             aliases_path=args.aliases,
             sheet=sheet,
+            fmt=args.format,
         )
     except Exception as error:
         print(f"Error: {error}", file=sys.stderr)
