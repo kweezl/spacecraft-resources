@@ -62,10 +62,37 @@ def workshop_times(cdb: dict) -> dict[str, dict]:
     return times
 
 
+def workshop_buildings(cdb: dict) -> dict[str, str]:
+    """Map workshop id -> a crafting building item id that provides it.
+
+    Workshops have no icon of their own; the base-building item that builds the
+    station (its `props.tag` is the Workshop_* id) does. The canonical building is
+    the lexicographically smallest id (e.g. B_Smelter over B_SmelterSA). Tolerant
+    of a missing `item` sheet (returns {}).
+    """
+    try:
+        sheet = find_sheet(cdb, "item")
+    except ValueError:
+        return {}
+    buildings: dict[str, str] = {}
+    for row in sheet.get("lines", []):
+        if not isinstance(row, dict):
+            continue
+        item_id = row.get("id")
+        props = row.get("props") if isinstance(row.get("props"), dict) else {}
+        tag = props.get("tag")
+        if not (isinstance(item_id, str) and isinstance(tag, str) and tag.startswith(WORKSHOP_PREFIX)):
+            continue
+        if tag not in buildings or item_id < buildings[tag]:
+            buildings[tag] = item_id
+    return buildings
+
+
 def parse_workshops(cdb_path) -> dict:
     cdb_path = Path(cdb_path)
     cdb = load_cdb(cdb_path)
     sheet = find_sheet(cdb, "itemTag")
+    buildings = workshop_buildings(cdb)
 
     workshops: dict[str, dict] = {}
     skipped = 0
@@ -76,6 +103,9 @@ def parse_workshops(cdb_path) -> dict:
         record = parse_workshop(row)
         if record is None:
             continue  # non-workshop tag: out of scope, not a skip
+        building = buildings.get(record["id"])
+        if building is not None:
+            record["building"] = building
         if record["id"] in workshops:
             raise ValueError(f"Duplicate workshop id {record['id']!r}")
         workshops[record["id"]] = record

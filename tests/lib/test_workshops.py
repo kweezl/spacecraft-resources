@@ -6,8 +6,11 @@ from pathlib import Path
 from src.lib import workshops
 
 
-def make_cdb(lines):
-    return {"sheets": [{"name": "itemTag", "lines": lines}]}
+def make_cdb(lines, items=None):
+    sheets = [{"name": "itemTag", "lines": lines}]
+    if items is not None:
+        sheets.append({"name": "item", "lines": items})
+    return {"sheets": sheets}
 
 
 class ParseWorkshopTests(unittest.TestCase):
@@ -24,6 +27,34 @@ class ParseWorkshopTests(unittest.TestCase):
 
     def test_missing_id_returns_none(self):
         self.assertIsNone(workshops.parse_workshop({"props": {}}))
+
+
+class WorkshopBuildingsTests(unittest.TestCase):
+    ITEMS = [
+        {"id": "B_SmelterSA", "type": "BaseBuilding_Crafting", "props": {"tag": "Workshop_Smelter"}},
+        {"id": "B_Smelter", "type": "BaseBuilding_Crafting", "props": {"tag": "Workshop_Smelter"}},
+        {"id": "B_Factory1", "type": "BaseBuilding_Crafting", "props": {"tag": "Workshop_Factory"}},
+        {"id": "OreThing", "type": "resource", "props": {"tag": "ore"}},
+    ]
+
+    def test_maps_workshop_to_canonical_building(self):
+        cdb = make_cdb([], self.ITEMS)
+        # Canonical = lexicographically smallest building id for the workshop.
+        self.assertEqual(workshops.workshop_buildings(cdb), {
+            "Workshop_Smelter": "B_Smelter",
+            "Workshop_Factory": "B_Factory1",
+        })
+
+    def test_missing_item_sheet_is_tolerated(self):
+        self.assertEqual(workshops.workshop_buildings({"sheets": []}), {})
+
+    def test_parse_workshops_stamps_building(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "data.cdb"
+            cdb = make_cdb([{"id": "Workshop_Smelter", "props": {"label": "S"}}], self.ITEMS)
+            path.write_text(json.dumps(cdb), encoding="utf-8")
+            result = workshops.parse_workshops(path)
+        self.assertEqual(result["workshops"]["Workshop_Smelter"]["building"], "B_Smelter")
 
 
 class ParseWorkshopsTests(unittest.TestCase):

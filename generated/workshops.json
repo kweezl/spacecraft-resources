@@ -9,13 +9,15 @@
       "craftAction": "SmelterButton",
       "autoCraftTime": 180,
       "manualCraftTime": 5,
-      "craftIndex": 0
+      "craftIndex": 0,
+      "building": "B_Smelter"
     },
     "Workshop_Recycle": {
       "id": "Workshop_Recycle",
       "craftAction": "RecycleButton",
       "autoCraftTime": 90,
-      "craftIndex": 1
+      "craftIndex": 1,
+      "building": "B_RecyclingPlant"
     },
     "Workshop_Atelier": {
       "id": "Workshop_Atelier",
@@ -27,34 +29,40 @@
     "Workshop_Factory": {
       "id": "Workshop_Factory",
       "craftAction": "CraftButton",
-      "autoCraftTime": 180
+      "autoCraftTime": 180,
+      "building": "B_Factory1"
     },
     "Workshop_Factory2": {
       "id": "Workshop_Factory2",
       "craftAction": "CraftButton",
-      "autoCraftTime": 180
+      "autoCraftTime": 180,
+      "building": "B_Factory2"
     },
     "Workshop_Chemical": {
       "id": "Workshop_Chemical",
       "craftAction": "CraftButton",
       "autoCraftTime": 180,
-      "craftIndex": 3
+      "craftIndex": 3,
+      "building": "B_Chemical"
     },
     "Workshop_Bottle": {
       "id": "Workshop_Bottle",
       "craftAction": "CraftButton",
       "autoCraftTime": 5,
-      "craftIndex": 4
+      "craftIndex": 4,
+      "building": "B_BottlingPlant"
     },
     "Workshop_Crystalizer": {
       "id": "Workshop_Crystalizer",
       "craftAction": "CrystalizeButton",
-      "craftIndex": 5
+      "craftIndex": 5,
+      "building": "B_Crystaliser"
     },
     "Workshop_Antimatter": {
       "id": "Workshop_Antimatter",
       "craftAction": "SynthetizeButton",
-      "craftIndex": 6
+      "craftIndex": 6,
+      "building": "B_AntimatterSynthPH"
     },
     "Workshop_Seed": {
       "id": "Workshop_Seed",
@@ -67,7 +75,8 @@
     },
     "Workshop_Science": {
       "id": "Workshop_Science",
-      "craftAction": "StudyButton"
+      "craftAction": "StudyButton",
+      "building": "B_LaboPH"
     },
     "Workshop_Building": {
       "id": "Workshop_Building"
