@@ -3191,5 +3191,834 @@
     "Custo_Trail": {
       "name": "飞船尾焰"
     }
+  },
+  "contract": {
+    "Deprecated": {
+      "name": "已弃用"
+    },
+    "Tuto": {
+      "name": "模块套件样本"
+    },
+    "Tuto_Material_Iron": {
+      "name": "铁锭"
+    },
+    "Tuto_Material_Copper": {
+      "name": "铜锭"
+    },
+    "Tuto_Material_Alu": {
+      "name": "铝锭"
+    },
+    "Helicon_1_Licence_Catchup": {
+      "name": "锭材组合"
+    },
+    "Helicon_2_Licence_Beam": {
+      "name": "钢材"
+    },
+    "Helicon_2_Licence_Plate": {
+      "name": "光伏板材料"
+    },
+    "Helicon_2_Licence_Coil": {
+      "name": "磁性材料"
+    },
+    "Helicon_2_Licence_Motor": {
+      "name": "机械电池"
+    },
+    "Helicon_3_Licence_Actuator": {
+      "name": "异星油"
+    },
+    "Helicon_3_Licence_OrganicBottles": {
+      "name": "异星流体"
+    },
+    "Helicon_3_Licence_Elmerium": {
+      "name": "埃尔默材料"
+    },
+    "Horizon_3_Licence_Beam": {
+      "name": "B-钛材料"
+    },
+    "Horizon_3_Licence_Batteries": {
+      "name": "化工产品"
+    },
+    "Horizon_3_Licence_Actuator": {
+      "name": "异星油"
+    },
+    "Horizon_4_Licence_Beam": {
+      "name": "抗弯材料"
+    },
+    "Horizon_4_Licence_Levinium": {
+      "name": "超轻材料"
+    },
+    "Horizon_4_Licence_ModuleKit": {
+      "name": "高级储存"
+    },
+    "Helicon_2_Plate": {
+      "name": "不锈钢板"
+    },
+    "Helicon_2_Silicium": {
+      "name": "硅锭"
+    },
+    "Helicon_2_Beam": {
+      "name": "结构梁"
+    },
+    "Helicon_2_Sheet": {
+      "name": "金属板"
+    },
+    "Helicon_2_Wire": {
+      "name": "电线"
+    },
+    "Helicon_2_Sheet2": {
+      "name": "高强度金属板"
+    },
+    "Helicon_2_Gunpowder": {
+      "name": "固体炸药"
+    },
+    "Helicon_2_ThermalSheet": {
+      "name": "隔热板"
+    },
+    "Helicon_3_SupportCasing": {
+      "name": "支持硬件"
+    },
+    "Helicon_3_Cartridge": {
+      "name": "弹药"
+    },
+    "Helicon_3_MicroChip": {
+      "name": "微芯片"
+    },
+    "Helicon_3_SmallModuleKit": {
+      "name": "小型模块套件"
+    },
+    "Helicon_3_Coil": {
+      "name": "磁线圈"
+    },
+    "Helicon_4_WaterBottle": {
+      "name": "水瓶"
+    },
+    "Helicon_4_MissileFrame": {
+      "name": "小型导弹弹体"
+    },
+    "Helicon_4_SmallSteelCasing": {
+      "name": "小型钢制壳体"
+    },
+    "Helicon_4_MercuryBottle": {
+      "name": "汞瓶"
+    },
+    "Raqmu_2_OverclockedLaser": {
+      "name": "超频采矿激光器"
+    },
+    "Raqmu_2_ScanalyserBeta": {
+      "name": "贝塔分析仪"
+    },
+    "Raqmu_2_Reactive": {
+      "name": "反应护盾"
+    },
+    "Raqmu_2_Cargo": {
+      "name": "货舱"
+    },
+    "Raqmu_2_StarterModule": {
+      "name": "模块组合"
+    },
+    "Raqmu_4_ScrappyPioneer": {
+      "name": "飞船零件"
+    },
+    "Raqmu_4_OverclockedHiPi": {
+      "name": "超频 Hi-Pi 激光器"
+    },
+    "Raqmu_4_FuelGenerator": {
+      "name": "燃料发电机"
+    },
+    "Raqmu_4_SolarPanel": {
+      "name": "中型太阳能板"
+    },
+    "Raqmu_4_Thrusters": {
+      "name": "推车工"
+    },
+    "Nemea_2_Plate": {
+      "name": "不锈钢板"
+    },
+    "Nemea_2_Silicium": {
+      "name": "硅锭"
+    },
+    "Nemea_2_Beam": {
+      "name": "结构梁"
+    },
+    "Nemea_2_BTitanium": {
+      "name": "B-钛锭"
+    },
+    "Nemea_2_ThermalSheet": {
+      "name": "隔热板"
+    },
+    "Nemea_3_SupportCasing": {
+      "name": "支持硬件"
+    },
+    "Nemea_3_Cartridge": {
+      "name": "弹药"
+    },
+    "Nemea_3_MicroChip": {
+      "name": "微芯片"
+    },
+    "Nemea_3_LargeModuleKit": {
+      "name": "大型模块套件"
+    },
+    "Nemea_3_Sheet3": {
+      "name": "高档金属板"
+    },
+    "Nemea_3_Beam2": {
+      "name": "重型梁"
+    },
+    "Nemea_4_WaterBottle": {
+      "name": "水瓶"
+    },
+    "Nemea_4_MissileFrame": {
+      "name": "小型导弹弹体"
+    },
+    "Nemea_4_SmallSteelCasing": {
+      "name": "小型钢制壳体"
+    },
+    "Nemea_4_ChemicalBattery": {
+      "name": "化学电池"
+    },
+    "Nemea_4_MercuryBottle": {
+      "name": "汞瓶"
+    },
+    "Nemea_5_SolarCell": {
+      "name": "太阳能电池"
+    },
+    "Nemea_5_Motor": {
+      "name": "电机"
+    },
+    "Nemea_5_Drones": {
+      "name": "无人机"
+    },
+    "Nemea_5_SmallTitaniumCasing": {
+      "name": "小型钛制壳体"
+    },
+    "Nemea_5_ModuleKit": {
+      "name": "模块套件"
+    },
+    "Horizon_2_Plate": {
+      "name": "不锈钢板"
+    },
+    "Horizon_2_Silicium": {
+      "name": "硅锭"
+    },
+    "Horizon_2_Beam": {
+      "name": "结构梁"
+    },
+    "Horizon_2_BTitanium": {
+      "name": "B-钛锭"
+    },
+    "Horizon_2_ThermalSheet": {
+      "name": "隔热板"
+    },
+    "Horizon_3_SupportCasing": {
+      "name": "支持硬件"
+    },
+    "Horizon_3_Cartridge": {
+      "name": "弹药"
+    },
+    "Horizon_3_MicroChip": {
+      "name": "微芯片"
+    },
+    "Horizon_3_LargeModuleKit": {
+      "name": "大型模块套件"
+    },
+    "Horizon_3_Sheet": {
+      "name": "高档金属板"
+    },
+    "Horizon_3_Beam": {
+      "name": "重型梁"
+    },
+    "Horizon_4_WaterBottle": {
+      "name": "水瓶"
+    },
+    "Horizon_4_MissileFrame": {
+      "name": "小型导弹弹体"
+    },
+    "Horizon_4_SmallSteelCasing": {
+      "name": "小型钢制壳体"
+    },
+    "Horizon_4_ChemicalBattery": {
+      "name": "化学电池"
+    },
+    "Horizon_4_MercuryBottle": {
+      "name": "汞瓶"
+    },
+    "Horizon_5_SolarCell": {
+      "name": "太阳能电池"
+    },
+    "Horizon_5_Motor": {
+      "name": "电机"
+    },
+    "Horizon_5_Drones": {
+      "name": "无人机"
+    },
+    "Horizon_5_SmallTitaniumCasing": {
+      "name": "小型钛制壳体"
+    },
+    "Horizon_5_ModuleKit": {
+      "name": "模块套件"
+    },
+    "Syracuse_3_Quartz": {
+      "name": "石英批次"
+    },
+    "Syracuse_3_Graphite": {
+      "name": "石墨批次"
+    },
+    "Syracuse_3_Pyrite": {
+      "name": "黄铁矿批次"
+    },
+    "Syracuse_3_Hematite": {
+      "name": "赤铁矿批次"
+    },
+    "Syracuse_3_Aquamarine": {
+      "name": "海蓝宝石批次"
+    },
+    "Syracuse_3_Graphene": {
+      "name": "石墨烯"
+    },
+    "Syracuse_3_Focuser": {
+      "name": "晶体聚焦器"
+    },
+    "Syracuse_5_Ethanol": {
+      "name": "乙醇瓶"
+    },
+    "Syracuse_5_Diamond": {
+      "name": "钻石批次"
+    },
+    "Syracuse_5_Emerald": {
+      "name": "祖母绿宝石批次"
+    },
+    "Syracuse_5_AzuriteMalachite": {
+      "name": "孔雀石批次"
+    },
+    "Syracuse_5_Focuser2": {
+      "name": "超透镜"
+    },
+    "Syracuse_5_Graphenoid": {
+      "name": "量子石墨"
+    },
+    "Syracuse_5_Protein": {
+      "name": "异星蛋白质"
+    },
+    "Assembly_Bolt_2": {
+      "name": "螺母与螺栓"
+    },
+    "Assembly_Wire_2": {
+      "name": "线缆"
+    },
+    "Assembly_Bolt_3": {
+      "name": "螺母与螺栓"
+    },
+    "Assembly_Wire_3": {
+      "name": "线缆"
+    },
+    "Assembly_Sheet_3": {
+      "name": "板材"
+    },
+    "Assembly_Semiconductor_3": {
+      "name": "半导体"
+    },
+    "Assembly_Concrete_3": {
+      "name": "混凝土"
+    },
+    "Assembly_WireNSemiconductor_3": {
+      "name": "大宗电子元件"
+    },
+    "Assembly_SheetNBolt_3": {
+      "name": "货架套件"
+    },
+    "Assembly_Radar_3": {
+      "name": "探测仪"
+    },
+    "Assembly_Storage_3": {
+      "name": "货舱"
+    },
+    "Assembly_WireNSemiconductor_4": {
+      "name": "大宗电子元件"
+    },
+    "Assembly_WireNSemiconductor_4_Days": {
+      "name": "大宗电子元件"
+    },
+    "Assembly_WireNSemiconductor_4_Weeks": {
+      "name": "大宗电子元件"
+    },
+    "Assembly_SheetNBolt_4": {
+      "name": "货架套件"
+    },
+    "Assembly_SheetNBolt_4_Days": {
+      "name": "货架套件"
+    },
+    "Assembly_SheetNBolt_4_Weeks": {
+      "name": "货架套件"
+    },
+    "Assembly_ModuleKit_4": {
+      "name": "模块套件"
+    },
+    "Assembly_ModuleKit_4_Days": {
+      "name": "模块套件"
+    },
+    "Assembly_ModuleKit_4_Weeks": {
+      "name": "模块套件"
+    },
+    "Assembly_Coil_4": {
+      "name": "电磁体"
+    },
+    "Assembly_Coil_4_Days": {
+      "name": "电磁体"
+    },
+    "Assembly_Coil_4_Weeks": {
+      "name": "电磁体"
+    },
+    "Assembly_Plate_4": {
+      "name": "不锈钢板"
+    },
+    "Assembly_Plate_4_Days": {
+      "name": "不锈钢板"
+    },
+    "Assembly_Plate_4_Weeks": {
+      "name": "不锈钢板"
+    },
+    "Assembly_Beam_4": {
+      "name": "结构梁"
+    },
+    "Assembly_Beam_4_Days": {
+      "name": "结构梁"
+    },
+    "Assembly_Beam_4_Weeks": {
+      "name": "结构梁"
+    },
+    "Assembly_Ammo_4": {
+      "name": "弹药"
+    },
+    "Assembly_Ammo_4_Days": {
+      "name": "弹药"
+    },
+    "Assembly_Ammo_4_Weeks": {
+      "name": "弹药"
+    },
+    "Assembly_Missile_4": {
+      "name": "机身"
+    },
+    "Assembly_Missile_4_Days": {
+      "name": "机身"
+    },
+    "Assembly_Missile_4_Weeks": {
+      "name": "机身"
+    },
+    "Assembly_Motor_4_Days": {
+      "name": "电机"
+    },
+    "Assembly_Motor_4_Weeks": {
+      "name": "电机"
+    },
+    "Assembly_ModuleKit2_4_Days": {
+      "name": "模块套件"
+    },
+    "Assembly_ModuleKit2_4_Weeks": {
+      "name": "模块套件"
+    },
+    "Crystal_Quartz_3": {
+      "name": "石英批次"
+    },
+    "Crystal_Hematite_3": {
+      "name": "赤铁矿批次"
+    },
+    "Crystal_Graphite_3": {
+      "name": "石墨批次"
+    },
+    "Crystal_Pyrite_3": {
+      "name": "黄铁矿批次"
+    },
+    "Crystal_Quartz_4": {
+      "name": "石英批次"
+    },
+    "Crystal_Quartz_4_Days": {
+      "name": "石英批次"
+    },
+    "Crystal_Quartz_4_Weeks": {
+      "name": "石英批次"
+    },
+    "Crystal_Hematite_4": {
+      "name": "赤铁矿批次"
+    },
+    "Crystal_Hematite_4_Days": {
+      "name": "赤铁矿批次"
+    },
+    "Crystal_Hematite_4_Weeks": {
+      "name": "赤铁矿批次"
+    },
+    "Crystal_Graphite_4": {
+      "name": "石墨批次"
+    },
+    "Crystal_Graphite_4_Days": {
+      "name": "石墨批次"
+    },
+    "Crystal_Graphite_4_Weeks": {
+      "name": "石墨批次"
+    },
+    "Crystal_Pyrite_4": {
+      "name": "黄铁矿批次"
+    },
+    "Crystal_Pyrite_4_Days": {
+      "name": "黄铁矿批次"
+    },
+    "Crystal_Pyrite_4_Weeks": {
+      "name": "黄铁矿批次"
+    },
+    "Crystal_Aquamarine_4": {
+      "name": "海蓝宝石批次"
+    },
+    "Crystal_Aquamarine_4_Days": {
+      "name": "海蓝宝石批次"
+    },
+    "Crystal_Aquamarine_4_Weeks": {
+      "name": "海蓝宝石批次"
+    },
+    "Assembly_Focuser_4_Days": {
+      "name": "晶体聚焦器"
+    },
+    "Assembly_Focuser_4_Weeks": {
+      "name": "晶体聚焦器"
+    },
+    "Crystal_Emerald_5_Days": {
+      "name": "祖母绿宝石批次"
+    },
+    "Crystal_Emerald_5_Month": {
+      "name": "祖母绿宝石批次"
+    },
+    "Crystal_Malachite_5_Days": {
+      "name": "孔雀石批次"
+    },
+    "Crystal_Malachite_5_Month": {
+      "name": "孔雀石批次"
+    },
+    "Crystal_Diamond_5": {
+      "name": "钻石批次"
+    },
+    "Crystal_Diamond_5_Month": {
+      "name": "钻石批次"
+    },
+    "Comp_Material_Iron_2": {
+      "name": "铁锭"
+    },
+    "Comp_Material_Copper_2": {
+      "name": "铜锭"
+    },
+    "Comp_Material_Alu_2": {
+      "name": "铝锭"
+    },
+    "Comp_Material_Iron_3": {
+      "name": "铁锭"
+    },
+    "Comp_Material_Copper_3": {
+      "name": "铜锭"
+    },
+    "Comp_Material_Alu_3": {
+      "name": "铝锭"
+    },
+    "Comp_Material_Silicum_3": {
+      "name": "硅锭"
+    },
+    "Comp_Material_Titanium_3": {
+      "name": "钛锭"
+    },
+    "Comp_Material_Iron_4": {
+      "name": "铁锭"
+    },
+    "Comp_Material_Iron_4_Days": {
+      "name": "铁锭"
+    },
+    "Comp_Material_Iron_4_Weeks": {
+      "name": "铁锭"
+    },
+    "Comp_Material_Copper_4": {
+      "name": "铜锭"
+    },
+    "Comp_Material_Copper_4_Days": {
+      "name": "铜锭"
+    },
+    "Comp_Material_Copper_4_Weeks": {
+      "name": "铜锭"
+    },
+    "Comp_Material_Alu_4": {
+      "name": "铝锭"
+    },
+    "Comp_Material_Alu_4_Days": {
+      "name": "铝锭"
+    },
+    "Comp_Material_Alu_4_Weeks": {
+      "name": "铝锭"
+    },
+    "Comp_Material_Silicum_4": {
+      "name": "硅锭"
+    },
+    "Comp_Material_Silicum_4_Days": {
+      "name": "硅锭"
+    },
+    "Comp_Material_Silicum_4_Weeks": {
+      "name": "硅锭"
+    },
+    "Comp_Material_Titanium_4": {
+      "name": "钛锭"
+    },
+    "Comp_Material_Titanium_4_Days": {
+      "name": "钛锭"
+    },
+    "Comp_Material_Titanium_4_Weeks": {
+      "name": "钛锭"
+    },
+    "Comp_Material_Steel_4_Days": {
+      "name": "钢锭"
+    },
+    "Comp_Material_Steel_4_Weeks": {
+      "name": "钢锭"
+    },
+    "Helicon_4_Licence_Beam3": {
+      "name": "抗弯材料"
+    },
+    "Helicon_4_Licence_Levinium": {
+      "name": "超轻材料"
+    },
+    "Helicon_4_Licence_ModuleKit": {
+      "name": "高级储存"
+    },
+    "Helicon_3_Licence_Beam2": {
+      "name": "B-钛材料"
+    },
+    "Helicon_3_Licence_Batteries": {
+      "name": "化工产品"
+    },
+    "Helicon_5_SolarCell": {
+      "name": "太阳能电池"
+    },
+    "Helicon_5_Motor": {
+      "name": "电机"
+    },
+    "Helicon_5_Drones": {
+      "name": "无人机"
+    },
+    "Helicon_5_SmallTitaniumCasing": {
+      "name": "小型钛制壳体"
+    },
+    "Helicon_5_ModuleKit": {
+      "name": "模块套件"
+    },
+    "Helicon_4_ChemicalBattery": {
+      "name": "化学电池"
+    },
+    "Helicon_3_LargeModuleKit": {
+      "name": "大型模块套件"
+    },
+    "Helicon_3_Sheet3": {
+      "name": "高档金属板"
+    }
+  },
+  "spaceObject": {
+    "Station_Start": {
+      "name": "巴比伦"
+    },
+    "Station_Threshold": {
+      "name": "拉克穆"
+    },
+    "Station_Cairn": {
+      "name": "叙拉古"
+    },
+    "Station_Justice": {
+      "name": "涅墨亚"
+    },
+    "Station_Horizon": {
+      "name": "乌尔"
+    },
+    "Station_Terminus": {
+      "name": "赫利孔"
+    },
+    "Test_Pirates": {
+      "name": "测试战斗"
+    }
+  },
+  "faction": {
+    "Players": {
+      "name": "<Player>"
+    },
+    "TheCo": {
+      "name": "公司"
+    },
+    "SpacePirates": {
+      "name": "太空海盗"
+    },
+    "IUOB": {
+      "name": "星际银行联盟 (IUOB)"
+    },
+    "Stellar": {
+      "name": "恒星工程"
+    },
+    "Ninmah": {
+      "name": "宁玛赫集团"
+    },
+    "Eris": {
+      "name": "厄里斯公司"
+    },
+    "Vox": {
+      "name": "人民之声"
+    },
+    "CoG": {
+      "name": "盖亚后裔"
+    },
+    "Monster": {
+      "name": "怪兽"
+    },
+    "Republic": {
+      "name": "共和国"
+    }
+  },
+  "instance": {
+    "TestInstance": {
+      "name": "测试事例"
+    },
+    "TestNarra": {
+      "name": "测试事例旁白"
+    },
+    "TestDarkInstance": {
+      "name": "黑暗事例"
+    },
+    "ProspectingRelay": {
+      "name": "勘探中继站"
+    },
+    "AbandonedMine": {
+      "name": "废弃矿区"
+    },
+    "LabCameras": {
+      "name": "测试中心"
+    },
+    "LabMonsters": {
+      "name": "废弃实验室"
+    },
+    "DarkInstance": {
+      "name": "黑暗事例"
+    },
+    "DarkInstance2": {
+      "name": "黑暗事例"
+    },
+    "DarkInstance3": {
+      "name": "黑暗事例"
+    },
+    "DarkInstance4": {
+      "name": "黑暗事例"
+    },
+    "IntelligenceCenter5": {
+      "name": "本地智能中心"
+    },
+    "IntelligenceCenter6": {
+      "name": "本地智能中心"
+    },
+    "IntelligenceCenter7": {
+      "name": "本地智能中心"
+    },
+    "Warehouse5": {
+      "name": "本地智能中心"
+    },
+    "CorpoTrainingCenter": {
+      "name": "公司的认知与体能评估设施"
+    },
+    "IntelligenceCenter": {
+      "name": "本地智能中心"
+    },
+    "IntelligenceCenter2": {
+      "name": "本地智能中心"
+    },
+    "IntelligenceCenter3": {
+      "name": "本地智能中心"
+    },
+    "IntelligenceCenter4": {
+      "name": "本地智能中心"
+    },
+    "Warehouse": {
+      "name": "公司仓库"
+    },
+    "Warehouse2": {
+      "name": "公司仓库"
+    },
+    "Warehouse3": {
+      "name": "公司仓库"
+    },
+    "IntroScene": {
+      "name": "债务区"
+    },
+    "DockStart": {
+      "name": "停靠港"
+    },
+    "DockEmpty": {
+      "name": "停靠港"
+    },
+    "DockJustice": {
+      "name": "停靠港"
+    },
+    "DockThreshold": {
+      "name": "停靠港"
+    },
+    "DockTerminus": {
+      "name": "停靠港"
+    },
+    "DockHorizon": {
+      "name": "停靠港"
+    },
+    "DockCairn": {
+      "name": "停靠港"
+    },
+    "ShipYard": {
+      "name": "造船坞"
+    },
+    "Laboratory": {
+      "name": "实验室"
+    },
+    "MiningBureau": {
+      "name": "采矿局"
+    },
+    "MarketplaceTerminus": {
+      "name": "交易枢纽"
+    },
+    "MarketplaceHorizon": {
+      "name": "交易枢纽"
+    }
+  },
+  "workshop": {
+    "Workshop_Smelter": {
+      "name": "熔炼炉"
+    },
+    "Workshop_Recycle": {
+      "name": "回收机"
+    },
+    "Workshop_Atelier": {
+      "name": "工作台"
+    },
+    "Workshop_Factory": {
+      "name": "装配机"
+    },
+    "Workshop_Factory2": {
+      "name": "工厂"
+    },
+    "Workshop_Chemical": {
+      "name": "化工厂"
+    },
+    "Workshop_Bottle": {
+      "name": "灌装厂"
+    },
+    "Workshop_Crystalizer": {
+      "name": "结晶器"
+    },
+    "Workshop_Antimatter": {
+      "name": "反物质机"
+    },
+    "Workshop_Seed": {
+      "name": "种子采集器"
+    },
+    "Workshop_Uncraftable": {
+      "name": "<bad>Beta 测试版中无法制造</bad>"
+    },
+    "Workshop_Science": {
+      "name": "实验室"
+    },
+    "Workshop_Building": {
+      "name": "建造"
+    }
   }
 }

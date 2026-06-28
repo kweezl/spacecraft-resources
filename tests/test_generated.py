@@ -150,6 +150,42 @@ class JsonValidityTests(unittest.TestCase):
             self.assertEqual(entry.get("id"), key, f"{key}: 'id' must match its key")
             self.assertIsInstance(entry.get("output"), str, f"{key}: missing 'output' path")
 
+    def _envelope(self, filename, map_key):
+        data = self._load(GENERATED / filename)
+        items = data.get(map_key)
+        self.assertIsInstance(items, dict, f"missing '{map_key}' object")
+        self.assertEqual(data.get("count"), len(items), "'count' must match total")
+        for key, entry in items.items():
+            self.assertIsInstance(entry, dict, f"{key}: entry not an object")
+            self.assertEqual(entry.get("id"), key, f"{key}: 'id' must match its key")
+        return items
+
+    def test_workshops_schema(self):
+        self._envelope("workshops.json", "workshops")
+
+    def test_contracts_schema(self):
+        self._envelope("contracts.json", "contracts")
+
+    def test_item_categories_schema(self):
+        self._envelope("item_categories.json", "categories")
+
+    def test_space_objects_schema(self):
+        self._envelope("space_objects.json", "spaceObjects")
+
+    def test_factions_schema(self):
+        self._envelope("factions.json", "factions")
+
+    def test_craft_time_shape(self):
+        recipes = self._load(GENERATED / "craft.json")["recipes"]
+        for key, recipe in recipes.items():
+            if "craftTime" in recipe:
+                ct = recipe["craftTime"]
+                self.assertIsInstance(ct, dict, f"{key}: craftTime not an object")
+                for field in ("manual", "auto"):
+                    self.assertIn(field, ct, f"{key}: craftTime missing {field}")
+                    self.assertTrue(ct[field] is None or isinstance(ct[field], (int, float)),
+                                    f"{key}: craftTime.{field} not number|null")
+
 
 class AliasMapTests(unittest.TestCase):
     """generated/aliases.json must stay in sync with the manifest and resolve."""
@@ -199,6 +235,29 @@ class IconAssetSanityTests(unittest.TestCase):
                     image.load()
                     self.assertGreater(image.width, 0, "zero width")
                     self.assertGreater(image.height, 0, "zero height")
+
+
+class ExtraIconSetTests(unittest.TestCase):
+    SETS = [
+        ("aliases-categories.json", "icons-categories", "icons-categories_manifest.json"),
+        ("aliases-factions.json", "icons-factions", "icons-factions_manifest.json"),
+    ]
+
+    def test_each_extra_alias_resolves(self):
+        for aliases_name, icon_dir, manifest_name in self.SETS:
+            aliases_path = GENERATED / aliases_name
+            if not aliases_path.exists():
+                self.skipTest(f"{aliases_name} not present")
+            with aliases_path.open(encoding="utf-8") as handle:
+                aliases = json.load(handle)
+            with (GENERATED / manifest_name).open(encoding="utf-8") as handle:
+                manifest = json.load(handle)
+            report = deduplicate_icons.analyze(manifest)
+            expected = deduplicate_icons.build_alias_map(manifest, report)
+            self.assertEqual(aliases, expected, f"{aliases_name} is stale; regenerate it")
+            for icon_id, fname in aliases["icons"].items():
+                self.assertTrue((GENERATED / icon_dir / fname).exists(),
+                                f"{icon_id} -> missing {icon_dir}/{fname}")
 
 
 if __name__ == "__main__":

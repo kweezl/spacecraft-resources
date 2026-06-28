@@ -1,0 +1,16 @@
+{
+  "total": 10,
+  "unique": 4,
+  "icons": {
+    "CoG": "SpacePirates.webp",
+    "Eris": "SpacePirates.webp",
+    "IUOB": "SpacePirates.webp",
+    "Monster": "SpacePirates.webp",
+    "Ninmah": "Ninmah.webp",
+    "Republic": "SpacePirates.webp",
+    "SpacePirates": "SpacePirates.webp",
+    "Stellar": "Stellar.webp",
+    "TheCo": "TheCo.webp",
+    "Vox": "SpacePirates.webp"
+  }
+}

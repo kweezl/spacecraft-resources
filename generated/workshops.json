@@ -1,0 +1,76 @@
+{
+  "source": "unpacked/data.cdb",
+  "sheet": "itemTag",
+  "count": 13,
+  "skipped": 0,
+  "workshops": {
+    "Workshop_Smelter": {
+      "id": "Workshop_Smelter",
+      "craftAction": "SmelterButton",
+      "autoCraftTime": 180,
+      "manualCraftTime": 5,
+      "craftIndex": 0
+    },
+    "Workshop_Recycle": {
+      "id": "Workshop_Recycle",
+      "craftAction": "RecycleButton",
+      "autoCraftTime": 90,
+      "craftIndex": 1
+    },
+    "Workshop_Atelier": {
+      "id": "Workshop_Atelier",
+      "craftAction": "CraftButton",
+      "autoCraftTime": 180,
+      "manualCraftTime": 2,
+      "craftIndex": 2
+    },
+    "Workshop_Factory": {
+      "id": "Workshop_Factory",
+      "craftAction": "CraftButton",
+      "autoCraftTime": 180
+    },
+    "Workshop_Factory2": {
+      "id": "Workshop_Factory2",
+      "craftAction": "CraftButton",
+      "autoCraftTime": 180
+    },
+    "Workshop_Chemical": {
+      "id": "Workshop_Chemical",
+      "craftAction": "CraftButton",
+      "autoCraftTime": 180,
+      "craftIndex": 3
+    },
+    "Workshop_Bottle": {
+      "id": "Workshop_Bottle",
+      "craftAction": "CraftButton",
+      "autoCraftTime": 5,
+      "craftIndex": 4
+    },
+    "Workshop_Crystalizer": {
+      "id": "Workshop_Crystalizer",
+      "craftAction": "CrystalizeButton",
+      "craftIndex": 5
+    },
+    "Workshop_Antimatter": {
+      "id": "Workshop_Antimatter",
+      "craftAction": "SynthetizeButton",
+      "craftIndex": 6
+    },
+    "Workshop_Seed": {
+      "id": "Workshop_Seed",
+      "craftAction": "ExtractSeedsButton",
+      "manualCraftTime": 2,
+      "craftIndex": 7
+    },
+    "Workshop_Uncraftable": {
+      "id": "Workshop_Uncraftable"
+    },
+    "Workshop_Science": {
+      "id": "Workshop_Science",
+      "craftAction": "StudyButton"
+    },
+    "Workshop_Building": {
+      "id": "Workshop_Building"
+    }
+  }
+}

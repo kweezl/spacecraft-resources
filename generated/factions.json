@@ -1,0 +1,141 @@
+{
+  "source": "unpacked/data.cdb",
+  "sheet": "faction",
+  "count": 11,
+  "skipped": 0,
+  "factions": {
+    "Players": {
+      "id": "Players"
+    },
+    "TheCo": {
+      "id": "TheCo",
+      "props": {
+        "logo": {
+          "file": "ui/icons/FactionIcons.png",
+          "size": 16,
+          "x": 0,
+          "y": 0,
+          "width": 4,
+          "height": 4
+        }
+      }
+    },
+    "SpacePirates": {
+      "id": "SpacePirates",
+      "props": {
+        "logo": {
+          "file": "ui/icons/illustrations.png",
+          "size": 16,
+          "x": 2,
+          "y": 1,
+          "width": 4,
+          "height": 4
+        }
+      }
+    },
+    "IUOB": {
+      "id": "IUOB",
+      "props": {
+        "logo": {
+          "file": "ui/icons/illustrations.png",
+          "size": 16,
+          "x": 2,
+          "y": 1,
+          "width": 4,
+          "height": 4
+        }
+      }
+    },
+    "Stellar": {
+      "id": "Stellar",
+      "props": {
+        "logo": {
+          "file": "ui/icons/FactionIcons.png",
+          "size": 16,
+          "x": 4,
+          "y": 0,
+          "width": 4,
+          "height": 4
+        }
+      }
+    },
+    "Ninmah": {
+      "id": "Ninmah",
+      "props": {
+        "logo": {
+          "file": "ui/icons/FactionIcons.png",
+          "size": 16,
+          "x": 8,
+          "y": 4,
+          "width": 4,
+          "height": 4
+        }
+      }
+    },
+    "Eris": {
+      "id": "Eris",
+      "props": {
+        "logo": {
+          "file": "ui/icons/illustrations.png",
+          "size": 16,
+          "x": 2,
+          "y": 1,
+          "width": 4,
+          "height": 4
+        }
+      }
+    },
+    "Vox": {
+      "id": "Vox",
+      "props": {
+        "logo": {
+          "file": "ui/icons/illustrations.png",
+          "size": 16,
+          "x": 2,
+          "y": 1,
+          "width": 4,
+          "height": 4
+        }
+      }
+    },
+    "CoG": {
+      "id": "CoG",
+      "props": {
+        "logo": {
+          "file": "ui/icons/illustrations.png",
+          "size": 16,
+          "x": 2,
+          "y": 1,
+          "width": 4,
+          "height": 4
+        }
+      }
+    },
+    "Monster": {
+      "id": "Monster",
+      "props": {
+        "logo": {
+          "file": "ui/icons/illustrations.png",
+          "size": 16,
+          "x": 2,
+          "y": 1,
+          "width": 4,
+          "height": 4
+        }
+      }
+    },
+    "Republic": {
+      "id": "Republic",
+      "props": {
+        "logo": {
+          "file": "ui/icons/illustrations.png",
+          "size": 16,
+          "x": 2,
+          "y": 1,
+          "width": 4,
+          "height": 4
+        }
+      }
+    }
+  }
+}

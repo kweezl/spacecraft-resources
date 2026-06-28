@@ -1,0 +1,5764 @@
+{
+  "source": "unpacked/data.cdb",
+  "sheet": "contract",
+  "count": 206,
+  "skipped": 0,
+  "contracts": {
+    "Deprecated": {
+      "id": "Deprecated",
+      "client": "Republic",
+      "level": 0,
+      "duration": 1,
+      "creditFormula": 0
+    },
+    "Tuto": {
+      "id": "Tuto",
+      "client": "Stellar",
+      "npc": "CorpoContract_Tuto",
+      "level": 1,
+      "duration": 0,
+      "creditFormula": 57.75,
+      "items": [
+        {
+          "item": "ModuleCasing1",
+          "qty": 3
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 60
+        },
+        {
+          "item": "LicensePoints",
+          "count": 5
+        }
+      ],
+      "props": {
+        "flags": 1,
+        "creditFactor": 0.5,
+        "missions": [
+          {
+            "mission": "CorpoFirstContract"
+          }
+        ]
+      }
+    },
+    "Tuto_Material_Iron": {
+      "id": "Tuto_Material_Iron",
+      "client": "Stellar",
+      "npc": "CorpoContract_Tuto",
+      "level": 1,
+      "duration": 0,
+      "creditFormula": 290,
+      "items": [
+        {
+          "item": "IronIngot",
+          "qty": 100
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 300
+        },
+        {
+          "item": "LicensePoints",
+          "count": 5
+        }
+      ],
+      "props": {
+        "creditFactor": 0.5,
+        "missions": [
+          {
+            "mission": "CorpoBigContract"
+          },
+          {
+            "mission": "FirstBase"
+          }
+        ]
+      }
+    },
+    "Tuto_Material_Copper": {
+      "id": "Tuto_Material_Copper",
+      "client": "Stellar",
+      "npc": "CorpoContract_Tuto",
+      "level": 1,
+      "duration": 0,
+      "creditFormula": 400,
+      "items": [
+        {
+          "item": "CopperIngot",
+          "qty": 100
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 400
+        },
+        {
+          "item": "LicensePoints",
+          "count": 5
+        }
+      ],
+      "props": {
+        "creditFactor": 0.5,
+        "missions": [
+          {
+            "mission": "CorpoBigContract"
+          },
+          {
+            "mission": "FirstBase"
+          }
+        ]
+      }
+    },
+    "Tuto_Material_Alu": {
+      "id": "Tuto_Material_Alu",
+      "client": "Stellar",
+      "npc": "CorpoContract_Tuto",
+      "level": 1,
+      "duration": 0,
+      "creditFormula": 480,
+      "items": [
+        {
+          "item": "AluminiumIngot",
+          "qty": 100
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 480
+        },
+        {
+          "item": "LicensePoints",
+          "count": 5
+        }
+      ],
+      "props": {
+        "creditFactor": 0.5,
+        "missions": [
+          {
+            "mission": "CorpoBigContract"
+          },
+          {
+            "mission": "FirstBase"
+          }
+        ]
+      }
+    },
+    "Helicon_1_Licence_Catchup": {
+      "id": "Helicon_1_Licence_Catchup",
+      "client": "Stellar",
+      "npc": "CorpoContract_Licence_Helicon",
+      "level": 1,
+      "duration": 0,
+      "creditFormula": 3510,
+      "items": [
+        {
+          "item": "IronIngot",
+          "qty": 300
+        },
+        {
+          "item": "CopperIngot",
+          "qty": 300
+        },
+        {
+          "item": "AluminiumIngot",
+          "qty": 300
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 3510
+        },
+        {
+          "item": "LicensePoints",
+          "count": 10
+        }
+      ],
+      "props": {
+        "maxCompletionsPerCycle": 1,
+        "creditFactor": 0.5,
+        "maxLevel": 0
+      }
+    },
+    "Helicon_2_Licence_Beam": {
+      "id": "Helicon_2_Licence_Beam",
+      "client": "Stellar",
+      "npc": "CorpoContract_Licence_Helicon",
+      "level": 2,
+      "duration": 0,
+      "creditFormula": 11665,
+      "items": [
+        {
+          "item": "SteelCasingMK1",
+          "qty": 2
+        },
+        {
+          "item": "Beam1",
+          "qty": 400
+        },
+        {
+          "item": "Steel",
+          "qty": 1000
+        },
+        {
+          "item": "MetalBolt",
+          "qty": 5000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 11806
+        },
+        {
+          "item": "LicensePoints",
+          "count": 60
+        }
+      ],
+      "props": {
+        "maxCompletionsPerCycle": 1,
+        "creditFactor": 0.5
+      }
+    },
+    "Helicon_2_Licence_Plate": {
+      "id": "Helicon_2_Licence_Plate",
+      "client": "Eris",
+      "npc": "CorpoContract_Licence_Helicon",
+      "level": 2,
+      "duration": 0,
+      "creditFormula": 11310,
+      "items": [
+        {
+          "item": "SolarCell",
+          "qty": 300
+        },
+        {
+          "item": "Plate1",
+          "qty": 1200
+        },
+        {
+          "item": "Wire",
+          "qty": 1500
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 11310
+        },
+        {
+          "item": "LicensePoints",
+          "count": 60
+        }
+      ],
+      "props": {
+        "maxCompletionsPerCycle": 1,
+        "creditFactor": 0.5
+      }
+    },
+    "Helicon_2_Licence_Coil": {
+      "id": "Helicon_2_Licence_Coil",
+      "client": "Eris",
+      "npc": "CorpoContract_Licence_Helicon",
+      "level": 2,
+      "duration": 0,
+      "creditFormula": 11550,
+      "items": [
+        {
+          "item": "ElmeriumEngine",
+          "qty": 15
+        },
+        {
+          "item": "Coil",
+          "qty": 1500
+        },
+        {
+          "item": "Wire",
+          "qty": 2000
+        },
+        {
+          "item": "MetalBolt",
+          "qty": 2000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 11550
+        },
+        {
+          "item": "LicensePoints",
+          "count": 60
+        }
+      ],
+      "props": {
+        "maxCompletionsPerCycle": 1,
+        "creditFactor": 0.5
+      }
+    },
+    "Helicon_2_Licence_Motor": {
+      "id": "Helicon_2_Licence_Motor",
+      "client": "Eris",
+      "npc": "CorpoContract_Licence_Helicon",
+      "level": 2,
+      "duration": 0,
+      "creditFormula": 11725,
+      "items": [
+        {
+          "item": "RBattery0",
+          "qty": 50
+        },
+        {
+          "item": "Motor",
+          "qty": 300
+        },
+        {
+          "item": "Concrete",
+          "qty": 1000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 11725
+        },
+        {
+          "item": "LicensePoints",
+          "count": 60
+        }
+      ],
+      "props": {
+        "maxCompletionsPerCycle": 1,
+        "creditFactor": 0.5
+      }
+    },
+    "Helicon_3_Licence_Actuator": {
+      "id": "Helicon_3_Licence_Actuator",
+      "client": "Eris",
+      "npc": "CorpoContract_Licence_Helicon",
+      "level": 3,
+      "duration": 0,
+      "creditFormula": 21756,
+      "items": [
+        {
+          "item": "Actuator",
+          "qty": 20
+        },
+        {
+          "item": "Bottle_XenicOil",
+          "qty": 120
+        },
+        {
+          "item": "Pipe1",
+          "qty": 200
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 21756
+        },
+        {
+          "item": "LicensePoints",
+          "count": 200
+        }
+      ],
+      "props": {
+        "maxCompletionsPerCycle": 1,
+        "creditFactor": 0.5
+      }
+    },
+    "Helicon_3_Licence_OrganicBottles": {
+      "id": "Helicon_3_Licence_OrganicBottles",
+      "client": "Ninmah",
+      "npc": "CorpoContract_Licence_Helicon",
+      "level": 3,
+      "duration": 0,
+      "creditFormula": 22000,
+      "items": [
+        {
+          "item": "Bottle_XenicOil",
+          "qty": 100
+        },
+        {
+          "item": "Bottle_Ethanol",
+          "qty": 200
+        },
+        {
+          "item": "Bottle_ThermalPaste",
+          "qty": 200
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 22000
+        },
+        {
+          "item": "LicensePoints",
+          "count": 200
+        }
+      ],
+      "props": {
+        "maxCompletionsPerCycle": 1,
+        "creditFactor": 0.5
+      }
+    },
+    "Helicon_3_Licence_Elmerium": {
+      "id": "Helicon_3_Licence_Elmerium",
+      "client": "Ninmah",
+      "npc": "CorpoContract_Licence_Helicon",
+      "level": 3,
+      "duration": 0,
+      "creditFormula": 21580,
+      "items": [
+        {
+          "item": "MagneticChamber",
+          "qty": 60
+        },
+        {
+          "item": "MagSheet",
+          "qty": 1000
+        },
+        {
+          "item": "Elmerium",
+          "qty": 1000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 21580
+        },
+        {
+          "item": "LicensePoints",
+          "count": 200
+        }
+      ],
+      "props": {
+        "maxCompletionsPerCycle": 1,
+        "creditFactor": 0.5
+      }
+    },
+    "Horizon_3_Licence_Beam": {
+      "id": "Horizon_3_Licence_Beam",
+      "client": "Stellar",
+      "npc": "CorpoContract_License_Horizon",
+      "level": 3,
+      "duration": 0,
+      "creditFormula": 19425,
+      "items": [
+        {
+          "item": "TitaniumCasingMK2",
+          "qty": 5
+        },
+        {
+          "item": "TitaniumCasingMK1",
+          "qty": 7
+        },
+        {
+          "item": "Beam2",
+          "qty": 200
+        },
+        {
+          "item": "Beam1",
+          "qty": 400
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 19500
+        },
+        {
+          "item": "LicensePoints",
+          "count": 200
+        }
+      ],
+      "props": {
+        "maxCompletionsPerCycle": 1,
+        "creditFactor": 0.5
+      }
+    },
+    "Horizon_3_Licence_Batteries": {
+      "id": "Horizon_3_Licence_Batteries",
+      "client": "Eris",
+      "npc": "CorpoContract_License_Horizon",
+      "level": 3,
+      "duration": 0,
+      "creditFormula": 23140,
+      "items": [
+        {
+          "item": "Battery",
+          "qty": 600
+        },
+        {
+          "item": "Gunpowder",
+          "qty": 3000
+        },
+        {
+          "item": "Bottle_Vitriol",
+          "qty": 200
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 23140
+        },
+        {
+          "item": "LicensePoints",
+          "count": 200
+        }
+      ],
+      "props": {
+        "maxCompletionsPerCycle": 1,
+        "creditFactor": 0.5
+      }
+    },
+    "Horizon_3_Licence_Actuator": {
+      "id": "Horizon_3_Licence_Actuator",
+      "client": "Eris",
+      "npc": "CorpoContract_License_Horizon",
+      "level": 3,
+      "duration": 0,
+      "creditFormula": 21756,
+      "items": [
+        {
+          "item": "Actuator",
+          "qty": 20
+        },
+        {
+          "item": "Bottle_XenicOil",
+          "qty": 120
+        },
+        {
+          "item": "Pipe1",
+          "qty": 200
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 21756
+        },
+        {
+          "item": "LicensePoints",
+          "count": 200
+        }
+      ],
+      "props": {
+        "maxCompletionsPerCycle": 1,
+        "creditFactor": 0.5
+      }
+    },
+    "Horizon_4_Licence_Beam": {
+      "id": "Horizon_4_Licence_Beam",
+      "client": "Stellar",
+      "npc": "CorpoContract_License_Horizon",
+      "level": 4,
+      "duration": 0,
+      "creditFormula": 52700,
+      "items": [
+        {
+          "item": "PlatinumCasingMK2",
+          "qty": 3
+        },
+        {
+          "item": "PlatinumCasingMK1",
+          "qty": 20
+        },
+        {
+          "item": "Beam3",
+          "qty": 100
+        },
+        {
+          "item": "Beam2",
+          "qty": 800
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 52700
+        },
+        {
+          "item": "LicensePoints",
+          "count": 500
+        }
+      ],
+      "props": {
+        "maxCompletionsPerCycle": 1,
+        "creditFactor": 0.5
+      }
+    },
+    "Horizon_4_Licence_Levinium": {
+      "id": "Horizon_4_Licence_Levinium",
+      "client": "Stellar",
+      "npc": "CorpoContract_License_Horizon",
+      "level": 4,
+      "duration": 0,
+      "creditFormula": 51050,
+      "items": [
+        {
+          "item": "LeviniumCasingMK1",
+          "qty": 15
+        },
+        {
+          "item": "Plate_Light",
+          "qty": 400
+        },
+        {
+          "item": "Bottle_Mercury",
+          "qty": 400
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 51050
+        },
+        {
+          "item": "LicensePoints",
+          "count": 500
+        }
+      ],
+      "props": {
+        "maxCompletionsPerCycle": 1,
+        "creditFactor": 0.5
+      }
+    },
+    "Horizon_4_Licence_ModuleKit": {
+      "id": "Horizon_4_Licence_ModuleKit",
+      "client": "Stellar",
+      "npc": "CorpoContract_License_Horizon",
+      "level": 4,
+      "duration": 0,
+      "creditFormula": 57350,
+      "items": [
+        {
+          "item": "Storage3",
+          "qty": 3
+        },
+        {
+          "item": "LiquidStorage2",
+          "qty": 10
+        },
+        {
+          "item": "Actuator",
+          "qty": 50
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 57350
+        },
+        {
+          "item": "LicensePoints",
+          "count": 500
+        }
+      ],
+      "props": {
+        "maxCompletionsPerCycle": 1,
+        "creditFactor": 0.5
+      }
+    },
+    "Helicon_2_Plate": {
+      "id": "Helicon_2_Plate",
+      "client": "Stellar",
+      "npc": "CorpoContract_Main_Helicon",
+      "level": 2,
+      "duration": 168,
+      "creditFormula": 2940,
+      "items": [
+        {
+          "item": "Plate1",
+          "qty": 200
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 2940
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 3
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 2000
+      }
+    },
+    "Helicon_2_Silicium": {
+      "id": "Helicon_2_Silicium",
+      "client": "Stellar",
+      "npc": "CorpoContract_Main_Helicon",
+      "level": 2,
+      "duration": 168,
+      "creditFormula": 2000,
+      "items": [
+        {
+          "item": "SiliciumIngot",
+          "qty": 200
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 2000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 3
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 2000
+      }
+    },
+    "Helicon_2_Beam": {
+      "id": "Helicon_2_Beam",
+      "client": "Stellar",
+      "npc": "CorpoContract_Main_Helicon",
+      "level": 2,
+      "duration": 168,
+      "creditFormula": 2616,
+      "items": [
+        {
+          "item": "Beam1",
+          "qty": 120
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 2616
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 3
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 2000
+      }
+    },
+    "Helicon_2_Sheet": {
+      "id": "Helicon_2_Sheet",
+      "client": "Eris",
+      "npc": "CorpoContract_Main_Helicon",
+      "level": 2,
+      "duration": 168,
+      "creditFormula": 900,
+      "items": [
+        {
+          "item": "MetalSheet1",
+          "qty": 300
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 900
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 1
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 4000
+      }
+    },
+    "Helicon_2_Wire": {
+      "id": "Helicon_2_Wire",
+      "client": "Eris",
+      "npc": "CorpoContract_Main_Helicon",
+      "level": 2,
+      "duration": 168,
+      "creditFormula": 1040,
+      "items": [
+        {
+          "item": "Wire",
+          "qty": 500
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 1040
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 1
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 4000
+      }
+    },
+    "Helicon_2_Sheet2": {
+      "id": "Helicon_2_Sheet2",
+      "client": "Eris",
+      "npc": "CorpoContract_Main_Helicon",
+      "level": 2,
+      "duration": 168,
+      "creditFormula": 3200,
+      "items": [
+        {
+          "item": "MetalSheet2",
+          "qty": 400
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 3200
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 3
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 2000
+      }
+    },
+    "Helicon_2_Gunpowder": {
+      "id": "Helicon_2_Gunpowder",
+      "client": "Republic",
+      "npc": "CorpoContract_Main_Helicon",
+      "level": 2,
+      "duration": 168,
+      "creditFormula": 700,
+      "items": [
+        {
+          "item": "Gunpowder",
+          "qty": 500
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 700
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 3
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 3000
+      }
+    },
+    "Helicon_2_ThermalSheet": {
+      "id": "Helicon_2_ThermalSheet",
+      "client": "Stellar",
+      "npc": "CorpoContract_Main_Helicon",
+      "level": 2,
+      "duration": 168,
+      "creditFormula": 1860,
+      "items": [
+        {
+          "item": "ThermalSheet",
+          "qty": 300
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 1860
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 3
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 2000
+      }
+    },
+    "Helicon_3_SupportCasing": {
+      "id": "Helicon_3_SupportCasing",
+      "client": "Stellar",
+      "npc": "CorpoContract_Main_Helicon",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 4544,
+      "items": [
+        {
+          "item": "SupportCasing",
+          "qty": 160
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 4544
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 20
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 500
+      }
+    },
+    "Helicon_3_Cartridge": {
+      "id": "Helicon_3_Cartridge",
+      "client": "Republic",
+      "npc": "CorpoContract_Main_Helicon",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 3600,
+      "items": [
+        {
+          "item": "Cartridge_Iron",
+          "qty": 120000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 3600
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 25
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 500
+      }
+    },
+    "Helicon_3_MicroChip": {
+      "id": "Helicon_3_MicroChip",
+      "client": "Stellar",
+      "npc": "CorpoContract_Main_Helicon",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 2680,
+      "items": [
+        {
+          "item": "MicroChip",
+          "qty": 2000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 2680
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 20
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 500
+      }
+    },
+    "Helicon_3_SmallModuleKit": {
+      "id": "Helicon_3_SmallModuleKit",
+      "client": "Stellar",
+      "npc": "CorpoContract_Main_Helicon",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 3850,
+      "items": [
+        {
+          "item": "ModuleCasing1",
+          "qty": 100
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 3850
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 20
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 500
+      }
+    },
+    "Helicon_3_Coil": {
+      "id": "Helicon_3_Coil",
+      "client": "Eris",
+      "npc": "CorpoContract_Main_Helicon",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 3800,
+      "items": [
+        {
+          "item": "Coil",
+          "qty": 400
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 3800
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 20
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 500
+      }
+    },
+    "Helicon_4_WaterBottle": {
+      "id": "Helicon_4_WaterBottle",
+      "client": "Ninmah",
+      "npc": "CorpoContract_Main_Helicon",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 38000,
+      "items": [
+        {
+          "item": "Bottle_Water",
+          "qty": 1000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 38000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 200
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 100
+      }
+    },
+    "Helicon_4_MissileFrame": {
+      "id": "Helicon_4_MissileFrame",
+      "client": "Republic",
+      "npc": "CorpoContract_Main_Helicon",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 28400,
+      "items": [
+        {
+          "item": "MissileAirframe_Small",
+          "qty": 20000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 28400
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 200
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 100
+      }
+    },
+    "Helicon_4_SmallSteelCasing": {
+      "id": "Helicon_4_SmallSteelCasing",
+      "client": "Ninmah",
+      "npc": "CorpoContract_Main_Helicon",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 41000,
+      "items": [
+        {
+          "item": "SteelCasingMK1",
+          "qty": 200
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 41000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 200
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20
+      }
+    },
+    "Helicon_4_MercuryBottle": {
+      "id": "Helicon_4_MercuryBottle",
+      "client": "Eris",
+      "npc": "CorpoContract_Main_Helicon",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 28200,
+      "items": [
+        {
+          "item": "Bottle_Mercury",
+          "qty": 300
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 28200
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 200
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20
+      }
+    },
+    "Raqmu_2_OverclockedLaser": {
+      "id": "Raqmu_2_OverclockedLaser",
+      "client": "Stellar",
+      "npc": "CorpoContract_Comp_Threshold",
+      "level": 2,
+      "duration": 168,
+      "creditFormula": 2544,
+      "items": [
+        {
+          "item": "MiningTool1_OC",
+          "qty": 10
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 2544
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 3
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 200,
+        "creditFactor": 1.2
+      }
+    },
+    "Raqmu_2_ScanalyserBeta": {
+      "id": "Raqmu_2_ScanalyserBeta",
+      "client": "Stellar",
+      "npc": "CorpoContract_Comp_Threshold",
+      "level": 2,
+      "duration": 168,
+      "creditFormula": 2850,
+      "items": [
+        {
+          "item": "Scanner1",
+          "qty": 25
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 2850
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 3
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 200,
+        "creditFactor": 1.2
+      }
+    },
+    "Raqmu_2_Reactive": {
+      "id": "Raqmu_2_Reactive",
+      "client": "Stellar",
+      "npc": "CorpoContract_Comp_Threshold",
+      "level": 2,
+      "duration": 168,
+      "creditFormula": 3576,
+      "items": [
+        {
+          "item": "KineticShield2",
+          "qty": 2
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 3576
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 3
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 200,
+        "creditFactor": 1.2
+      }
+    },
+    "Raqmu_2_Cargo": {
+      "id": "Raqmu_2_Cargo",
+      "client": "Stellar",
+      "npc": "CorpoContract_Comp_Threshold",
+      "level": 2,
+      "duration": 168,
+      "creditFormula": 3360,
+      "items": [
+        {
+          "item": "Storage2",
+          "qty": 5
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 3360
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 3
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 200,
+        "creditFactor": 1.2
+      }
+    },
+    "Raqmu_2_StarterModule": {
+      "id": "Raqmu_2_StarterModule",
+      "client": "Stellar",
+      "npc": "CorpoContract_Comp_Threshold",
+      "level": 2,
+      "duration": 168,
+      "creditFormula": 3448.7999999999997,
+      "items": [
+        {
+          "item": "Storage1",
+          "qty": 6
+        },
+        {
+          "item": "RBattery0",
+          "qty": 6
+        },
+        {
+          "item": "MiningTool1",
+          "qty": 3
+        },
+        {
+          "item": "RadarMK1",
+          "qty": 3
+        },
+        {
+          "item": "Scanner0",
+          "qty": 3
+        },
+        {
+          "item": "SolarPanel1",
+          "qty": 6
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 3449
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 3
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 200,
+        "creditFactor": 1.2
+      }
+    },
+    "Raqmu_4_ScrappyPioneer": {
+      "id": "Raqmu_4_ScrappyPioneer",
+      "client": "Stellar",
+      "npc": "CorpoContract_Comp_Threshold",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 8224.8,
+      "items": [
+        {
+          "item": "Cockpit_TC1",
+          "qty": 1
+        },
+        {
+          "item": "Thruster0",
+          "qty": 1
+        },
+        {
+          "item": "HullMK1_001",
+          "qty": 2
+        },
+        {
+          "item": "HullMK1_004",
+          "qty": 9
+        },
+        {
+          "item": "Wing_03",
+          "qty": 2
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 8200
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 100
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 40,
+        "creditFactor": 1.2
+      }
+    },
+    "Raqmu_4_OverclockedHiPi": {
+      "id": "Raqmu_4_OverclockedHiPi",
+      "client": "Stellar",
+      "npc": "CorpoContract_Comp_Threshold",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 26880,
+      "items": [
+        {
+          "item": "MiningTool2_OC",
+          "qty": 10
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 26880
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 200
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20,
+        "creditFactor": 1.2
+      }
+    },
+    "Raqmu_4_FuelGenerator": {
+      "id": "Raqmu_4_FuelGenerator",
+      "client": "Stellar",
+      "npc": "CorpoContract_Comp_Threshold",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 26400,
+      "items": [
+        {
+          "item": "CarbonGenerator",
+          "qty": 25
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 26400
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 200
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20,
+        "creditFactor": 1.2
+      }
+    },
+    "Raqmu_4_SolarPanel": {
+      "id": "Raqmu_4_SolarPanel",
+      "client": "Stellar",
+      "npc": "CorpoContract_Comp_Threshold",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 31200,
+      "items": [
+        {
+          "item": "SolarPanel2",
+          "qty": 25
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 31200
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 200
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20,
+        "creditFactor": 1.2
+      }
+    },
+    "Raqmu_4_Thrusters": {
+      "id": "Raqmu_4_Thrusters",
+      "client": "Stellar",
+      "npc": "CorpoContract_Comp_Threshold",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 30240,
+      "items": [
+        {
+          "item": "Thruster0",
+          "qty": 80
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 30240
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 200
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20,
+        "creditFactor": 1.2
+      }
+    },
+    "Nemea_2_Plate": {
+      "id": "Nemea_2_Plate",
+      "client": "Stellar",
+      "npc": "CorpoContract_Nimh_Justice",
+      "level": 2,
+      "duration": 168,
+      "creditFormula": 4410,
+      "items": [
+        {
+          "item": "Plate1",
+          "qty": 200
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 4410
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 3
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 2000,
+        "creditFactor": 1.5
+      }
+    },
+    "Nemea_2_Silicium": {
+      "id": "Nemea_2_Silicium",
+      "client": "Stellar",
+      "npc": "CorpoContract_Nimh_Justice",
+      "level": 2,
+      "duration": 168,
+      "creditFormula": 3000,
+      "items": [
+        {
+          "item": "SiliciumIngot",
+          "qty": 200
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 3000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 3
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 2000,
+        "creditFactor": 1.5
+      }
+    },
+    "Nemea_2_Beam": {
+      "id": "Nemea_2_Beam",
+      "client": "Stellar",
+      "npc": "CorpoContract_Nimh_Justice",
+      "level": 2,
+      "duration": 168,
+      "creditFormula": 3924,
+      "items": [
+        {
+          "item": "Beam1",
+          "qty": 120
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 3924
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 3
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 2000,
+        "creditFactor": 1.5
+      }
+    },
+    "Nemea_2_BTitanium": {
+      "id": "Nemea_2_BTitanium",
+      "client": "Stellar",
+      "npc": "CorpoContract_Nimh_Justice",
+      "level": 2,
+      "duration": 168,
+      "creditFormula": 4941,
+      "items": [
+        {
+          "item": "BTitanium",
+          "qty": 180
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 4941
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 3
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 2000,
+        "creditFactor": 1.5
+      }
+    },
+    "Nemea_2_ThermalSheet": {
+      "id": "Nemea_2_ThermalSheet",
+      "client": "Stellar",
+      "npc": "CorpoContract_Nimh_Justice",
+      "level": 2,
+      "duration": 168,
+      "creditFormula": 2790,
+      "items": [
+        {
+          "item": "ThermalSheet",
+          "qty": 300
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 2790
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 3
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 2000,
+        "creditFactor": 1.5
+      }
+    },
+    "Nemea_3_SupportCasing": {
+      "id": "Nemea_3_SupportCasing",
+      "client": "Stellar",
+      "npc": "CorpoContract_Nimh_Justice",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 6816,
+      "items": [
+        {
+          "item": "SupportCasing",
+          "qty": 160
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 6816
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 20
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 500,
+        "creditFactor": 1.5
+      }
+    },
+    "Nemea_3_Cartridge": {
+      "id": "Nemea_3_Cartridge",
+      "client": "Republic",
+      "npc": "CorpoContract_Nimh_Justice",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 5400,
+      "items": [
+        {
+          "item": "Cartridge_Iron",
+          "qty": 120000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 5400
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 25
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 500,
+        "creditFactor": 1.5
+      }
+    },
+    "Nemea_3_MicroChip": {
+      "id": "Nemea_3_MicroChip",
+      "client": "Stellar",
+      "npc": "CorpoContract_Nimh_Justice",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 4020,
+      "items": [
+        {
+          "item": "MicroChip",
+          "qty": 2000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 4020
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 20
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 500,
+        "creditFactor": 1.5
+      }
+    },
+    "Nemea_3_LargeModuleKit": {
+      "id": "Nemea_3_LargeModuleKit",
+      "client": "Stellar",
+      "npc": "CorpoContract_Nimh_Justice",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 14700,
+      "items": [
+        {
+          "item": "ModuleCasing3",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 14700
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 30
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20,
+        "creditFactor": 1.5
+      }
+    },
+    "Nemea_3_Sheet3": {
+      "id": "Nemea_3_Sheet3",
+      "client": "Eris",
+      "npc": "CorpoContract_Nimh_Justice",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 18180,
+      "items": [
+        {
+          "item": "MetalSheet3",
+          "qty": 600
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 18180
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 30
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 50,
+        "creditFactor": 1.5
+      }
+    },
+    "Nemea_3_Beam2": {
+      "id": "Nemea_3_Beam2",
+      "client": "Stellar",
+      "npc": "CorpoContract_Nimh_Justice",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 16875,
+      "items": [
+        {
+          "item": "Beam2",
+          "qty": 225
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 16875
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 30
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 50,
+        "creditFactor": 1.5
+      }
+    },
+    "Nemea_4_WaterBottle": {
+      "id": "Nemea_4_WaterBottle",
+      "client": "Ninmah",
+      "npc": "CorpoContract_Nimh_Justice",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 57000,
+      "items": [
+        {
+          "item": "Bottle_Water",
+          "qty": 1000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 57000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 200
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 100,
+        "creditFactor": 1.5
+      }
+    },
+    "Nemea_4_MissileFrame": {
+      "id": "Nemea_4_MissileFrame",
+      "client": "Republic",
+      "npc": "CorpoContract_Nimh_Justice",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 42600,
+      "items": [
+        {
+          "item": "MissileAirframe_Small",
+          "qty": 20000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 42600
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 200
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 100,
+        "creditFactor": 1.5
+      }
+    },
+    "Nemea_4_SmallSteelCasing": {
+      "id": "Nemea_4_SmallSteelCasing",
+      "client": "Ninmah",
+      "npc": "CorpoContract_Nimh_Justice",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 61500,
+      "items": [
+        {
+          "item": "SteelCasingMK1",
+          "qty": 200
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 61500
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 200
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20,
+        "creditFactor": 1.5
+      }
+    },
+    "Nemea_4_ChemicalBattery": {
+      "id": "Nemea_4_ChemicalBattery",
+      "client": "Eris",
+      "npc": "CorpoContract_Nimh_Justice",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 85500,
+      "items": [
+        {
+          "item": "Battery",
+          "qty": 1000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 85500
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 200
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20,
+        "creditFactor": 1.5
+      }
+    },
+    "Nemea_4_MercuryBottle": {
+      "id": "Nemea_4_MercuryBottle",
+      "client": "Eris",
+      "npc": "CorpoContract_Nimh_Justice",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 42300,
+      "items": [
+        {
+          "item": "Bottle_Mercury",
+          "qty": 300
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 42300
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 200
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20,
+        "creditFactor": 1.5
+      }
+    },
+    "Nemea_5_SolarCell": {
+      "id": "Nemea_5_SolarCell",
+      "client": "Eris",
+      "npc": "CorpoContract_Nimh_Justice",
+      "level": 5,
+      "duration": 168,
+      "creditFormula": 93000,
+      "items": [
+        {
+          "item": "SolarCell",
+          "qty": 10000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 93000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 800
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20,
+        "creditFactor": 1.5
+      }
+    },
+    "Nemea_5_Motor": {
+      "id": "Nemea_5_Motor",
+      "client": "Eris",
+      "npc": "CorpoContract_Nimh_Justice",
+      "level": 5,
+      "duration": 168,
+      "creditFormula": 132750,
+      "items": [
+        {
+          "item": "Motor",
+          "qty": 1500
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 132750
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 800
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20,
+        "creditFactor": 1.5
+      }
+    },
+    "Nemea_5_Drones": {
+      "id": "Nemea_5_Drones",
+      "client": "Eris",
+      "npc": "CorpoContract_Nimh_Justice",
+      "level": 5,
+      "duration": 168,
+      "creditFormula": 118500,
+      "items": [
+        {
+          "item": "Drone0",
+          "qty": 1000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 118500
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 800
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20,
+        "creditFactor": 1.5
+      }
+    },
+    "Nemea_5_SmallTitaniumCasing": {
+      "id": "Nemea_5_SmallTitaniumCasing",
+      "client": "Stellar",
+      "npc": "CorpoContract_Nimh_Justice",
+      "level": 5,
+      "duration": 168,
+      "creditFormula": 88500,
+      "items": [
+        {
+          "item": "TitaniumCasingMK1",
+          "qty": 100
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 88500
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 300
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 40,
+        "creditFactor": 1.5
+      }
+    },
+    "Nemea_5_ModuleKit": {
+      "id": "Nemea_5_ModuleKit",
+      "client": "Stellar",
+      "npc": "CorpoContract_Nimh_Justice",
+      "level": 5,
+      "duration": 168,
+      "creditFormula": 121500,
+      "items": [
+        {
+          "item": "ModuleCasing2",
+          "qty": 200
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 121500
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 800
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20,
+        "creditFactor": 1.5
+      }
+    },
+    "Horizon_2_Plate": {
+      "id": "Horizon_2_Plate",
+      "client": "Stellar",
+      "npc": "CorpoContract_Competition_Horizon",
+      "level": 2,
+      "duration": 168,
+      "creditFormula": 4410,
+      "items": [
+        {
+          "item": "Plate1",
+          "qty": 200
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 4410
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 3
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 2000,
+        "creditFactor": 1.5
+      }
+    },
+    "Horizon_2_Silicium": {
+      "id": "Horizon_2_Silicium",
+      "client": "Stellar",
+      "npc": "CorpoContract_Competition_Horizon",
+      "level": 2,
+      "duration": 168,
+      "creditFormula": 3000,
+      "items": [
+        {
+          "item": "SiliciumIngot",
+          "qty": 200
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 3000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 3
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 2000,
+        "creditFactor": 1.5
+      }
+    },
+    "Horizon_2_Beam": {
+      "id": "Horizon_2_Beam",
+      "client": "Stellar",
+      "npc": "CorpoContract_Competition_Horizon",
+      "level": 2,
+      "duration": 168,
+      "creditFormula": 3924,
+      "items": [
+        {
+          "item": "Beam1",
+          "qty": 120
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 3924
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 3
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 2000,
+        "creditFactor": 1.5
+      }
+    },
+    "Horizon_2_BTitanium": {
+      "id": "Horizon_2_BTitanium",
+      "client": "Stellar",
+      "npc": "CorpoContract_Competition_Horizon",
+      "level": 2,
+      "duration": 168,
+      "creditFormula": 4941,
+      "items": [
+        {
+          "item": "BTitanium",
+          "qty": 180
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 4941
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 3
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 2000,
+        "creditFactor": 1.5
+      }
+    },
+    "Horizon_2_ThermalSheet": {
+      "id": "Horizon_2_ThermalSheet",
+      "client": "Stellar",
+      "npc": "CorpoContract_Competition_Horizon",
+      "level": 2,
+      "duration": 168,
+      "creditFormula": 2790,
+      "items": [
+        {
+          "item": "ThermalSheet",
+          "qty": 300
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 2790
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 3
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 2000,
+        "creditFactor": 1.5
+      }
+    },
+    "Horizon_3_SupportCasing": {
+      "id": "Horizon_3_SupportCasing",
+      "client": "Stellar",
+      "npc": "CorpoContract_Competition_Horizon",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 6816,
+      "items": [
+        {
+          "item": "SupportCasing",
+          "qty": 160
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 6816
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 20
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 500,
+        "creditFactor": 1.5
+      }
+    },
+    "Horizon_3_Cartridge": {
+      "id": "Horizon_3_Cartridge",
+      "client": "Republic",
+      "npc": "CorpoContract_Competition_Horizon",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 5400,
+      "items": [
+        {
+          "item": "Cartridge_Iron",
+          "qty": 120000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 5400
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 25
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 500,
+        "creditFactor": 1.5
+      }
+    },
+    "Horizon_3_MicroChip": {
+      "id": "Horizon_3_MicroChip",
+      "client": "Stellar",
+      "npc": "CorpoContract_Competition_Horizon",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 4020,
+      "items": [
+        {
+          "item": "MicroChip",
+          "qty": 2000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 4020
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 20
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 500,
+        "creditFactor": 1.5
+      }
+    },
+    "Horizon_3_LargeModuleKit": {
+      "id": "Horizon_3_LargeModuleKit",
+      "client": "Stellar",
+      "npc": "CorpoContract_Competition_Horizon",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 14700,
+      "items": [
+        {
+          "item": "ModuleCasing3",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 14700
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 30
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20,
+        "creditFactor": 1.5
+      }
+    },
+    "Horizon_3_Sheet": {
+      "id": "Horizon_3_Sheet",
+      "client": "Eris",
+      "npc": "CorpoContract_Competition_Horizon",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 18180,
+      "items": [
+        {
+          "item": "MetalSheet3",
+          "qty": 600
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 18180
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 30
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 50,
+        "creditFactor": 1.5
+      }
+    },
+    "Horizon_3_Beam": {
+      "id": "Horizon_3_Beam",
+      "client": "Stellar",
+      "npc": "CorpoContract_Competition_Horizon",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 16875,
+      "items": [
+        {
+          "item": "Beam2",
+          "qty": 225
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 16875
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 30
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 50,
+        "creditFactor": 1.5
+      }
+    },
+    "Horizon_4_WaterBottle": {
+      "id": "Horizon_4_WaterBottle",
+      "client": "Ninmah",
+      "npc": "CorpoContract_Competition_Horizon",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 57000,
+      "items": [
+        {
+          "item": "Bottle_Water",
+          "qty": 1000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 57000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 200
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 100,
+        "creditFactor": 1.5
+      }
+    },
+    "Horizon_4_MissileFrame": {
+      "id": "Horizon_4_MissileFrame",
+      "client": "Republic",
+      "npc": "CorpoContract_Competition_Horizon",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 42600,
+      "items": [
+        {
+          "item": "MissileAirframe_Small",
+          "qty": 20000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 42600
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 200
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 100,
+        "creditFactor": 1.5
+      }
+    },
+    "Horizon_4_SmallSteelCasing": {
+      "id": "Horizon_4_SmallSteelCasing",
+      "client": "Ninmah",
+      "npc": "CorpoContract_Competition_Horizon",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 61500,
+      "items": [
+        {
+          "item": "SteelCasingMK1",
+          "qty": 200
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 61500
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 200
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20,
+        "creditFactor": 1.5
+      }
+    },
+    "Horizon_4_ChemicalBattery": {
+      "id": "Horizon_4_ChemicalBattery",
+      "client": "Eris",
+      "npc": "CorpoContract_Competition_Horizon",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 85500,
+      "items": [
+        {
+          "item": "Battery",
+          "qty": 1000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 85500
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 200
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20,
+        "creditFactor": 1.5
+      }
+    },
+    "Horizon_4_MercuryBottle": {
+      "id": "Horizon_4_MercuryBottle",
+      "client": "Eris",
+      "npc": "CorpoContract_Competition_Horizon",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 42300,
+      "items": [
+        {
+          "item": "Bottle_Mercury",
+          "qty": 300
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 42300
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 200
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20,
+        "creditFactor": 1.5
+      }
+    },
+    "Horizon_5_SolarCell": {
+      "id": "Horizon_5_SolarCell",
+      "client": "Eris",
+      "npc": "CorpoContract_Competition_Horizon",
+      "level": 5,
+      "duration": 168,
+      "creditFormula": 93000,
+      "items": [
+        {
+          "item": "SolarCell",
+          "qty": 10000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 93000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 800
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20,
+        "creditFactor": 1.5
+      }
+    },
+    "Horizon_5_Motor": {
+      "id": "Horizon_5_Motor",
+      "client": "Eris",
+      "npc": "CorpoContract_Competition_Horizon",
+      "level": 5,
+      "duration": 168,
+      "creditFormula": 132750,
+      "items": [
+        {
+          "item": "Motor",
+          "qty": 1500
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 132750
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 800
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20,
+        "creditFactor": 1.5
+      }
+    },
+    "Horizon_5_Drones": {
+      "id": "Horizon_5_Drones",
+      "client": "Eris",
+      "npc": "CorpoContract_Competition_Horizon",
+      "level": 5,
+      "duration": 168,
+      "creditFormula": 118500,
+      "items": [
+        {
+          "item": "Drone0",
+          "qty": 1000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 118500
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 800
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20,
+        "creditFactor": 1.5
+      }
+    },
+    "Horizon_5_SmallTitaniumCasing": {
+      "id": "Horizon_5_SmallTitaniumCasing",
+      "client": "Stellar",
+      "npc": "CorpoContract_Competition_Horizon",
+      "level": 5,
+      "duration": 168,
+      "creditFormula": 88500,
+      "items": [
+        {
+          "item": "TitaniumCasingMK1",
+          "qty": 100
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 88500
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 300
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 40,
+        "creditFactor": 1.5
+      }
+    },
+    "Horizon_5_ModuleKit": {
+      "id": "Horizon_5_ModuleKit",
+      "client": "Stellar",
+      "npc": "CorpoContract_Competition_Horizon",
+      "level": 5,
+      "duration": 168,
+      "creditFormula": 121500,
+      "items": [
+        {
+          "item": "ModuleCasing2",
+          "qty": 200
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 121500
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 800
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20,
+        "creditFactor": 1.5
+      }
+    },
+    "Syracuse_3_Quartz": {
+      "id": "Syracuse_3_Quartz",
+      "client": "Ninmah",
+      "npc": "CorpoContract_Nimh_Cairn",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 3960,
+      "items": [
+        {
+          "item": "Quartz",
+          "qty": 300
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 3960
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 25
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 200,
+        "creditFactor": 1.2
+      }
+    },
+    "Syracuse_3_Graphite": {
+      "id": "Syracuse_3_Graphite",
+      "client": "Ninmah",
+      "npc": "CorpoContract_Nimh_Cairn",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 3240,
+      "items": [
+        {
+          "item": "GraphiteCrystal",
+          "qty": 300
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 3240
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 25
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 200,
+        "creditFactor": 1.2
+      }
+    },
+    "Syracuse_3_Pyrite": {
+      "id": "Syracuse_3_Pyrite",
+      "client": "Ninmah",
+      "npc": "CorpoContract_Nimh_Cairn",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 3600,
+      "items": [
+        {
+          "item": "Pyrite",
+          "qty": 300
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 3600
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 25
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 200,
+        "creditFactor": 1.2
+      }
+    },
+    "Syracuse_3_Hematite": {
+      "id": "Syracuse_3_Hematite",
+      "client": "Ninmah",
+      "npc": "CorpoContract_Nimh_Cairn",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 2520,
+      "items": [
+        {
+          "item": "Hematite",
+          "qty": 300
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 2520
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 20
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 200,
+        "creditFactor": 1.2
+      }
+    },
+    "Syracuse_3_Aquamarine": {
+      "id": "Syracuse_3_Aquamarine",
+      "client": "Ninmah",
+      "npc": "CorpoContract_Nimh_Cairn",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 4320,
+      "items": [
+        {
+          "item": "Aquamarine",
+          "qty": 300
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 4320
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 30
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 200,
+        "creditFactor": 1.2
+      }
+    },
+    "Syracuse_3_Graphene": {
+      "id": "Syracuse_3_Graphene",
+      "client": "Ninmah",
+      "npc": "CorpoContract_Nimh_Cairn",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 4212,
+      "items": [
+        {
+          "item": "Graphene",
+          "qty": 1500
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 4212
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 30
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 200,
+        "creditFactor": 1.2
+      }
+    },
+    "Syracuse_3_Focuser": {
+      "id": "Syracuse_3_Focuser",
+      "client": "Ninmah",
+      "npc": "CorpoContract_Nimh_Cairn",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 6930,
+      "items": [
+        {
+          "item": "Focuser",
+          "qty": 250
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 6930
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 30
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 200,
+        "creditFactor": 1.2
+      }
+    },
+    "Syracuse_5_Ethanol": {
+      "id": "Syracuse_5_Ethanol",
+      "client": "Ninmah",
+      "npc": "CorpoContract_Nimh_Cairn",
+      "level": 5,
+      "duration": 168,
+      "creditFormula": 70800,
+      "items": [
+        {
+          "item": "Bottle_Ethanol",
+          "qty": 1000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 70800
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 800
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20,
+        "creditFactor": 1.2
+      }
+    },
+    "Syracuse_5_Diamond": {
+      "id": "Syracuse_5_Diamond",
+      "client": "Ninmah",
+      "npc": "CorpoContract_Nimh_Cairn",
+      "level": 5,
+      "duration": 168,
+      "creditFormula": 72000,
+      "items": [
+        {
+          "item": "Diamond",
+          "qty": 150
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 72000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 1000
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20,
+        "creditFactor": 1.2
+      }
+    },
+    "Syracuse_5_Emerald": {
+      "id": "Syracuse_5_Emerald",
+      "client": "Ninmah",
+      "npc": "CorpoContract_Nimh_Cairn",
+      "level": 5,
+      "duration": 168,
+      "creditFormula": 62400,
+      "items": [
+        {
+          "item": "Emerald",
+          "qty": 400
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 62400
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 800
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20,
+        "creditFactor": 1.2
+      }
+    },
+    "Syracuse_5_AzuriteMalachite": {
+      "id": "Syracuse_5_AzuriteMalachite",
+      "client": "Ninmah",
+      "npc": "CorpoContract_Nimh_Cairn",
+      "level": 5,
+      "duration": 168,
+      "creditFormula": 73800,
+      "items": [
+        {
+          "item": "AzuriteStone",
+          "qty": 300
+        },
+        {
+          "item": "MalachiteStone",
+          "qty": 1200
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 73800
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 800
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20,
+        "creditFactor": 1.2
+      }
+    },
+    "Syracuse_5_Focuser2": {
+      "id": "Syracuse_5_Focuser2",
+      "client": "Ninmah",
+      "npc": "CorpoContract_Nimh_Cairn",
+      "level": 5,
+      "duration": 168,
+      "creditFormula": 64440,
+      "items": [
+        {
+          "item": "Focuser2",
+          "qty": 300
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 64440
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 800
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20,
+        "creditFactor": 1.2
+      }
+    },
+    "Syracuse_5_Graphenoid": {
+      "id": "Syracuse_5_Graphenoid",
+      "client": "Ninmah",
+      "npc": "CorpoContract_Nimh_Cairn",
+      "level": 5,
+      "duration": 168,
+      "creditFormula": 71040,
+      "items": [
+        {
+          "item": "Graphenoid",
+          "qty": 200
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 71040
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 800
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20,
+        "creditFactor": 1.2
+      }
+    },
+    "Syracuse_5_Protein": {
+      "id": "Syracuse_5_Protein",
+      "client": "Ninmah",
+      "npc": "CorpoContract_Nimh_Cairn",
+      "level": 5,
+      "duration": 168,
+      "creditFormula": 48000,
+      "items": [
+        {
+          "item": "Protein",
+          "qty": 40000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 48000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 650
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20,
+        "creditFactor": 1.2
+      }
+    },
+    "Assembly_Bolt_2": {
+      "id": "Assembly_Bolt_2",
+      "client": "Eris",
+      "level": 2,
+      "duration": 0,
+      "creditFormula": 1480,
+      "items": [
+        {
+          "item": "MetalBolt",
+          "qty": 2000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 740
+        },
+        {
+          "item": "LicensePoints",
+          "count": 2
+        }
+      ]
+    },
+    "Assembly_Wire_2": {
+      "id": "Assembly_Wire_2",
+      "client": "Eris",
+      "level": 2,
+      "duration": 0,
+      "creditFormula": 2080,
+      "items": [
+        {
+          "item": "Wire",
+          "qty": 1000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 1040
+        },
+        {
+          "item": "LicensePoints",
+          "count": 2
+        }
+      ]
+    },
+    "Assembly_Bolt_3": {
+      "id": "Assembly_Bolt_3",
+      "client": "Eris",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 26640,
+      "items": [
+        {
+          "item": "MetalBolt",
+          "qty": 36000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 13320
+        },
+        {
+          "item": "LicensePoints",
+          "count": 80
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 1
+        }
+      ]
+    },
+    "Assembly_Wire_3": {
+      "id": "Assembly_Wire_3",
+      "client": "IUOB",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 37440,
+      "items": [
+        {
+          "item": "Wire",
+          "qty": 18000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 18720
+        },
+        {
+          "item": "LicensePoints",
+          "count": 80
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 1
+        }
+      ]
+    },
+    "Assembly_Sheet_3": {
+      "id": "Assembly_Sheet_3",
+      "client": "Eris",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 27000,
+      "items": [
+        {
+          "item": "MetalSheet1",
+          "qty": 9000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 13500
+        },
+        {
+          "item": "LicensePoints",
+          "count": 80
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 1
+        }
+      ]
+    },
+    "Assembly_Semiconductor_3": {
+      "id": "Assembly_Semiconductor_3",
+      "client": "IUOB",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 13000,
+      "items": [
+        {
+          "item": "Semiconductor",
+          "qty": 5000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 6500
+        },
+        {
+          "item": "LicensePoints",
+          "count": 80
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 1
+        }
+      ]
+    },
+    "Assembly_Concrete_3": {
+      "id": "Assembly_Concrete_3",
+      "client": "Stellar",
+      "level": 3,
+      "duration": 72,
+      "creditFormula": 3750,
+      "items": [
+        {
+          "item": "Concrete",
+          "qty": 15000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 1875
+        },
+        {
+          "item": "LicensePoints",
+          "count": 80
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 1
+        }
+      ]
+    },
+    "Assembly_WireNSemiconductor_3": {
+      "id": "Assembly_WireNSemiconductor_3",
+      "client": "IUOB",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 25220,
+      "items": [
+        {
+          "item": "Semiconductor",
+          "qty": 2500
+        },
+        {
+          "item": "Wire",
+          "qty": 9000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 12610
+        },
+        {
+          "item": "LicensePoints",
+          "count": 100
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 2
+        }
+      ]
+    },
+    "Assembly_SheetNBolt_3": {
+      "id": "Assembly_SheetNBolt_3",
+      "client": "Eris",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 26820,
+      "items": [
+        {
+          "item": "MetalBolt",
+          "qty": 18000
+        },
+        {
+          "item": "MetalSheet1",
+          "qty": 4500
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 13410
+        },
+        {
+          "item": "LicensePoints",
+          "count": 100
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 1
+        }
+      ]
+    },
+    "Assembly_Radar_3": {
+      "id": "Assembly_Radar_3",
+      "client": "Stellar",
+      "level": 3,
+      "duration": 72,
+      "creditFormula": 12400,
+      "items": [
+        {
+          "item": "RadarMK1",
+          "qty": 200
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 6200
+        },
+        {
+          "item": "LicensePoints",
+          "count": 80
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 2
+        }
+      ]
+    },
+    "Assembly_Storage_3": {
+      "id": "Assembly_Storage_3",
+      "client": "Stellar",
+      "level": 3,
+      "duration": 72,
+      "creditFormula": 13000,
+      "items": [
+        {
+          "item": "Storage1",
+          "qty": 200
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 6500
+        },
+        {
+          "item": "LicensePoints",
+          "count": 80
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 2
+        }
+      ]
+    },
+    "Assembly_WireNSemiconductor_4": {
+      "id": "Assembly_WireNSemiconductor_4",
+      "client": "IUOB",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 100880,
+      "items": [
+        {
+          "item": "Semiconductor",
+          "qty": 10000
+        },
+        {
+          "item": "Wire",
+          "qty": 36000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 50440
+        },
+        {
+          "item": "LicensePoints",
+          "count": 800
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 8
+        }
+      ]
+    },
+    "Assembly_WireNSemiconductor_4_Days": {
+      "id": "Assembly_WireNSemiconductor_4_Days",
+      "client": "IUOB",
+      "level": 4,
+      "duration": 72,
+      "creditFormula": 50440,
+      "items": [
+        {
+          "item": "Semiconductor",
+          "qty": 5000
+        },
+        {
+          "item": "Wire",
+          "qty": 18000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 25220
+        },
+        {
+          "item": "LicensePoints",
+          "count": 800
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 10
+        }
+      ]
+    },
+    "Assembly_WireNSemiconductor_4_Weeks": {
+      "id": "Assembly_WireNSemiconductor_4_Weeks",
+      "client": "IUOB",
+      "level": 4,
+      "duration": 336,
+      "creditFormula": 252200,
+      "items": [
+        {
+          "item": "Semiconductor",
+          "qty": 25000
+        },
+        {
+          "item": "Wire",
+          "qty": 90000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 126100
+        },
+        {
+          "item": "LicensePoints",
+          "count": 4000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 50
+        }
+      ]
+    },
+    "Assembly_SheetNBolt_4": {
+      "id": "Assembly_SheetNBolt_4",
+      "client": "Eris",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 107280,
+      "items": [
+        {
+          "item": "MetalBolt",
+          "qty": 72000
+        },
+        {
+          "item": "MetalSheet1",
+          "qty": 18000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 53640
+        },
+        {
+          "item": "LicensePoints",
+          "count": 800
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 4
+        }
+      ]
+    },
+    "Assembly_SheetNBolt_4_Days": {
+      "id": "Assembly_SheetNBolt_4_Days",
+      "client": "Eris",
+      "level": 4,
+      "duration": 72,
+      "creditFormula": 53640,
+      "items": [
+        {
+          "item": "MetalBolt",
+          "qty": 36000
+        },
+        {
+          "item": "MetalSheet1",
+          "qty": 9000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 26820
+        },
+        {
+          "item": "LicensePoints",
+          "count": 800
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 5
+        }
+      ]
+    },
+    "Assembly_SheetNBolt_4_Weeks": {
+      "id": "Assembly_SheetNBolt_4_Weeks",
+      "client": "Eris",
+      "level": 4,
+      "duration": 336,
+      "creditFormula": 268200,
+      "items": [
+        {
+          "item": "MetalBolt",
+          "qty": 180000
+        },
+        {
+          "item": "MetalSheet1",
+          "qty": 45000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 134100
+        },
+        {
+          "item": "LicensePoints",
+          "count": 4000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 25
+        }
+      ]
+    },
+    "Assembly_ModuleKit_4": {
+      "id": "Assembly_ModuleKit_4",
+      "client": "Stellar",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 277200,
+      "items": [
+        {
+          "item": "ModuleCasing1",
+          "qty": 7200
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 138600
+        },
+        {
+          "item": "LicensePoints",
+          "count": 1000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 8
+        }
+      ]
+    },
+    "Assembly_ModuleKit_4_Days": {
+      "id": "Assembly_ModuleKit_4_Days",
+      "client": "Stellar",
+      "level": 4,
+      "duration": 72,
+      "creditFormula": 138600,
+      "items": [
+        {
+          "item": "ModuleCasing1",
+          "qty": 3600
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 69300
+        },
+        {
+          "item": "LicensePoints",
+          "count": 1000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 10
+        }
+      ]
+    },
+    "Assembly_ModuleKit_4_Weeks": {
+      "id": "Assembly_ModuleKit_4_Weeks",
+      "client": "Stellar",
+      "level": 4,
+      "duration": 336,
+      "creditFormula": 693000,
+      "items": [
+        {
+          "item": "ModuleCasing1",
+          "qty": 18000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 346500
+        },
+        {
+          "item": "LicensePoints",
+          "count": 5000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 50
+        }
+      ]
+    },
+    "Assembly_Coil_4": {
+      "id": "Assembly_Coil_4",
+      "client": "Eris",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 273600,
+      "items": [
+        {
+          "item": "Coil",
+          "qty": 28800
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 136800
+        },
+        {
+          "item": "LicensePoints",
+          "count": 1000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 8
+        }
+      ]
+    },
+    "Assembly_Coil_4_Days": {
+      "id": "Assembly_Coil_4_Days",
+      "client": "Eris",
+      "level": 4,
+      "duration": 72,
+      "creditFormula": 136800,
+      "items": [
+        {
+          "item": "Coil",
+          "qty": 14400
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 68400
+        },
+        {
+          "item": "LicensePoints",
+          "count": 1000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 10
+        }
+      ]
+    },
+    "Assembly_Coil_4_Weeks": {
+      "id": "Assembly_Coil_4_Weeks",
+      "client": "Eris",
+      "level": 4,
+      "duration": 336,
+      "creditFormula": 684000,
+      "items": [
+        {
+          "item": "Coil",
+          "qty": 72000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 342000
+        },
+        {
+          "item": "LicensePoints",
+          "count": 5000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 50
+        }
+      ]
+    },
+    "Assembly_Plate_4": {
+      "id": "Assembly_Plate_4",
+      "client": "Stellar",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 264600,
+      "items": [
+        {
+          "item": "Plate1",
+          "qty": 18000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 132300
+        },
+        {
+          "item": "LicensePoints",
+          "count": 1000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 8
+        }
+      ]
+    },
+    "Assembly_Plate_4_Days": {
+      "id": "Assembly_Plate_4_Days",
+      "client": "Stellar",
+      "level": 4,
+      "duration": 72,
+      "creditFormula": 132300,
+      "items": [
+        {
+          "item": "Plate1",
+          "qty": 9000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 66150
+        },
+        {
+          "item": "LicensePoints",
+          "count": 1000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 10
+        }
+      ]
+    },
+    "Assembly_Plate_4_Weeks": {
+      "id": "Assembly_Plate_4_Weeks",
+      "client": "Stellar",
+      "level": 4,
+      "duration": 336,
+      "creditFormula": 661500,
+      "items": [
+        {
+          "item": "Plate1",
+          "qty": 45000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 330750
+        },
+        {
+          "item": "LicensePoints",
+          "count": 5000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 50
+        }
+      ]
+    },
+    "Assembly_Beam_4": {
+      "id": "Assembly_Beam_4",
+      "client": "Stellar",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 147150,
+      "items": [
+        {
+          "item": "Beam1",
+          "qty": 6750
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 78300
+        },
+        {
+          "item": "LicensePoints",
+          "count": 1000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 8
+        }
+      ]
+    },
+    "Assembly_Beam_4_Days": {
+      "id": "Assembly_Beam_4_Days",
+      "client": "Stellar",
+      "level": 4,
+      "duration": 72,
+      "creditFormula": 73575,
+      "items": [
+        {
+          "item": "Beam1",
+          "qty": 3375
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 39150
+        },
+        {
+          "item": "LicensePoints",
+          "count": 1000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 10
+        }
+      ]
+    },
+    "Assembly_Beam_4_Weeks": {
+      "id": "Assembly_Beam_4_Weeks",
+      "client": "Stellar",
+      "level": 4,
+      "duration": 336,
+      "creditFormula": 367875,
+      "items": [
+        {
+          "item": "Beam1",
+          "qty": 16875
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 195750
+        },
+        {
+          "item": "LicensePoints",
+          "count": 5000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 50
+        }
+      ]
+    },
+    "Assembly_Ammo_4": {
+      "id": "Assembly_Ammo_4",
+      "client": "Republic",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 108000,
+      "items": [
+        {
+          "item": "Cartridge_Iron",
+          "qty": 3600000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 54000
+        },
+        {
+          "item": "LicensePoints",
+          "count": 1000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 12
+        }
+      ]
+    },
+    "Assembly_Ammo_4_Days": {
+      "id": "Assembly_Ammo_4_Days",
+      "client": "Republic",
+      "level": 4,
+      "duration": 72,
+      "creditFormula": 54000,
+      "items": [
+        {
+          "item": "Cartridge_Iron",
+          "qty": 1800000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 27000
+        },
+        {
+          "item": "LicensePoints",
+          "count": 1000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 15
+        }
+      ]
+    },
+    "Assembly_Ammo_4_Weeks": {
+      "id": "Assembly_Ammo_4_Weeks",
+      "client": "Republic",
+      "level": 4,
+      "duration": 336,
+      "creditFormula": 270000,
+      "items": [
+        {
+          "item": "Cartridge_Iron",
+          "qty": 9000000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 135000
+        },
+        {
+          "item": "LicensePoints",
+          "count": 5000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 75
+        }
+      ]
+    },
+    "Assembly_Missile_4": {
+      "id": "Assembly_Missile_4",
+      "client": "Republic",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 127800,
+      "items": [
+        {
+          "item": "MissileAirframe_Small",
+          "qty": 90000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 63000
+        },
+        {
+          "item": "LicensePoints",
+          "count": 1000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 12
+        }
+      ]
+    },
+    "Assembly_Missile_4_Days": {
+      "id": "Assembly_Missile_4_Days",
+      "client": "Republic",
+      "level": 4,
+      "duration": 72,
+      "creditFormula": 63900,
+      "items": [
+        {
+          "item": "MissileAirframe_Small",
+          "qty": 45000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 31500
+        },
+        {
+          "item": "LicensePoints",
+          "count": 1000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 15
+        }
+      ]
+    },
+    "Assembly_Missile_4_Weeks": {
+      "id": "Assembly_Missile_4_Weeks",
+      "client": "Republic",
+      "level": 4,
+      "duration": 336,
+      "creditFormula": 319500,
+      "items": [
+        {
+          "item": "MissileAirframe_Small",
+          "qty": 225000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 157500
+        },
+        {
+          "item": "LicensePoints",
+          "count": 5000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 75
+        }
+      ]
+    },
+    "Assembly_Motor_4_Days": {
+      "id": "Assembly_Motor_4_Days",
+      "client": "Eris",
+      "level": 4,
+      "duration": 72,
+      "creditFormula": 118000,
+      "items": [
+        {
+          "item": "Motor",
+          "qty": 2000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 59000
+        },
+        {
+          "item": "LicensePoints",
+          "count": 1000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 15
+        }
+      ]
+    },
+    "Assembly_Motor_4_Weeks": {
+      "id": "Assembly_Motor_4_Weeks",
+      "client": "Eris",
+      "level": 4,
+      "duration": 336,
+      "creditFormula": 590000,
+      "items": [
+        {
+          "item": "Motor",
+          "qty": 10000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 295000
+        },
+        {
+          "item": "LicensePoints",
+          "count": 5000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 75
+        }
+      ]
+    },
+    "Assembly_ModuleKit2_4_Days": {
+      "id": "Assembly_ModuleKit2_4_Days",
+      "client": "Stellar",
+      "level": 4,
+      "duration": 72,
+      "creditFormula": 364500,
+      "items": [
+        {
+          "item": "ModuleCasing2",
+          "qty": 900
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 182250
+        },
+        {
+          "item": "LicensePoints",
+          "count": 1000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 25
+        }
+      ]
+    },
+    "Assembly_ModuleKit2_4_Weeks": {
+      "id": "Assembly_ModuleKit2_4_Weeks",
+      "client": "Stellar",
+      "level": 4,
+      "duration": 336,
+      "creditFormula": 1822500,
+      "items": [
+        {
+          "item": "ModuleCasing2",
+          "qty": 4500
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 911250
+        },
+        {
+          "item": "LicensePoints",
+          "count": 5000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 125
+        }
+      ]
+    },
+    "Crystal_Quartz_3": {
+      "id": "Crystal_Quartz_3",
+      "client": "Ninmah",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 13750,
+      "items": [
+        {
+          "item": "Quartz",
+          "qty": 1250
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 15125
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 1
+        }
+      ]
+    },
+    "Crystal_Hematite_3": {
+      "id": "Crystal_Hematite_3",
+      "client": "Ninmah",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 25200,
+      "items": [
+        {
+          "item": "Hematite",
+          "qty": 3600
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 27720
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 1
+        }
+      ]
+    },
+    "Crystal_Graphite_3": {
+      "id": "Crystal_Graphite_3",
+      "client": "Ninmah",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 12960,
+      "items": [
+        {
+          "item": "GraphiteCrystal",
+          "qty": 1440
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 14256
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 1
+        }
+      ]
+    },
+    "Crystal_Pyrite_3": {
+      "id": "Crystal_Pyrite_3",
+      "client": "Ninmah",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 18750,
+      "items": [
+        {
+          "item": "Pyrite",
+          "qty": 1875
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 22687
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 1
+        }
+      ]
+    },
+    "Crystal_Quartz_4": {
+      "id": "Crystal_Quartz_4",
+      "client": "Ninmah",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 55000,
+      "items": [
+        {
+          "item": "Quartz",
+          "qty": 5000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 60500
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 8
+        }
+      ]
+    },
+    "Crystal_Quartz_4_Days": {
+      "id": "Crystal_Quartz_4_Days",
+      "client": "Ninmah",
+      "level": 4,
+      "duration": 72,
+      "creditFormula": 27500,
+      "items": [
+        {
+          "item": "Quartz",
+          "qty": 2500
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 30250
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 10
+        }
+      ]
+    },
+    "Crystal_Quartz_4_Weeks": {
+      "id": "Crystal_Quartz_4_Weeks",
+      "client": "Ninmah",
+      "level": 4,
+      "duration": 336,
+      "creditFormula": 137500,
+      "items": [
+        {
+          "item": "Quartz",
+          "qty": 12500
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 151250
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 50
+        }
+      ]
+    },
+    "Crystal_Hematite_4": {
+      "id": "Crystal_Hematite_4",
+      "client": "Ninmah",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 100800,
+      "items": [
+        {
+          "item": "Hematite",
+          "qty": 14400
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 110880
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 8
+        }
+      ]
+    },
+    "Crystal_Hematite_4_Days": {
+      "id": "Crystal_Hematite_4_Days",
+      "client": "Ninmah",
+      "level": 4,
+      "duration": 72,
+      "creditFormula": 50400,
+      "items": [
+        {
+          "item": "Hematite",
+          "qty": 7200
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 55440
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 10
+        }
+      ]
+    },
+    "Crystal_Hematite_4_Weeks": {
+      "id": "Crystal_Hematite_4_Weeks",
+      "client": "Ninmah",
+      "level": 4,
+      "duration": 336,
+      "creditFormula": 252000,
+      "items": [
+        {
+          "item": "Hematite",
+          "qty": 36000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 277200
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 50
+        }
+      ]
+    },
+    "Crystal_Graphite_4": {
+      "id": "Crystal_Graphite_4",
+      "client": "Ninmah",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 51840,
+      "items": [
+        {
+          "item": "GraphiteCrystal",
+          "qty": 5760
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 57024
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 8
+        }
+      ]
+    },
+    "Crystal_Graphite_4_Days": {
+      "id": "Crystal_Graphite_4_Days",
+      "client": "Ninmah",
+      "level": 4,
+      "duration": 72,
+      "creditFormula": 25920,
+      "items": [
+        {
+          "item": "GraphiteCrystal",
+          "qty": 2880
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 28512
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 10
+        }
+      ]
+    },
+    "Crystal_Graphite_4_Weeks": {
+      "id": "Crystal_Graphite_4_Weeks",
+      "client": "Ninmah",
+      "level": 4,
+      "duration": 336,
+      "creditFormula": 129600,
+      "items": [
+        {
+          "item": "GraphiteCrystal",
+          "qty": 14400
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 142560
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 50
+        }
+      ]
+    },
+    "Crystal_Pyrite_4": {
+      "id": "Crystal_Pyrite_4",
+      "client": "Ninmah",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 75000,
+      "items": [
+        {
+          "item": "Pyrite",
+          "qty": 7500
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 90750
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 8
+        }
+      ]
+    },
+    "Crystal_Pyrite_4_Days": {
+      "id": "Crystal_Pyrite_4_Days",
+      "client": "Ninmah",
+      "level": 4,
+      "duration": 72,
+      "creditFormula": 37500,
+      "items": [
+        {
+          "item": "Pyrite",
+          "qty": 3750
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 45375
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 10
+        }
+      ]
+    },
+    "Crystal_Pyrite_4_Weeks": {
+      "id": "Crystal_Pyrite_4_Weeks",
+      "client": "Ninmah",
+      "level": 4,
+      "duration": 336,
+      "creditFormula": 187500,
+      "items": [
+        {
+          "item": "Pyrite",
+          "qty": 18750
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 226875
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 50
+        }
+      ]
+    },
+    "Crystal_Aquamarine_4": {
+      "id": "Crystal_Aquamarine_4",
+      "client": "Ninmah",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 72000,
+      "items": [
+        {
+          "item": "Aquamarine",
+          "qty": 6000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 79200
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 12
+        }
+      ]
+    },
+    "Crystal_Aquamarine_4_Days": {
+      "id": "Crystal_Aquamarine_4_Days",
+      "client": "Ninmah",
+      "level": 4,
+      "duration": 72,
+      "creditFormula": 36000,
+      "items": [
+        {
+          "item": "Aquamarine",
+          "qty": 3000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 39600
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 15
+        }
+      ]
+    },
+    "Crystal_Aquamarine_4_Weeks": {
+      "id": "Crystal_Aquamarine_4_Weeks",
+      "client": "Ninmah",
+      "level": 4,
+      "duration": 336,
+      "creditFormula": 180000,
+      "items": [
+        {
+          "item": "Aquamarine",
+          "qty": 15000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 198000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 75
+        }
+      ]
+    },
+    "Assembly_Focuser_4_Days": {
+      "id": "Assembly_Focuser_4_Days",
+      "client": "Ninmah",
+      "level": 4,
+      "duration": 72,
+      "creditFormula": 138600,
+      "items": [
+        {
+          "item": "Focuser",
+          "qty": 6000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 50820
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 15
+        }
+      ]
+    },
+    "Assembly_Focuser_4_Weeks": {
+      "id": "Assembly_Focuser_4_Weeks",
+      "client": "Ninmah",
+      "level": 4,
+      "duration": 336,
+      "creditFormula": 693000,
+      "items": [
+        {
+          "item": "Focuser",
+          "qty": 30000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 254100
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 75
+        }
+      ]
+    },
+    "Crystal_Emerald_5_Days": {
+      "id": "Crystal_Emerald_5_Days",
+      "client": "Ninmah",
+      "level": 5,
+      "duration": 72,
+      "creditFormula": 156000,
+      "items": [
+        {
+          "item": "Emerald",
+          "qty": 1200
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 171600
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 80
+        }
+      ]
+    },
+    "Crystal_Emerald_5_Month": {
+      "id": "Crystal_Emerald_5_Month",
+      "client": "Ninmah",
+      "level": 5,
+      "duration": 672,
+      "creditFormula": 1560000,
+      "items": [
+        {
+          "item": "Emerald",
+          "qty": 12000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 1716000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 800
+        }
+      ]
+    },
+    "Crystal_Malachite_5_Days": {
+      "id": "Crystal_Malachite_5_Days",
+      "client": "Ninmah",
+      "level": 5,
+      "duration": 72,
+      "creditFormula": 230400,
+      "items": [
+        {
+          "item": "MalachiteStone",
+          "qty": 5760
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 253440
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 80
+        }
+      ]
+    },
+    "Crystal_Malachite_5_Month": {
+      "id": "Crystal_Malachite_5_Month",
+      "client": "Ninmah",
+      "level": 5,
+      "duration": 672,
+      "creditFormula": 2304000,
+      "items": [
+        {
+          "item": "MalachiteStone",
+          "qty": 57600
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 2534400
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 800
+        }
+      ]
+    },
+    "Crystal_Diamond_5": {
+      "id": "Crystal_Diamond_5",
+      "client": "Ninmah",
+      "level": 5,
+      "duration": 72,
+      "creditFormula": 192000,
+      "items": [
+        {
+          "item": "Diamond",
+          "qty": 480
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 211200
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 80
+        }
+      ]
+    },
+    "Crystal_Diamond_5_Month": {
+      "id": "Crystal_Diamond_5_Month",
+      "client": "Ninmah",
+      "level": 5,
+      "duration": 672,
+      "creditFormula": 1920000,
+      "items": [
+        {
+          "item": "Diamond",
+          "qty": 4800
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 2112000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 800
+        }
+      ]
+    },
+    "Comp_Material_Iron_2": {
+      "id": "Comp_Material_Iron_2",
+      "client": "TheCo",
+      "level": 2,
+      "duration": 0,
+      "creditFormula": 5800,
+      "items": [
+        {
+          "item": "IronIngot",
+          "qty": 1000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 6380
+        }
+      ]
+    },
+    "Comp_Material_Copper_2": {
+      "id": "Comp_Material_Copper_2",
+      "client": "TheCo",
+      "level": 2,
+      "duration": 0,
+      "creditFormula": 8000,
+      "items": [
+        {
+          "item": "CopperIngot",
+          "qty": 1000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 8800
+        }
+      ]
+    },
+    "Comp_Material_Alu_2": {
+      "id": "Comp_Material_Alu_2",
+      "client": "TheCo",
+      "level": 2,
+      "duration": 0,
+      "creditFormula": 9600,
+      "items": [
+        {
+          "item": "AluminiumIngot",
+          "qty": 1000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 10550
+        }
+      ]
+    },
+    "Comp_Material_Iron_3": {
+      "id": "Comp_Material_Iron_3",
+      "client": "TheCo",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 26100,
+      "items": [
+        {
+          "item": "IronIngot",
+          "qty": 4500
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 28720
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 1
+        }
+      ]
+    },
+    "Comp_Material_Copper_3": {
+      "id": "Comp_Material_Copper_3",
+      "client": "TheCo",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 36000,
+      "items": [
+        {
+          "item": "CopperIngot",
+          "qty": 4500
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 39600
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 1
+        }
+      ]
+    },
+    "Comp_Material_Alu_3": {
+      "id": "Comp_Material_Alu_3",
+      "client": "TheCo",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 43200,
+      "items": [
+        {
+          "item": "AluminiumIngot",
+          "qty": 4500
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 47520
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 1
+        }
+      ]
+    },
+    "Comp_Material_Silicum_3": {
+      "id": "Comp_Material_Silicum_3",
+      "client": "TheCo",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 12500,
+      "items": [
+        {
+          "item": "SiliciumIngot",
+          "qty": 1250
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 13750
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 1
+        }
+      ]
+    },
+    "Comp_Material_Titanium_3": {
+      "id": "Comp_Material_Titanium_3",
+      "client": "TheCo",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 40500,
+      "items": [
+        {
+          "item": "TitaniumIngot",
+          "qty": 4500
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 44540
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 1
+        }
+      ]
+    },
+    "Comp_Material_Iron_4": {
+      "id": "Comp_Material_Iron_4",
+      "client": "TheCo",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 104400,
+      "items": [
+        {
+          "item": "IronIngot",
+          "qty": 18000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 114880
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 8
+        }
+      ]
+    },
+    "Comp_Material_Iron_4_Days": {
+      "id": "Comp_Material_Iron_4_Days",
+      "client": "TheCo",
+      "level": 4,
+      "duration": 72,
+      "creditFormula": 52200,
+      "items": [
+        {
+          "item": "IronIngot",
+          "qty": 9000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 57440
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 10
+        }
+      ]
+    },
+    "Comp_Material_Iron_4_Weeks": {
+      "id": "Comp_Material_Iron_4_Weeks",
+      "client": "TheCo",
+      "level": 4,
+      "duration": 336,
+      "creditFormula": 261000,
+      "items": [
+        {
+          "item": "IronIngot",
+          "qty": 45000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 287200
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 50
+        }
+      ]
+    },
+    "Comp_Material_Copper_4": {
+      "id": "Comp_Material_Copper_4",
+      "client": "TheCo",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 144000,
+      "items": [
+        {
+          "item": "CopperIngot",
+          "qty": 18000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 158400
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 8
+        }
+      ]
+    },
+    "Comp_Material_Copper_4_Days": {
+      "id": "Comp_Material_Copper_4_Days",
+      "client": "TheCo",
+      "level": 4,
+      "duration": 72,
+      "creditFormula": 72000,
+      "items": [
+        {
+          "item": "CopperIngot",
+          "qty": 9000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 79200
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 10
+        }
+      ]
+    },
+    "Comp_Material_Copper_4_Weeks": {
+      "id": "Comp_Material_Copper_4_Weeks",
+      "client": "TheCo",
+      "level": 4,
+      "duration": 336,
+      "creditFormula": 360000,
+      "items": [
+        {
+          "item": "CopperIngot",
+          "qty": 45000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 396000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 50
+        }
+      ]
+    },
+    "Comp_Material_Alu_4": {
+      "id": "Comp_Material_Alu_4",
+      "client": "TheCo",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 172800,
+      "items": [
+        {
+          "item": "AluminiumIngot",
+          "qty": 18000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 190080
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 8
+        }
+      ]
+    },
+    "Comp_Material_Alu_4_Days": {
+      "id": "Comp_Material_Alu_4_Days",
+      "client": "TheCo",
+      "level": 4,
+      "duration": 72,
+      "creditFormula": 86400,
+      "items": [
+        {
+          "item": "AluminiumIngot",
+          "qty": 9000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 95040
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 10
+        }
+      ]
+    },
+    "Comp_Material_Alu_4_Weeks": {
+      "id": "Comp_Material_Alu_4_Weeks",
+      "client": "TheCo",
+      "level": 4,
+      "duration": 336,
+      "creditFormula": 432000,
+      "items": [
+        {
+          "item": "AluminiumIngot",
+          "qty": 45000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 475200
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 50
+        }
+      ]
+    },
+    "Comp_Material_Silicum_4": {
+      "id": "Comp_Material_Silicum_4",
+      "client": "TheCo",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 50000,
+      "items": [
+        {
+          "item": "SiliciumIngot",
+          "qty": 5000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 55000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 8
+        }
+      ]
+    },
+    "Comp_Material_Silicum_4_Days": {
+      "id": "Comp_Material_Silicum_4_Days",
+      "client": "TheCo",
+      "level": 4,
+      "duration": 72,
+      "creditFormula": 25000,
+      "items": [
+        {
+          "item": "SiliciumIngot",
+          "qty": 2500
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 27500
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 10
+        }
+      ]
+    },
+    "Comp_Material_Silicum_4_Weeks": {
+      "id": "Comp_Material_Silicum_4_Weeks",
+      "client": "TheCo",
+      "level": 4,
+      "duration": 336,
+      "creditFormula": 125000,
+      "items": [
+        {
+          "item": "SiliciumIngot",
+          "qty": 12500
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 137500
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 50
+        }
+      ]
+    },
+    "Comp_Material_Titanium_4": {
+      "id": "Comp_Material_Titanium_4",
+      "client": "TheCo",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 162000,
+      "items": [
+        {
+          "item": "TitaniumIngot",
+          "qty": 18000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 178160
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 8
+        }
+      ]
+    },
+    "Comp_Material_Titanium_4_Days": {
+      "id": "Comp_Material_Titanium_4_Days",
+      "client": "TheCo",
+      "level": 4,
+      "duration": 72,
+      "creditFormula": 81000,
+      "items": [
+        {
+          "item": "TitaniumIngot",
+          "qty": 9000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 89080
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 10
+        }
+      ]
+    },
+    "Comp_Material_Titanium_4_Weeks": {
+      "id": "Comp_Material_Titanium_4_Weeks",
+      "client": "TheCo",
+      "level": 4,
+      "duration": 336,
+      "creditFormula": 405000,
+      "items": [
+        {
+          "item": "TitaniumIngot",
+          "qty": 45000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 445400
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 50
+        }
+      ]
+    },
+    "Comp_Material_Steel_4_Days": {
+      "id": "Comp_Material_Steel_4_Days",
+      "client": "TheCo",
+      "level": 4,
+      "duration": 72,
+      "creditFormula": 56700,
+      "items": [
+        {
+          "item": "Steel",
+          "qty": 5400
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 66528
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 10
+        }
+      ]
+    },
+    "Comp_Material_Steel_4_Weeks": {
+      "id": "Comp_Material_Steel_4_Weeks",
+      "client": "TheCo",
+      "level": 4,
+      "duration": 336,
+      "creditFormula": 283500,
+      "items": [
+        {
+          "item": "Steel",
+          "qty": 27000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 332640
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 50
+        }
+      ]
+    },
+    "Helicon_4_Licence_Beam3": {
+      "id": "Helicon_4_Licence_Beam3",
+      "client": "Stellar",
+      "level": 4,
+      "duration": 0,
+      "creditFormula": 52700,
+      "items": [
+        {
+          "item": "PlatinumCasingMK2",
+          "qty": 3
+        },
+        {
+          "item": "PlatinumCasingMK1",
+          "qty": 20
+        },
+        {
+          "item": "Beam3",
+          "qty": 100
+        },
+        {
+          "item": "Beam2",
+          "qty": 800
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 52700
+        },
+        {
+          "item": "LicensePoints",
+          "count": 500
+        }
+      ],
+      "props": {
+        "maxCompletionsPerCycle": 1,
+        "creditFactor": 0.5
+      }
+    },
+    "Helicon_4_Licence_Levinium": {
+      "id": "Helicon_4_Licence_Levinium",
+      "client": "Stellar",
+      "level": 4,
+      "duration": 0,
+      "creditFormula": 51050,
+      "items": [
+        {
+          "item": "LeviniumCasingMK1",
+          "qty": 15
+        },
+        {
+          "item": "Plate_Light",
+          "qty": 400
+        },
+        {
+          "item": "Bottle_Mercury",
+          "qty": 400
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 51050
+        },
+        {
+          "item": "LicensePoints",
+          "count": 500
+        }
+      ],
+      "props": {
+        "maxCompletionsPerCycle": 1,
+        "creditFactor": 0.5
+      }
+    },
+    "Helicon_4_Licence_ModuleKit": {
+      "id": "Helicon_4_Licence_ModuleKit",
+      "client": "Stellar",
+      "level": 4,
+      "duration": 0,
+      "creditFormula": 57350,
+      "items": [
+        {
+          "item": "Storage3",
+          "qty": 3
+        },
+        {
+          "item": "LiquidStorage2",
+          "qty": 10
+        },
+        {
+          "item": "Actuator",
+          "qty": 50
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 57350
+        },
+        {
+          "item": "LicensePoints",
+          "count": 500
+        }
+      ],
+      "props": {
+        "maxCompletionsPerCycle": 1,
+        "creditFactor": 0.5
+      }
+    },
+    "Helicon_3_Licence_Beam2": {
+      "id": "Helicon_3_Licence_Beam2",
+      "client": "Stellar",
+      "level": 3,
+      "duration": 0,
+      "creditFormula": 19425,
+      "items": [
+        {
+          "item": "TitaniumCasingMK2",
+          "qty": 5
+        },
+        {
+          "item": "TitaniumCasingMK1",
+          "qty": 7
+        },
+        {
+          "item": "Beam2",
+          "qty": 200
+        },
+        {
+          "item": "Beam1",
+          "qty": 400
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 19500
+        },
+        {
+          "item": "LicensePoints",
+          "count": 200
+        }
+      ],
+      "props": {
+        "maxCompletionsPerCycle": 1,
+        "creditFactor": 0.5
+      }
+    },
+    "Helicon_3_Licence_Batteries": {
+      "id": "Helicon_3_Licence_Batteries",
+      "client": "Eris",
+      "level": 3,
+      "duration": 0,
+      "creditFormula": 23140,
+      "items": [
+        {
+          "item": "Battery",
+          "qty": 600
+        },
+        {
+          "item": "Gunpowder",
+          "qty": 3000
+        },
+        {
+          "item": "Bottle_Vitriol",
+          "qty": 200
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 23140
+        },
+        {
+          "item": "LicensePoints",
+          "count": 200
+        }
+      ],
+      "props": {
+        "maxCompletionsPerCycle": 1,
+        "creditFactor": 0.5
+      }
+    },
+    "Helicon_5_SolarCell": {
+      "id": "Helicon_5_SolarCell",
+      "client": "Eris",
+      "level": 5,
+      "duration": 168,
+      "creditFormula": 62000,
+      "items": [
+        {
+          "item": "SolarCell",
+          "qty": 10000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 62000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 800
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20
+      }
+    },
+    "Helicon_5_Motor": {
+      "id": "Helicon_5_Motor",
+      "client": "Eris",
+      "level": 5,
+      "duration": 168,
+      "creditFormula": 88500,
+      "items": [
+        {
+          "item": "Motor",
+          "qty": 1500
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 88500
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 800
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20
+      }
+    },
+    "Helicon_5_Drones": {
+      "id": "Helicon_5_Drones",
+      "client": "Eris",
+      "level": 5,
+      "duration": 168,
+      "creditFormula": 79000,
+      "items": [
+        {
+          "item": "Drone0",
+          "qty": 1000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 79000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 800
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20
+      }
+    },
+    "Helicon_5_SmallTitaniumCasing": {
+      "id": "Helicon_5_SmallTitaniumCasing",
+      "client": "Stellar",
+      "level": 5,
+      "duration": 168,
+      "creditFormula": 59000,
+      "items": [
+        {
+          "item": "TitaniumCasingMK1",
+          "qty": 100
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 59000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 300
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 40
+      }
+    },
+    "Helicon_5_ModuleKit": {
+      "id": "Helicon_5_ModuleKit",
+      "client": "Stellar",
+      "level": 5,
+      "duration": 168,
+      "creditFormula": 81000,
+      "items": [
+        {
+          "item": "ModuleCasing2",
+          "qty": 200
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 81000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 800
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20
+      }
+    },
+    "Helicon_4_ChemicalBattery": {
+      "id": "Helicon_4_ChemicalBattery",
+      "client": "Eris",
+      "level": 4,
+      "duration": 168,
+      "creditFormula": 57000,
+      "items": [
+        {
+          "item": "Battery",
+          "qty": 1000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 57000
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 200
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20
+      }
+    },
+    "Helicon_3_LargeModuleKit": {
+      "id": "Helicon_3_LargeModuleKit",
+      "client": "Stellar",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 9800,
+      "items": [
+        {
+          "item": "ModuleCasing3",
+          "qty": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 9800
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 30
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 20
+      }
+    },
+    "Helicon_3_Sheet3": {
+      "id": "Helicon_3_Sheet3",
+      "client": "Eris",
+      "level": 3,
+      "duration": 168,
+      "creditFormula": 12120,
+      "items": [
+        {
+          "item": "MetalSheet3",
+          "qty": 600
+        }
+      ],
+      "rewards": [
+        {
+          "item": "CorpoCredits",
+          "count": 12120
+        },
+        {
+          "item": "CorpoReputation",
+          "count": 30
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "maxCompletionsPerCycle": 50
+      }
+    }
+  }
+}

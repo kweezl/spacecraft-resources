@@ -1,0 +1,148 @@
+{
+  "data": "unpacked/data.cdb",
+  "assets": "unpacked",
+  "out": "generated/icons-factions",
+  "count": 10,
+  "icons": {
+    "TheCo": {
+      "id": "TheCo",
+      "name": "The Company",
+      "sheet": "faction",
+      "output": "generated/icons-factions/TheCo.webp",
+      "source": {
+        "file": "ui/icons/FactionIcons.png",
+        "size": 16,
+        "x": 0,
+        "y": 0,
+        "width": 4,
+        "height": 4
+      }
+    },
+    "SpacePirates": {
+      "id": "SpacePirates",
+      "name": "Space Pirates",
+      "sheet": "faction",
+      "output": "generated/icons-factions/SpacePirates.webp",
+      "source": {
+        "file": "ui/icons/illustrations.png",
+        "size": 16,
+        "x": 2,
+        "y": 1,
+        "width": 4,
+        "height": 4
+      }
+    },
+    "IUOB": {
+      "id": "IUOB",
+      "name": "IUOB",
+      "sheet": "faction",
+      "output": "generated/icons-factions/SpacePirates.webp",
+      "source": {
+        "file": "ui/icons/illustrations.png",
+        "size": 16,
+        "x": 2,
+        "y": 1,
+        "width": 4,
+        "height": 4
+      }
+    },
+    "Stellar": {
+      "id": "Stellar",
+      "name": "Stellar Engineering",
+      "sheet": "faction",
+      "output": "generated/icons-factions/Stellar.webp",
+      "source": {
+        "file": "ui/icons/FactionIcons.png",
+        "size": 16,
+        "x": 4,
+        "y": 0,
+        "width": 4,
+        "height": 4
+      }
+    },
+    "Ninmah": {
+      "id": "Ninmah",
+      "name": "Ninmah Group",
+      "sheet": "faction",
+      "output": "generated/icons-factions/Ninmah.webp",
+      "source": {
+        "file": "ui/icons/FactionIcons.png",
+        "size": 16,
+        "x": 8,
+        "y": 4,
+        "width": 4,
+        "height": 4
+      }
+    },
+    "Eris": {
+      "id": "Eris",
+      "name": "Eris Corp.",
+      "sheet": "faction",
+      "output": "generated/icons-factions/SpacePirates.webp",
+      "source": {
+        "file": "ui/icons/illustrations.png",
+        "size": 16,
+        "x": 2,
+        "y": 1,
+        "width": 4,
+        "height": 4
+      }
+    },
+    "Vox": {
+      "id": "Vox",
+      "name": "Vox Populi",
+      "sheet": "faction",
+      "output": "generated/icons-factions/SpacePirates.webp",
+      "source": {
+        "file": "ui/icons/illustrations.png",
+        "size": 16,
+        "x": 2,
+        "y": 1,
+        "width": 4,
+        "height": 4
+      }
+    },
+    "CoG": {
+      "id": "CoG",
+      "name": "Children of Gaia",
+      "sheet": "faction",
+      "output": "generated/icons-factions/SpacePirates.webp",
+      "source": {
+        "file": "ui/icons/illustrations.png",
+        "size": 16,
+        "x": 2,
+        "y": 1,
+        "width": 4,
+        "height": 4
+      }
+    },
+    "Monster": {
+      "id": "Monster",
+      "name": "Monster",
+      "sheet": "faction",
+      "output": "generated/icons-factions/SpacePirates.webp",
+      "source": {
+        "file": "ui/icons/illustrations.png",
+        "size": 16,
+        "x": 2,
+        "y": 1,
+        "width": 4,
+        "height": 4
+      }
+    },
+    "Republic": {
+      "id": "Republic",
+      "name": "The Republic",
+      "sheet": "faction",
+      "output": "generated/icons-factions/SpacePirates.webp",
+      "source": {
+        "file": "ui/icons/illustrations.png",
+        "size": 16,
+        "x": 2,
+        "y": 1,
+        "width": 4,
+        "height": 4
+      }
+    }
+  }
+}
