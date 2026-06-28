@@ -80,6 +80,12 @@ createApp({
       for (const c of categories.value) map[c.id] = c;
       return map;
     });
+    // workshop id -> crafting building item id, so views can borrow its icon.
+    const workshopBuildings = computed(() => {
+      const map = {};
+      for (const w of workshops.value) if (w.building) map[w.id] = w.building;
+      return map;
+    });
 
     onMounted(async () => {
       try {
@@ -116,7 +122,7 @@ createApp({
     return {
       loading, error, notice, items, recipes, workshops, contracts, categories,
       spaceObjects, factions, aliases, categoryAliases, factionAliases, tr,
-      categoriesById, lang, langs, route, dataBase, focusId, nav: NAV,
+      categoriesById, workshopBuildings, lang, langs, route, dataBase, focusId, nav: NAV,
       changeLang, notify,
     };
   },
@@ -154,8 +160,8 @@ createApp({
         </p>
       </div>
       <items-view v-else-if="route.view==='items'" :items="items" :aliases="aliases" :tr="tr" :base="dataBase" :categories-by-id="categoriesById" :category-aliases="categoryAliases" :focus-id="focusId" @notify="notify"></items-view>
-      <recipes-view v-else-if="route.view==='recipes'" :recipes="recipes" :aliases="aliases" :tr="tr" :base="dataBase" :category-aliases="categoryAliases"></recipes-view>
-      <workshops-view v-else-if="route.view==='workshops'" :workshops="workshops" :recipes="recipes" :tr="tr"></workshops-view>
+      <recipes-view v-else-if="route.view==='recipes'" :recipes="recipes" :aliases="aliases" :tr="tr" :base="dataBase" :category-aliases="categoryAliases" :workshop-buildings="workshopBuildings"></recipes-view>
+      <workshops-view v-else-if="route.view==='workshops'" :workshops="workshops" :recipes="recipes" :tr="tr" :aliases="aliases" :base="dataBase"></workshops-view>
       <contracts-view v-else-if="route.view==='contracts'" :contracts="contracts" :aliases="aliases" :tr="tr" :base="dataBase"></contracts-view>
       <categories-view v-else-if="route.view==='categories'" :categories="categories" :items="items" :tr="tr" :base="dataBase" :category-aliases="categoryAliases"></categories-view>
       <space-objects-view v-else-if="route.view==='space-objects'" :space-objects="spaceObjects" :aliases="aliases" :faction-aliases="factionAliases" :tr="tr" :base="dataBase"></space-objects-view>

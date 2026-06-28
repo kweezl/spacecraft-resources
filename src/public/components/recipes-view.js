@@ -11,9 +11,14 @@ export const RecipesView = {
     tr: { type: Object, required: true },
     base: { type: String, required: true },
     categoryAliases: { type: Object, default: () => ({}) },
+    workshopBuildings: { type: Object, default: () => ({}) },
   },
   setup(props) {
     const { iconSrc } = useIcons(props.base, toRef(props, "aliases"));
+    function workshopIcon(where) {
+      const building = props.workshopBuildings[where];
+      return building ? iconSrc(building) : null;
+    }
     const { iconSrc: categoryIcon } = useIcons(props.base, toRef(props, "categoryAliases"), "icons-categories");
     const { name, categoryLabel, workshopName } = useTranslations(toRef(props, "tr"));
 
@@ -110,7 +115,7 @@ export const RecipesView = {
 
     return {
       search, whereFilter, categoryFilter, workshops, categories, filtered,
-      iconSrc, categoryIcon, name, categoryLabel, workshopName,
+      iconSrc, categoryIcon, workshopIcon, name, categoryLabel, workshopName,
       headerItem, itemHref, craftTime, fmtSeconds, craftDuration, otherAttrs,
     };
   },
@@ -160,7 +165,10 @@ export const RecipesView = {
           </div>
           <div class="text-xs text-slate-400 font-mono truncate" :title="r.id">ID: {{ r.id }}</div>
           <div v-if="r.where" class="flex flex-wrap items-center gap-1">
-            <span class="inline-block text-[11px] bg-slate-100 rounded px-1.5 py-0.5" :title="r.where">{{ workshopName(r.where) }}</span>
+            <span class="inline-flex items-center gap-1 text-[11px] bg-slate-100 rounded px-1.5 py-0.5" :title="r.where">
+              <img v-if="workshopIcon(r.where)" :src="workshopIcon(r.where)" :alt="r.where" loading="lazy" class="w-3.5 h-3.5" />
+              {{ workshopName(r.where) }}
+            </span>
             <span v-if="craftDuration(r)" class="inline-block text-[11px] text-slate-500">{{ craftDuration(r) }}</span>
           </div>
 
