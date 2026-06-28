@@ -219,8 +219,10 @@ __marimo__/
 
 # --- Project-specific ---
 
-# Extracted / unpacked game asset source (large, regenerable input)
-unpacked/
+# Extracted / unpacked game asset source (large, regenerable input).
+# Anchored to the repo root so the committed test fixture at
+# tests/fixtures/unpacked/ (the CI stand-in) is NOT ignored.
+/unpacked/
 
 # NOTE: generated/ is intentionally tracked — it's the release resource
 # consumed by other apps, built from unpacked/ via the parse/generate scripts.

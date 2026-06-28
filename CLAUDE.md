@@ -33,6 +33,14 @@ python -m unittest tests.test_generated -v                    # one module
 python -m unittest tests.lib.test_parse_craft -v              # one module (nested)
 ```
 
+`tests/test_integration.py` runs the real parsers/icon generator end-to-end
+against an unpacked dataset. `tests/support.py` resolves the root: the real
+(gitignored) `unpacked/` when present — so local runs catch real-data
+regressions — otherwise the committed mock at `tests/fixtures/unpacked/`, which
+is what CI uses. Set `SC_TEST_UNPACKED=<dir>` to force a root. Integration
+assertions check structure/invariants, not exact counts, so they hold for both
+datasets.
+
 Lint (Ruff — enforced by the `lint` job in CI; config in `ruff.toml`):
 
 ```bash

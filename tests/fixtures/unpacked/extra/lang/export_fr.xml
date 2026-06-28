@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Minimal French export mirroring the game's export_<lang>.xml shape:
+     <sheet name="..."> with one element per row id; child tags mirror the
+     dotted CDB column paths (so attribute desc is <props.desc>). -->
+<root>
+  <sheet name="item">
+    <IronOre>
+      <name>Minerai de fer</name>
+      <desc>Fer brut, extrait de la roche.</desc>
+    </IronOre>
+    <IronIngot>
+      <name>Lingot de fer</name>
+      <desc>Fer fondu, prêt à forger.</desc>
+    </IronIngot>
+  </sheet>
+  <sheet name="itemType">
+    <resource>
+      <name>Ressource</name>
+    </resource>
+    <material>
+      <name>Matériau</name>
+    </material>
+    <Smelting>
+      <name>Fonte</name>
+    </Smelting>
+  </sheet>
+  <sheet name="attribute">
+    <Weight>
+      <name>Poids</name>
+      <props.desc>Le poids de l'objet.</props.desc>
+    </Weight>
+  </sheet>
+</root>
