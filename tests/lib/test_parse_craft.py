@@ -114,9 +114,6 @@ class ParseCraftTests(unittest.TestCase):
                 craft.parse_craft(path)
 
 
-from src.lib import workshops  # noqa: E402  (added for craft-time tests)
-
-
 class ComputeCraftTimeTests(unittest.TestCase):
     TIMES = {"Workshop_Smelter": {"auto": 180, "manual": 5},
              "Workshop_Crystalizer": {"auto": None, "manual": None}}
