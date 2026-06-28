@@ -9,11 +9,14 @@ export const ItemsView = {
     tr: { type: Object, required: true },
     base: { type: String, required: true },
     focusId: { type: String, default: null },
+    categoriesById: { type: Object, default: () => ({}) },
+    categoryAliases: { type: Object, default: () => ({}) },
   },
   emits: ["notify"],
   setup(props, { emit }) {
     const { iconSrc } = useIcons(props.base, toRef(props, "aliases"));
-    const { name, desc, attrName } = useTranslations(toRef(props, "tr"));
+    const { iconSrc: categoryIcon } = useIcons(props.base, toRef(props, "categoryAliases"), "icons-categories");
+    const { name, desc, attrName, categoryLabel } = useTranslations(toRef(props, "tr"));
 
     const search = ref("");
     const typeFilter = ref("all");
@@ -33,15 +36,25 @@ export const ItemsView = {
       { key: "attrs", label: "#attr" },
     ];
 
-    const types = computed(() => {
+    const typeGroups = computed(() => {
       const counts = {};
       for (const it of props.items) {
         const t = it.type || "(none)";
         counts[t] = (counts[t] || 0) + 1;
       }
-      return Object.entries(counts)
-        .map(([n, count]) => ({ name: n, count }))
-        .sort((a, b) => a.name.localeCompare(b.name));
+      const groups = {};
+      for (const t of Object.keys(counts)) {
+        const cat = props.categoriesById[t];
+        const parent = (cat && cat.parent) || "(other)";
+        (groups[parent] = groups[parent] || []).push({ name: t, count: counts[t] });
+      }
+      return Object.entries(groups)
+        .map(([parent, options]) => ({
+          parent,
+          label: parent === "(other)" ? "(other)" : categoryLabel(parent),
+          options: options.sort((a, b) => categoryLabel(a.name).localeCompare(categoryLabel(b.name))),
+        }))
+        .sort((a, b) => a.label.localeCompare(b.label));
     });
 
     const missingIconCount = computed(() =>
@@ -95,8 +108,8 @@ export const ItemsView = {
 
     return {
       search, typeFilter, missingOnly, view, imgFailed, flashId,
-      chipFields, tableColumns, types, missingIconCount, filtered,
-      iconSrc, name, desc, attrName, scalars,
+      chipFields, tableColumns, typeGroups, missingIconCount, filtered,
+      iconSrc, categoryIcon, name, desc, attrName, categoryLabel, scalars,
     };
   },
   template: `
@@ -115,7 +128,9 @@ export const ItemsView = {
       <input v-model="search" type="search" placeholder="Search id, name or type…" class="flex-1 min-w-[12rem] border border-slate-300 rounded px-3 py-1.5 text-sm" />
       <select v-model="typeFilter" class="border border-slate-300 rounded px-2 py-1.5 text-sm">
         <option value="all">All types ({{ items.length }})</option>
-        <option v-for="t in types" :key="t.name" :value="t.name">{{ t.name }} ({{ t.count }})</option>
+        <optgroup v-for="g in typeGroups" :key="g.parent" :label="g.label">
+          <option v-for="t in g.options" :key="t.name" :value="t.name">{{ categoryLabel(t.name) }} ({{ t.count }})</option>
+        </optgroup>
       </select>
       <label class="flex items-center gap-1.5 text-sm text-slate-600 select-none">
         <input type="checkbox" v-model="missingOnly" /> missing icon only
@@ -134,7 +149,10 @@ export const ItemsView = {
           <div class="min-w-0">
             <div class="font-medium truncate" :title="name(it.id) || it.id">{{ name(it.id) || it.id }}</div>
             <div class="text-xs text-slate-400 font-mono truncate" :title="it.id">{{ it.id }}</div>
-            <span v-if="it.type" class="inline-block mt-1 text-[11px] bg-slate-100 rounded px-1.5 py-0.5">{{ it.type }}</span>
+            <span v-if="it.type" class="inline-flex items-center gap-1 mt-1 text-[11px] bg-slate-100 rounded px-1.5 py-0.5" :title="it.type">
+              <img v-if="categoryIcon(it.type)" :src="categoryIcon(it.type)" :alt="it.type" loading="lazy" class="w-3 h-3" />
+              {{ categoryLabel(it.type) }}
+            </span>
           </div>
         </div>
         <p v-if="desc(it.id)" class="text-xs text-slate-600 line-clamp-3">{{ desc(it.id) }}</p>
