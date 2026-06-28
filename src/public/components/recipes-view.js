@@ -13,7 +13,7 @@ export const RecipesView = {
   },
   setup(props) {
     const { iconSrc } = useIcons(props.base, toRef(props, "aliases"));
-    const { name, categoryLabel } = useTranslations(toRef(props, "tr"));
+    const { name, categoryLabel, workshopName } = useTranslations(toRef(props, "tr"));
 
     const search = ref("");
     const whereFilter = ref("all");
@@ -72,6 +72,20 @@ export const RecipesView = {
       if (p.autoTime !== undefined) parts.push("auto " + p.autoTime);
       return parts.join(" · ");
     }
+    function fmtSeconds(s) {
+      if (s === null || s === undefined) return null;
+      if (s < 60) return s + "s";
+      if (s < 3600) return (Math.round(s / 6) / 10) + "m";
+      return (Math.round(s / 360) / 10) + "h";
+    }
+    function craftDuration(r) {
+      const ct = r.craftTime;
+      if (!ct) return null;
+      const parts = [];
+      if (ct.manual !== null && ct.manual !== undefined) parts.push("manual " + fmtSeconds(ct.manual));
+      if (ct.auto !== null && ct.auto !== undefined) parts.push("auto " + fmtSeconds(ct.auto));
+      return parts.join(" · ");
+    }
     function otherAttrs(r) {
       const out = {};
       if (r.unlockType !== undefined) out.unlock = r.unlockType;
@@ -84,7 +98,7 @@ export const RecipesView = {
 
     return {
       search, whereFilter, categoryFilter, workshops, categories, filtered,
-      iconSrc, name, categoryLabel, headerItem, itemHref, craftTime, otherAttrs,
+      iconSrc, name, categoryLabel, workshopName, headerItem, itemHref, craftTime, fmtSeconds, craftDuration, otherAttrs,
     };
   },
   template: `
@@ -96,7 +110,7 @@ export const RecipesView = {
       <input v-model="search" type="search" placeholder="Search recipe, item id or name…" class="flex-1 min-w-[12rem] border border-slate-300 rounded px-3 py-1.5 text-sm" />
       <select v-model="whereFilter" class="border border-slate-300 rounded px-2 py-1.5 text-sm">
         <option value="all">All workshops ({{ recipes.length }})</option>
-        <option v-for="w in workshops" :key="w.name" :value="w.name">{{ w.name }} ({{ w.count }})</option>
+        <option v-for="w in workshops" :key="w.name" :value="w.name">{{ workshopName(w.name) }} ({{ w.count }})</option>
       </select>
       <select v-model="categoryFilter" class="border border-slate-300 rounded px-2 py-1.5 text-sm">
         <option value="all">All categories</option>
@@ -117,8 +131,9 @@ export const RecipesView = {
           <span v-else class="font-medium truncate">{{ r.id }}</span>
         </div>
         <div class="text-xs text-slate-400 font-mono truncate" :title="r.id">ID: {{ r.id }}</div>
-        <div v-if="r.where">
-          <span class="inline-block text-[11px] bg-slate-100 rounded px-1.5 py-0.5">{{ r.where }}</span>
+        <div v-if="r.where" class="flex flex-wrap items-center gap-1">
+          <span class="inline-block text-[11px] bg-slate-100 rounded px-1.5 py-0.5" :title="r.where">{{ workshopName(r.where) }}</span>
+          <span v-if="craftDuration(r)" class="inline-block text-[11px] text-slate-500">{{ craftDuration(r) }}</span>
         </div>
 
         <section v-if="r.outputs.length" class="border-t border-slate-100 pt-2">
