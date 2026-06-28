@@ -136,7 +136,7 @@ createApp({
           <nav class="flex flex-wrap items-center gap-2 text-sm">
             <template v-for="(n,i) in nav" :key="n.view">
               <span v-if="i" class="text-slate-300">·</span>
-              <a :href="n.hash" :class="route.view===n.view ? 'font-semibold text-slate-900' : 'text-sky-600 hover:underline'">{{ n.label }}</a>
+              <a :href="n.hash" :class="route.view===n.view ? 'font-semibold text-white' : 'text-sky-400 hover:underline'">{{ n.label }}</a>
             </template>
           </nav>
           <div class="ml-auto flex items-center gap-2">

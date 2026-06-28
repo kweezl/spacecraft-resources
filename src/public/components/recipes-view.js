@@ -124,12 +124,12 @@ export const RecipesView = {
     <aside class="w-52 shrink-0 text-sm">
       <div class="bg-white rounded-lg border border-slate-200 p-2 sticky top-20 max-h-[80vh] overflow-auto">
         <button @click="categoryFilter='all'" class="w-full text-left px-2 py-1 rounded font-medium"
-                :class="categoryFilter==='all' ? 'bg-slate-800 text-white' : 'hover:bg-slate-100'">
+                :class="categoryFilter==='all' ? 'bg-sky-600 text-white' : 'hover:bg-slate-100'">
           All categories <span class="text-xs opacity-60">({{ recipes.length }})</span>
         </button>
         <button v-for="c in categories" :key="c.id" @click="categoryFilter=c.id"
                 class="w-full flex items-center gap-2 px-2 py-1 rounded mt-0.5"
-                :class="categoryFilter===c.id ? 'bg-slate-800 text-white' : 'hover:bg-slate-100'">
+                :class="categoryFilter===c.id ? 'bg-sky-600 text-white' : 'hover:bg-slate-100'">
           <span class="checker rounded w-5 h-5 shrink-0 flex items-center justify-center overflow-hidden">
             <img v-if="categoryIcon(c.id)" :src="categoryIcon(c.id)" :alt="c.id" loading="lazy" class="max-w-full max-h-full" />
           </span>

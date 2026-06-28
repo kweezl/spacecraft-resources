@@ -143,13 +143,13 @@ export const ItemsView = {
     <aside class="w-56 shrink-0 text-sm">
       <div class="bg-white rounded-lg border border-slate-200 p-2 sticky top-20 max-h-[80vh] overflow-auto">
         <button @click="catSel='all'" class="w-full text-left px-2 py-1 rounded font-medium"
-                :class="catSel==='all' ? 'bg-slate-800 text-white' : 'hover:bg-slate-100'">
+                :class="catSel==='all' ? 'bg-sky-600 text-white' : 'hover:bg-slate-100'">
           All items <span class="text-xs opacity-60">({{ items.length }})</span>
         </button>
         <div v-for="m in categoryTree" :key="m.id" class="mt-1">
           <button @click="catSel='main:'+m.id"
                   class="w-full flex items-center gap-2 px-2 py-1 rounded font-medium"
-                  :class="catSel==='main:'+m.id ? 'bg-slate-800 text-white' : 'hover:bg-slate-100'">
+                  :class="catSel==='main:'+m.id ? 'bg-sky-600 text-white' : 'hover:bg-slate-100'">
             <span class="checker rounded w-5 h-5 shrink-0 flex items-center justify-center overflow-hidden">
               <img v-if="categoryIcon(m.id)" :src="categoryIcon(m.id)" :alt="m.id" loading="lazy" class="max-w-full max-h-full" />
             </span>
@@ -158,7 +158,7 @@ export const ItemsView = {
           </button>
           <button v-for="s in m.subs" :key="s.id" @click="catSel='sub:'+s.id"
                   class="w-full flex items-center gap-2 pl-7 pr-2 py-0.5 rounded text-xs"
-                  :class="catSel==='sub:'+s.id ? 'bg-slate-700 text-white' : 'text-slate-600 hover:bg-slate-100'">
+                  :class="catSel==='sub:'+s.id ? 'bg-sky-700 text-white' : 'text-slate-600 hover:bg-slate-100'">
             <span class="checker rounded w-4 h-4 shrink-0 flex items-center justify-center overflow-hidden">
               <img v-if="categoryIcon(s.id)" :src="categoryIcon(s.id)" :alt="s.id" loading="lazy" class="max-w-full max-h-full" />
             </span>
@@ -176,8 +176,8 @@ export const ItemsView = {
           <span v-if="missingIconCount" class="text-amber-600">· {{ missingIconCount }} without icon</span>
         </span>
         <div class="ml-auto inline-flex rounded border border-slate-300 overflow-hidden text-sm">
-          <button @click="view='cards'" :class="view==='cards' ? 'bg-slate-800 text-white' : 'bg-white'" class="px-3 py-1">Cards</button>
-          <button @click="view='table'" :class="view==='table' ? 'bg-slate-800 text-white' : 'bg-white'" class="px-3 py-1 border-l border-slate-300">Table</button>
+          <button @click="view='cards'" :class="view==='cards' ? 'bg-sky-600 text-white' : 'bg-white'" class="px-3 py-1">Cards</button>
+          <button @click="view='table'" :class="view==='table' ? 'bg-sky-600 text-white' : 'bg-white'" class="px-3 py-1 border-l border-slate-300">Table</button>
         </div>
       </div>
       <div class="flex flex-wrap items-center gap-3 mb-4">
