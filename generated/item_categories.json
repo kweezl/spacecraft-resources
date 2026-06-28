@@ -1,0 +1,2263 @@
+{
+  "source": "unpacked/data.cdb",
+  "sheet": "itemType",
+  "count": 138,
+  "skipped": 0,
+  "categories": {
+    "Virtual": {
+      "id": "Virtual",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 128
+      }
+    },
+    "QuestItem": {
+      "id": "QuestItem",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 7,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      },
+      "defaultAttributes": [
+        {
+          "attr": "StorageUnits",
+          "value": 0
+        }
+      ],
+      "props": {
+        "flags": 1153,
+        "categoryIndex": 900
+      }
+    },
+    "DataDisc": {
+      "id": "DataDisc",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 7,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 128
+      }
+    },
+    "InstanceItem": {
+      "id": "InstanceItem",
+      "parent": "QuestItem",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 1024
+      }
+    },
+    "Readable": {
+      "id": "Readable",
+      "parent": "QuestItem",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "BeaconData": {
+      "id": "BeaconData",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 5,
+        "y": 9,
+        "width": 1,
+        "height": 1
+      },
+      "defaultAttributes": [
+        {
+          "attr": "PriceFromCraftOutput",
+          "value": 1
+        }
+      ],
+      "props": {
+        "flags": 4225,
+        "categoryIndex": 950
+      }
+    },
+    "Blueprint": {
+      "id": "Blueprint",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 11,
+        "y": 4,
+        "width": 1,
+        "height": 1
+      },
+      "defaultAttributes": [
+        {
+          "attr": "StorageUnits",
+          "value": 0
+        },
+        {
+          "attr": "Price",
+          "value": 10
+        }
+      ],
+      "props": {
+        "flags": 8193,
+        "categoryIndex": 801
+      }
+    },
+    "Patch": {
+      "id": "Patch",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 10,
+        "y": 4,
+        "width": 1,
+        "height": 1
+      },
+      "defaultAttributes": [
+        {
+          "attr": "StorageUnits",
+          "value": 1
+        },
+        {
+          "attr": "Price",
+          "value": 10
+        }
+      ],
+      "props": {
+        "flags": 8193,
+        "categoryIndex": 800
+      }
+    },
+    "Knowledge": {
+      "id": "Knowledge",
+      "icon": {
+        "file": "ui/icons/ic_menu.png",
+        "size": 24,
+        "x": 3,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "defaultAttributes": [
+        {
+          "attr": "StorageUnits",
+          "value": 0
+        }
+      ],
+      "props": {
+        "flags": 1
+      }
+    },
+    "Knowledge_Factions": {
+      "id": "Knowledge_Factions",
+      "parent": "Knowledge",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "defaultAttributes": [
+        {
+          "attr": "StorageUnits",
+          "value": 0
+        }
+      ],
+      "props": {
+        "flags": 6
+      }
+    },
+    "Knowledge_Tuto": {
+      "id": "Knowledge_Tuto",
+      "parent": "Knowledge",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "defaultAttributes": [
+        {
+          "attr": "StorageUnits",
+          "value": 0
+        }
+      ],
+      "props": {
+        "flags": 6
+      }
+    },
+    "AnyResource": {
+      "id": "AnyResource",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "defaultAttributes": [
+        {
+          "attr": "StorageUnits",
+          "value": 1
+        },
+        {
+          "attr": "Price",
+          "value": 0
+        }
+      ]
+    },
+    "PureComponents": {
+      "id": "PureComponents",
+      "parent": "AnyResource",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 1,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "defaultAttributes": [
+        {
+          "attr": "StorageUnits",
+          "value": 1
+        },
+        {
+          "attr": "Price",
+          "value": 0
+        }
+      ],
+      "props": {
+        "flags": 1,
+        "categoryIndex": 101
+      }
+    },
+    "Fluid": {
+      "id": "Fluid",
+      "parent": "PureComponents",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 6,
+        "categoryIndex": 103
+      }
+    },
+    "Ingots": {
+      "id": "Ingots",
+      "parent": "PureComponents",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 8198,
+        "categoryIndex": 101
+      }
+    },
+    "CrystalMatrix": {
+      "id": "CrystalMatrix",
+      "parent": "PureComponents",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 8198,
+        "categoryIndex": 105
+      }
+    },
+    "Liquid": {
+      "id": "Liquid",
+      "parent": "Fluid",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 14,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Gas": {
+      "id": "Gas",
+      "parent": "Fluid",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 16,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Plasma": {
+      "id": "Plasma",
+      "parent": "Fluid",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 16,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Minerals": {
+      "id": "Minerals",
+      "parent": "AnyResource",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 1,
+        "categoryIndex": 100
+      }
+    },
+    "Metal": {
+      "id": "Metal",
+      "parent": "Minerals",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 8198,
+        "categoryIndex": 101
+      }
+    },
+    "MetalOre": {
+      "id": "MetalOre",
+      "parent": "Metal",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "defaultAttributes": [
+        {
+          "attr": "StorageUnits",
+          "value": 5
+        },
+        {
+          "attr": "PriceFromCraftOutput",
+          "value": 0.75
+        }
+      ],
+      "props": {
+        "flags": 10240
+      }
+    },
+    "MetalNugget": {
+      "id": "MetalNugget",
+      "parent": "Metal",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "defaultAttributes": [
+        {
+          "attr": "StorageUnits",
+          "value": 1
+        },
+        {
+          "attr": "PriceFromCraftOutput",
+          "value": 0.8
+        }
+      ]
+    },
+    "MetalShavings": {
+      "id": "MetalShavings",
+      "parent": "Metal",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "defaultAttributes": [
+        {
+          "attr": "StorageUnits",
+          "value": 0.1
+        },
+        {
+          "attr": "PriceFromCraftOutput",
+          "value": 0.75
+        }
+      ]
+    },
+    "MineralParent": {
+      "id": "MineralParent",
+      "parent": "Minerals",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 8198,
+        "categoryIndex": 102
+      }
+    },
+    "MineralOre": {
+      "id": "MineralOre",
+      "parent": "MineralParent",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "defaultAttributes": [
+        {
+          "attr": "StorageUnits",
+          "value": 5
+        },
+        {
+          "attr": "PriceFromCraftOutput",
+          "value": 0.75
+        }
+      ],
+      "props": {
+        "flags": 2048
+      }
+    },
+    "MineralNugget": {
+      "id": "MineralNugget",
+      "parent": "MineralParent",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "defaultAttributes": [
+        {
+          "attr": "StorageUnits",
+          "value": 1
+        },
+        {
+          "attr": "PriceFromCraftOutput",
+          "value": 0.8
+        }
+      ]
+    },
+    "MineralShavings": {
+      "id": "MineralShavings",
+      "parent": "MineralParent",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "defaultAttributes": [
+        {
+          "attr": "StorageUnits",
+          "value": 0.1
+        },
+        {
+          "attr": "PriceFromCraftOutput",
+          "value": 0.75
+        }
+      ]
+    },
+    "Scrap": {
+      "id": "Scrap",
+      "parent": "Minerals",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "defaultAttributes": [
+        {
+          "attr": "StorageUnits",
+          "value": 5
+        },
+        {
+          "attr": "PriceFromCraftOutput",
+          "value": 0.5
+        }
+      ],
+      "props": {
+        "flags": 8198,
+        "categoryIndex": 106
+      }
+    },
+    "Crystal": {
+      "id": "Crystal",
+      "parent": "Minerals",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "defaultAttributes": [
+        {
+          "attr": "StorageUnits",
+          "value": 0.5
+        }
+      ],
+      "props": {
+        "flags": 8198,
+        "categoryIndex": 103
+      }
+    },
+    "Biological_Extra": {
+      "id": "Biological_Extra",
+      "parent": "Minerals",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "defaultAttributes": [
+        {
+          "attr": "StorageUnits",
+          "value": 1
+        },
+        {
+          "attr": "PriceFromCraftOutput",
+          "value": 0.8
+        }
+      ],
+      "props": {
+        "flags": 8198,
+        "categoryIndex": 105
+      }
+    },
+    "Biological_Fruit": {
+      "id": "Biological_Fruit",
+      "parent": "Minerals",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "defaultAttributes": [
+        {
+          "attr": "StorageUnits",
+          "value": 0.1
+        },
+        {
+          "attr": "PriceFromCraftOutput",
+          "value": 0.8
+        }
+      ],
+      "props": {
+        "flags": 6,
+        "categoryIndex": 104
+      }
+    },
+    "FactoredMaterial": {
+      "id": "FactoredMaterial",
+      "parent": "AnyResource",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 10,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 8449,
+        "categoryIndex": 103
+      }
+    },
+    "SimpleFactoredMaterial": {
+      "id": "SimpleFactoredMaterial",
+      "parent": "FactoredMaterial",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 6,
+        "categoryIndex": 101
+      }
+    },
+    "ComplexFactoredMaterial": {
+      "id": "ComplexFactoredMaterial",
+      "parent": "FactoredMaterial",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 6,
+        "categoryIndex": 102
+      }
+    },
+    "Bottles": {
+      "id": "Bottles",
+      "parent": "FactoredMaterial",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 6,
+        "categoryIndex": 103
+      }
+    },
+    "BottlesFull": {
+      "id": "BottlesFull",
+      "parent": "Bottles",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "defaultAttributes": [
+        {
+          "attr": "PriceFromCraftOutput",
+          "value": 1
+        }
+      ],
+      "props": {
+        "flags": 4096
+      }
+    },
+    "Casings": {
+      "id": "Casings",
+      "parent": "FactoredMaterial",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 6,
+        "categoryIndex": 104
+      }
+    },
+    "Automate": {
+      "id": "Automate",
+      "parent": "FactoredMaterial",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 6,
+        "categoryIndex": 105
+      }
+    },
+    "Shuttle": {
+      "id": "Shuttle",
+      "parent": "Automate",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 2,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Luxuries": {
+      "id": "Luxuries",
+      "parent": "MetalOre",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "defaultAttributes": [
+        {
+          "attr": "StorageUnits",
+          "value": 0.1
+        }
+      ],
+      "props": {
+        "flags": 2,
+        "categoryIndex": 700
+      }
+    },
+    "PlanetResource": {
+      "id": "PlanetResource",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 9,
+        "y": 4,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 1,
+        "categoryIndex": 2000,
+        "viewerMinPitch": 5
+      }
+    },
+    "PlanetResource_RegularNode": {
+      "id": "PlanetResource_RegularNode",
+      "parent": "PlanetResource",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 6,
+        "categoryIndex": 2001,
+        "viewerMinPitch": 5
+      }
+    },
+    "PlanetResource_Exploration": {
+      "id": "PlanetResource_Exploration",
+      "parent": "PlanetResource",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 6,
+        "categoryIndex": 2000,
+        "viewerMinPitch": 5
+      }
+    },
+    "PlanetResource_Deposit": {
+      "id": "PlanetResource_Deposit",
+      "parent": "PlanetResource",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 6,
+        "categoryIndex": 2002,
+        "viewerMinPitch": 5
+      }
+    },
+    "PlanetResource_Shell": {
+      "id": "PlanetResource_Shell",
+      "parent": "PlanetResource",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 6,
+        "categoryIndex": 2003,
+        "viewerMinPitch": 5
+      }
+    },
+    "PlanetResource_Geyser": {
+      "id": "PlanetResource_Geyser",
+      "parent": "PlanetResource",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 6,
+        "categoryIndex": 2004,
+        "viewerMinPitch": 5
+      }
+    },
+    "FarmPlant": {
+      "id": "FarmPlant",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 15,
+        "y": 4,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 1,
+        "categoryIndex": 3000,
+        "viewerMinPitch": 5
+      }
+    },
+    "ShipElement": {
+      "id": "ShipElement",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 8448
+      }
+    },
+    "ShipPart": {
+      "id": "ShipPart",
+      "parent": "ShipElement",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 14,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 17,
+        "categoryIndex": 500
+      }
+    },
+    "ShipHull": {
+      "id": "ShipHull",
+      "parent": "ShipPart",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 3,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 22,
+        "categoryIndex": 503
+      }
+    },
+    "ShipHull_Steel": {
+      "id": "ShipHull_Steel",
+      "parent": "ShipHull",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 3,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 24,
+        "categoryIndex": 600
+      }
+    },
+    "ShipHull_Steel_AluK": {
+      "id": "ShipHull_Steel_AluK",
+      "parent": "ShipHull",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 3,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 24,
+        "categoryIndex": 601
+      }
+    },
+    "ShipHull_Titanium": {
+      "id": "ShipHull_Titanium",
+      "parent": "ShipHull",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 3,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 24,
+        "categoryIndex": 610
+      }
+    },
+    "ShipHull_Titanium_AluK": {
+      "id": "ShipHull_Titanium_AluK",
+      "parent": "ShipHull",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 3,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 24,
+        "categoryIndex": 611
+      }
+    },
+    "ShipHull_Platinum": {
+      "id": "ShipHull_Platinum",
+      "parent": "ShipHull",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 3,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 24,
+        "categoryIndex": 620
+      }
+    },
+    "ShipHull_Levinium": {
+      "id": "ShipHull_Levinium",
+      "parent": "ShipHull",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 3,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 24,
+        "categoryIndex": 630
+      }
+    },
+    "ShipHull_AlloyX": {
+      "id": "ShipHull_AlloyX",
+      "parent": "ShipHull",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 3,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 24,
+        "categoryIndex": 640
+      }
+    },
+    "ShipHull_WreckOnly": {
+      "id": "ShipHull_WreckOnly",
+      "parent": "ShipHull",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 3,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 24,
+        "categoryIndex": 630
+      }
+    },
+    "ShipCockpit": {
+      "id": "ShipCockpit",
+      "parent": "ShipPart",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 14,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 14,
+        "categoryIndex": 501
+      }
+    },
+    "ShipEngine": {
+      "id": "ShipEngine",
+      "parent": "ShipPart",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 17,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 14,
+        "categoryIndex": 502
+      }
+    },
+    "ShipWing": {
+      "id": "ShipWing",
+      "parent": "ShipPart",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 8,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 30,
+        "categoryIndex": 504
+      }
+    },
+    "ShipDecorative": {
+      "id": "ShipDecorative",
+      "parent": "ShipPart",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 1,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 14,
+        "categoryIndex": 505
+      }
+    },
+    "ShipTool": {
+      "id": "ShipTool",
+      "parent": "ShipElement",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 19,
+        "y": 2,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 1,
+        "categoryIndex": 300
+      }
+    },
+    "ShipGatheringTools": {
+      "id": "ShipGatheringTools",
+      "parent": "ShipTool",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 19,
+        "y": 2,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 14,
+        "categoryIndex": 301
+      }
+    },
+    "ShipRadars": {
+      "id": "ShipRadars",
+      "parent": "ShipTool",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 0,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 14,
+        "categoryIndex": 302
+      }
+    },
+    "ShipPowerTools": {
+      "id": "ShipPowerTools",
+      "parent": "ShipTool",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 17,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 14,
+        "categoryIndex": 303
+      }
+    },
+    "ShipHeatTools": {
+      "id": "ShipHeatTools",
+      "parent": "ShipTool",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 15,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 14,
+        "categoryIndex": 304
+      }
+    },
+    "ShipWeapon": {
+      "id": "ShipWeapon",
+      "parent": "ShipTool",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 4,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 14,
+        "categoryIndex": 305
+      }
+    },
+    "ShipBooster": {
+      "id": "ShipBooster",
+      "parent": "ShipTool",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 17,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 14,
+        "categoryIndex": 306
+      }
+    },
+    "ShipLight": {
+      "id": "ShipLight",
+      "parent": "ShipTool",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 3,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 14,
+        "categoryIndex": 307
+      }
+    },
+    "ShipToolSpecial": {
+      "id": "ShipToolSpecial",
+      "parent": "ShipTool",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 1,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 14,
+        "categoryIndex": 308
+      }
+    },
+    "ShipModule": {
+      "id": "ShipModule",
+      "parent": "ShipElement",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 5,
+        "y": 2,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 1,
+        "categoryIndex": 400
+      }
+    },
+    "ShipInventoryModules": {
+      "id": "ShipInventoryModules",
+      "parent": "ShipModule",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 8,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "categoryIndex": 401,
+        "flags": 14
+      }
+    },
+    "ShipFTLModules": {
+      "id": "ShipFTLModules",
+      "parent": "ShipModule",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 18,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "categoryIndex": 402,
+        "flags": 14
+      }
+    },
+    "ShipShields": {
+      "id": "ShipShields",
+      "parent": "ShipModule",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 9,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "categoryIndex": 403,
+        "flags": 14
+      }
+    },
+    "ShipPowerGenerators": {
+      "id": "ShipPowerGenerators",
+      "parent": "ShipModule",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 17,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "categoryIndex": 404,
+        "flags": 14
+      }
+    },
+    "ShipBattery": {
+      "id": "ShipBattery",
+      "parent": "ShipModule",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 9,
+        "y": 2,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "categoryIndex": 405,
+        "flags": 14
+      }
+    },
+    "ShipHeatModule": {
+      "id": "ShipHeatModule",
+      "parent": "ShipModule",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 15,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "categoryIndex": 406,
+        "flags": 14
+      }
+    },
+    "ShipControlModule": {
+      "id": "ShipControlModule",
+      "parent": "ShipModule",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 14,
+        "y": 5,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "categoryIndex": 407,
+        "flags": 14
+      }
+    },
+    "ShipAmmunition": {
+      "id": "ShipAmmunition",
+      "parent": "FactoredMaterial",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 13,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      },
+      "defaultAttributes": [
+        {
+          "attr": "StorageUnits",
+          "value": 0.1
+        }
+      ],
+      "props": {
+        "flags": 8454,
+        "categoryIndex": 499
+      }
+    },
+    "MiningTool": {
+      "id": "MiningTool",
+      "parent": "ShipGatheringTools",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Building": {
+      "id": "Building",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "defaultAttributes": [
+        {
+          "attr": "ConstructionTime",
+          "value": 10
+        }
+      ],
+      "props": {
+        "flags": 256
+      }
+    },
+    "BaseBuilding": {
+      "id": "BaseBuilding",
+      "parent": "Building",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 18,
+        "y": 9,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 513,
+        "categoryIndex": 1000,
+        "viewerMinPitch": 5
+      }
+    },
+    "Pylon": {
+      "id": "Pylon",
+      "parent": "BaseBuilding_Power",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "viewerMinPitch": 5
+      }
+    },
+    "BaseBuilding_Crafting": {
+      "id": "BaseBuilding_Crafting",
+      "parent": "BaseBuilding",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 6,
+        "categoryIndex": 103,
+        "viewerMinPitch": 5
+      }
+    },
+    "BaseBuilding_Gathering": {
+      "id": "BaseBuilding_Gathering",
+      "parent": "BaseBuilding",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 6,
+        "categoryIndex": 102,
+        "viewerMinPitch": 5
+      }
+    },
+    "BaseBuilding_Power": {
+      "id": "BaseBuilding_Power",
+      "parent": "BaseBuilding",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 6,
+        "categoryIndex": 104,
+        "viewerMinPitch": 5
+      }
+    },
+    "BaseBuilding_Storage": {
+      "id": "BaseBuilding_Storage",
+      "parent": "BaseBuilding",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 6,
+        "categoryIndex": 106,
+        "viewerMinPitch": 5
+      }
+    },
+    "BaseBuilding_Logistic": {
+      "id": "BaseBuilding_Logistic",
+      "parent": "BaseBuilding",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 6,
+        "categoryIndex": 105,
+        "viewerMinPitch": 5
+      }
+    },
+    "BaseBuilding_Command": {
+      "id": "BaseBuilding_Command",
+      "parent": "BaseBuilding",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 6,
+        "categoryIndex": 101,
+        "viewerMinPitch": 5
+      }
+    },
+    "BaseBuilding_Deco": {
+      "id": "BaseBuilding_Deco",
+      "parent": "BaseBuilding",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 6,
+        "categoryIndex": 101,
+        "viewerMinPitch": 5
+      }
+    },
+    "SpaceStation": {
+      "id": "SpaceStation",
+      "parent": "Building",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 128
+      }
+    },
+    "Craft_RawResource": {
+      "id": "Craft_RawResource",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 64,
+        "categoryIndex": 101
+      }
+    },
+    "Craft_CrystalSmelting": {
+      "id": "Craft_CrystalSmelting",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 2,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 64,
+        "categoryIndex": 102
+      }
+    },
+    "Craft_Mixing": {
+      "id": "Craft_Mixing",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 16,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "categoryIndex": 103
+      }
+    },
+    "Craft_Alloy": {
+      "id": "Craft_Alloy",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 1,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "categoryIndex": 104
+      }
+    },
+    "Craft_IntermediaryComponent": {
+      "id": "Craft_IntermediaryComponent",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 2,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "categoryIndex": 101
+      }
+    },
+    "Craft_CrystalLattice": {
+      "id": "Craft_CrystalLattice",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 9,
+        "y": 5,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "categoryIndex": 102,
+        "flags": 64
+      }
+    },
+    "Craft_PlayerItem": {
+      "id": "Craft_PlayerItem",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 17,
+        "y": 2,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "categoryIndex": 103
+      }
+    },
+    "Craft_Tools": {
+      "id": "Craft_Tools",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 19,
+        "y": 2,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "categoryIndex": 104
+      }
+    },
+    "Craft_Modules": {
+      "id": "Craft_Modules",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 5,
+        "y": 2,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "categoryIndex": 105
+      }
+    },
+    "Craft_Casings": {
+      "id": "Craft_Casings",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 7,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "categoryIndex": 106
+      }
+    },
+    "Craft_Parts": {
+      "id": "Craft_Parts",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 14,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "categoryIndex": 107
+      }
+    },
+    "Craft_Parts_Plating": {
+      "id": "Craft_Parts_Plating",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 3,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "categoryIndex": 108
+      }
+    },
+    "Craft_Patch": {
+      "id": "Craft_Patch",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 10,
+        "y": 4,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "categoryIndex": 109
+      }
+    },
+    "Craft_BuildingKit": {
+      "id": "Craft_BuildingKit",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 18,
+        "y": 9,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "categoryIndex": 110
+      }
+    },
+    "Craft_Seed": {
+      "id": "Craft_Seed",
+      "icon": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 64,
+        "categoryIndex": 100
+      }
+    },
+    "Craft_Crystal": {
+      "id": "Craft_Crystal",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 2,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "categoryIndex": 100
+      }
+    },
+    "Craft_Recycle": {
+      "id": "Craft_Recycle",
+      "icon": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "categoryIndex": 100
+      }
+    },
+    "Craft_StudyCrystal": {
+      "id": "Craft_StudyCrystal",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 2,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "categoryIndex": 101,
+        "flags": 64
+      }
+    },
+    "Craft_StudyMineral": {
+      "id": "Craft_StudyMineral",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "categoryIndex": 102,
+        "flags": 64
+      }
+    },
+    "Craft_StudyOrganic": {
+      "id": "Craft_StudyOrganic",
+      "icon": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "categoryIndex": 103,
+        "flags": 64
+      }
+    },
+    "Craft_StudyQuest": {
+      "id": "Craft_StudyQuest",
+      "icon": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "categoryIndex": 104,
+        "flags": 64
+      }
+    },
+    "Craft_BottleIn": {
+      "id": "Craft_BottleIn",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 18,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "categoryIndex": 101
+      }
+    },
+    "Craft_BottleOut": {
+      "id": "Craft_BottleOut",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 14,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "categoryIndex": 102
+      }
+    },
+    "Craft_Other": {
+      "id": "Craft_Other",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 13,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "categoryIndex": 1000
+      }
+    },
+    "Craft_Dismantle": {
+      "id": "Craft_Dismantle",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "PlayerItem": {
+      "id": "PlayerItem",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 17,
+        "y": 2,
+        "width": 1,
+        "height": 1
+      },
+      "defaultAttributes": [
+        {
+          "attr": "StorageUnits",
+          "value": 0.1
+        }
+      ],
+      "props": {
+        "flags": 257,
+        "categoryIndex": 200
+      }
+    },
+    "PlayerHands": {
+      "id": "PlayerHands",
+      "parent": "PlayerItem",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "defaultAttributes": [
+        {
+          "attr": "StorageUnits",
+          "value": 0.1
+        }
+      ],
+      "props": {
+        "craftTimeFactor": 10
+      }
+    },
+    "PlayerConsumable": {
+      "id": "PlayerConsumable",
+      "parent": "PlayerItem",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 8192
+      }
+    },
+    "PlayerSuitChip": {
+      "id": "PlayerSuitChip",
+      "parent": "PlayerItem",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 8192
+      }
+    },
+    "Clothes": {
+      "id": "Clothes",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 1152
+      }
+    },
+    "Drone": {
+      "id": "Drone",
+      "parent": "FactoredMaterial",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Region": {
+      "id": "Region",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 128
+      }
+    },
+    "Empty": {
+      "id": "Empty",
+      "icon": {
+        "file": "ui/windows/hd_sprite-sheet_graph.png",
+        "size": 32,
+        "x": 21,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      },
+      "props": {
+        "flags": 128
+      }
+    },
+    "Category_All": {
+      "id": "Category_All",
+      "icon": {
+        "file": "ui/icons/items_01.png",
+        "size": 64,
+        "x": 18,
+        "y": 2,
+        "width": 2,
+        "height": 2
+      },
+      "props": {
+        "categoryIndex": 2
+      }
+    },
+    "Category_Craft": {
+      "id": "Category_Craft",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 4,
+        "y": 5,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "categoryIndex": 0
+      }
+    },
+    "Category_Blueprint": {
+      "id": "Category_Blueprint",
+      "icon": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 11,
+        "y": 4,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "categoryIndex": 0
+      }
+    },
+    "Category_Others": {
+      "id": "Category_Others",
+      "icon": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "categoryIndex": 99999
+      }
+    },
+    "Category_Decals": {
+      "id": "Category_Decals",
+      "icon": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "flags": 128
+      }
+    },
+    "Category_InStorage": {
+      "id": "Category_InStorage",
+      "icon": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "props": {
+        "categoryIndex": 1
+      }
+    },
+    "Custo_Parts": {
+      "id": "Custo_Parts",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Custo_Building": {
+      "id": "Custo_Building",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Custo_Material": {
+      "id": "Custo_Material",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Custo_Decal": {
+      "id": "Custo_Decal",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Custo_Suit": {
+      "id": "Custo_Suit",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Custo_Trail": {
+      "id": "Custo_Trail",
+      "icon": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    }
+  }
+}

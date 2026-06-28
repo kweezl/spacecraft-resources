@@ -1,0 +1,417 @@
+{
+  "source": "unpacked/data.cdb",
+  "sheet": "spaceObject",
+  "count": 8,
+  "skipped": 0,
+  "spaceObjects": {
+    "Empty": {
+      "id": "Empty"
+    },
+    "Station_Start": {
+      "id": "Station_Start",
+      "owner": "TheCo",
+      "building": "SpaceStation1",
+      "props": {
+        "floors": [
+          {
+            "instance": "DockStart"
+          },
+          {
+            "instance": "ShipYard"
+          },
+          {
+            "instance": "IntroScene"
+          }
+        ],
+        "buyout": [
+          {
+            "item": "Quartz",
+            "value": 24.99,
+            "props": {
+              "mission": "TutoIntercomMission",
+              "requiredEvent": "FirstSectorSellQuartz"
+            }
+          },
+          {
+            "item": "MetalBolt",
+            "price": 6,
+            "value": 5.99
+          },
+          {
+            "item": "Wire",
+            "price": 15,
+            "value": 16.99
+          },
+          {
+            "item": "SiliconeGel",
+            "price": 4,
+            "value": 3.99
+          },
+          {
+            "item": "MiningTool0",
+            "value": 99.99,
+            "props": {
+              "mission": "TutoIntercomMission",
+              "requiredEvent": "FirstLaserLost"
+            }
+          },
+          {
+            "item": "Radar0",
+            "value": 99.99,
+            "props": {
+              "mission": "TutoIntercomMission",
+              "requiredEvent": "FirstRadarLost"
+            }
+          }
+        ]
+      }
+    },
+    "Station_Threshold": {
+      "id": "Station_Threshold",
+      "owner": "TheCo",
+      "building": "SpaceStation0",
+      "props": {
+        "floors": [
+          {
+            "instance": "DockThreshold"
+          },
+          {
+            "instance": "ShipYard"
+          },
+          {
+            "instance": "MiningBureau"
+          }
+        ],
+        "buyout": [
+          {
+            "item": "MetalBolt",
+            "price": 6,
+            "value": 5.99
+          },
+          {
+            "item": "MetalSheet1",
+            "price": 22,
+            "value": 24.99
+          },
+          {
+            "item": "Wire",
+            "price": 15,
+            "value": 16.99
+          },
+          {
+            "item": "SiliconeGel",
+            "price": 4,
+            "value": 3.99
+          },
+          {
+            "item": "ControlBaseCore",
+            "value": 499.99
+          },
+          {
+            "item": "MiningTool0",
+            "value": 99.99,
+            "props": {
+              "mission": "TutoIntercomMission",
+              "requiredEvent": "FirstLaserLost"
+            }
+          },
+          {
+            "item": "Radar0",
+            "value": 99.99,
+            "props": {
+              "mission": "TutoIntercomMission",
+              "requiredEvent": "FirstRadarLost"
+            }
+          }
+        ]
+      }
+    },
+    "Station_Cairn": {
+      "id": "Station_Cairn",
+      "owner": "TheCo",
+      "building": "SpaceStation3",
+      "props": {
+        "floors": [
+          {
+            "instance": "DockCairn"
+          },
+          {
+            "instance": "Laboratory"
+          },
+          {
+            "instance": "ShipYard"
+          },
+          {
+            "instance": "MiningBureau"
+          }
+        ],
+        "buyout": [
+          {
+            "item": "MetalBolt",
+            "price": 6,
+            "value": 5.99
+          },
+          {
+            "item": "MetalSheet1",
+            "price": 15,
+            "value": 24.99
+          },
+          {
+            "item": "Plate1",
+            "price": 22,
+            "value": 149.99
+          },
+          {
+            "item": "Wire",
+            "price": 4,
+            "value": 16.99
+          },
+          {
+            "item": "Concrete",
+            "value": 1.99
+          },
+          {
+            "item": "SiliconeGel",
+            "value": 3.99
+          },
+          {
+            "item": "Semiconductor",
+            "value": 19.99
+          },
+          {
+            "item": "ControlBaseCore",
+            "value": 499.99
+          }
+        ],
+        "ftlPriceFactor": 1.05,
+        "repairPriceFactor": 1.05
+      }
+    },
+    "Station_Justice": {
+      "id": "Station_Justice",
+      "owner": "TheCo",
+      "building": "SpaceStation4",
+      "props": {
+        "floors": [
+          {
+            "instance": "DockJustice"
+          },
+          {
+            "instance": "ShipYard"
+          },
+          {
+            "instance": "MiningBureau"
+          }
+        ],
+        "buyout": [
+          {
+            "item": "MetalBolt",
+            "price": 6,
+            "value": 5.99
+          },
+          {
+            "item": "MetalSheet1",
+            "price": 22,
+            "value": 24.99
+          },
+          {
+            "item": "MetalSheet2",
+            "value": 119.99
+          },
+          {
+            "item": "Plate1",
+            "value": 124.99
+          },
+          {
+            "item": "Beam1",
+            "value": 169.99
+          },
+          {
+            "item": "Wire",
+            "price": 15,
+            "value": 16.99
+          },
+          {
+            "item": "Concrete",
+            "value": 1.99
+          },
+          {
+            "item": "SiliconeGel",
+            "price": 4,
+            "value": 3.99
+          },
+          {
+            "item": "Semiconductor",
+            "value": 19.99
+          },
+          {
+            "item": "Graphene",
+            "value": 18.99
+          },
+          {
+            "item": "ControlBaseCore",
+            "value": 499.99
+          },
+          {
+            "item": "MiningTool0",
+            "value": 199.99
+          }
+        ],
+        "ftlPriceFactor": 2,
+        "repairPriceFactor": 2
+      }
+    },
+    "Station_Horizon": {
+      "id": "Station_Horizon",
+      "owner": "TheCo",
+      "building": "SpaceStation5",
+      "props": {
+        "floors": [
+          {
+            "instance": "DockHorizon"
+          },
+          {
+            "instance": "ShipYard"
+          },
+          {
+            "instance": "MiningBureau"
+          },
+          {
+            "instance": "MarketplaceHorizon"
+          }
+        ],
+        "buyout": [
+          {
+            "item": "MetalBolt",
+            "price": 6,
+            "value": 5.99
+          },
+          {
+            "item": "MetalSheet1",
+            "price": 22,
+            "value": 24.99
+          },
+          {
+            "item": "MetalSheet2",
+            "value": 63.99
+          },
+          {
+            "item": "Plate1",
+            "value": 149.99
+          },
+          {
+            "item": "Beam1",
+            "value": 169.99
+          },
+          {
+            "item": "Wire",
+            "price": 15,
+            "value": 16.99
+          },
+          {
+            "item": "Concrete",
+            "value": 1.99
+          },
+          {
+            "item": "SiliconeGel",
+            "price": 4,
+            "value": 3.99
+          },
+          {
+            "item": "Semiconductor",
+            "value": 19.99
+          },
+          {
+            "item": "Graphene",
+            "value": 18.99
+          },
+          {
+            "item": "ControlBaseCore",
+            "value": 499.99
+          },
+          {
+            "item": "MiningTool0",
+            "value": 199.99
+          }
+        ],
+        "ftlPriceFactor": 1.5,
+        "repairPriceFactor": 1.5
+      }
+    },
+    "Station_Terminus": {
+      "id": "Station_Terminus",
+      "owner": "TheCo",
+      "building": "SpaceStation2",
+      "props": {
+        "floors": [
+          {
+            "instance": "DockTerminus"
+          },
+          {
+            "instance": "ShipYard"
+          },
+          {
+            "instance": "MiningBureau"
+          },
+          {
+            "instance": "MarketplaceTerminus"
+          }
+        ],
+        "buyout": [
+          {
+            "item": "MetalBolt",
+            "price": 6,
+            "value": 7.99
+          },
+          {
+            "item": "MetalSheet1",
+            "price": 22,
+            "value": 29.99
+          },
+          {
+            "item": "Plate1",
+            "value": 124.99
+          },
+          {
+            "item": "Wire",
+            "price": 15,
+            "value": 16.99
+          },
+          {
+            "item": "Concrete",
+            "value": 1.99
+          },
+          {
+            "item": "SiliconeGel",
+            "price": 4,
+            "value": 3.99
+          },
+          {
+            "item": "Semiconductor",
+            "value": 19.99
+          },
+          {
+            "item": "ControlBaseCore",
+            "value": 499.99
+          }
+        ]
+      }
+    },
+    "Test_Pirates": {
+      "id": "Test_Pirates",
+      "owner": "SpacePirates",
+      "building": "RegionPiratesSpawn",
+      "region": {
+        "range": 150000,
+        "patrolType": 0,
+        "orbitalRange": 20000,
+        "roamings": [
+          {
+            "roaming": "PiratePatrol",
+            "count": 1
+          }
+        ]
+      }
+    }
+  }
+}

@@ -3191,5 +3191,834 @@
     "Custo_Trail": {
       "name": "Schiffsspur"
     }
+  },
+  "contract": {
+    "Deprecated": {
+      "name": "Veraltet"
+    },
+    "Tuto": {
+      "name": "Modulkit-Probe"
+    },
+    "Tuto_Material_Iron": {
+      "name": "Eisennbarren"
+    },
+    "Tuto_Material_Copper": {
+      "name": "Kupferbarren"
+    },
+    "Tuto_Material_Alu": {
+      "name": "Aluminiumbarren"
+    },
+    "Helicon_1_Licence_Catchup": {
+      "name": "Barrenauswahl"
+    },
+    "Helicon_2_Licence_Beam": {
+      "name": "Stahlmaterialien"
+    },
+    "Helicon_2_Licence_Plate": {
+      "name": "PV-Modul-Materialien"
+    },
+    "Helicon_2_Licence_Coil": {
+      "name": "Magnetische Materialien"
+    },
+    "Helicon_2_Licence_Motor": {
+      "name": "Mechanische Batterien"
+    },
+    "Helicon_3_Licence_Actuator": {
+      "name": "Xeno-Öl"
+    },
+    "Helicon_3_Licence_OrganicBottles": {
+      "name": "Xeno-Flüssigkeiten"
+    },
+    "Helicon_3_Licence_Elmerium": {
+      "name": "Elmeriummaterialien"
+    },
+    "Horizon_3_Licence_Beam": {
+      "name": "B-Titanmaterialien"
+    },
+    "Horizon_3_Licence_Batteries": {
+      "name": "Chemische Produkte"
+    },
+    "Horizon_3_Licence_Actuator": {
+      "name": "Xeno-Öl"
+    },
+    "Horizon_4_Licence_Beam": {
+      "name": "Unbiegsame Materialien"
+    },
+    "Horizon_4_Licence_Levinium": {
+      "name": "Sehr leichte Materialien"
+    },
+    "Horizon_4_Licence_ModuleKit": {
+      "name": "Erweiterte Lager"
+    },
+    "Helicon_2_Plate": {
+      "name": "Edelstahl-Platten"
+    },
+    "Helicon_2_Silicium": {
+      "name": "Siliziumbarren"
+    },
+    "Helicon_2_Beam": {
+      "name": "Stützträger"
+    },
+    "Helicon_2_Sheet": {
+      "name": "Metallbleche"
+    },
+    "Helicon_2_Wire": {
+      "name": "Drähte"
+    },
+    "Helicon_2_Sheet2": {
+      "name": "Starke Metallbleche"
+    },
+    "Helicon_2_Gunpowder": {
+      "name": "Festsprengstoffe"
+    },
+    "Helicon_2_ThermalSheet": {
+      "name": "Thermobleche"
+    },
+    "Helicon_3_SupportCasing": {
+      "name": "Unterstützungshardware"
+    },
+    "Helicon_3_Cartridge": {
+      "name": "Kleine Munition"
+    },
+    "Helicon_3_MicroChip": {
+      "name": "Mikrochips"
+    },
+    "Helicon_3_SmallModuleKit": {
+      "name": "Kleine Modulkits"
+    },
+    "Helicon_3_Coil": {
+      "name": "Magnetspulen"
+    },
+    "Helicon_4_WaterBottle": {
+      "name": "Wasserflaschen"
+    },
+    "Helicon_4_MissileFrame": {
+      "name": "Kleine Raketenkörper"
+    },
+    "Helicon_4_SmallSteelCasing": {
+      "name": "Kleine Stahlgehäuse"
+    },
+    "Helicon_4_MercuryBottle": {
+      "name": "Quecksilber-Flaschen"
+    },
+    "Raqmu_2_OverclockedLaser": {
+      "name": "Übertaktete Minenlaser"
+    },
+    "Raqmu_2_ScanalyserBeta": {
+      "name": "Scanalysatoren Beta"
+    },
+    "Raqmu_2_Reactive": {
+      "name": "Reaktivschilde"
+    },
+    "Raqmu_2_Cargo": {
+      "name": "Frachträume"
+    },
+    "Raqmu_2_StarterModule": {
+      "name": "Modulauswahl"
+    },
+    "Raqmu_4_ScrappyPioneer": {
+      "name": "Schiffsteile"
+    },
+    "Raqmu_4_OverclockedHiPi": {
+      "name": "Übertaktete Hi-Pi-Laser"
+    },
+    "Raqmu_4_FuelGenerator": {
+      "name": "Treibstoffgeneratoren"
+    },
+    "Raqmu_4_SolarPanel": {
+      "name": "Mittlere Solarmodule"
+    },
+    "Raqmu_4_Thrusters": {
+      "name": "Wagenschubser"
+    },
+    "Nemea_2_Plate": {
+      "name": "Edelstahl-Platten"
+    },
+    "Nemea_2_Silicium": {
+      "name": "Siliziumbarren"
+    },
+    "Nemea_2_Beam": {
+      "name": "Stützträger"
+    },
+    "Nemea_2_BTitanium": {
+      "name": "B-Titanbarren"
+    },
+    "Nemea_2_ThermalSheet": {
+      "name": "Thermobleche"
+    },
+    "Nemea_3_SupportCasing": {
+      "name": "Unterstützungshardware"
+    },
+    "Nemea_3_Cartridge": {
+      "name": "Kleine Munition"
+    },
+    "Nemea_3_MicroChip": {
+      "name": "Mikrochips"
+    },
+    "Nemea_3_LargeModuleKit": {
+      "name": "Großes Modulkit"
+    },
+    "Nemea_3_Sheet3": {
+      "name": "Hochwertige Metallbleche"
+    },
+    "Nemea_3_Beam2": {
+      "name": "Schwerlastträger"
+    },
+    "Nemea_4_WaterBottle": {
+      "name": "Wasserflaschen"
+    },
+    "Nemea_4_MissileFrame": {
+      "name": "Kleine Raketenkörper"
+    },
+    "Nemea_4_SmallSteelCasing": {
+      "name": "Kleine Stahlgehäuse"
+    },
+    "Nemea_4_ChemicalBattery": {
+      "name": "Chemische Batterien"
+    },
+    "Nemea_4_MercuryBottle": {
+      "name": "Quecksilber-Flaschen"
+    },
+    "Nemea_5_SolarCell": {
+      "name": "Solarzellen"
+    },
+    "Nemea_5_Motor": {
+      "name": "Motoren"
+    },
+    "Nemea_5_Drones": {
+      "name": "Drohnen"
+    },
+    "Nemea_5_SmallTitaniumCasing": {
+      "name": "Kleine Titangehäuse"
+    },
+    "Nemea_5_ModuleKit": {
+      "name": "Modulkits"
+    },
+    "Horizon_2_Plate": {
+      "name": "Edelstahl-Platten"
+    },
+    "Horizon_2_Silicium": {
+      "name": "Siliziumbarren"
+    },
+    "Horizon_2_Beam": {
+      "name": "Stützträger"
+    },
+    "Horizon_2_BTitanium": {
+      "name": "B-Titanbarren"
+    },
+    "Horizon_2_ThermalSheet": {
+      "name": "Thermobleche"
+    },
+    "Horizon_3_SupportCasing": {
+      "name": "Unterstützungshardware"
+    },
+    "Horizon_3_Cartridge": {
+      "name": "Kleine Munition"
+    },
+    "Horizon_3_MicroChip": {
+      "name": "Mikrochips"
+    },
+    "Horizon_3_LargeModuleKit": {
+      "name": "Großes Modulkit"
+    },
+    "Horizon_3_Sheet": {
+      "name": "Hochwertige Metallbleche"
+    },
+    "Horizon_3_Beam": {
+      "name": "Schwerlastträger"
+    },
+    "Horizon_4_WaterBottle": {
+      "name": "Wasserflaschen"
+    },
+    "Horizon_4_MissileFrame": {
+      "name": "Kleine Raketenkörper"
+    },
+    "Horizon_4_SmallSteelCasing": {
+      "name": "Kleine Stahlgehäuse"
+    },
+    "Horizon_4_ChemicalBattery": {
+      "name": "Chemische Batterien"
+    },
+    "Horizon_4_MercuryBottle": {
+      "name": "Quecksilber-Flaschen"
+    },
+    "Horizon_5_SolarCell": {
+      "name": "Solarzellen"
+    },
+    "Horizon_5_Motor": {
+      "name": "Motoren"
+    },
+    "Horizon_5_Drones": {
+      "name": "Drohnen"
+    },
+    "Horizon_5_SmallTitaniumCasing": {
+      "name": "Kleine Titangehäuse"
+    },
+    "Horizon_5_ModuleKit": {
+      "name": "Modulkits"
+    },
+    "Syracuse_3_Quartz": {
+      "name": "Quarzcharge"
+    },
+    "Syracuse_3_Graphite": {
+      "name": "Graphitcharge"
+    },
+    "Syracuse_3_Pyrite": {
+      "name": "Pyritcharge"
+    },
+    "Syracuse_3_Hematite": {
+      "name": "Hämatitcharge"
+    },
+    "Syracuse_3_Aquamarine": {
+      "name": "Aquamarincharge"
+    },
+    "Syracuse_3_Graphene": {
+      "name": "Graphen"
+    },
+    "Syracuse_3_Focuser": {
+      "name": "Kristallinbündler"
+    },
+    "Syracuse_5_Ethanol": {
+      "name": "Ethanolflaschen"
+    },
+    "Syracuse_5_Diamond": {
+      "name": "Diamantencharge"
+    },
+    "Syracuse_5_Emerald": {
+      "name": "Smaragdcharge"
+    },
+    "Syracuse_5_AzuriteMalachite": {
+      "name": "Malachitcharge"
+    },
+    "Syracuse_5_Focuser2": {
+      "name": "Hyperlinsen"
+    },
+    "Syracuse_5_Graphenoid": {
+      "name": "Quantengraphenoide"
+    },
+    "Syracuse_5_Protein": {
+      "name": "Xenoproteine"
+    },
+    "Assembly_Bolt_2": {
+      "name": "Nieten und Bolzen"
+    },
+    "Assembly_Wire_2": {
+      "name": "Verkabelung"
+    },
+    "Assembly_Bolt_3": {
+      "name": "Nieten und Bolzen"
+    },
+    "Assembly_Wire_3": {
+      "name": "Verkabelung"
+    },
+    "Assembly_Sheet_3": {
+      "name": "Bleche"
+    },
+    "Assembly_Semiconductor_3": {
+      "name": "Halbleiter"
+    },
+    "Assembly_Concrete_3": {
+      "name": "Beton"
+    },
+    "Assembly_WireNSemiconductor_3": {
+      "name": "Elektronikbauteile"
+    },
+    "Assembly_SheetNBolt_3": {
+      "name": "Regalbausätze"
+    },
+    "Assembly_Radar_3": {
+      "name": "Detektor"
+    },
+    "Assembly_Storage_3": {
+      "name": "Frachträume"
+    },
+    "Assembly_WireNSemiconductor_4": {
+      "name": "Elektronikbauteile"
+    },
+    "Assembly_WireNSemiconductor_4_Days": {
+      "name": "Elektronikbauteile"
+    },
+    "Assembly_WireNSemiconductor_4_Weeks": {
+      "name": "Elektronikbauteile"
+    },
+    "Assembly_SheetNBolt_4": {
+      "name": "Regalbausätze"
+    },
+    "Assembly_SheetNBolt_4_Days": {
+      "name": "Regalbausätze"
+    },
+    "Assembly_SheetNBolt_4_Weeks": {
+      "name": "Regalbausätze"
+    },
+    "Assembly_ModuleKit_4": {
+      "name": "Modulkits"
+    },
+    "Assembly_ModuleKit_4_Days": {
+      "name": "Modulkits"
+    },
+    "Assembly_ModuleKit_4_Weeks": {
+      "name": "Modulkits"
+    },
+    "Assembly_Coil_4": {
+      "name": "Elektromagneten"
+    },
+    "Assembly_Coil_4_Days": {
+      "name": "Elektromagneten"
+    },
+    "Assembly_Coil_4_Weeks": {
+      "name": "Elektromagneten"
+    },
+    "Assembly_Plate_4": {
+      "name": "Makellose Platten"
+    },
+    "Assembly_Plate_4_Days": {
+      "name": "Makellose Platten"
+    },
+    "Assembly_Plate_4_Weeks": {
+      "name": "Makellose Platten"
+    },
+    "Assembly_Beam_4": {
+      "name": "Stützträger"
+    },
+    "Assembly_Beam_4_Days": {
+      "name": "Stützträger"
+    },
+    "Assembly_Beam_4_Weeks": {
+      "name": "Stützträger"
+    },
+    "Assembly_Ammo_4": {
+      "name": "Munition"
+    },
+    "Assembly_Ammo_4_Days": {
+      "name": "Munition"
+    },
+    "Assembly_Ammo_4_Weeks": {
+      "name": "Munition"
+    },
+    "Assembly_Missile_4": {
+      "name": "Flugzellen"
+    },
+    "Assembly_Missile_4_Days": {
+      "name": "Flugzellen"
+    },
+    "Assembly_Missile_4_Weeks": {
+      "name": "Flugzellen"
+    },
+    "Assembly_Motor_4_Days": {
+      "name": "Motoren"
+    },
+    "Assembly_Motor_4_Weeks": {
+      "name": "Motoren"
+    },
+    "Assembly_ModuleKit2_4_Days": {
+      "name": "Modulkits"
+    },
+    "Assembly_ModuleKit2_4_Weeks": {
+      "name": "Modulkits"
+    },
+    "Crystal_Quartz_3": {
+      "name": "Quarzcharge"
+    },
+    "Crystal_Hematite_3": {
+      "name": "Hämatitcharge"
+    },
+    "Crystal_Graphite_3": {
+      "name": "Graphitcharge"
+    },
+    "Crystal_Pyrite_3": {
+      "name": "Pyritcharge"
+    },
+    "Crystal_Quartz_4": {
+      "name": "Quarzcharge"
+    },
+    "Crystal_Quartz_4_Days": {
+      "name": "Quarzcharge"
+    },
+    "Crystal_Quartz_4_Weeks": {
+      "name": "Quarzcharge"
+    },
+    "Crystal_Hematite_4": {
+      "name": "Hämatitcharge"
+    },
+    "Crystal_Hematite_4_Days": {
+      "name": "Hämatitcharge"
+    },
+    "Crystal_Hematite_4_Weeks": {
+      "name": "Hämatitcharge"
+    },
+    "Crystal_Graphite_4": {
+      "name": "Graphitcharge"
+    },
+    "Crystal_Graphite_4_Days": {
+      "name": "Graphitcharge"
+    },
+    "Crystal_Graphite_4_Weeks": {
+      "name": "Graphitcharge"
+    },
+    "Crystal_Pyrite_4": {
+      "name": "Pyritcharge"
+    },
+    "Crystal_Pyrite_4_Days": {
+      "name": "Pyritcharge"
+    },
+    "Crystal_Pyrite_4_Weeks": {
+      "name": "Pyritcharge"
+    },
+    "Crystal_Aquamarine_4": {
+      "name": "Aquamarincharge"
+    },
+    "Crystal_Aquamarine_4_Days": {
+      "name": "Aquamarincharge"
+    },
+    "Crystal_Aquamarine_4_Weeks": {
+      "name": "Aquamarincharge"
+    },
+    "Assembly_Focuser_4_Days": {
+      "name": "Kristallokulare"
+    },
+    "Assembly_Focuser_4_Weeks": {
+      "name": "Kristallokulare"
+    },
+    "Crystal_Emerald_5_Days": {
+      "name": "Smaragdcharge"
+    },
+    "Crystal_Emerald_5_Month": {
+      "name": "Smaragdcharge"
+    },
+    "Crystal_Malachite_5_Days": {
+      "name": "Malachitcharge"
+    },
+    "Crystal_Malachite_5_Month": {
+      "name": "Malachitcharge"
+    },
+    "Crystal_Diamond_5": {
+      "name": "Diamantencharge"
+    },
+    "Crystal_Diamond_5_Month": {
+      "name": "Diamantencharge"
+    },
+    "Comp_Material_Iron_2": {
+      "name": "Eisennbarren"
+    },
+    "Comp_Material_Copper_2": {
+      "name": "Kupferbarren"
+    },
+    "Comp_Material_Alu_2": {
+      "name": "Aluminiumbarren"
+    },
+    "Comp_Material_Iron_3": {
+      "name": "Eisennbarren"
+    },
+    "Comp_Material_Copper_3": {
+      "name": "Kupferbarren"
+    },
+    "Comp_Material_Alu_3": {
+      "name": "Aluminiumbarren"
+    },
+    "Comp_Material_Silicum_3": {
+      "name": "Siliziumbarren"
+    },
+    "Comp_Material_Titanium_3": {
+      "name": "Titanbarren"
+    },
+    "Comp_Material_Iron_4": {
+      "name": "Eisennbarren"
+    },
+    "Comp_Material_Iron_4_Days": {
+      "name": "Eisennbarren"
+    },
+    "Comp_Material_Iron_4_Weeks": {
+      "name": "Eisennbarren"
+    },
+    "Comp_Material_Copper_4": {
+      "name": "Kupferbarren"
+    },
+    "Comp_Material_Copper_4_Days": {
+      "name": "Kupferbarren"
+    },
+    "Comp_Material_Copper_4_Weeks": {
+      "name": "Kupferbarren"
+    },
+    "Comp_Material_Alu_4": {
+      "name": "Aluminiumbarren"
+    },
+    "Comp_Material_Alu_4_Days": {
+      "name": "Aluminiumbarren"
+    },
+    "Comp_Material_Alu_4_Weeks": {
+      "name": "Aluminiumbarren"
+    },
+    "Comp_Material_Silicum_4": {
+      "name": "Siliziumbarren"
+    },
+    "Comp_Material_Silicum_4_Days": {
+      "name": "Siliziumbarren"
+    },
+    "Comp_Material_Silicum_4_Weeks": {
+      "name": "Siliziumbarren"
+    },
+    "Comp_Material_Titanium_4": {
+      "name": "Titanbarren"
+    },
+    "Comp_Material_Titanium_4_Days": {
+      "name": "Titanbarren"
+    },
+    "Comp_Material_Titanium_4_Weeks": {
+      "name": "Titanbarren"
+    },
+    "Comp_Material_Steel_4_Days": {
+      "name": "Stahlbarren"
+    },
+    "Comp_Material_Steel_4_Weeks": {
+      "name": "Stahlbarren"
+    },
+    "Helicon_4_Licence_Beam3": {
+      "name": "Unbiegsame Materialien"
+    },
+    "Helicon_4_Licence_Levinium": {
+      "name": "Sehr leichte Materialien"
+    },
+    "Helicon_4_Licence_ModuleKit": {
+      "name": "Erweiterte Lager"
+    },
+    "Helicon_3_Licence_Beam2": {
+      "name": "B-Titanmaterialien"
+    },
+    "Helicon_3_Licence_Batteries": {
+      "name": "Chemische Produkte"
+    },
+    "Helicon_5_SolarCell": {
+      "name": "Solarzellen"
+    },
+    "Helicon_5_Motor": {
+      "name": "Motoren"
+    },
+    "Helicon_5_Drones": {
+      "name": "Drohnen"
+    },
+    "Helicon_5_SmallTitaniumCasing": {
+      "name": "Kleine Titangehäuse"
+    },
+    "Helicon_5_ModuleKit": {
+      "name": "Modulkits"
+    },
+    "Helicon_4_ChemicalBattery": {
+      "name": "Chemische Batterien"
+    },
+    "Helicon_3_LargeModuleKit": {
+      "name": "Großes Modulkit"
+    },
+    "Helicon_3_Sheet3": {
+      "name": "Hochwertige Metallbleche"
+    }
+  },
+  "spaceObject": {
+    "Station_Start": {
+      "name": "Babylon"
+    },
+    "Station_Threshold": {
+      "name": "Raqmu"
+    },
+    "Station_Cairn": {
+      "name": "Syrakus"
+    },
+    "Station_Justice": {
+      "name": "Nemea"
+    },
+    "Station_Horizon": {
+      "name": "Ur"
+    },
+    "Station_Terminus": {
+      "name": "Helicon"
+    },
+    "Test_Pirates": {
+      "name": "Testkampf"
+    }
+  },
+  "faction": {
+    "Players": {
+      "name": "<Player>"
+    },
+    "TheCo": {
+      "name": "Die Kompanie"
+    },
+    "SpacePirates": {
+      "name": "Weltraumpiraten"
+    },
+    "IUOB": {
+      "name": "ISBU"
+    },
+    "Stellar": {
+      "name": "Stellar Engineering"
+    },
+    "Ninmah": {
+      "name": "Ninmah Group"
+    },
+    "Eris": {
+      "name": "Eris Corp."
+    },
+    "Vox": {
+      "name": "Vox Populi"
+    },
+    "CoG": {
+      "name": "Kinder von Gaia"
+    },
+    "Monster": {
+      "name": "Monster"
+    },
+    "Republic": {
+      "name": "Die Republik"
+    }
+  },
+  "instance": {
+    "TestInstance": {
+      "name": "Testinstanz"
+    },
+    "TestNarra": {
+      "name": "Testinstanz Narra"
+    },
+    "TestDarkInstance": {
+      "name": "Dunkle Instanz"
+    },
+    "ProspectingRelay": {
+      "name": "Prospektorenrelais"
+    },
+    "AbandonedMine": {
+      "name": "Verlassene Mine"
+    },
+    "LabCameras": {
+      "name": "Testanlage"
+    },
+    "LabMonsters": {
+      "name": "Verlassenes Labor"
+    },
+    "DarkInstance": {
+      "name": "Dunkle Instanz"
+    },
+    "DarkInstance2": {
+      "name": "Dunkle Instanz"
+    },
+    "DarkInstance3": {
+      "name": "Dunkle Instanz"
+    },
+    "DarkInstance4": {
+      "name": "Dunkle Instanz"
+    },
+    "IntelligenceCenter5": {
+      "name": "Lokales Geheimdienstzentrum"
+    },
+    "IntelligenceCenter6": {
+      "name": "Lokales Geheimdienstzentrum"
+    },
+    "IntelligenceCenter7": {
+      "name": "Lokales Geheimdienstzentrum"
+    },
+    "Warehouse5": {
+      "name": "Lagerhaus der Kompanie"
+    },
+    "CorpoTrainingCenter": {
+      "name": "Miliz der Kompanie"
+    },
+    "IntelligenceCenter": {
+      "name": "Lokales Geheimdienstzentrum"
+    },
+    "IntelligenceCenter2": {
+      "name": "Lokales Geheimdienstzentrum"
+    },
+    "IntelligenceCenter3": {
+      "name": "Lokales Geheimdienstzentrum"
+    },
+    "IntelligenceCenter4": {
+      "name": "Lokales Geheimdienstzentrum"
+    },
+    "Warehouse": {
+      "name": "Lagerhaus der Kompanie"
+    },
+    "Warehouse2": {
+      "name": "Lagerhaus der Kompanie"
+    },
+    "Warehouse3": {
+      "name": "Lagerhaus der Kompanie"
+    },
+    "IntroScene": {
+      "name": "Schuldenviertel"
+    },
+    "DockStart": {
+      "name": "Dock"
+    },
+    "DockEmpty": {
+      "name": "Dock"
+    },
+    "DockJustice": {
+      "name": "Dock"
+    },
+    "DockThreshold": {
+      "name": "Dock"
+    },
+    "DockTerminus": {
+      "name": "Dock"
+    },
+    "DockHorizon": {
+      "name": "Dock"
+    },
+    "DockCairn": {
+      "name": "Dock"
+    },
+    "ShipYard": {
+      "name": "Werft"
+    },
+    "Laboratory": {
+      "name": "Labor"
+    },
+    "MiningBureau": {
+      "name": "Minenbüro"
+    },
+    "MarketplaceTerminus": {
+      "name": "Handelsknoten"
+    },
+    "MarketplaceHorizon": {
+      "name": "Handelsknoten"
+    }
+  },
+  "workshop": {
+    "Workshop_Smelter": {
+      "name": "Schmelzer"
+    },
+    "Workshop_Recycle": {
+      "name": "Aufbereiter"
+    },
+    "Workshop_Atelier": {
+      "name": "Werkstatt"
+    },
+    "Workshop_Factory": {
+      "name": "Assembler"
+    },
+    "Workshop_Factory2": {
+      "name": "Fabrik"
+    },
+    "Workshop_Chemical": {
+      "name": "Chemiefabrik"
+    },
+    "Workshop_Bottle": {
+      "name": "Abfüllfabrik"
+    },
+    "Workshop_Crystalizer": {
+      "name": "Kristallisator"
+    },
+    "Workshop_Antimatter": {
+      "name": "Antimateriemaschine"
+    },
+    "Workshop_Seed": {
+      "name": "Saatextraktor"
+    },
+    "Workshop_Uncraftable": {
+      "name": "<bad>Fertigen in Beta nicht möglich</bad>"
+    },
+    "Workshop_Science": {
+      "name": "Labor"
+    },
+    "Workshop_Building": {
+      "name": "Bau"
+    }
   }
 }

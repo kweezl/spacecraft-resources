@@ -9,6 +9,8 @@ resolves them from the per-language translation files.
 import json
 from pathlib import Path
 
+from src.lib import workshops
+
 
 def load_cdb(path) -> dict:
     with Path(path).open("r", encoding="utf-8") as file:
@@ -68,10 +70,44 @@ def parse_recipe(row: dict) -> dict | None:
     return record
 
 
+def compute_craft_time(record: dict, times: dict[str, dict]) -> dict | None:
+    """Derive {manual, auto} seconds from workshop base times × recipe factors.
+
+    manual = manualCraftTime × (manualTimeFactor or craftTimeFactor or 1), when the
+             workshop has a manualCraftTime; else None.
+    auto   = props.autoTime when present (absolute); else
+             autoCraftTime × (craftTimeFactor or 1), when the workshop has an
+             autoCraftTime; else None.
+    Returns None when neither is derivable. Formula validated against in-game values.
+    """
+    base = times.get(record.get("where"), {})
+    props = record.get("props") or {}
+    craft_factor = props.get("craftTimeFactor")
+    manual_factor = props.get("manualTimeFactor")
+
+    manual = None
+    if base.get("manual") is not None:
+        factor = manual_factor if manual_factor is not None else (
+            craft_factor if craft_factor is not None else 1)
+        manual = base["manual"] * factor
+
+    auto = None
+    if "autoTime" in props:
+        auto = props["autoTime"]
+    elif base.get("auto") is not None:
+        factor = craft_factor if craft_factor is not None else 1
+        auto = base["auto"] * factor
+
+    if manual is None and auto is None:
+        return None
+    return {"manual": manual, "auto": auto}
+
+
 def parse_craft(cdb_path) -> dict:
     cdb_path = Path(cdb_path)
     cdb = load_cdb(cdb_path)
     sheet = find_sheet(cdb, "craft")
+    times = workshops.workshop_times(cdb)
 
     recipes: dict[str, dict] = {}
     skipped = 0
@@ -83,6 +119,9 @@ def parse_craft(cdb_path) -> dict:
         if record is None:
             skipped += 1
             continue
+        craft_time = compute_craft_time(record, times)
+        if craft_time is not None:
+            record["craftTime"] = craft_time
         if record["id"] in recipes:
             raise ValueError(f"Duplicate recipe id {record['id']!r}")
         recipes[record["id"]] = record

@@ -21,6 +21,7 @@ class GenerateIconsCommandTests(unittest.TestCase):
                 "--aliases", "generated/aliases.json",
                 "--sheet", "item",
                 "--format", "webp",
+                "--icon-path", "icon",
                 "--dedup",
             ],
         )

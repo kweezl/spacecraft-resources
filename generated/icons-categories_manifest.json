@@ -1,0 +1,1940 @@
+{
+  "data": "unpacked/data.cdb",
+  "assets": "unpacked",
+  "out": "generated/icons-categories",
+  "count": 138,
+  "icons": {
+    "Virtual": {
+      "id": "Virtual",
+      "name": "Virtual Item",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "QuestItem": {
+      "id": "QuestItem",
+      "name": "Contract Item",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/QuestItem.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 7,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "DataDisc": {
+      "id": "DataDisc",
+      "name": "Data disc",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/QuestItem.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 7,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "InstanceItem": {
+      "id": "InstanceItem",
+      "name": "Instance Item",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Readable": {
+      "id": "Readable",
+      "name": "Readable Item",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "BeaconData": {
+      "id": "BeaconData",
+      "name": "Beacon Data",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/BeaconData.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 5,
+        "y": 9,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Blueprint": {
+      "id": "Blueprint",
+      "name": "Blueprint",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Blueprint.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 11,
+        "y": 4,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Patch": {
+      "id": "Patch",
+      "name": "Patch",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Patch.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 10,
+        "y": 4,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Knowledge": {
+      "id": "Knowledge",
+      "name": "Knowledge",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Knowledge.webp",
+      "source": {
+        "file": "ui/icons/ic_menu.png",
+        "size": 24,
+        "x": 3,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Knowledge_Factions": {
+      "id": "Knowledge_Factions",
+      "name": "Factions",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Knowledge_Tuto": {
+      "id": "Knowledge_Tuto",
+      "name": "Tutorial",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "AnyResource": {
+      "id": "AnyResource",
+      "name": "Component",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "PureComponents": {
+      "id": "PureComponents",
+      "name": "Material",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/PureComponents.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 1,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Fluid": {
+      "id": "Fluid",
+      "name": "Fluid",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Ingots": {
+      "id": "Ingots",
+      "name": "Ingot",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "CrystalMatrix": {
+      "id": "CrystalMatrix",
+      "name": "Crystal Matrix",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Liquid": {
+      "id": "Liquid",
+      "name": "Liquid",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Liquid.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 14,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Gas": {
+      "id": "Gas",
+      "name": "Gas",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Gas.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 16,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Plasma": {
+      "id": "Plasma",
+      "name": "Plasma",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Gas.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 16,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Minerals": {
+      "id": "Minerals",
+      "name": "Gathering",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Minerals.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Metal": {
+      "id": "Metal",
+      "name": "Metal Ore",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "MetalOre": {
+      "id": "MetalOre",
+      "name": "Ore",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "MetalNugget": {
+      "id": "MetalNugget",
+      "name": "Nugget",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "MetalShavings": {
+      "id": "MetalShavings",
+      "name": "Shaving",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "MineralParent": {
+      "id": "MineralParent",
+      "name": "Mineral Ore",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "MineralOre": {
+      "id": "MineralOre",
+      "name": "Ore",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "MineralNugget": {
+      "id": "MineralNugget",
+      "name": "Nugget",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "MineralShavings": {
+      "id": "MineralShavings",
+      "name": "Shaving",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Scrap": {
+      "id": "Scrap",
+      "name": "Scrap",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Crystal": {
+      "id": "Crystal",
+      "name": "Crystal",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Biological_Extra": {
+      "id": "Biological_Extra",
+      "name": "Organic Byproduct",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Biological_Fruit": {
+      "id": "Biological_Fruit",
+      "name": "Germ",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "FactoredMaterial": {
+      "id": "FactoredMaterial",
+      "name": "Manufactured",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/FactoredMaterial.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 10,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "SimpleFactoredMaterial": {
+      "id": "SimpleFactoredMaterial",
+      "name": "Simple Product",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ComplexFactoredMaterial": {
+      "id": "ComplexFactoredMaterial",
+      "name": "Contraption",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Bottles": {
+      "id": "Bottles",
+      "name": "Bottle",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "BottlesFull": {
+      "id": "BottlesFull",
+      "name": "Bottle",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Casings": {
+      "id": "Casings",
+      "name": "Kit and Casing",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Automate": {
+      "id": "Automate",
+      "name": "Robotic Agents",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Shuttle": {
+      "id": "Shuttle",
+      "name": "Shuttle",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Shuttle.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 2,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Luxuries": {
+      "id": "Luxuries",
+      "name": "Luxury Item",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "PlanetResource": {
+      "id": "PlanetResource",
+      "name": "Resource",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/PlanetResource.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 9,
+        "y": 4,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "PlanetResource_RegularNode": {
+      "id": "PlanetResource_RegularNode",
+      "name": "Cluster",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "PlanetResource_Exploration": {
+      "id": "PlanetResource_Exploration",
+      "name": "World Discovery",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "PlanetResource_Deposit": {
+      "id": "PlanetResource_Deposit",
+      "name": "Deposit",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "PlanetResource_Shell": {
+      "id": "PlanetResource_Shell",
+      "name": "Shell",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "PlanetResource_Geyser": {
+      "id": "PlanetResource_Geyser",
+      "name": "Geyser",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "FarmPlant": {
+      "id": "FarmPlant",
+      "name": "Farm Plant",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/FarmPlant.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 15,
+        "y": 4,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipElement": {
+      "id": "ShipElement",
+      "name": "Ship Element",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipPart": {
+      "id": "ShipPart",
+      "name": "Ship Part",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipPart.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 14,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipHull": {
+      "id": "ShipHull",
+      "name": "Hull Part",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipHull.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 3,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipHull_Steel": {
+      "id": "ShipHull_Steel",
+      "name": "Steel Hull Part",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipHull.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 3,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipHull_Steel_AluK": {
+      "id": "ShipHull_Steel_AluK",
+      "name": "Alu-K-plated Steel Hull Part",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipHull.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 3,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipHull_Titanium": {
+      "id": "ShipHull_Titanium",
+      "name": "Titanium Hull Part",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipHull.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 3,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipHull_Titanium_AluK": {
+      "id": "ShipHull_Titanium_AluK",
+      "name": "Alu-K-plated Titanium Hull Part",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipHull.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 3,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipHull_Platinum": {
+      "id": "ShipHull_Platinum",
+      "name": "Solid Frame Hull Part",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipHull.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 3,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipHull_Levinium": {
+      "id": "ShipHull_Levinium",
+      "name": "Levinium Hull Part",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipHull.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 3,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipHull_AlloyX": {
+      "id": "ShipHull_AlloyX",
+      "name": "Alloy X Hull Part",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipHull.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 3,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipHull_WreckOnly": {
+      "id": "ShipHull_WreckOnly",
+      "name": "[DEPRECATED BUT STILL USED IN SHIPWRECK]",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipHull.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 3,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipCockpit": {
+      "id": "ShipCockpit",
+      "name": "Cockpit",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipPart.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 14,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipEngine": {
+      "id": "ShipEngine",
+      "name": "Thruster",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipEngine.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 17,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipWing": {
+      "id": "ShipWing",
+      "name": "Wing",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipWing.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 8,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipDecorative": {
+      "id": "ShipDecorative",
+      "name": "Decorative",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipDecorative.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 1,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipTool": {
+      "id": "ShipTool",
+      "name": "External Module",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipTool.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 19,
+        "y": 2,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipGatheringTools": {
+      "id": "ShipGatheringTools",
+      "name": "Gathering",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipTool.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 19,
+        "y": 2,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipRadars": {
+      "id": "ShipRadars",
+      "name": "Radar",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipRadars.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 0,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipPowerTools": {
+      "id": "ShipPowerTools",
+      "name": "Solar Panel",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipPowerTools.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 17,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipHeatTools": {
+      "id": "ShipHeatTools",
+      "name": "Heat Panel",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipHeatTools.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 15,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipWeapon": {
+      "id": "ShipWeapon",
+      "name": "Weapon",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipWeapon.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 4,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipBooster": {
+      "id": "ShipBooster",
+      "name": "Booster",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipEngine.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 17,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipLight": {
+      "id": "ShipLight",
+      "name": "Light",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipLight.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 3,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipToolSpecial": {
+      "id": "ShipToolSpecial",
+      "name": "Specialized Tools",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipToolSpecial.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 1,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipModule": {
+      "id": "ShipModule",
+      "name": "Internal Module",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipModule.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 5,
+        "y": 2,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipInventoryModules": {
+      "id": "ShipInventoryModules",
+      "name": "Storage Module",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipInventoryModules.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 8,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipFTLModules": {
+      "id": "ShipFTLModules",
+      "name": "FTL Module",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipFTLModules.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 18,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipShields": {
+      "id": "ShipShields",
+      "name": "Shield",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipShields.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 9,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipPowerGenerators": {
+      "id": "ShipPowerGenerators",
+      "name": "Power Module",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipPowerTools.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 17,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipBattery": {
+      "id": "ShipBattery",
+      "name": "Battery",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipBattery.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 9,
+        "y": 2,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipHeatModule": {
+      "id": "ShipHeatModule",
+      "name": "Heat Module",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipHeatTools.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 15,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipControlModule": {
+      "id": "ShipControlModule",
+      "name": "Control Mod",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipControlModule.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 14,
+        "y": 5,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "ShipAmmunition": {
+      "id": "ShipAmmunition",
+      "name": "Ammunition",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipAmmunition.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 13,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "MiningTool": {
+      "id": "MiningTool",
+      "name": "Mining Tool",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Building": {
+      "id": "Building",
+      "name": "Building",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "BaseBuilding": {
+      "id": "BaseBuilding",
+      "name": "Base Building",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/BaseBuilding.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 18,
+        "y": 9,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Pylon": {
+      "id": "Pylon",
+      "name": "Pylon",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "BaseBuilding_Crafting": {
+      "id": "BaseBuilding_Crafting",
+      "name": "Crafter",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "BaseBuilding_Gathering": {
+      "id": "BaseBuilding_Gathering",
+      "name": "Gatherer",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "BaseBuilding_Power": {
+      "id": "BaseBuilding_Power",
+      "name": "Power",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "BaseBuilding_Storage": {
+      "id": "BaseBuilding_Storage",
+      "name": "Storage",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "BaseBuilding_Logistic": {
+      "id": "BaseBuilding_Logistic",
+      "name": "Logistics",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "BaseBuilding_Command": {
+      "id": "BaseBuilding_Command",
+      "name": "Command",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "BaseBuilding_Deco": {
+      "id": "BaseBuilding_Deco",
+      "name": "Decor",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "SpaceStation": {
+      "id": "SpaceStation",
+      "name": "Space Station",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Craft_RawResource": {
+      "id": "Craft_RawResource",
+      "name": "Mineral Processing",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Minerals.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Craft_CrystalSmelting": {
+      "id": "Craft_CrystalSmelting",
+      "name": "Crystal Processing",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Craft_CrystalSmelting.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 2,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Craft_Mixing": {
+      "id": "Craft_Mixing",
+      "name": "Mix",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Craft_Mixing.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 16,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Craft_Alloy": {
+      "id": "Craft_Alloy",
+      "name": "Alloy",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/PureComponents.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 1,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Craft_IntermediaryComponent": {
+      "id": "Craft_IntermediaryComponent",
+      "name": "Material",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Craft_IntermediaryComponent.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 2,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Craft_CrystalLattice": {
+      "id": "Craft_CrystalLattice",
+      "name": "Crystal Geometry",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Craft_CrystalLattice.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 9,
+        "y": 5,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Craft_PlayerItem": {
+      "id": "Craft_PlayerItem",
+      "name": "Contractor Equipment",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Craft_PlayerItem.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 17,
+        "y": 2,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Craft_Tools": {
+      "id": "Craft_Tools",
+      "name": "External Module",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipTool.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 19,
+        "y": 2,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Craft_Modules": {
+      "id": "Craft_Modules",
+      "name": "Internal Module",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipModule.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 5,
+        "y": 2,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Craft_Casings": {
+      "id": "Craft_Casings",
+      "name": "Ship Component",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Craft_Casings.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 7,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Craft_Parts": {
+      "id": "Craft_Parts",
+      "name": "Ship Part",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipPart.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 14,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Craft_Parts_Plating": {
+      "id": "Craft_Parts_Plating",
+      "name": "Ship Part Plating",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Craft_Parts_Plating.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 3,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Craft_Patch": {
+      "id": "Craft_Patch",
+      "name": "Patch",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Patch.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 10,
+        "y": 4,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Craft_BuildingKit": {
+      "id": "Craft_BuildingKit",
+      "name": "Factory Kit",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/BaseBuilding.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 18,
+        "y": 9,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Craft_Seed": {
+      "id": "Craft_Seed",
+      "name": "Seed Shattering",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Craft_Seed.webp",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Craft_Crystal": {
+      "id": "Craft_Crystal",
+      "name": "Crystallization",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Craft_CrystalSmelting.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 2,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Craft_Recycle": {
+      "id": "Craft_Recycle",
+      "name": "Recycle",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Craft_Seed.webp",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Craft_StudyCrystal": {
+      "id": "Craft_StudyCrystal",
+      "name": "Crystal Sample",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Craft_CrystalSmelting.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 2,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Craft_StudyMineral": {
+      "id": "Craft_StudyMineral",
+      "name": "Mineral Sample",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Minerals.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Craft_StudyOrganic": {
+      "id": "Craft_StudyOrganic",
+      "name": "Biological Sample",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Craft_Seed.webp",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Craft_StudyQuest": {
+      "id": "Craft_StudyQuest",
+      "name": "Contract Item",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Craft_Seed.webp",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Craft_BottleIn": {
+      "id": "Craft_BottleIn",
+      "name": "Bottling",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Craft_BottleIn.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 18,
+        "y": 3,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Craft_BottleOut": {
+      "id": "Craft_BottleOut",
+      "name": "Unbottling",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Liquid.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 14,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Craft_Other": {
+      "id": "Craft_Other",
+      "name": "Other",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/ShipAmmunition.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 13,
+        "y": 1,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Craft_Dismantle": {
+      "id": "Craft_Dismantle",
+      "name": "Dismantle",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "PlayerItem": {
+      "id": "PlayerItem",
+      "name": "Contractor Equipment",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Craft_PlayerItem.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 17,
+        "y": 2,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "PlayerHands": {
+      "id": "PlayerHands",
+      "name": "Hand Tool",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "PlayerConsumable": {
+      "id": "PlayerConsumable",
+      "name": "Contractor Gadget",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "PlayerSuitChip": {
+      "id": "PlayerSuitChip",
+      "name": "Contractor Suit Chip",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Clothes": {
+      "id": "Clothes",
+      "name": "Clothes",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Drone": {
+      "id": "Drone",
+      "name": "Drone",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Region": {
+      "id": "Region",
+      "name": "Region",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Empty": {
+      "id": "Empty",
+      "name": "",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Empty.webp",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_graph.png",
+        "size": 32,
+        "x": 21,
+        "y": 0,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "Category_All": {
+      "id": "Category_All",
+      "name": "All",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Category_All.webp",
+      "source": {
+        "file": "ui/icons/items_01.png",
+        "size": 64,
+        "x": 18,
+        "y": 2,
+        "width": 2,
+        "height": 2
+      }
+    },
+    "Category_Craft": {
+      "id": "Category_Craft",
+      "name": "Craft",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Category_Craft.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 4,
+        "y": 5,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Category_Blueprint": {
+      "id": "Category_Blueprint",
+      "name": "Blueprint",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Blueprint.webp",
+      "source": {
+        "file": "ui/icons/sprite_sheet_icon_64_flat_white.png",
+        "size": 64,
+        "x": 11,
+        "y": 4,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Category_Others": {
+      "id": "Category_Others",
+      "name": "Other",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Craft_Seed.webp",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Category_Decals": {
+      "id": "Category_Decals",
+      "name": "Decal",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Craft_Seed.webp",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Category_InStorage": {
+      "id": "Category_InStorage",
+      "name": "Storage",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Craft_Seed.webp",
+      "source": {
+        "file": "ui/windows/hd_sprite-sheet_ic.png",
+        "size": 32,
+        "x": 10,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Custo_Parts": {
+      "id": "Custo_Parts",
+      "name": "Decorative Part",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Custo_Building": {
+      "id": "Custo_Building",
+      "name": "Decorative Building",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Custo_Material": {
+      "id": "Custo_Material",
+      "name": "Ship Material",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Custo_Decal": {
+      "id": "Custo_Decal",
+      "name": "Ship Decal",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Custo_Suit": {
+      "id": "Custo_Suit",
+      "name": "Character Suit",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    },
+    "Custo_Trail": {
+      "id": "Custo_Trail",
+      "name": "Ship Trail",
+      "sheet": "itemType",
+      "output": "generated/icons-categories/Virtual.webp",
+      "source": {
+        "file": "ui/itemIcons.png",
+        "size": 18,
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      }
+    }
+  }
+}

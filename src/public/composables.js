@@ -40,32 +40,44 @@ export function useLang() {
 }
 
 // id -> icon URL, resolved through aliases (dedup-safe); null when no icon.
-export function useIcons(base, aliasesRef) {
+// `dir` selects the icon set folder (icons | icons-categories | icons-factions).
+export function useIcons(base, aliasesRef, dir = "icons") {
   function iconSrc(id) {
     const f = aliasesRef.value[id];
-    return f ? base + "/icons/" + f : null;
+    return f ? base + "/" + dir + "/" + f : null;
   }
   return { iconSrc };
 }
 
-// Localized lookups over a translation map ({ item, attribute, itemType }).
+// Localized lookups over a translation map ({ item, attribute, itemType, ... }).
 export function useTranslations(trRef) {
   const name = (id) => trRef.value.item?.[id]?.name || null;
   const desc = (id) => trRef.value.item?.[id]?.desc || null;
   const attrName = (code) => trRef.value.attribute?.[code]?.name || code;
   const categoryLabel = (id) => trRef.value.itemType?.[id]?.name || id;
-  return { name, desc, attrName, categoryLabel };
+  const workshopName = (id) => trRef.value.workshop?.[id]?.name || id;
+  const contractTitle = (id) => trRef.value.contract?.[id]?.name || id;
+  const spaceObjectName = (id) => trRef.value.spaceObject?.[id]?.name || id;
+  const factionName = (id) => trRef.value.faction?.[id]?.name || id;
+  const instanceName = (id) => trRef.value.instance?.[id]?.name || id;
+  return {
+    name, desc, attrName, categoryLabel,
+    workshopName, contractTitle, spaceObjectName, factionName, instanceName,
+  };
 }
 
-// Path-style hash routing: #/items, #/items/<id>, #/recipes (legacy #item-<id>).
+// Path-style hash routing: #/items, #/items/<id>, #/recipes, plus the new
+// single-segment views (legacy #item-<id> still supported).
 export function useHashRoute() {
+  const VIEWS = ["items", "recipes", "workshops", "contracts", "categories", "space-objects", "factions"];
   function parse() {
     const h = location.hash || "";
     let m = h.match(/^#item-(.+)$/); // legacy deep link
     if (m) return { view: "items", itemId: decodeURIComponent(m[1]) };
     m = h.match(/^#\/items\/(.+)$/);
     if (m) return { view: "items", itemId: decodeURIComponent(m[1]) };
-    if (h === "#/recipes") return { view: "recipes", itemId: null };
+    m = h.match(/^#\/([a-z-]+)$/);
+    if (m && VIEWS.includes(m[1])) return { view: m[1], itemId: null };
     return { view: "items", itemId: null };
   }
   const route = ref(parse());

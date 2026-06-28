@@ -20,7 +20,11 @@
       ],
       "where": "Workshop_Smelter",
       "category": "Craft_RawResource",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 5,
+        "auto": 180
+      }
     },
     "IronIngot_Nugget": {
       "id": "IronIngot_Nugget",
@@ -38,7 +42,11 @@
       ],
       "where": "Workshop_Smelter",
       "category": "Craft_RawResource",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 5,
+        "auto": 180
+      }
     },
     "IronIngot_Hematite": {
       "id": "IronIngot_Hematite",
@@ -59,6 +67,10 @@
       "unlockType": 0,
       "props": {
         "autoPowerCost": 4
+      },
+      "craftTime": {
+        "manual": 5,
+        "auto": 180
       }
     },
     "CopperIngot": {
@@ -77,7 +89,11 @@
       ],
       "where": "Workshop_Smelter",
       "category": "Craft_RawResource",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 5,
+        "auto": 180
+      }
     },
     "CopperIngot_Nugget": {
       "id": "CopperIngot_Nugget",
@@ -95,7 +111,11 @@
       ],
       "where": "Workshop_Smelter",
       "category": "Craft_RawResource",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 5,
+        "auto": 180
+      }
     },
     "CopperIngot_Malachite": {
       "id": "CopperIngot_Malachite",
@@ -116,6 +136,10 @@
       "unlockType": 0,
       "props": {
         "autoPowerCost": 4
+      },
+      "craftTime": {
+        "manual": 5,
+        "auto": 180
       }
     },
     "CopperIngot_Azurite": {
@@ -137,6 +161,10 @@
       "unlockType": 0,
       "props": {
         "autoPowerCost": 4
+      },
+      "craftTime": {
+        "manual": 5,
+        "auto": 180
       }
     },
     "ZirconiumIngot": {
@@ -155,7 +183,11 @@
       ],
       "where": "Workshop_Smelter",
       "category": "Craft_RawResource",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 5,
+        "auto": 180
+      }
     },
     "ZirconiumIngot_Nugget": {
       "id": "ZirconiumIngot_Nugget",
@@ -173,7 +205,11 @@
       ],
       "where": "Workshop_Smelter",
       "category": "Craft_RawResource",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 5,
+        "auto": 180
+      }
     },
     "AluminiumIngot": {
       "id": "AluminiumIngot",
@@ -191,7 +227,11 @@
       ],
       "where": "Workshop_Smelter",
       "category": "Craft_RawResource",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 5,
+        "auto": 180
+      }
     },
     "AluminiumIngot_Nugget": {
       "id": "AluminiumIngot_Nugget",
@@ -209,7 +249,11 @@
       ],
       "where": "Workshop_Smelter",
       "category": "Craft_RawResource",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 5,
+        "auto": 180
+      }
     },
     "AluminiumIngot_Aquamarine": {
       "id": "AluminiumIngot_Aquamarine",
@@ -235,6 +279,10 @@
       "props": {
         "autoPowerCost": 4,
         "craftTimeFactor": 3
+      },
+      "craftTime": {
+        "manual": 15,
+        "auto": 540
       }
     },
     "AluminiumIngot_Emerald": {
@@ -261,6 +309,10 @@
       "props": {
         "autoPowerCost": 4,
         "craftTimeFactor": 3
+      },
+      "craftTime": {
+        "manual": 15,
+        "auto": 540
       }
     },
     "Steel": {
@@ -288,6 +340,10 @@
         "craftTimeFactor": 2,
         "autoPowerCost": 12,
         "manualTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 25,
+        "auto": 360
       }
     },
     "AluK": {
@@ -315,6 +371,10 @@
         "craftTimeFactor": 1.5,
         "autoPowerCost": 12,
         "manualTimeFactor": 4.5
+      },
+      "craftTime": {
+        "manual": 22.5,
+        "auto": 270.0
       }
     },
     "BTitanium": {
@@ -342,6 +402,10 @@
         "craftTimeFactor": 1.5,
         "autoPowerCost": 12,
         "manualTimeFactor": 4.5
+      },
+      "craftTime": {
+        "manual": 22.5,
+        "auto": 270.0
       }
     },
     "Unbendinium": {
@@ -373,6 +437,10 @@
         "craftTimeFactor": 2,
         "autoPowerCost": 12,
         "manualTimeFactor": 6
+      },
+      "craftTime": {
+        "manual": 30,
+        "auto": 360
       }
     },
     "TitaniumIngot": {
@@ -391,7 +459,11 @@
       ],
       "where": "Workshop_Smelter",
       "category": "Craft_RawResource",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 5,
+        "auto": 180
+      }
     },
     "TitaniumIngot_Nugget": {
       "id": "TitaniumIngot_Nugget",
@@ -409,7 +481,11 @@
       ],
       "where": "Workshop_Smelter",
       "category": "Craft_RawResource",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 5,
+        "auto": 180
+      }
     },
     "SiliciumIngot_Sandstone": {
       "id": "SiliciumIngot_Sandstone",
@@ -431,6 +507,10 @@
       "props": {
         "craftTimeFactor": 4,
         "autoPowerCost": 8
+      },
+      "craftTime": {
+        "manual": 20,
+        "auto": 720
       }
     },
     "SiliciumIngot_Shavings": {
@@ -453,6 +533,10 @@
       "props": {
         "craftTimeFactor": 4,
         "autoPowerCost": 4
+      },
+      "craftTime": {
+        "manual": 20,
+        "auto": 720
       }
     },
     "SiliciumIngot_Quartz": {
@@ -475,6 +559,10 @@
       "props": {
         "craftTimeFactor": 2,
         "autoPowerCost": 4
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 360
       }
     },
     "VanadiumIngot": {
@@ -493,7 +581,11 @@
       ],
       "where": "Workshop_Smelter",
       "category": "Craft_RawResource",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 5,
+        "auto": 180
+      }
     },
     "SilverIngot_Nugget": {
       "id": "SilverIngot_Nugget",
@@ -511,7 +603,11 @@
       ],
       "where": "Workshop_Smelter",
       "category": "Craft_RawResource",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 5,
+        "auto": 180
+      }
     },
     "PlatinumIngot": {
       "id": "PlatinumIngot",
@@ -529,7 +625,11 @@
       ],
       "where": "Workshop_Smelter",
       "category": "Craft_RawResource",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 5,
+        "auto": 180
+      }
     },
     "PlatinumIngot_Nugget": {
       "id": "PlatinumIngot_Nugget",
@@ -547,7 +647,11 @@
       ],
       "where": "Workshop_Smelter",
       "category": "Craft_RawResource",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 5,
+        "auto": 180
+      }
     },
     "TungstenIngot": {
       "id": "TungstenIngot",
@@ -565,7 +669,11 @@
       ],
       "where": "Workshop_Smelter",
       "category": "Craft_RawResource",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 5,
+        "auto": 180
+      }
     },
     "TungstenIngot_Nugget": {
       "id": "TungstenIngot_Nugget",
@@ -583,7 +691,11 @@
       ],
       "where": "Workshop_Smelter",
       "category": "Craft_RawResource",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 5,
+        "auto": 180
+      }
     },
     "Sulfur_Pyrite": {
       "id": "Sulfur_Pyrite",
@@ -609,6 +721,10 @@
       "props": {
         "craftTimeFactor": 1.6,
         "autoPowerCost": 4
+      },
+      "craftTime": {
+        "manual": 8.0,
+        "auto": 288.0
       }
     },
     "Lime": {
@@ -627,7 +743,11 @@
       ],
       "where": "Workshop_Smelter",
       "category": "Craft_RawResource",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 5,
+        "auto": 180
+      }
     },
     "ElmerCore": {
       "id": "ElmerCore",
@@ -648,6 +768,10 @@
       "unlockType": 0,
       "props": {
         "autoPowerCost": 5
+      },
+      "craftTime": {
+        "manual": 5,
+        "auto": 180
       }
     },
     "ElmerCore_Shavings": {
@@ -669,6 +793,10 @@
       "unlockType": 0,
       "props": {
         "autoPowerCost": 8
+      },
+      "craftTime": {
+        "manual": 5,
+        "auto": 180
       }
     },
     "IronSheet": {
@@ -687,7 +815,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_IntermediaryComponent",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "BP_CopperSheet": {
       "id": "BP_CopperSheet",
@@ -709,6 +841,10 @@
       "lootLevel": 3,
       "props": {
         "craftTimeFactor": 3
+      },
+      "craftTime": {
+        "manual": 6,
+        "auto": 540
       }
     },
     "BP_AluminiumSiliciumSheet": {
@@ -735,6 +871,10 @@
       "lootLevel": 3,
       "props": {
         "craftTimeFactor": 4
+      },
+      "craftTime": {
+        "manual": 8,
+        "auto": 720
       }
     },
     "BP_TitaniumSheet": {
@@ -757,6 +897,10 @@
       "lootLevel": 4,
       "props": {
         "lootLevelModifier": 1
+      },
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
       }
     },
     "TitaniumStrongSheet": {
@@ -779,7 +923,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_IntermediaryComponent",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "BP_StrongSheet": {
       "id": "BP_StrongSheet",
@@ -802,7 +950,11 @@
       "where": "Workshop_Atelier",
       "category": "Craft_IntermediaryComponent",
       "unlockType": 2,
-      "lootLevel": 6
+      "lootLevel": 6,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "BP_BTitaniumStrongSheet": {
       "id": "BP_BTitaniumStrongSheet",
@@ -821,7 +973,11 @@
       "where": "Workshop_Atelier",
       "category": "Craft_IntermediaryComponent",
       "unlockType": 2,
-      "lootLevel": 6
+      "lootLevel": 6,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "PlatiniumHighSheet": {
       "id": "PlatiniumHighSheet",
@@ -843,7 +999,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_IntermediaryComponent",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "MagSheet": {
       "id": "MagSheet",
@@ -872,6 +1032,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 2
+      },
+      "craftTime": {
+        "manual": 4,
+        "auto": 360
       }
     },
     "ThermalSheet": {
@@ -890,7 +1054,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_IntermediaryComponent",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "IronBolt": {
       "id": "IronBolt",
@@ -911,6 +1079,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 2
+      },
+      "craftTime": {
+        "manual": 4,
+        "auto": 360
       }
     },
     "BP_TitaniumBolt": {
@@ -934,6 +1106,10 @@
       "props": {
         "craftTimeFactor": 2,
         "lootLevelModifier": 1
+      },
+      "craftTime": {
+        "manual": 4,
+        "auto": 360
       }
     },
     "Wire": {
@@ -952,7 +1128,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_IntermediaryComponent",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "BP_IronWire": {
       "id": "BP_IronWire",
@@ -974,6 +1154,10 @@
       "lootLevel": 3,
       "props": {
         "craftTimeFactor": 3
+      },
+      "craftTime": {
+        "manual": 6,
+        "auto": 540
       }
     },
     "BP_AluminiumWire": {
@@ -996,6 +1180,10 @@
       "lootLevel": 3,
       "props": {
         "craftTimeFactor": 2
+      },
+      "craftTime": {
+        "manual": 4,
+        "auto": 360
       }
     },
     "Concrete": {
@@ -1018,6 +1206,10 @@
       "props": {
         "craftTimeFactor": 2,
         "autoPowerCost": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 360
       }
     },
     "BP_Concrete_QuartzPowder": {
@@ -1045,6 +1237,10 @@
       "props": {
         "craftTimeFactor": 1,
         "autoPowerCost": 5
+      },
+      "craftTime": {
+        "manual": 5,
+        "auto": 180
       }
     },
     "SiliconeGel": {
@@ -1066,6 +1262,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 4
+      },
+      "craftTime": {
+        "manual": 8,
+        "auto": 720
       }
     },
     "Semiconductor": {
@@ -1087,6 +1287,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 4
+      },
+      "craftTime": {
+        "manual": 8,
+        "auto": 720
       }
     },
     "Semiconductor_Graphene": {
@@ -1109,6 +1313,10 @@
       "lootLevel": 4,
       "props": {
         "craftTimeFactor": 2.5
+      },
+      "craftTime": {
+        "manual": 5.0,
+        "auto": 450.0
       }
     },
     "Semiconductor_Pyrite": {
@@ -1132,6 +1340,10 @@
       "props": {
         "craftTimeFactor": 1,
         "lootLevelModifier": 1
+      },
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
       }
     },
     "MicroChip": {
@@ -1153,6 +1365,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 1
+      },
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
       }
     },
     "CopperTube": {
@@ -1171,7 +1387,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_IntermediaryComponent",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "BP_AluCopperTube": {
       "id": "BP_AluCopperTube",
@@ -1194,7 +1414,11 @@
       "where": "Workshop_Atelier",
       "category": "Craft_IntermediaryComponent",
       "unlockType": 2,
-      "lootLevel": 4
+      "lootLevel": 4,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "BP_AluCopperTube1": {
       "id": "BP_AluCopperTube1",
@@ -1217,6 +1441,10 @@
       "props": {
         "craftTimeFactor": 3,
         "lootLevelModifier": 1
+      },
+      "craftTime": {
+        "manual": 6,
+        "auto": 540
       }
     },
     "ZirconiumTube": {
@@ -1242,6 +1470,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 2
+      },
+      "craftTime": {
+        "manual": 4,
+        "auto": 360
       }
     },
     "SteelBeam": {
@@ -1264,6 +1496,10 @@
       "props": {
         "craftTimeFactor": 1,
         "manualTimeFactor": 12
+      },
+      "craftTime": {
+        "manual": 24,
+        "auto": 180
       }
     },
     "BP_Beam1_Platinium": {
@@ -1289,6 +1525,10 @@
       "unlockType": 3,
       "props": {
         "craftTimeFactor": 2
+      },
+      "craftTime": {
+        "manual": 4,
+        "auto": 360
       }
     },
     "TitaniumBeam": {
@@ -1315,6 +1555,10 @@
       "props": {
         "craftTimeFactor": 1,
         "manualTimeFactor": 12
+      },
+      "craftTime": {
+        "manual": 24,
+        "auto": 180
       }
     },
     "UnbendiniumBeam": {
@@ -1341,6 +1585,10 @@
       "props": {
         "craftTimeFactor": 1,
         "manualTimeFactor": 12
+      },
+      "craftTime": {
+        "manual": 24,
+        "auto": 180
       }
     },
     "AluminiumPlatings": {
@@ -1366,6 +1614,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 2
+      },
+      "craftTime": {
+        "manual": 4,
+        "auto": 360
       }
     },
     "BP_AluminiumIronPlatings": {
@@ -1392,6 +1644,10 @@
       "lootLevel": 4,
       "props": {
         "craftTimeFactor": 3
+      },
+      "craftTime": {
+        "manual": 6,
+        "auto": 540
       }
     },
     "BP_SteelPlatings": {
@@ -1418,6 +1674,10 @@
       "lootLevel": 4,
       "props": {
         "craftTimeFactor": 4
+      },
+      "craftTime": {
+        "manual": 8,
+        "auto": 720
       }
     },
     "TitaniumPlate": {
@@ -1439,6 +1699,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 2
+      },
+      "craftTime": {
+        "manual": 4,
+        "auto": 360
       }
     },
     "LeviniumPlate": {
@@ -1460,6 +1724,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 2
+      },
+      "craftTime": {
+        "manual": 4,
+        "auto": 360
       }
     },
     "Coil": {
@@ -1489,6 +1757,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 2.5
+      },
+      "craftTime": {
+        "manual": 5.0,
+        "auto": 450.0
       }
     },
     "BP_Coil_Semiconductor": {
@@ -1511,6 +1783,10 @@
       "lootLevel": 3,
       "props": {
         "craftTimeFactor": 2.5
+      },
+      "craftTime": {
+        "manual": 5.0,
+        "auto": 450.0
       }
     },
     "SolarCell": {
@@ -1540,6 +1816,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 2.5
+      },
+      "craftTime": {
+        "manual": 5.0,
+        "auto": 450.0
       }
     },
     "Gunpowder": {
@@ -1565,6 +1845,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 2
+      },
+      "craftTime": {
+        "manual": 4,
+        "auto": 360
       }
     },
     "Thermite": {
@@ -1591,6 +1875,10 @@
       "lootLevel": 3,
       "props": {
         "craftTimeFactor": 10
+      },
+      "craftTime": {
+        "manual": 20,
+        "auto": 1800
       }
     },
     "CarboFuel_Carbon": {
@@ -1617,6 +1905,10 @@
       "props": {
         "craftTimeFactor": 5,
         "autoPowerCost": 5
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 900
       }
     },
     "CarboFuel_Graphite": {
@@ -1643,6 +1935,10 @@
       "props": {
         "craftTimeFactor": 1,
         "autoPowerCost": 5
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 180
       }
     },
     "ActivatedCoal": {
@@ -1665,7 +1961,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_IntermediaryComponent",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "Kaowool": {
       "id": "Kaowool",
@@ -1683,7 +1983,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_IntermediaryComponent",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "Graphene": {
       "id": "Graphene",
@@ -1704,6 +2008,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 1
+      },
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
       }
     },
     "Focuser": {
@@ -1729,6 +2037,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 2
+      },
+      "craftTime": {
+        "manual": 4,
+        "auto": 360
       }
     },
     "Focuser_HLattice": {
@@ -1755,6 +2067,10 @@
       "lootLevel": 4,
       "props": {
         "craftTimeFactor": 1
+      },
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
       }
     },
     "Focuser_MLattice": {
@@ -1781,6 +2097,10 @@
       "lootLevel": 4,
       "props": {
         "craftTimeFactor": 2
+      },
+      "craftTime": {
+        "manual": 4,
+        "auto": 360
       }
     },
     "Focuser_CLattice": {
@@ -1807,6 +2127,10 @@
       "lootLevel": 4,
       "props": {
         "craftTimeFactor": 3
+      },
+      "craftTime": {
+        "manual": 6,
+        "auto": 540
       }
     },
     "Focuser2": {
@@ -1844,6 +2168,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 6
+      },
+      "craftTime": {
+        "manual": 12,
+        "auto": 1080
       }
     },
     "Focuser3": {
@@ -1873,6 +2201,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 6
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 1080
       }
     },
     "Graphenoid": {
@@ -1906,6 +2238,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 10
+      },
+      "craftTime": {
+        "manual": 20,
+        "auto": 1800
       }
     },
     "Alternator": {
@@ -1935,6 +2271,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 6
+      },
+      "craftTime": {
+        "manual": 12,
+        "auto": 1080
       }
     },
     "Grating": {
@@ -1960,6 +2300,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 4
+      },
+      "craftTime": {
+        "manual": 8,
+        "auto": 720
       }
     },
     "Grating_CLattice": {
@@ -1982,6 +2326,10 @@
       "lootLevel": 5,
       "props": {
         "craftTimeFactor": 1
+      },
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
       }
     },
     "Grating_Semiconductor": {
@@ -2004,6 +2352,10 @@
       "lootLevel": 5,
       "props": {
         "craftTimeFactor": 3
+      },
+      "craftTime": {
+        "manual": 6,
+        "auto": 540
       }
     },
     "Motor": {
@@ -2033,6 +2385,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 6.25
+      },
+      "craftTime": {
+        "manual": 12.5,
+        "auto": 1125.0
       }
     },
     "ElmeriumEngine": {
@@ -2062,6 +2418,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 6.25
+      },
+      "craftTime": {
+        "manual": 12.5,
+        "auto": 1125.0
       }
     },
     "Pump": {
@@ -2091,6 +2451,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 6.25
+      },
+      "craftTime": {
+        "manual": 12.5,
+        "auto": 1125.0
       }
     },
     "MagneticChamber": {
@@ -2116,6 +2480,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 900
       }
     },
     "TurquoiseBead": {
@@ -2137,6 +2505,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 2
+      },
+      "craftTime": {
+        "manual": 4,
+        "auto": 360
       }
     },
     "Bottle": {
@@ -2159,7 +2531,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_IntermediaryComponent",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "BottlePlasma": {
       "id": "BottlePlasma",
@@ -2181,7 +2557,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_IntermediaryComponent",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "Diamond": {
       "id": "Diamond",
@@ -2207,6 +2587,10 @@
       "props": {
         "autoTime": 43200,
         "autoPowerCost": 40
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 43200
       }
     },
     "Graphite": {
@@ -2233,6 +2617,10 @@
       "props": {
         "autoTime": 1800,
         "autoPowerCost": 10
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 1800
       }
     },
     "Hematite": {
@@ -2259,6 +2647,10 @@
       "props": {
         "autoTime": 3600,
         "autoPowerCost": 10
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 3600
       }
     },
     "Quartz": {
@@ -2289,6 +2681,10 @@
       "props": {
         "autoTime": 3600,
         "autoPowerCost": 10
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 3600
       }
     },
     "Aquamarine": {
@@ -2319,6 +2715,10 @@
       "props": {
         "autoTime": 3600,
         "autoPowerCost": 10
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 3600
       }
     },
     "Emerald": {
@@ -2349,6 +2749,10 @@
       "props": {
         "autoTime": 10800,
         "autoPowerCost": 25
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 10800
       }
     },
     "Azurite": {
@@ -2379,6 +2783,10 @@
       "props": {
         "autoTime": 3600,
         "autoPowerCost": 15
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 3600
       }
     },
     "Pyrite": {
@@ -2409,6 +2817,10 @@
       "props": {
         "autoTime": 3600,
         "autoPowerCost": 10
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 3600
       }
     },
     "BP_Kaolinite_AluNSilicate": {
@@ -2440,6 +2852,10 @@
       "props": {
         "autoTime": 1800,
         "autoPowerCost": 10
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 1800
       }
     },
     "Hematite_Lattice": {
@@ -2458,7 +2874,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_CrystalLattice",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "Quartz_Lattice": {
       "id": "Quartz_Lattice",
@@ -2476,7 +2896,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_CrystalLattice",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "Graphite_Lattice": {
       "id": "Graphite_Lattice",
@@ -2494,7 +2918,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_CrystalLattice",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "Aquamarine_Lattice": {
       "id": "Aquamarine_Lattice",
@@ -2512,7 +2940,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_CrystalLattice",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "Emerald_Lattice": {
       "id": "Emerald_Lattice",
@@ -2530,7 +2962,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_CrystalLattice",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "Pyrite_Lattice": {
       "id": "Pyrite_Lattice",
@@ -2548,7 +2984,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_CrystalLattice",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "Diamond_Lattice": {
       "id": "Diamond_Lattice",
@@ -2566,7 +3006,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_CrystalLattice",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "Azurite_Lattice": {
       "id": "Azurite_Lattice",
@@ -2584,7 +3028,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_CrystalLattice",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "Malachite_Lattice": {
       "id": "Malachite_Lattice",
@@ -2602,7 +3050,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_CrystalLattice",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "Chemical_Vitriol_Reduction": {
       "id": "Chemical_Vitriol_Reduction",
@@ -2627,6 +3079,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 0.1
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 18.0
       }
     },
     "Chemical_Vitriol_Production": {
@@ -2652,6 +3108,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 0.1
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 18.0
       }
     },
     "Chemical_Brine_Purification": {
@@ -2674,6 +3134,10 @@
       "props": {
         "craftTimeFactor": 0.1,
         "autoPowerCost": 10
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 18.0
       }
     },
     "Chemical_Brine_MercuryReduction": {
@@ -2695,6 +3159,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 4
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 720
       }
     },
     "Chemical_VanadiumBattery": {
@@ -2725,7 +3193,11 @@
       ],
       "where": "Workshop_Chemical",
       "category": "Craft_Other",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": null,
+        "auto": 180
+      }
     },
     "Chemical_Actuator": {
       "id": "Chemical_Actuator",
@@ -2751,7 +3223,11 @@
       ],
       "where": "Workshop_Chemical",
       "category": "Craft_Other",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": null,
+        "auto": 180
+      }
     },
     "Chemical_Cinnabar": {
       "id": "Chemical_Cinnabar",
@@ -2776,6 +3252,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 1.6
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 288.0
       }
     },
     "Chemical_XenicOil": {
@@ -2797,6 +3277,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 0.1
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 18.0
       }
     },
     "Chemical_Ethanol": {
@@ -2818,6 +3302,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 1
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 180
       }
     },
     "Chemical_ThermalPaste": {
@@ -2843,6 +3331,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 1
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 180
       }
     },
     "Fertilizer_Acidic": {
@@ -2868,6 +3360,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 1
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 180
       }
     },
     "Fertilizer_Neutral": {
@@ -2893,6 +3389,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 1
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 180
       }
     },
     "Fertilizer_Carbonic": {
@@ -2922,6 +3422,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 1
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 180
       }
     },
     "Fertilizer_Metallic": {
@@ -2951,6 +3455,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 1
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 180
       }
     },
     "Levinium": {
@@ -2981,6 +3489,10 @@
       "props": {
         "craftTimeFactor": 1,
         "autoPowerCost": 12
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 180
       }
     },
     "Grinder_WoolyKorn": {
@@ -3003,7 +3515,11 @@
       ],
       "where": "Workshop_Seed",
       "category": "Craft_Seed",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": null
+      }
     },
     "Grinder_DreamSporule": {
       "id": "Grinder_DreamSporule",
@@ -3021,7 +3537,11 @@
       ],
       "where": "Workshop_Seed",
       "category": "Craft_Seed",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": null
+      }
     },
     "Grinder_PlainPulp": {
       "id": "Grinder_PlainPulp",
@@ -3039,7 +3559,11 @@
       ],
       "where": "Workshop_Seed",
       "category": "Craft_Seed",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": null
+      }
     },
     "WaterBottle_In": {
       "id": "WaterBottle_In",
@@ -3061,7 +3585,11 @@
       ],
       "where": "Workshop_Bottle",
       "category": "Craft_BottleIn",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": null,
+        "auto": 5
+      }
     },
     "WaterBottle_Out": {
       "id": "WaterBottle_Out",
@@ -3083,7 +3611,11 @@
       ],
       "where": "Workshop_Bottle",
       "category": "Craft_BottleOut",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": null,
+        "auto": 5
+      }
     },
     "BrineBottle_In": {
       "id": "BrineBottle_In",
@@ -3105,7 +3637,11 @@
       ],
       "where": "Workshop_Bottle",
       "category": "Craft_BottleIn",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": null,
+        "auto": 5
+      }
     },
     "BrineBottle_Out": {
       "id": "BrineBottle_Out",
@@ -3127,7 +3663,11 @@
       ],
       "where": "Workshop_Bottle",
       "category": "Craft_BottleOut",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": null,
+        "auto": 5
+      }
     },
     "EthanolBottle_In": {
       "id": "EthanolBottle_In",
@@ -3149,7 +3689,11 @@
       ],
       "where": "Workshop_Bottle",
       "category": "Craft_BottleIn",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": null,
+        "auto": 5
+      }
     },
     "EthanolBottle_Out": {
       "id": "EthanolBottle_Out",
@@ -3171,7 +3715,11 @@
       ],
       "where": "Workshop_Bottle",
       "category": "Craft_BottleOut",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": null,
+        "auto": 5
+      }
     },
     "XenicOilBottle_In": {
       "id": "XenicOilBottle_In",
@@ -3193,7 +3741,11 @@
       ],
       "where": "Workshop_Bottle",
       "category": "Craft_BottleIn",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": null,
+        "auto": 5
+      }
     },
     "XenicOilBottle_Out": {
       "id": "XenicOilBottle_Out",
@@ -3215,7 +3767,11 @@
       ],
       "where": "Workshop_Bottle",
       "category": "Craft_BottleOut",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": null,
+        "auto": 5
+      }
     },
     "ThermalPasteBottle_In": {
       "id": "ThermalPasteBottle_In",
@@ -3237,7 +3793,11 @@
       ],
       "where": "Workshop_Bottle",
       "category": "Craft_BottleIn",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": null,
+        "auto": 5
+      }
     },
     "ThermalPasteBottle_Out": {
       "id": "ThermalPasteBottle_Out",
@@ -3259,7 +3819,11 @@
       ],
       "where": "Workshop_Bottle",
       "category": "Craft_BottleOut",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": null,
+        "auto": 5
+      }
     },
     "VitriolBottle_In": {
       "id": "VitriolBottle_In",
@@ -3281,7 +3845,11 @@
       ],
       "where": "Workshop_Bottle",
       "category": "Craft_BottleIn",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": null,
+        "auto": 5
+      }
     },
     "VitriolBottle_Out": {
       "id": "VitriolBottle_Out",
@@ -3303,7 +3871,11 @@
       ],
       "where": "Workshop_Bottle",
       "category": "Craft_BottleOut",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": null,
+        "auto": 5
+      }
     },
     "MercuryBottle_In": {
       "id": "MercuryBottle_In",
@@ -3325,7 +3897,11 @@
       ],
       "where": "Workshop_Bottle",
       "category": "Craft_BottleIn",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": null,
+        "auto": 5
+      }
     },
     "MercuryBottle_Out": {
       "id": "MercuryBottle_Out",
@@ -3347,7 +3923,11 @@
       ],
       "where": "Workshop_Bottle",
       "category": "Craft_BottleOut",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": null,
+        "auto": 5
+      }
     },
     "FToiLBottle_In": {
       "id": "FToiLBottle_In",
@@ -3372,6 +3952,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 25
       }
     },
     "FToiLBottle_Out": {
@@ -3397,6 +3981,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 25
       }
     },
     "AntimatterCorePH": {
@@ -3437,6 +4025,10 @@
       "props": {
         "autoPowerCost": 25,
         "autoTime": 3000
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 3000
       }
     },
     "AntimatterToPower": {
@@ -3459,6 +4051,10 @@
       "props": {
         "autoPowerCost": -25,
         "autoTime": 2400
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 2400
       }
     },
     "ModuleCasing1": {
@@ -3485,6 +4081,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 720
       }
     },
     "ModuleCasing2": {
@@ -3515,6 +4115,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 8
+      },
+      "craftTime": {
+        "manual": 16,
+        "auto": 720
       }
     },
     "ModuleCasing3": {
@@ -3544,6 +4148,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 8
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 1440
       }
     },
     "SupportCasing": {
@@ -3569,6 +4177,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 3
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 540
       }
     },
     "SteelCasingMK1": {
@@ -3594,6 +4206,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 4
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 720
       }
     },
     "TitaniumCasingMK1": {
@@ -3619,6 +4235,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 4
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 720
       }
     },
     "TitaniumCasingMK2": {
@@ -3644,6 +4264,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 8
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 1440
       }
     },
     "PlatiniumCasingMK1": {
@@ -3669,6 +4293,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 4
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 720
       }
     },
     "PlatiniumCasingMK2": {
@@ -3694,6 +4322,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 8
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 1440
       }
     },
     "LeviniumCasingMK1": {
@@ -3719,6 +4351,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 4
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 720
       }
     },
     "AlloyXCasingMK1": {
@@ -3735,6 +4371,10 @@
       "unlockType": 3,
       "props": {
         "craftTimeFactor": 4
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 720
       }
     },
     "AlloyXCasingMK2": {
@@ -3756,6 +4396,10 @@
       "unlockType": 3,
       "props": {
         "craftTimeFactor": 8
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 1440
       }
     },
     "Storage1": {
@@ -3786,6 +4430,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 720
       }
     },
     "Storage2": {
@@ -3816,6 +4464,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 8
+      },
+      "craftTime": {
+        "manual": 16,
+        "auto": 720
       }
     },
     "Storage3": {
@@ -3849,6 +4501,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 8
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 1440
       }
     },
     "LiquidStorage1": {
@@ -3883,6 +4539,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 720
       }
     },
     "LiquidStorage2": {
@@ -3917,6 +4577,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 8
+      },
+      "craftTime": {
+        "manual": 16,
+        "auto": 720
       }
     },
     "LiquidStorage3": {
@@ -3951,6 +4615,10 @@
       "lootLevel": 9,
       "props": {
         "craftTimeFactor": 8
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 1440
       }
     },
     "PressureStorage1": {
@@ -3980,6 +4648,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 12.5
+      },
+      "craftTime": {
+        "manual": 25.0,
+        "auto": 2250.0
       }
     },
     "Heater1": {
@@ -4010,6 +4682,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 720
       }
     },
     "Heater2": {
@@ -4048,6 +4724,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 8
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 720
       }
     },
     "Radiator1": {
@@ -4078,6 +4758,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 720
       }
     },
     "Radiator2": {
@@ -4117,6 +4801,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 8
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 720
       }
     },
     "FTLEngine1": {
@@ -4151,6 +4839,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 720
       }
     },
     "FTLEngine2_LightPH": {
@@ -4189,6 +4881,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 720
       }
     },
     "FTLEngine2_MediumPH": {
@@ -4227,6 +4923,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 8
+      },
+      "craftTime": {
+        "manual": 16,
+        "auto": 720
       }
     },
     "FTLEngine2_HeavyPH": {
@@ -4264,6 +4964,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 8
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 1440
       }
     },
     "FTLTank1": {
@@ -4290,6 +4994,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 720
       }
     },
     "FTLTank2": {
@@ -4316,6 +5024,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 8
+      },
+      "craftTime": {
+        "manual": 16,
+        "auto": 720
       }
     },
     "FTLTank3PH": {
@@ -4345,6 +5057,10 @@
       "unlockType": 3,
       "props": {
         "craftTimeFactor": 8
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 1440
       }
     },
     "Navigator": {
@@ -4371,6 +5087,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 720
       }
     },
     "AutoBooster": {
@@ -4401,6 +5121,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 720
       }
     },
     "AutoMining": {
@@ -4427,6 +5151,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 720
       }
     },
     "KineticShield1": {
@@ -4457,6 +5185,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 720
       }
     },
     "KineticShield2": {
@@ -4491,6 +5223,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 8
+      },
+      "craftTime": {
+        "manual": 16,
+        "auto": 720
       }
     },
     "BP_KineticShield3": {
@@ -4529,6 +5265,10 @@
       "lootLevel": 10,
       "props": {
         "craftTimeFactor": 8
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 1440
       }
     },
     "BP_BarrierShield1": {
@@ -4560,6 +5300,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 720
       }
     },
     "BP_BarrierShield2": {
@@ -4595,6 +5339,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 8
+      },
+      "craftTime": {
+        "manual": 16,
+        "auto": 720
       }
     },
     "BP_BarrierShield3": {
@@ -4633,6 +5381,10 @@
       "lootLevel": 2,
       "props": {
         "craftTimeFactor": 8
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 1440
       }
     },
     "BP_HeavyShield2": {
@@ -4668,6 +5420,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 8
+      },
+      "craftTime": {
+        "manual": 16,
+        "auto": 720
       }
     },
     "BP_HeavyShield3": {
@@ -4706,6 +5462,10 @@
       "lootLevel": 2,
       "props": {
         "craftTimeFactor": 8
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 1440
       }
     },
     "KineticShieldGroupPH": {
@@ -4735,6 +5495,10 @@
       "unlockType": 3,
       "props": {
         "craftTimeFactor": 12.5
+      },
+      "craftTime": {
+        "manual": 25.0,
+        "auto": 2250.0
       }
     },
     "HeatShieldPH": {
@@ -4764,6 +5528,10 @@
       "unlockType": 3,
       "props": {
         "craftTimeFactor": 12.5
+      },
+      "craftTime": {
+        "manual": 25.0,
+        "auto": 2250.0
       }
     },
     "HeatRecoup_ShipPH": {
@@ -4819,6 +5587,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 720
       }
     },
     "SolarPanel2": {
@@ -4845,6 +5617,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 8
+      },
+      "craftTime": {
+        "manual": 16,
+        "auto": 720
       }
     },
     "SolarPanel3": {
@@ -4875,6 +5651,10 @@
       "lootLevel": 9,
       "props": {
         "craftTimeFactor": 8
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 1440
       }
     },
     "BatteryModule1": {
@@ -4901,6 +5681,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 8
+      },
+      "craftTime": {
+        "manual": 16,
+        "auto": 720
       }
     },
     "BatteryModule2": {
@@ -4931,6 +5715,10 @@
       "lootLevel": 8,
       "props": {
         "craftTimeFactor": 8
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 1440
       }
     },
     "RBattery1": {
@@ -4961,6 +5749,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 720
       }
     },
     "MiningTool1": {
@@ -4987,6 +5779,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 720
       }
     },
     "MiningTool1_OC": {
@@ -5016,6 +5812,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 900
       }
     },
     "MiningTool2": {
@@ -5042,6 +5842,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 8
+      },
+      "craftTime": {
+        "manual": 16,
+        "auto": 720
       }
     },
     "MiningTool2_OC": {
@@ -5071,6 +5875,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 12.5
+      },
+      "craftTime": {
+        "manual": 25.0,
+        "auto": 2250.0
       }
     },
     "BP_ColdMiningTool": {
@@ -5102,6 +5910,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 720
       }
     },
     "PumpingTool1": {
@@ -5132,6 +5944,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 720
       }
     },
     "PathwayPuncher": {
@@ -5166,6 +5982,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 8
+      },
+      "craftTime": {
+        "manual": 16,
+        "auto": 720
       }
     },
     "MissileLauncher0": {
@@ -5196,6 +6016,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 720
       }
     },
     "GunTurretPH": {
@@ -5226,6 +6050,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 720
       }
     },
     "Scanner0": {
@@ -5256,6 +6084,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 720
       }
     },
     "Scanner1": {
@@ -5285,6 +6117,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 900
       }
     },
     "RadarMK1": {
@@ -5311,6 +6147,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 720
       }
     },
     "RadarSmart": {
@@ -5340,6 +6180,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 900
       }
     },
     "RadarSniffer": {
@@ -5373,6 +6217,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 900
       }
     },
     "GravitronPH": {
@@ -5407,6 +6255,10 @@
       "lootLevel": 8,
       "props": {
         "craftTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 900
       }
     },
     "PbatteryPH": {
@@ -5433,6 +6285,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 720
       }
     },
     "IsotopicGenPH": {
@@ -5459,6 +6315,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 720
       }
     },
     "FusionGenPH": {
@@ -5485,6 +6345,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 720
       }
     },
     "CarbonGenerator": {
@@ -5519,6 +6383,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 720
       }
     },
     "PowerSharerPH": {
@@ -5545,6 +6413,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 720
       }
     },
     "Stealth0PH": {
@@ -5571,6 +6443,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 720
       }
     },
     "Stealth1PH": {
@@ -5597,6 +6473,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 720
       }
     },
     "Part_Mk1_Steel_SimpleFlat": {
@@ -5622,6 +6502,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 10
+      },
+      "craftTime": {
+        "manual": 20,
+        "auto": 1800
       }
     },
     "Wing_Steel_01": {
@@ -5647,6 +6531,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 900
       }
     },
     "Wing_Steel_02": {
@@ -5672,6 +6560,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 900
       }
     },
     "Wing_Steel_03": {
@@ -5697,6 +6589,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 900
       }
     },
     "Part_Mk1_Steel_MediumFlat": {
@@ -5722,6 +6618,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 15
+      },
+      "craftTime": {
+        "manual": 30,
+        "auto": 2700
       }
     },
     "Part_Mk1_Steel_DoubleFlat": {
@@ -5747,6 +6647,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 20
+      },
+      "craftTime": {
+        "manual": 40,
+        "auto": 3600
       }
     },
     "Part_Mk1_Steel_Simple": {
@@ -5772,6 +6676,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 10
+      },
+      "craftTime": {
+        "manual": 20,
+        "auto": 1800
       }
     },
     "Part_Mk1_Steel_Medium": {
@@ -5797,6 +6705,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 15
+      },
+      "craftTime": {
+        "manual": 30,
+        "auto": 2700
       }
     },
     "Part_Mk1_Steel_Double": {
@@ -5822,6 +6734,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 20
+      },
+      "craftTime": {
+        "manual": 40,
+        "auto": 3600
       }
     },
     "Part_Mk1_Steel_SimpleFlat_AluK": {
@@ -5847,6 +6763,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 10
+      },
+      "craftTime": {
+        "manual": 20,
+        "auto": 1800
       }
     },
     "Wing_Steel_01_AluK": {
@@ -5872,6 +6792,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 2.5
+      },
+      "craftTime": {
+        "manual": 5.0,
+        "auto": 450.0
       }
     },
     "Wing_Steel_02_AluK": {
@@ -5897,6 +6821,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 2.5
+      },
+      "craftTime": {
+        "manual": 5.0,
+        "auto": 450.0
       }
     },
     "Wing_Steel_03_AluK": {
@@ -5922,6 +6850,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 900
       }
     },
     "Part_Mk1_Steel_MediumFlat_AluK": {
@@ -5947,6 +6879,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 15
+      },
+      "craftTime": {
+        "manual": 30,
+        "auto": 2700
       }
     },
     "Part_Mk1_Steel_DoubleFlat_AluK": {
@@ -5972,6 +6908,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 20
+      },
+      "craftTime": {
+        "manual": 40,
+        "auto": 3600
       }
     },
     "Part_Mk1_Steel_Simple_AluK": {
@@ -5997,6 +6937,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 10
+      },
+      "craftTime": {
+        "manual": 20,
+        "auto": 1800
       }
     },
     "Part_Mk1_Steel_Medium_AluK": {
@@ -6022,6 +6966,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 15
+      },
+      "craftTime": {
+        "manual": 30,
+        "auto": 2700
       }
     },
     "Part_Mk1_Steel_Double_AluK": {
@@ -6047,6 +6995,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 20
+      },
+      "craftTime": {
+        "manual": 40,
+        "auto": 3600
       }
     },
     "Part_Mk1_Titanium_SimpleFlat": {
@@ -6072,6 +7024,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 10
+      },
+      "craftTime": {
+        "manual": 20,
+        "auto": 1800
       }
     },
     "Part_Mk1_Titanium_MediumFlat": {
@@ -6097,6 +7053,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 15
+      },
+      "craftTime": {
+        "manual": 30,
+        "auto": 2700
       }
     },
     "Part_Mk1_Titanium_DoubleFlat": {
@@ -6122,6 +7082,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 20
+      },
+      "craftTime": {
+        "manual": 40,
+        "auto": 3600
       }
     },
     "Part_Mk1_Titanium_Simple": {
@@ -6147,6 +7111,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 10
+      },
+      "craftTime": {
+        "manual": 20,
+        "auto": 1800
       }
     },
     "Part_Mk1_Titanium_Medium": {
@@ -6172,6 +7140,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 15
+      },
+      "craftTime": {
+        "manual": 30,
+        "auto": 2700
       }
     },
     "Part_Mk1_Titanium_Double": {
@@ -6197,6 +7169,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 20
+      },
+      "craftTime": {
+        "manual": 40,
+        "auto": 3600
       }
     },
     "Part_Mk2_Titanium_SimpleFlat": {
@@ -6222,6 +7198,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 20
+      },
+      "craftTime": {
+        "manual": 40,
+        "auto": 3600
       }
     },
     "Wing_Titanium_01": {
@@ -6247,6 +7227,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 20
+      },
+      "craftTime": {
+        "manual": 40,
+        "auto": 3600
       }
     },
     "Part_Mk2_Titanium_MediumFlat": {
@@ -6272,6 +7256,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 30
+      },
+      "craftTime": {
+        "manual": 60,
+        "auto": 5400
       }
     },
     "Part_Mk2_Titanium_DoubleFlat": {
@@ -6297,6 +7285,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 40
+      },
+      "craftTime": {
+        "manual": 80,
+        "auto": 7200
       }
     },
     "Part_Mk1_Titanium_SimpleFlat_AluK": {
@@ -6322,6 +7314,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 10
+      },
+      "craftTime": {
+        "manual": 20,
+        "auto": 1800
       }
     },
     "Part_Mk1_Titanium_MediumFlat_AluK": {
@@ -6347,6 +7343,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 15
+      },
+      "craftTime": {
+        "manual": 30,
+        "auto": 2700
       }
     },
     "Part_Mk1_Titanium_DoubleFlat_AluK": {
@@ -6372,6 +7372,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 20
+      },
+      "craftTime": {
+        "manual": 40,
+        "auto": 3600
       }
     },
     "Part_Mk1_Titanium_Simple_AluK": {
@@ -6397,6 +7401,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 10
+      },
+      "craftTime": {
+        "manual": 20,
+        "auto": 1800
       }
     },
     "Part_Mk1_Titanium_Medium_AluK": {
@@ -6422,6 +7430,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 15
+      },
+      "craftTime": {
+        "manual": 30,
+        "auto": 2700
       }
     },
     "Part_Mk1_Titanium_Double_AluK": {
@@ -6447,6 +7459,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 20
+      },
+      "craftTime": {
+        "manual": 40,
+        "auto": 3600
       }
     },
     "Part_Mk2_Titanium_SimpleFlat_AluK": {
@@ -6472,6 +7488,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 20
+      },
+      "craftTime": {
+        "manual": 40,
+        "auto": 3600
       }
     },
     "Wing_Titanium_01_AluK": {
@@ -6497,6 +7517,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 20
+      },
+      "craftTime": {
+        "manual": 40,
+        "auto": 3600
       }
     },
     "Part_Mk2_Titanium_MediumFlat_AluK": {
@@ -6522,6 +7546,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 30
+      },
+      "craftTime": {
+        "manual": 60,
+        "auto": 5400
       }
     },
     "Part_Mk2_Titanium_DoubleFlat_AluK": {
@@ -6547,6 +7575,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 40
+      },
+      "craftTime": {
+        "manual": 80,
+        "auto": 7200
       }
     },
     "Part_Mk1_Levinium_Simple": {
@@ -6569,7 +7601,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_Parts",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "Part_Mk1_Levinium_Medium1": {
       "id": "Part_Mk1_Levinium_Medium1",
@@ -6591,7 +7627,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_Parts",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "Part_Mk1_Levinium_Double1": {
       "id": "Part_Mk1_Levinium_Double1",
@@ -6613,7 +7653,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_Parts",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "Part_Mk1_Platinium_SimpleFlat": {
       "id": "Part_Mk1_Platinium_SimpleFlat",
@@ -6634,6 +7678,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 10
+      },
+      "craftTime": {
+        "manual": 20,
+        "auto": 1800
       }
     },
     "Part_Mk1_Platinium_MediumFlat": {
@@ -6655,6 +7703,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 15
+      },
+      "craftTime": {
+        "manual": 30,
+        "auto": 2700
       }
     },
     "Part_Mk1_Platinium_DoubleFlat": {
@@ -6676,6 +7728,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 20
+      },
+      "craftTime": {
+        "manual": 40,
+        "auto": 3600
       }
     },
     "Part_Mk2_Platinium_SimpleFlat": {
@@ -6697,6 +7753,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 20
+      },
+      "craftTime": {
+        "manual": 40,
+        "auto": 3600
       }
     },
     "Part_Mk2_Platinium_MediumFlat": {
@@ -6718,6 +7778,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 30
+      },
+      "craftTime": {
+        "manual": 60,
+        "auto": 5400
       }
     },
     "Part_Mk2_Platinium_DoubleFlat": {
@@ -6739,6 +7803,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 40
+      },
+      "craftTime": {
+        "manual": 80,
+        "auto": 7200
       }
     },
     "Part_Mk1_AlloyX_SimpleFlat": {
@@ -6761,7 +7829,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_Parts",
-      "unlockType": 3
+      "unlockType": 3,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "Part_Mk1_AlloyX_MediumFlat": {
       "id": "Part_Mk1_AlloyX_MediumFlat",
@@ -6783,7 +7855,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_Parts",
-      "unlockType": 3
+      "unlockType": 3,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "Part_Mk1_AlloyX_DoubleFlat": {
       "id": "Part_Mk1_AlloyX_DoubleFlat",
@@ -6805,7 +7881,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_Parts",
-      "unlockType": 3
+      "unlockType": 3,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "Part_Mk1_AlloyX_Simple": {
       "id": "Part_Mk1_AlloyX_Simple",
@@ -6827,7 +7907,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_Parts",
-      "unlockType": 3
+      "unlockType": 3,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "Part_Mk1_AlloyX_Medium": {
       "id": "Part_Mk1_AlloyX_Medium",
@@ -6849,7 +7933,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_Parts",
-      "unlockType": 3
+      "unlockType": 3,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "Part_Mk1_AlloyX_Double": {
       "id": "Part_Mk1_AlloyX_Double",
@@ -6871,7 +7959,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_Parts",
-      "unlockType": 3
+      "unlockType": 3,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "Part_Mk2_AlloyX_SimpleFlat": {
       "id": "Part_Mk2_AlloyX_SimpleFlat",
@@ -6893,7 +7985,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_Parts",
-      "unlockType": 3
+      "unlockType": 3,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "Part_Mk2_AlloyX_MediumFlat": {
       "id": "Part_Mk2_AlloyX_MediumFlat",
@@ -6915,7 +8011,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_Parts",
-      "unlockType": 3
+      "unlockType": 3,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "Part_Mk2_AlloyX_DoubleFlat": {
       "id": "Part_Mk2_AlloyX_DoubleFlat",
@@ -6937,7 +8037,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_Parts",
-      "unlockType": 3
+      "unlockType": 3,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "Cockpit_0": {
       "id": "Cockpit_0",
@@ -6966,6 +8070,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 15
+      },
+      "craftTime": {
+        "manual": 30,
+        "auto": 2700
       }
     },
     "Cockpit_LR1": {
@@ -6991,6 +8099,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 15
+      },
+      "craftTime": {
+        "manual": 30,
+        "auto": 2700
       }
     },
     "Cockpit_AE1": {
@@ -7024,6 +8136,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 15
+      },
+      "craftTime": {
+        "manual": 30,
+        "auto": 2700
       }
     },
     "Cockpit_MK1": {
@@ -7057,6 +8173,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 15
+      },
+      "craftTime": {
+        "manual": 30,
+        "auto": 2700
       }
     },
     "Cockpit_DA1": {
@@ -7086,6 +8206,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 15
+      },
+      "craftTime": {
+        "manual": 30,
+        "auto": 2700
       }
     },
     "Cockpit_LR2PH": {
@@ -7111,6 +8235,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 40
+      },
+      "craftTime": {
+        "manual": 80,
+        "auto": 7200
       }
     },
     "Cockpit_AE2PH": {
@@ -7148,6 +8276,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 40
+      },
+      "craftTime": {
+        "manual": 80,
+        "auto": 7200
       }
     },
     "Cockpit_MK2": {
@@ -7185,6 +8317,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 40
+      },
+      "craftTime": {
+        "manual": 80,
+        "auto": 7200
       }
     },
     "Cockpit_LR3": {
@@ -7210,6 +8346,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 40
+      },
+      "craftTime": {
+        "manual": 80,
+        "auto": 7200
       }
     },
     "Cockpit_AE3": {
@@ -7235,6 +8375,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 40
+      },
+      "craftTime": {
+        "manual": 80,
+        "auto": 7200
       }
     },
     "Cockpit_MK3": {
@@ -7260,6 +8404,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 40
+      },
+      "craftTime": {
+        "manual": 80,
+        "auto": 7200
       }
     },
     "Thruster_0": {
@@ -7289,6 +8437,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 10
+      },
+      "craftTime": {
+        "manual": 20,
+        "auto": 1800
       }
     },
     "Booster_0": {
@@ -7319,6 +8471,10 @@
       "props": {
         "craftTimeFactor": 4,
         "manualTimeFactor": 5
+      },
+      "craftTime": {
+        "manual": 10,
+        "auto": 720
       }
     },
     "Thruster_1": {
@@ -7348,6 +8504,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 80
+      },
+      "craftTime": {
+        "manual": 160,
+        "auto": 14400
       }
     },
     "Thruster_2": {
@@ -7377,6 +8537,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 60
+      },
+      "craftTime": {
+        "manual": 120,
+        "auto": 10800
       }
     },
     "Thruster_AE1": {
@@ -7410,6 +8574,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 60
+      },
+      "craftTime": {
+        "manual": 120,
+        "auto": 10800
       }
     },
     "Thruster_MK1": {
@@ -7447,6 +8615,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 60
+      },
+      "craftTime": {
+        "manual": 120,
+        "auto": 10800
       }
     },
     "Thruster_DA1": {
@@ -7484,6 +8656,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 60
+      },
+      "craftTime": {
+        "manual": 120,
+        "auto": 10800
       }
     },
     "Light_Steel_02": {
@@ -7506,7 +8682,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_Parts",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "Light_Steel_03": {
       "id": "Light_Steel_03",
@@ -7528,7 +8708,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_Parts",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "Light_Steel_04": {
       "id": "Light_Steel_04",
@@ -7550,7 +8734,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_Parts",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "Airframe_Small": {
       "id": "Airframe_Small",
@@ -7576,7 +8764,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_Other",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "BlastingMissile": {
       "id": "BlastingMissile",
@@ -7598,7 +8790,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_Other",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "SeekerMissile": {
       "id": "SeekerMissile",
@@ -7628,7 +8824,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_Other",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "AntiMatterMissilePH": {
       "id": "AntiMatterMissilePH",
@@ -7650,7 +8850,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_Other",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "Cartridges": {
       "id": "Cartridges",
@@ -7672,7 +8876,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_Other",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "BeaconPH": {
       "id": "BeaconPH",
@@ -7697,6 +8905,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 2.5
+      },
+      "craftTime": {
+        "manual": 5.0,
+        "auto": 450.0
       }
     },
     "PathwayAmmo": {
@@ -7726,6 +8938,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 2.5
+      },
+      "craftTime": {
+        "manual": 5.0,
+        "auto": 450.0
       }
     },
     "LockedCapsulePH": {
@@ -7747,6 +8963,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 2.5
+      },
+      "craftTime": {
+        "manual": 5.0,
+        "auto": 450.0
       }
     },
     "HypergateBeaconPH": {
@@ -7768,6 +8988,10 @@
       "unlockType": 0,
       "props": {
         "craftTimeFactor": 2.5
+      },
+      "craftTime": {
+        "manual": 5.0,
+        "auto": 450.0
       }
     },
     "Patch_BatteryMultiplicator1": {
@@ -7794,6 +9018,10 @@
       "lootLevel": 5,
       "props": {
         "craftTimeFactor": 1
+      },
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
       }
     },
     "Patch_BatteryMultiplicator2": {
@@ -7820,6 +9048,10 @@
       "lootLevel": 7,
       "props": {
         "craftTimeFactor": 2
+      },
+      "craftTime": {
+        "manual": 4,
+        "auto": 360
       }
     },
     "Patch_BatteryMultiplicator3": {
@@ -7842,6 +9074,10 @@
       "lootLevel": 9,
       "props": {
         "craftTimeFactor": 10
+      },
+      "craftTime": {
+        "manual": 20,
+        "auto": 1800
       }
     },
     "Patch_HeatAbsorber1": {
@@ -7868,6 +9104,10 @@
       "lootLevel": 5,
       "props": {
         "craftTimeFactor": 1
+      },
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
       }
     },
     "Patch_HeatAbsorber2PH": {
@@ -7898,6 +9138,10 @@
       "lootLevel": 7,
       "props": {
         "craftTimeFactor": 2
+      },
+      "craftTime": {
+        "manual": 4,
+        "auto": 360
       }
     },
     "Patch_HeatAbsorber3": {
@@ -7920,6 +9164,10 @@
       "lootLevel": 9,
       "props": {
         "craftTimeFactor": 10
+      },
+      "craftTime": {
+        "manual": 20,
+        "auto": 1800
       }
     },
     "Patch_SystemIntegration1": {
@@ -7950,6 +9198,10 @@
       "lootLevel": 5,
       "props": {
         "craftTimeFactor": 1
+      },
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
       }
     },
     "Patch_SystemIntegration2PH": {
@@ -7980,6 +9232,10 @@
       "lootLevel": 7,
       "props": {
         "craftTimeFactor": 2
+      },
+      "craftTime": {
+        "manual": 4,
+        "auto": 360
       }
     },
     "Patch_SystemIntegration3": {
@@ -8002,6 +9258,10 @@
       "lootLevel": 9,
       "props": {
         "craftTimeFactor": 10
+      },
+      "craftTime": {
+        "manual": 20,
+        "auto": 1800
       }
     },
     "Patch_PowerEfficiency1": {
@@ -8028,6 +9288,10 @@
       "lootLevel": 5,
       "props": {
         "craftTimeFactor": 1
+      },
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
       }
     },
     "Patch_PowerEfficiency2PH": {
@@ -8058,6 +9322,10 @@
       "lootLevel": 7,
       "props": {
         "craftTimeFactor": 2
+      },
+      "craftTime": {
+        "manual": 4,
+        "auto": 360
       }
     },
     "Patch_PowerEfficiency3": {
@@ -8080,6 +9348,10 @@
       "lootLevel": 9,
       "props": {
         "craftTimeFactor": 10
+      },
+      "craftTime": {
+        "manual": 20,
+        "auto": 1800
       }
     },
     "Patch_MiningPower1": {
@@ -8106,6 +9378,10 @@
       "lootLevel": 5,
       "props": {
         "craftTimeFactor": 1
+      },
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
       }
     },
     "Patch_MiningPower2PH": {
@@ -8132,6 +9408,10 @@
       "lootLevel": 7,
       "props": {
         "craftTimeFactor": 2
+      },
+      "craftTime": {
+        "manual": 4,
+        "auto": 360
       }
     },
     "Patch_MiningPower3": {
@@ -8154,6 +9434,10 @@
       "lootLevel": 9,
       "props": {
         "craftTimeFactor": 10
+      },
+      "craftTime": {
+        "manual": 20,
+        "auto": 1800
       }
     },
     "Patch_MiningTier1PH": {
@@ -8180,6 +9464,10 @@
       "lootLevel": 8,
       "props": {
         "craftTimeFactor": 2
+      },
+      "craftTime": {
+        "manual": 4,
+        "auto": 360
       }
     },
     "Patch_MiningTier2PH": {
@@ -8202,6 +9490,10 @@
       "lootLevel": 10,
       "props": {
         "craftTimeFactor": 10
+      },
+      "craftTime": {
+        "manual": 20,
+        "auto": 1800
       }
     },
     "Patch_FuelEfficiency1": {
@@ -8228,6 +9520,10 @@
       "lootLevel": 5,
       "props": {
         "craftTimeFactor": 1
+      },
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
       }
     },
     "Patch_FuelEfficiency2PH": {
@@ -8250,6 +9546,10 @@
       "lootLevel": 7,
       "props": {
         "craftTimeFactor": 2
+      },
+      "craftTime": {
+        "manual": 4,
+        "auto": 360
       }
     },
     "Patch_FuelEfficiency2PH1": {
@@ -8272,6 +9572,10 @@
       "lootLevel": 9,
       "props": {
         "craftTimeFactor": 10
+      },
+      "craftTime": {
+        "manual": 20,
+        "auto": 1800
       }
     },
     "Patch_PowerProduction1": {
@@ -8298,6 +9602,10 @@
       "lootLevel": 5,
       "props": {
         "craftTimeFactor": 1
+      },
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
       }
     },
     "Patch_PowerProduction2PH": {
@@ -8328,6 +9636,10 @@
       "lootLevel": 7,
       "props": {
         "craftTimeFactor": 2
+      },
+      "craftTime": {
+        "manual": 4,
+        "auto": 360
       }
     },
     "Patch_PowerProduction3": {
@@ -8350,6 +9662,10 @@
       "lootLevel": 9,
       "props": {
         "craftTimeFactor": 10
+      },
+      "craftTime": {
+        "manual": 20,
+        "auto": 1800
       }
     },
     "Patch_EdgeExplorer1": {
@@ -8376,6 +9692,10 @@
       "lootLevel": 7,
       "props": {
         "craftTimeFactor": 2
+      },
+      "craftTime": {
+        "manual": 4,
+        "auto": 360
       }
     },
     "Patch_EdgeExplorer2": {
@@ -8398,6 +9718,10 @@
       "lootLevel": 10,
       "props": {
         "craftTimeFactor": 10
+      },
+      "craftTime": {
+        "manual": 20,
+        "auto": 1800
       }
     },
     "Patch_MagPlasma1": {
@@ -8424,6 +9748,10 @@
       "lootLevel": 5,
       "props": {
         "craftTimeFactor": 1
+      },
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
       }
     },
     "Patch_MagPlasma2": {
@@ -8454,6 +9782,10 @@
       "lootLevel": 7,
       "props": {
         "craftTimeFactor": 2
+      },
+      "craftTime": {
+        "manual": 4,
+        "auto": 360
       }
     },
     "Patch_MagPlasma3": {
@@ -8480,6 +9812,10 @@
       "lootLevel": 9,
       "props": {
         "craftTimeFactor": 10
+      },
+      "craftTime": {
+        "manual": 20,
+        "auto": 1800
       }
     },
     "Patch_FTLDodge1": {
@@ -8506,6 +9842,10 @@
       "lootLevel": 5,
       "props": {
         "craftTimeFactor": 1
+      },
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
       }
     },
     "Patch_FTLDodge2": {
@@ -8536,6 +9876,10 @@
       "lootLevel": 7,
       "props": {
         "craftTimeFactor": 2
+      },
+      "craftTime": {
+        "manual": 4,
+        "auto": 360
       }
     },
     "Patch_FTLDodge3": {
@@ -8566,6 +9910,10 @@
       "lootLevel": 9,
       "props": {
         "craftTimeFactor": 10
+      },
+      "craftTime": {
+        "manual": 20,
+        "auto": 1800
       }
     },
     "Patch_Charted1": {
@@ -8592,6 +9940,10 @@
       "lootLevel": 5,
       "props": {
         "craftTimeFactor": 1
+      },
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
       }
     },
     "Patch_Charted2": {
@@ -8622,6 +9974,10 @@
       "lootLevel": 7,
       "props": {
         "craftTimeFactor": 2
+      },
+      "craftTime": {
+        "manual": 4,
+        "auto": 360
       }
     },
     "Patch_Charted3": {
@@ -8652,6 +10008,10 @@
       "lootLevel": 9,
       "props": {
         "craftTimeFactor": 10
+      },
+      "craftTime": {
+        "manual": 20,
+        "auto": 1800
       }
     },
     "Patch_LastYield": {
@@ -8682,6 +10042,10 @@
       "lootLevel": 8,
       "props": {
         "craftTimeFactor": 2
+      },
+      "craftTime": {
+        "manual": 4,
+        "auto": 360
       }
     },
     "Patch_IncreasedOutput1": {
@@ -8708,6 +10072,10 @@
       "lootLevel": 5,
       "props": {
         "craftTimeFactor": 1
+      },
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
       }
     },
     "Patch_IncreasedOutput2": {
@@ -8738,6 +10106,10 @@
       "lootLevel": 7,
       "props": {
         "craftTimeFactor": 2
+      },
+      "craftTime": {
+        "manual": 4,
+        "auto": 360
       }
     },
     "Patch_IncreasedOutput3": {
@@ -8768,6 +10140,10 @@
       "lootLevel": 9,
       "props": {
         "craftTimeFactor": 10
+      },
+      "craftTime": {
+        "manual": 20,
+        "auto": 1800
       }
     },
     "Patch_RareFind1": {
@@ -8794,6 +10170,10 @@
       "lootLevel": 5,
       "props": {
         "craftTimeFactor": 1
+      },
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
       }
     },
     "Patch_RareFind2": {
@@ -8824,6 +10204,10 @@
       "lootLevel": 7,
       "props": {
         "craftTimeFactor": 2
+      },
+      "craftTime": {
+        "manual": 4,
+        "auto": 360
       }
     },
     "Patch_RareFind3": {
@@ -8854,6 +10238,10 @@
       "lootLevel": 9,
       "props": {
         "craftTimeFactor": 10
+      },
+      "craftTime": {
+        "manual": 20,
+        "auto": 1800
       }
     },
     "Patch_RadarRange1": {
@@ -8880,6 +10268,10 @@
       "lootLevel": 4,
       "props": {
         "craftTimeFactor": 1
+      },
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
       }
     },
     "Patch_RadarRange2": {
@@ -8910,6 +10302,10 @@
       "lootLevel": 6,
       "props": {
         "craftTimeFactor": 2
+      },
+      "craftTime": {
+        "manual": 4,
+        "auto": 360
       }
     },
     "Patch_RadarRange3": {
@@ -8940,6 +10336,10 @@
       "lootLevel": 8,
       "props": {
         "craftTimeFactor": 10
+      },
+      "craftTime": {
+        "manual": 20,
+        "auto": 1800
       }
     },
     "Patch_BarrierToughness1": {
@@ -8966,6 +10366,10 @@
       "lootLevel": 5,
       "props": {
         "craftTimeFactor": 1
+      },
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
       }
     },
     "Patch_BarrierToughness2": {
@@ -8996,6 +10400,10 @@
       "lootLevel": 7,
       "props": {
         "craftTimeFactor": 2
+      },
+      "craftTime": {
+        "manual": 4,
+        "auto": 360
       }
     },
     "Patch_BarrierToughness3": {
@@ -9026,6 +10434,10 @@
       "lootLevel": 9,
       "props": {
         "craftTimeFactor": 10
+      },
+      "craftTime": {
+        "manual": 20,
+        "auto": 1800
       }
     },
     "BaseHQ_Kit": {
@@ -9060,7 +10472,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_BuildingKit",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "BaseHQ": {
       "id": "BaseHQ",
@@ -10273,7 +11689,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_Other",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "Shuttle0": {
       "id": "Shuttle0",
@@ -10311,7 +11731,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_Other",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "Shuttle1PH": {
       "id": "Shuttle1PH",
@@ -10345,7 +11769,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_Other",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "PShuttlePH": {
       "id": "PShuttlePH",
@@ -10379,7 +11807,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_Other",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "ConstructionTool": {
       "id": "ConstructionTool",
@@ -10405,7 +11837,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_PlayerItem",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "DismantlingTool": {
       "id": "DismantlingTool",
@@ -10431,7 +11867,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_PlayerItem",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "MovingTool": {
       "id": "MovingTool",
@@ -10457,7 +11897,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_PlayerItem",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "FarmingTool": {
       "id": "FarmingTool",
@@ -10483,7 +11927,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_PlayerItem",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "CritterPheromonPH": {
       "id": "CritterPheromonPH",
@@ -10509,7 +11957,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_PlayerItem",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "ThermoSuit": {
       "id": "ThermoSuit",
@@ -10531,7 +11983,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_PlayerItem",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "HeatSuit": {
       "id": "HeatSuit",
@@ -10554,7 +12010,11 @@
       "where": "Workshop_Chemical",
       "category": "Craft_PlayerItem",
       "unlockType": 2,
-      "lootLevel": 5
+      "lootLevel": 5,
+      "craftTime": {
+        "manual": null,
+        "auto": 180
+      }
     },
     "ColdSuitPH": {
       "id": "ColdSuitPH",
@@ -10581,7 +12041,11 @@
       "where": "Workshop_Chemical",
       "category": "Craft_PlayerItem",
       "unlockType": 2,
-      "lootLevel": 5
+      "lootLevel": 5,
+      "craftTime": {
+        "manual": null,
+        "auto": 180
+      }
     },
     "RadSuit": {
       "id": "RadSuit",
@@ -10607,7 +12071,11 @@
       ],
       "where": "Workshop_Atelier",
       "category": "Craft_PlayerItem",
-      "unlockType": 0
+      "unlockType": 0,
+      "craftTime": {
+        "manual": 2,
+        "auto": 180
+      }
     },
     "RecycleSteel": {
       "id": "RecycleSteel",
@@ -10628,6 +12096,10 @@
       "unlockType": 3,
       "props": {
         "craftTimeFactor": 7.5
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 675.0
       }
     },
     "RecycleAlu": {
@@ -10649,6 +12121,10 @@
       "unlockType": 3,
       "props": {
         "craftTimeFactor": 7.5
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 675.0
       }
     },
     "RecycleIron": {
@@ -10670,6 +12146,10 @@
       "unlockType": 3,
       "props": {
         "craftTimeFactor": 7.5
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 675.0
       }
     },
     "RecycleTitanium": {
@@ -10691,6 +12171,10 @@
       "unlockType": 3,
       "props": {
         "craftTimeFactor": 7.5
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 675.0
       }
     },
     "RecycleBuilding": {
@@ -10720,6 +12204,10 @@
       "unlockType": 3,
       "props": {
         "craftTimeFactor": 7.5
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 675.0
       }
     },
     "RecycleSystem": {
@@ -10745,6 +12233,10 @@
       "unlockType": 3,
       "props": {
         "craftTimeFactor": 7.5
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 675.0
       }
     },
     "RecycleSteelHull": {
@@ -10774,6 +12266,10 @@
       "unlockType": 3,
       "props": {
         "craftTimeFactor": 7.5
+      },
+      "craftTime": {
+        "manual": null,
+        "auto": 675.0
       }
     },
     "BeaconKeyPricer": {

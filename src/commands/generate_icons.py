@@ -13,6 +13,7 @@ def run(
     manifest: str | None = None,
     aliases: str | None = None,
     sheet: str | None = None,
+    icon_path: str | None = None,
     fmt: str | None = None,
     icon_file: list[str] | None = None,
     all_icon_files: bool = False,
@@ -29,6 +30,7 @@ def run(
         "--aliases", resolve(aliases, config.GENERATE_ICONS_ALIASES),
         "--sheet", resolve(sheet, config.GENERATE_ICONS_SHEET),
         "--format", resolve(fmt, config.GENERATE_ICONS_FORMAT),
+        "--icon-path", icon_path if icon_path is not None else "icon",
     ]
     for value in icon_file or []:
         argv += ["--icon-file", value]
@@ -51,6 +53,7 @@ def command(
     manifest: str | None = typer.Option(None, "--manifest", help="Manifest path. Env: SC_GENERATE_ICONS_MANIFEST."),
     aliases: str | None = typer.Option(None, "--aliases", help="Alias map path (dedup mode). Env: SC_GENERATE_ICONS_ALIASES."),
     sheet: str | None = typer.Option(None, "--sheet", help="CDB sheet to generate from (default item). Env: SC_GENERATE_ICONS_SHEET."),
+    icon_path: str | None = typer.Option(None, "--icon-path", help="Dotted row path to the icon object (default icon)."),
     fmt: str | None = typer.Option(None, "--format", help="Icon format: webp (default) or png. Env: SC_GENERATE_ICONS_FORMAT."),
     icon_file: list[str] | None = typer.Option(None, "--icon-file", help="Restrict to this CDB icon file (repeatable)."),
     all_icon_files: bool = typer.Option(False, "--all-icon-files", help="Generate every CDB icon entry."),
@@ -67,6 +70,7 @@ def command(
             manifest=manifest,
             aliases=aliases,
             sheet=sheet,
+            icon_path=icon_path,
             fmt=fmt,
             icon_file=icon_file,
             all_icon_files=all_icon_files,

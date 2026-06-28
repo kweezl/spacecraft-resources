@@ -22,15 +22,21 @@ import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-# Which sheets to translate and where each sheet keeps its name/desc.
-# name_path / desc_path are dotted column paths inside a CDB row (and the
-# matching XML element tag names, which mirror those paths).
+# Which sheets to translate and where each keeps its name/desc. Optionally:
+#   source     — the real CDB/XML sheet name (defaults to the logical key)
+#   id_prefix  — only rows whose id starts with this are included
+# name/desc are dotted column paths inside a CDB row (and the matching XML tag
+# names, which mirror those paths, e.g. "props.label").
 SHEETS = {
     "item": {"name": "name", "desc": "desc"},
     "attribute": {"name": "name", "desc": "props.desc"},
-    # Craft categories (recipe `category`) and item types live here; only a
-    # localized name, no desc.
     "itemType": {"name": "name", "desc": "desc"},
+    "contract": {"name": "title", "desc": "desc"},
+    "spaceObject": {"name": "name", "desc": "desc"},
+    "faction": {"name": "name", "desc": "desc"},
+    "instance": {"name": "name", "desc": "desc"},
+    "workshop": {"source": "itemTag", "name": "props.label", "desc": "desc",
+                 "id_prefix": "Workshop_"},
 }
 
 
@@ -72,21 +78,23 @@ def load_cdb(path: Path) -> dict:
 def translations_from_cdb(cdb: dict) -> dict:
     out = {}
     sheets = {sheet.get("name"): sheet for sheet in cdb.get("sheets", [])}
-    for sheet_name, paths in SHEETS.items():
-        sheet = sheets.get(sheet_name)
-        if sheet is None:
-            continue
+    for key, cfg in SHEETS.items():
+        sheet = sheets.get(cfg.get("source", key))
         rows = {}
-        for row in sheet.get("lines", []):
-            if not isinstance(row, dict):
-                continue
-            row_id = row.get("id")
-            if not isinstance(row_id, str) or not row_id:
-                continue
-            entry = entry_from(dig(row, paths["name"]), dig(row, paths["desc"]))
-            if entry is not None:
-                rows[row_id] = entry
-        out[sheet_name] = rows
+        if sheet is not None:
+            prefix = cfg.get("id_prefix")
+            for row in sheet.get("lines", []):
+                if not isinstance(row, dict):
+                    continue
+                row_id = row.get("id")
+                if not isinstance(row_id, str) or not row_id:
+                    continue
+                if prefix and not row_id.startswith(prefix):
+                    continue
+                entry = entry_from(dig(row, cfg["name"]), dig(row, cfg["desc"]))
+                if entry is not None:
+                    rows[row_id] = entry
+        out[key] = rows
     return out
 
 
@@ -95,17 +103,21 @@ def translations_from_cdb(cdb: dict) -> dict:
 def translations_from_xml(xml_path: Path) -> dict:
     root = ET.fromstring(xml_path.read_text(encoding="utf-8"))
     out = {}
-    for sheet_name, paths in SHEETS.items():
+    for key, cfg in SHEETS.items():
+        source = cfg.get("source", key)
+        prefix = cfg.get("id_prefix")
         rows = {}
         for sheet in root.findall("sheet"):
-            if sheet.get("name") != sheet_name:
+            if sheet.get("name") != source:
                 continue
             for row in sheet:
+                if prefix and not row.tag.startswith(prefix):
+                    continue
                 children = {child.tag: child.text for child in row}
-                entry = entry_from(children.get(paths["name"]), children.get(paths["desc"]))
+                entry = entry_from(children.get(cfg["name"]), children.get(cfg["desc"]))
                 if entry is not None:
                     rows[row.tag] = entry
-        out[sheet_name] = rows
+        out[key] = rows
     return out
 
 

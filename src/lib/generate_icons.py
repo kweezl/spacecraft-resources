@@ -149,7 +149,17 @@ def load_cdb(path: Path) -> dict:
         return json.load(file)
 
 
-def iter_icon_jobs(cdb: dict, allowed_icon_files: set[str] | None = None, sheet: str | None = None):
+def dig(row: dict, path: str):
+    """Follow a dotted path (e.g. 'props.logo') into a nested CDB row."""
+    node = row
+    for part in path.split("."):
+        if not isinstance(node, dict):
+            return None
+        node = node.get(part)
+    return node
+
+
+def iter_icon_jobs(cdb: dict, allowed_icon_files: set[str] | None = None, sheet: str | None = None, icon_path: str = "icon"):
     seen: set[str] = set()
     for sheet_obj in cdb.get("sheets", []):
         sheet_name = sheet_obj.get("name", "")
@@ -160,7 +170,7 @@ def iter_icon_jobs(cdb: dict, allowed_icon_files: set[str] | None = None, sheet:
                 continue
 
             item_id = row.get("id")
-            icon = row.get("icon")
+            icon = dig(row, icon_path)
             if not isinstance(item_id, str) or not isinstance(icon, dict):
                 continue
 
@@ -402,10 +412,11 @@ def generate_icons(
     dedup: bool = True,
     aliases_path: Path | None = None,
     sheet: str | None = None,
+    icon_path: str = "icon",
     fmt: str = "webp",
 ) -> tuple[int, list[dict]]:
     cdb = load_cdb(cdb_path)
-    jobs = list(iter_icon_jobs(cdb, allowed_icon_files, sheet))
+    jobs = list(iter_icon_jobs(cdb, allowed_icon_files, sheet, icon_path))
     source_cache: dict[Path, RgbaImage] = {}
 
     # Pass 1: build a manifest record for every item (no files written yet).
@@ -433,9 +444,9 @@ def generate_icons(
 
     if clean and not dry_run and out_dir.exists():
         # Remove any stale icons, including ones left from a different format.
-        for icon_path in list(out_dir.glob("*.png")) + list(out_dir.glob("*.webp")):
-            if icon_path.name not in expected_names:
-                icon_path.unlink()
+        for stale_icon in list(out_dir.glob("*.png")) + list(out_dir.glob("*.webp")):
+            if stale_icon.name not in expected_names:
+                stale_icon.unlink()
 
     if not dry_run:
         for job in write_jobs:
@@ -498,6 +509,11 @@ def parse_args(argv=None):
         ),
     )
     parser.add_argument(
+        "--icon-path",
+        default="icon",
+        help="Dotted row path to the icon object (default: icon). Use props.logo for factions.",
+    )
+    parser.add_argument(
         "--format",
         choices=["webp", "png"],
         default="webp",
@@ -553,6 +569,7 @@ def main(argv=None) -> int:
             dedup=args.dedup,
             aliases_path=args.aliases,
             sheet=sheet,
+            icon_path=args.icon_path,
             fmt=args.format,
         )
     except Exception as error:

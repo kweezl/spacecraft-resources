@@ -39,16 +39,17 @@
           "id": "SmeltIron",
           "inputs": [{"item": "IronOre", "qty": 2}],
           "outputs": [{"item": "IronIngot", "qty": 1}],
-          "where": "Furnace",
-          "category": "Smelting"
+          "where": "Workshop_Smelter",
+          "category": "Smelting",
+          "props": {"craftTimeFactor": 2, "manualTimeFactor": 5}
         }
       ]
     },
     {
       "name": "itemType",
       "lines": [
-        {"id": "resource", "name": "Resource"},
-        {"id": "material", "name": "Material"},
+        {"id": "resource", "name": "Resource", "icon": {"file": "ui/icons/sheet.png", "size": 64, "x": 0, "y": 0}},
+        {"id": "material", "name": "Material", "parent": "resource", "icon": {"file": "ui/icons/sheet.png", "size": 64, "x": 1, "y": 0}},
         {"id": "Smelting", "name": "Smelting"}
       ]
     },
@@ -56,6 +57,39 @@
       "name": "attribute",
       "lines": [
         {"id": "Weight", "name": "Weight", "props": {"desc": "How heavy the item is."}}
+      ]
+    },
+    {
+      "name": "itemTag",
+      "lines": [
+        {"id": "Workshop_Smelter", "props": {"label": "Smelter", "craftAction": "SmelterButton", "autoCraftTime": 180, "manualCraftTime": 5, "craftIndex": 0}},
+        {"id": "GenericTag", "props": {"label": "ignored"}}
+      ]
+    },
+    {
+      "name": "contract",
+      "lines": [
+        {"id": "Tuto", "title": "Module Kit Sample", "client": "TheCo", "npc": "CorpoContract_Tuto", "level": 1, "duration": 0, "creditFormula": 60, "items": [{"item": "IronIngot", "qty": 3}], "rewards": [{"item": "IronOre", "count": 5}], "props": {"creditFactor": 0.5}}
+      ]
+    },
+    {
+      "name": "spaceObject",
+      "lines": [
+        {"id": "Empty", "props": {}},
+        {"id": "Station_Start", "name": "Babylon", "owner": "TheCo", "building": "IronIngot", "props": {"floors": [{"instance": "DockStart", "props": {}}], "buyout": [{"item": "IronOre", "value": 5.99, "price": 6, "props": {}}]}}
+      ]
+    },
+    {
+      "name": "faction",
+      "lines": [
+        {"id": "TheCo", "name": "The Company", "icon": {"file": "ui/actionIcons.png", "size": 24, "x": 0, "y": 0}, "props": {"logo": {"file": "ui/icons/sheet.png", "size": 64, "x": 0, "y": 0}}},
+        {"id": "Players", "name": "<Player>", "icon": {"file": "ui/actionIcons.png", "size": 24, "x": 0, "y": 0}, "props": {}}
+      ]
+    },
+    {
+      "name": "instance",
+      "lines": [
+        {"id": "DockStart", "name": "Docking Bay"}
       ]
     }
   ]
