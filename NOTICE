@@ -1,0 +1,23 @@
+SpaceCraft Resources — Notice on Derived Game Content
+=====================================================
+
+This repository contains two distinct kinds of material:
+
+1. The `sc` tooling — the Python CLI, its tests, and the HTML/Vue
+   inspectors under `server/`. This is original work authored for this
+   project.
+
+2. Generated release resources under `generated/` — item/recipe JSON,
+   per-language translations, and recolored icons. These are DERIVED FROM
+   the assets of the SpaceCraft game and therefore remain the intellectual
+   property of the game's creators / publisher. They are reproduced here as
+   an unofficial, non-commercial fan/community project.
+
+This project is not affiliated with, endorsed by, or sponsored by the makers
+of SpaceCraft. All game names, trademarks, artwork, and game data are the
+property of their respective owners. The generated resources are provided for
+interoperability and community use only; if the rights holders object, they
+will be removed on request.
+
+Raw, unpacked game source is never committed to this repository (only the
+`generated/` output is). See CLAUDE.md for details.
