@@ -28,7 +28,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Metal"
     },
     "IronNugget": {
       "id": "IronNugget",
@@ -53,7 +54,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Metal"
     },
     "Hematite": {
       "id": "Hematite",
@@ -81,7 +83,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Crystal"
     },
     "Carbon": {
       "id": "Carbon",
@@ -114,7 +117,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "MineralParent"
     },
     "GraphiteCrystal": {
       "id": "GraphiteCrystal",
@@ -143,7 +147,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Crystal"
     },
     "Diamond": {
       "id": "Diamond",
@@ -168,7 +173,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Crystal"
     },
     "CopperOre": {
       "id": "CopperOre",
@@ -194,7 +200,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Metal"
     },
     "CopperNugget": {
       "id": "CopperNugget",
@@ -219,7 +226,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Metal"
     },
     "AzuriteStone": {
       "id": "AzuriteStone",
@@ -247,7 +255,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Crystal"
     },
     "MalachiteStone": {
       "id": "MalachiteStone",
@@ -275,7 +284,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Crystal"
     },
     "ZirconiumOre": {
       "id": "ZirconiumOre",
@@ -299,7 +309,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Metal"
     },
     "ZirconiumNugget": {
       "id": "ZirconiumNugget",
@@ -323,7 +334,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Metal"
     },
     "Quartz": {
       "id": "Quartz",
@@ -351,7 +363,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Crystal"
     },
     "Sandstone": {
       "id": "Sandstone",
@@ -376,7 +389,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "MineralParent"
     },
     "Kaolinite": {
       "id": "Kaolinite",
@@ -404,7 +418,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "MineralParent"
     },
     "QuartzShavings": {
       "id": "QuartzShavings",
@@ -428,7 +443,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "MineralParent"
     },
     "Calcite": {
       "id": "Calcite",
@@ -452,7 +468,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "MineralParent"
     },
     "TitaniumOre": {
       "id": "TitaniumOre",
@@ -478,7 +495,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Metal"
     },
     "TitaniumNugget": {
       "id": "TitaniumNugget",
@@ -503,7 +521,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Metal"
     },
     "AluminiumOre": {
       "id": "AluminiumOre",
@@ -529,7 +548,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Metal"
     },
     "AluminiumNugget": {
       "id": "AluminiumNugget",
@@ -554,7 +574,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Metal"
     },
     "Turquoise": {
       "id": "Turquoise",
@@ -582,7 +603,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "MineralParent"
     },
     "Aquamarine": {
       "id": "Aquamarine",
@@ -610,7 +632,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Crystal"
     },
     "Emerald": {
       "id": "Emerald",
@@ -638,7 +661,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Crystal"
     },
     "Pyrite": {
       "id": "Pyrite",
@@ -667,7 +691,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Crystal"
     },
     "Cinnabar": {
       "id": "Cinnabar",
@@ -688,7 +713,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "MineralParent"
     },
     "Sulfur": {
       "id": "Sulfur",
@@ -720,7 +746,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "MineralParent"
     },
     "VanadiumOre": {
       "id": "VanadiumOre",
@@ -745,7 +772,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Metal"
     },
     "SilverNugget": {
       "id": "SilverNugget",
@@ -766,7 +794,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Metal"
     },
     "PlatinumOre": {
       "id": "PlatinumOre",
@@ -787,7 +816,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Metal"
     },
     "PlatinumNugget": {
       "id": "PlatinumNugget",
@@ -808,7 +838,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Metal"
     },
     "TungstenOre": {
       "id": "TungstenOre",
@@ -829,7 +860,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Metal"
     },
     "TungstenNugget": {
       "id": "TungstenNugget",
@@ -850,7 +882,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Metal"
     },
     "UraniumNugget": {
       "id": "UraniumNugget",
@@ -878,7 +911,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Metal"
     },
     "ElmeriumNugget": {
       "id": "ElmeriumNugget",
@@ -899,7 +933,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Metal"
     },
     "ElmeriumShavings": {
       "id": "ElmeriumShavings",
@@ -923,7 +958,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Metal"
     },
     "LowCrystal": {
       "id": "LowCrystal",
@@ -946,7 +982,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Luxuries"
     },
     "Crystal": {
       "id": "Crystal",
@@ -968,7 +1005,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Luxuries"
     },
     "BigCrystal": {
       "id": "BigCrystal",
@@ -991,7 +1029,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Luxuries"
     },
     "HudgeCrystal": {
       "id": "HudgeCrystal",
@@ -1014,7 +1053,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Luxuries"
     },
     "TurquoiseBead": {
       "id": "TurquoiseBead",
@@ -1040,7 +1080,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Luxuries"
     },
     "CalcifiedInvariant": {
       "id": "CalcifiedInvariant",
@@ -1072,7 +1113,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "MineralParent"
     },
     "SpaceWheat_Seed": {
       "id": "SpaceWheat_Seed",
@@ -1096,7 +1138,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Biological_Fruit"
     },
     "SpaceWheat_PlainPulp": {
       "id": "SpaceWheat_PlainPulp",
@@ -1112,7 +1155,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Biological_Extra"
     },
     "SpaceWheat_SourPulp": {
       "id": "SpaceWheat_SourPulp",
@@ -1128,7 +1172,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Biological_Extra"
     },
     "SpaceWheat_WoolyKorn": {
       "id": "SpaceWheat_WoolyKorn",
@@ -1149,7 +1194,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Biological_Fruit"
     },
     "SpaceWheat_FrostPulp": {
       "id": "SpaceWheat_FrostPulp",
@@ -1165,7 +1211,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Biological_Extra"
     },
     "Rockwood_Seed": {
       "id": "Rockwood_Seed",
@@ -1189,7 +1236,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Biological_Fruit"
     },
     "Rockwood_DreamwoodFruit": {
       "id": "Rockwood_DreamwoodFruit",
@@ -1205,7 +1253,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Biological_Fruit"
     },
     "Rockwood_GlowwoodFruit": {
       "id": "Rockwood_GlowwoodFruit",
@@ -1226,7 +1275,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Biological_Fruit"
     },
     "Rockwood_GlowwoodBark": {
       "id": "Rockwood_GlowwoodBark",
@@ -1242,7 +1292,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Biological_Extra"
     },
     "Water": {
       "id": "Water",
@@ -1269,7 +1320,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "PureComponents"
+      "displayCategory": "PureComponents",
+      "subcategory": "Fluid"
     },
     "Water_Brine": {
       "id": "Water_Brine",
@@ -1290,7 +1342,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "PureComponents"
+      "displayCategory": "PureComponents",
+      "subcategory": "Fluid"
     },
     "Water_Waste": {
       "id": "Water_Waste",
@@ -1311,7 +1364,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "PureComponents"
+      "displayCategory": "PureComponents",
+      "subcategory": "Fluid"
     },
     "Ethanol": {
       "id": "Ethanol",
@@ -1335,7 +1389,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "PureComponents"
+      "displayCategory": "PureComponents",
+      "subcategory": "Fluid"
     },
     "XenicOil": {
       "id": "XenicOil",
@@ -1359,7 +1414,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "PureComponents"
+      "displayCategory": "PureComponents",
+      "subcategory": "Fluid"
     },
     "ThermalPaste": {
       "id": "ThermalPaste",
@@ -1380,7 +1436,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "PureComponents"
+      "displayCategory": "PureComponents",
+      "subcategory": "Fluid"
     },
     "Mercury": {
       "id": "Mercury",
@@ -1404,7 +1461,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "PureComponents"
+      "displayCategory": "PureComponents",
+      "subcategory": "Fluid"
     },
     "Vitriol": {
       "id": "Vitriol",
@@ -1428,7 +1486,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "PureComponents"
+      "displayCategory": "PureComponents",
+      "subcategory": "Fluid"
     },
     "Helium": {
       "id": "Helium",
@@ -1444,7 +1503,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "PureComponents"
+      "displayCategory": "PureComponents",
+      "subcategory": "Fluid"
     },
     "Radon": {
       "id": "Radon",
@@ -1460,7 +1520,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "PureComponents"
+      "displayCategory": "PureComponents",
+      "subcategory": "Fluid"
     },
     "FToiL": {
       "id": "FToiL",
@@ -1481,7 +1542,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "PureComponents"
+      "displayCategory": "PureComponents",
+      "subcategory": "Fluid"
     },
     "Bottle_Empty": {
       "id": "Bottle_Empty",
@@ -1502,7 +1564,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "Bottles"
     },
     "Bottle_Water": {
       "id": "Bottle_Water",
@@ -1528,7 +1591,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "Bottles"
     },
     "Bottle_WaterBrine": {
       "id": "Bottle_WaterBrine",
@@ -1554,7 +1618,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "Bottles"
     },
     "Bottle_Ethanol": {
       "id": "Bottle_Ethanol",
@@ -1580,7 +1645,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "Bottles"
     },
     "Bottle_XenicOil": {
       "id": "Bottle_XenicOil",
@@ -1606,7 +1672,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "Bottles"
     },
     "Bottle_ThermalPaste": {
       "id": "Bottle_ThermalPaste",
@@ -1632,7 +1699,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "Bottles"
     },
     "Bottle_Vitriol": {
       "id": "Bottle_Vitriol",
@@ -1659,7 +1727,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "Bottles"
     },
     "Bottle_Mercury": {
       "id": "Bottle_Mercury",
@@ -1686,7 +1755,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "Bottles"
     },
     "BottlePlasma_Empty": {
       "id": "BottlePlasma_Empty",
@@ -1707,7 +1777,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "Bottles"
     },
     "BottlePlasma_FToiL": {
       "id": "BottlePlasma_FToiL",
@@ -1733,7 +1804,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "Bottles"
     },
     "IronIngot": {
       "id": "IronIngot",
@@ -1762,7 +1834,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "PureComponents"
+      "displayCategory": "PureComponents",
+      "subcategory": "Ingots"
     },
     "Graphene": {
       "id": "Graphene",
@@ -1787,7 +1860,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "SimpleFactoredMaterial"
     },
     "CopperIngot": {
       "id": "CopperIngot",
@@ -1816,7 +1890,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "PureComponents"
+      "displayCategory": "PureComponents",
+      "subcategory": "Ingots"
     },
     "ZirconiumIngot": {
       "id": "ZirconiumIngot",
@@ -1845,7 +1920,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "PureComponents"
+      "displayCategory": "PureComponents",
+      "subcategory": "Ingots"
     },
     "TitaniumIngot": {
       "id": "TitaniumIngot",
@@ -1874,7 +1950,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "PureComponents"
+      "displayCategory": "PureComponents",
+      "subcategory": "Ingots"
     },
     "SiliciumIngot": {
       "id": "SiliciumIngot",
@@ -1903,7 +1980,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "PureComponents"
+      "displayCategory": "PureComponents",
+      "subcategory": "Ingots"
     },
     "AluminiumIngot": {
       "id": "AluminiumIngot",
@@ -1932,7 +2010,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "PureComponents"
+      "displayCategory": "PureComponents",
+      "subcategory": "Ingots"
     },
     "VanadiumIngot": {
       "id": "VanadiumIngot",
@@ -1961,7 +2040,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "PureComponents"
+      "displayCategory": "PureComponents",
+      "subcategory": "Ingots"
     },
     "SilverIngot": {
       "id": "SilverIngot",
@@ -1986,7 +2066,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "PureComponents"
+      "displayCategory": "PureComponents",
+      "subcategory": "Ingots"
     },
     "PlatinumIngot": {
       "id": "PlatinumIngot",
@@ -2011,7 +2092,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "PureComponents"
+      "displayCategory": "PureComponents",
+      "subcategory": "Ingots"
     },
     "TungstenIngot": {
       "id": "TungstenIngot",
@@ -2036,7 +2118,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "PureComponents"
+      "displayCategory": "PureComponents",
+      "subcategory": "Ingots"
     },
     "Steel": {
       "id": "Steel",
@@ -2062,7 +2145,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "PureComponents"
+      "displayCategory": "PureComponents",
+      "subcategory": "Ingots"
     },
     "AluK": {
       "id": "AluK",
@@ -2088,7 +2172,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "PureComponents"
+      "displayCategory": "PureComponents",
+      "subcategory": "Ingots"
     },
     "BTitanium": {
       "id": "BTitanium",
@@ -2114,7 +2199,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "PureComponents"
+      "displayCategory": "PureComponents",
+      "subcategory": "Ingots"
     },
     "Levinium": {
       "id": "Levinium",
@@ -2130,7 +2216,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "PureComponents"
+      "displayCategory": "PureComponents",
+      "subcategory": "Ingots"
     },
     "Unbendinium": {
       "id": "Unbendinium",
@@ -2151,7 +2238,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "PureComponents"
+      "displayCategory": "PureComponents",
+      "subcategory": "Ingots"
     },
     "Elmerium": {
       "id": "Elmerium",
@@ -2176,7 +2264,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "PureComponents"
+      "displayCategory": "PureComponents",
+      "subcategory": "Ingots"
     },
     "Wire": {
       "id": "Wire",
@@ -2201,7 +2290,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "SimpleFactoredMaterial"
     },
     "Pipe1": {
       "id": "Pipe1",
@@ -2222,7 +2312,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "SimpleFactoredMaterial"
     },
     "Pipe2": {
       "id": "Pipe2",
@@ -2244,7 +2335,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "SimpleFactoredMaterial"
     },
     "Coil": {
       "id": "Coil",
@@ -2265,7 +2357,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "ComplexFactoredMaterial"
     },
     "Motor": {
       "id": "Motor",
@@ -2292,7 +2385,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "ComplexFactoredMaterial"
     },
     "Pump": {
       "id": "Pump",
@@ -2321,7 +2415,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "ComplexFactoredMaterial"
     },
     "Actuator": {
       "id": "Actuator",
@@ -2350,7 +2445,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "ComplexFactoredMaterial"
     },
     "ElmeriumEngine": {
       "id": "ElmeriumEngine",
@@ -2371,7 +2467,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "ComplexFactoredMaterial"
     },
     "Focuser": {
       "id": "Focuser",
@@ -2391,7 +2488,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "ComplexFactoredMaterial"
     },
     "Focuser2": {
       "id": "Focuser2",
@@ -2412,7 +2510,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "ComplexFactoredMaterial"
     },
     "Focuser3": {
       "id": "Focuser3",
@@ -2433,7 +2532,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "ComplexFactoredMaterial"
     },
     "Graphenoid": {
       "id": "Graphenoid",
@@ -2453,7 +2553,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "ComplexFactoredMaterial"
     },
     "Alternator": {
       "id": "Alternator",
@@ -2473,7 +2574,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "ComplexFactoredMaterial"
     },
     "Grating": {
       "id": "Grating",
@@ -2494,7 +2596,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "ComplexFactoredMaterial"
     },
     "MagneticChamber": {
       "id": "MagneticChamber",
@@ -2515,7 +2618,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "ComplexFactoredMaterial"
     },
     "MetalBolt": {
       "id": "MetalBolt",
@@ -2540,7 +2644,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "SimpleFactoredMaterial"
     },
     "MetalSheet1": {
       "id": "MetalSheet1",
@@ -2560,7 +2665,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "SimpleFactoredMaterial"
     },
     "MetalSheet2": {
       "id": "MetalSheet2",
@@ -2581,7 +2687,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "SimpleFactoredMaterial"
     },
     "MetalSheet3": {
       "id": "MetalSheet3",
@@ -2603,7 +2710,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "SimpleFactoredMaterial"
     },
     "MagSheet": {
       "id": "MagSheet",
@@ -2619,7 +2727,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "SimpleFactoredMaterial"
     },
     "ThermalSheet": {
       "id": "ThermalSheet",
@@ -2635,7 +2744,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "SimpleFactoredMaterial"
     },
     "Plate1": {
       "id": "Plate1",
@@ -2662,7 +2772,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "SimpleFactoredMaterial"
     },
     "Plate2": {
       "id": "Plate2",
@@ -2689,7 +2800,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "SimpleFactoredMaterial"
     },
     "Plate_Light": {
       "id": "Plate_Light",
@@ -2717,7 +2829,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "SimpleFactoredMaterial"
     },
     "Beam1": {
       "id": "Beam1",
@@ -2743,7 +2856,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "SimpleFactoredMaterial"
     },
     "Beam2": {
       "id": "Beam2",
@@ -2772,7 +2886,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "SimpleFactoredMaterial"
     },
     "Beam3": {
       "id": "Beam3",
@@ -2794,7 +2909,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "SimpleFactoredMaterial"
     },
     "SolarCell": {
       "id": "SolarCell",
@@ -2821,7 +2937,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "ComplexFactoredMaterial"
     },
     "SiliconeGel": {
       "id": "SiliconeGel",
@@ -2846,7 +2963,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "SimpleFactoredMaterial"
     },
     "Semiconductor": {
       "id": "Semiconductor",
@@ -2871,7 +2989,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "SimpleFactoredMaterial"
     },
     "MicroChip": {
       "id": "MicroChip",
@@ -2896,7 +3015,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "ComplexFactoredMaterial"
     },
     "Gunpowder": {
       "id": "Gunpowder",
@@ -2922,7 +3042,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "SimpleFactoredMaterial"
     },
     "AluPowder": {
       "id": "AluPowder",
@@ -2955,7 +3076,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "SimpleFactoredMaterial"
     },
     "Fertilizer_Neutral": {
       "id": "Fertilizer_Neutral",
@@ -2979,7 +3101,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "SimpleFactoredMaterial"
     },
     "Fertilizer_Acidic": {
       "id": "Fertilizer_Acidic",
@@ -3004,7 +3127,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "SimpleFactoredMaterial"
     },
     "Fertilizer_Carbonic": {
       "id": "Fertilizer_Carbonic",
@@ -3029,7 +3153,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "SimpleFactoredMaterial"
     },
     "Fertilizer_Metallic": {
       "id": "Fertilizer_Metallic",
@@ -3054,7 +3179,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "SimpleFactoredMaterial"
     },
     "ActivatedCoal": {
       "id": "ActivatedCoal",
@@ -3075,7 +3201,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "SimpleFactoredMaterial"
     },
     "CarbonicFuel": {
       "id": "CarbonicFuel",
@@ -3099,7 +3226,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "SimpleFactoredMaterial"
     },
     "Battery": {
       "id": "Battery",
@@ -3129,7 +3257,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "ComplexFactoredMaterial"
     },
     "ThermalIsolant": {
       "id": "ThermalIsolant",
@@ -3154,7 +3283,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "SimpleFactoredMaterial"
     },
     "Antimatter_Empty": {
       "id": "Antimatter_Empty",
@@ -3175,7 +3305,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "Bottles"
     },
     "Antimatter_Full": {
       "id": "Antimatter_Full",
@@ -3197,7 +3328,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "Bottles"
     },
     "MissileAirframe_Small": {
       "id": "MissileAirframe_Small",
@@ -3218,7 +3350,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "ComplexFactoredMaterial"
     },
     "Concrete": {
       "id": "Concrete",
@@ -3244,7 +3377,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "SimpleFactoredMaterial"
     },
     "Protein": {
       "id": "Protein",
@@ -3269,7 +3403,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "SimpleFactoredMaterial"
     },
     "Lime": {
       "id": "Lime",
@@ -3298,7 +3433,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "SimpleFactoredMaterial"
     },
     "CrystalLattice_M": {
       "id": "CrystalLattice_M",
@@ -3323,7 +3459,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "PureComponents"
+      "displayCategory": "PureComponents",
+      "subcategory": "CrystalMatrix"
     },
     "CrystalLattice_H": {
       "id": "CrystalLattice_H",
@@ -3348,7 +3485,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "PureComponents"
+      "displayCategory": "PureComponents",
+      "subcategory": "CrystalMatrix"
     },
     "CrystalLattice_C": {
       "id": "CrystalLattice_C",
@@ -3373,7 +3511,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "PureComponents"
+      "displayCategory": "PureComponents",
+      "subcategory": "CrystalMatrix"
     },
     "SteelScraps": {
       "id": "SteelScraps",
@@ -3394,7 +3533,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Scrap"
     },
     "AluScraps": {
       "id": "AluScraps",
@@ -3415,7 +3555,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Scrap"
     },
     "IronScraps": {
       "id": "IronScraps",
@@ -3436,7 +3577,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Scrap"
     },
     "TitaniumScraps": {
       "id": "TitaniumScraps",
@@ -3457,7 +3599,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Scrap"
     },
     "BuildingScraps": {
       "id": "BuildingScraps",
@@ -3474,7 +3617,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Scrap"
     },
     "SystemScraps": {
       "id": "SystemScraps",
@@ -3491,7 +3635,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Scrap"
     },
     "SteelHullScraps": {
       "id": "SteelHullScraps",
@@ -3508,7 +3653,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Scrap"
     },
     "ModuleCasing1": {
       "id": "ModuleCasing1",
@@ -3529,7 +3675,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "Casings"
     },
     "ModuleCasing2": {
       "id": "ModuleCasing2",
@@ -3551,7 +3698,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "Casings"
     },
     "ModuleCasing3": {
       "id": "ModuleCasing3",
@@ -3573,7 +3721,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "Casings"
     },
     "SupportCasing": {
       "id": "SupportCasing",
@@ -3594,7 +3743,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "Casings"
     },
     "SteelCasingMK1": {
       "id": "SteelCasingMK1",
@@ -3615,7 +3765,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "Casings"
     },
     "TitaniumCasingMK1": {
       "id": "TitaniumCasingMK1",
@@ -3637,7 +3788,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "Casings"
     },
     "TitaniumCasingMK2": {
       "id": "TitaniumCasingMK2",
@@ -3659,7 +3811,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "Casings"
     },
     "PlatinumCasingMK1": {
       "id": "PlatinumCasingMK1",
@@ -3681,7 +3834,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "Casings"
     },
     "PlatinumCasingMK2": {
       "id": "PlatinumCasingMK2",
@@ -3703,7 +3857,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "Casings"
     },
     "LeviniumCasingMK1": {
       "id": "LeviniumCasingMK1",
@@ -3725,7 +3880,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "Casings"
     },
     "AlloyXCasingMK1": {
       "id": "AlloyXCasingMK1",
@@ -3747,7 +3903,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "Casings"
     },
     "AlloyXCasingMK2": {
       "id": "AlloyXCasingMK2",
@@ -3769,7 +3926,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "Casings"
     },
     "ControlBaseKit": {
       "id": "ControlBaseKit",
@@ -3790,7 +3948,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "Casings"
     },
     "ControlBaseCore": {
       "id": "ControlBaseCore",
@@ -3815,7 +3974,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "Casings"
     },
     "HullMK1_Flat_Steel_Virtual": {
       "id": "HullMK1_Flat_Steel_Virtual",
@@ -3971,7 +4131,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Steel"
     },
     "Wing_01": {
       "id": "Wing_01",
@@ -4028,7 +4189,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipWing"
     },
     "Wing_02": {
       "id": "Wing_02",
@@ -4085,7 +4247,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipWing"
     },
     "Wing_03": {
       "id": "Wing_03",
@@ -4142,7 +4305,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipWing"
     },
     "HullMK1_005": {
       "id": "HullMK1_005",
@@ -4199,7 +4363,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Steel"
     },
     "HullMK1_006": {
       "id": "HullMK1_006",
@@ -4256,7 +4421,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Steel"
     },
     "HullMK1_001": {
       "id": "HullMK1_001",
@@ -4313,7 +4479,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Steel"
     },
     "HullMK1_002": {
       "id": "HullMK1_002",
@@ -4370,7 +4537,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Steel"
     },
     "HullMK1_003": {
       "id": "HullMK1_003",
@@ -4427,7 +4595,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Steel"
     },
     "HullMK1_004_Steel_AluK": {
       "id": "HullMK1_004_Steel_AluK",
@@ -4484,7 +4653,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Steel_AluK"
     },
     "Wing_01_Steel_AluK": {
       "id": "Wing_01_Steel_AluK",
@@ -4541,7 +4711,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipWing"
     },
     "Wing_02_Steel_AluK": {
       "id": "Wing_02_Steel_AluK",
@@ -4598,7 +4769,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipWing"
     },
     "Wing_03_Steel_AluK": {
       "id": "Wing_03_Steel_AluK",
@@ -4655,7 +4827,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipWing"
     },
     "HullMK1_005_Steel_AluK": {
       "id": "HullMK1_005_Steel_AluK",
@@ -4712,7 +4885,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Steel_AluK"
     },
     "HullMK1_006_Steel_AluK": {
       "id": "HullMK1_006_Steel_AluK",
@@ -4769,7 +4943,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Steel_AluK"
     },
     "HullMK1_001_Steel_AluK": {
       "id": "HullMK1_001_Steel_AluK",
@@ -4826,7 +5001,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Steel_AluK"
     },
     "HullMK1_002_Steel_AluK": {
       "id": "HullMK1_002_Steel_AluK",
@@ -4883,7 +5059,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Steel_AluK"
     },
     "HullMK1_003_Steel_AluK": {
       "id": "HullMK1_003_Steel_AluK",
@@ -4940,7 +5117,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Steel_AluK"
     },
     "HullMK1_004_Tit": {
       "id": "HullMK1_004_Tit",
@@ -4997,7 +5175,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Titanium"
     },
     "HullMK1_005_Tit": {
       "id": "HullMK1_005_Tit",
@@ -5054,7 +5233,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Titanium"
     },
     "HullMK1_006_Tit": {
       "id": "HullMK1_006_Tit",
@@ -5111,7 +5291,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Titanium"
     },
     "HullMK1_001_Tit": {
       "id": "HullMK1_001_Tit",
@@ -5168,7 +5349,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Titanium"
     },
     "HullMK1_002_Tit": {
       "id": "HullMK1_002_Tit",
@@ -5225,7 +5407,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Titanium"
     },
     "HullMK1_003_Tit": {
       "id": "HullMK1_003_Tit",
@@ -5282,7 +5465,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Titanium"
     },
     "HullMK2_004_Tit": {
       "id": "HullMK2_004_Tit",
@@ -5339,7 +5523,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Titanium"
     },
     "Wing_04": {
       "id": "Wing_04",
@@ -5396,7 +5581,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipWing"
     },
     "HullMK2_005_Tit": {
       "id": "HullMK2_005_Tit",
@@ -5453,7 +5639,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Titanium"
     },
     "HullMK2_006_Tit": {
       "id": "HullMK2_006_Tit",
@@ -5510,7 +5697,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Titanium"
     },
     "HullMK1_004_Tit_AluK": {
       "id": "HullMK1_004_Tit_AluK",
@@ -5567,7 +5755,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Titanium_AluK"
     },
     "HullMK1_005_Tit_AluK": {
       "id": "HullMK1_005_Tit_AluK",
@@ -5624,7 +5813,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Titanium_AluK"
     },
     "HullMK1_006_Tit_AluK": {
       "id": "HullMK1_006_Tit_AluK",
@@ -5681,7 +5871,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Titanium_AluK"
     },
     "HullMK1_001_Tit_AluK": {
       "id": "HullMK1_001_Tit_AluK",
@@ -5738,7 +5929,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Titanium_AluK"
     },
     "HullMK1_002_Tit_AluK": {
       "id": "HullMK1_002_Tit_AluK",
@@ -5795,7 +5987,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Titanium_AluK"
     },
     "HullMK1_003_Tit_AluK": {
       "id": "HullMK1_003_Tit_AluK",
@@ -5852,7 +6045,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Titanium_AluK"
     },
     "HullMK2_004_Tit_AluK": {
       "id": "HullMK2_004_Tit_AluK",
@@ -5909,7 +6103,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Titanium_AluK"
     },
     "Wing_04_Tit_AluK": {
       "id": "Wing_04_Tit_AluK",
@@ -5966,7 +6161,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipWing"
     },
     "HullMK2_005_Tit_AluK": {
       "id": "HullMK2_005_Tit_AluK",
@@ -6023,7 +6219,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Titanium_AluK"
     },
     "HullMK2_006_Tit_AluK": {
       "id": "HullMK2_006_Tit_AluK",
@@ -6080,7 +6277,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Titanium_AluK"
     },
     "HullMK1_001_Pla": {
       "id": "HullMK1_001_Pla",
@@ -6128,7 +6326,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_WreckOnly"
     },
     "HullMK1_002_Pla": {
       "id": "HullMK1_002_Pla",
@@ -6176,7 +6375,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_WreckOnly"
     },
     "HullMK1_003_Pla": {
       "id": "HullMK1_003_Pla",
@@ -6224,7 +6424,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_WreckOnly"
     },
     "HullMK2_001_Pla": {
       "id": "HullMK2_001_Pla",
@@ -6272,7 +6473,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_WreckOnly"
     },
     "HullMK2_002_Pla": {
       "id": "HullMK2_002_Pla",
@@ -6320,7 +6522,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_WreckOnly"
     },
     "HullMK2_003_Pla": {
       "id": "HullMK2_003_Pla",
@@ -6368,7 +6571,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_WreckOnly"
     },
     "HullMK1_006_Lev": {
       "id": "HullMK1_006_Lev",
@@ -6416,7 +6620,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_WreckOnly"
     },
     "HullMK1_005_Lev": {
       "id": "HullMK1_005_Lev",
@@ -6464,7 +6669,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_WreckOnly"
     },
     "HullMK1_004_Lev": {
       "id": "HullMK1_004_Lev",
@@ -6516,7 +6722,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_WreckOnly"
     },
     "HullMK1_001_Lev": {
       "id": "HullMK1_001_Lev",
@@ -6573,7 +6780,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Levinium"
     },
     "HullMK1_002_Lev": {
       "id": "HullMK1_002_Lev",
@@ -6630,7 +6838,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Levinium"
     },
     "HullMK1_003_Lev": {
       "id": "HullMK1_003_Lev",
@@ -6687,7 +6896,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Levinium"
     },
     "HullMK1_004_Plat": {
       "id": "HullMK1_004_Plat",
@@ -6740,7 +6950,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Platinum"
     },
     "HullMK1_005_Plat": {
       "id": "HullMK1_005_Plat",
@@ -6793,7 +7004,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Platinum"
     },
     "HullMK1_006_Plat": {
       "id": "HullMK1_006_Plat",
@@ -6846,7 +7058,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Platinum"
     },
     "HullMK2_004_Plat": {
       "id": "HullMK2_004_Plat",
@@ -6899,7 +7112,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Platinum"
     },
     "HullMK2_005_Plat": {
       "id": "HullMK2_005_Plat",
@@ -6952,7 +7166,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Platinum"
     },
     "HullMK2_006_Plat": {
       "id": "HullMK2_006_Plat",
@@ -7005,7 +7220,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_Platinum"
     },
     "HullMK1_004_AX": {
       "id": "HullMK1_004_AX",
@@ -7053,7 +7269,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_AlloyX"
     },
     "HullMK1_005_AX": {
       "id": "HullMK1_005_AX",
@@ -7101,7 +7318,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_AlloyX"
     },
     "HullMK1_006_AX": {
       "id": "HullMK1_006_AX",
@@ -7149,7 +7367,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_AlloyX"
     },
     "HullMK1_001_AX": {
       "id": "HullMK1_001_AX",
@@ -7197,7 +7416,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_AlloyX"
     },
     "HullMK1_002_AX": {
       "id": "HullMK1_002_AX",
@@ -7245,7 +7465,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_AlloyX"
     },
     "HullMK1_003_AX": {
       "id": "HullMK1_003_AX",
@@ -7293,7 +7514,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_AlloyX"
     },
     "HullMK2_004_AX": {
       "id": "HullMK2_004_AX",
@@ -7341,7 +7563,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_AlloyX"
     },
     "HullMK2_005_AX": {
       "id": "HullMK2_005_AX",
@@ -7389,7 +7612,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_AlloyX"
     },
     "HullMK2_006_AX1": {
       "id": "HullMK2_006_AX1",
@@ -7437,7 +7661,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_AlloyX"
     },
     "HullMK2_007_AX": {
       "id": "HullMK2_007_AX",
@@ -7485,7 +7710,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_AlloyX"
     },
     "HullMK2_008_AX1": {
       "id": "HullMK2_008_AX1",
@@ -7533,7 +7759,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipHull_AlloyX"
     },
     "Cockpit_LR1": {
       "id": "Cockpit_LR1",
@@ -7586,7 +7813,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipCockpit"
     },
     "Cockpit_LR2": {
       "id": "Cockpit_LR2",
@@ -7635,7 +7863,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipCockpit"
     },
     "Cockpit_LR3": {
       "id": "Cockpit_LR3",
@@ -7684,7 +7913,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipCockpit"
     },
     "Cockpit_AE1": {
       "id": "Cockpit_AE1",
@@ -7752,7 +7982,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipCockpit"
     },
     "Cockpit_AE2": {
       "id": "Cockpit_AE2",
@@ -7804,7 +8035,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipCockpit"
     },
     "Cockpit_AE3": {
       "id": "Cockpit_AE3",
@@ -7845,7 +8077,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipCockpit"
     },
     "Cockpit_TC1": {
       "id": "Cockpit_TC1",
@@ -7890,7 +8123,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipCockpit"
     },
     "Cockpit_MK1": {
       "id": "Cockpit_MK1",
@@ -7943,7 +8177,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipCockpit"
     },
     "Cockpit_MK2": {
       "id": "Cockpit_MK2",
@@ -7995,7 +8230,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipCockpit"
     },
     "Cockpit_MK3": {
       "id": "Cockpit_MK3",
@@ -8036,7 +8272,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipCockpit"
     },
     "Cockpit_DA1": {
       "id": "Cockpit_DA1",
@@ -8093,7 +8330,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipCockpit"
     },
     "Cockpit_DA2": {
       "id": "Cockpit_DA2",
@@ -8138,7 +8376,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipCockpit"
     },
     "Cockpit_DA3": {
       "id": "Cockpit_DA3",
@@ -8179,7 +8418,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipCockpit"
     },
     "Deco_01": {
       "id": "Deco_01",
@@ -8208,7 +8448,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipDecorative"
     },
     "Deco_04": {
       "id": "Deco_04",
@@ -8238,7 +8479,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipDecorative"
     },
     "Deco_05": {
       "id": "Deco_05",
@@ -8268,7 +8510,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipDecorative"
     },
     "Light_01": {
       "id": "Light_01",
@@ -8304,7 +8547,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipTool"
+      "displayCategory": "ShipTool",
+      "subcategory": "ShipLight"
     },
     "Light_02": {
       "id": "Light_02",
@@ -8341,7 +8585,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipTool"
+      "displayCategory": "ShipTool",
+      "subcategory": "ShipLight"
     },
     "Light_03": {
       "id": "Light_03",
@@ -8378,7 +8623,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipTool"
+      "displayCategory": "ShipTool",
+      "subcategory": "ShipLight"
     },
     "Thruster0": {
       "id": "Thruster0",
@@ -8445,7 +8691,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipEngine"
     },
     "Thruster1": {
       "id": "Thruster1",
@@ -8501,7 +8748,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipEngine"
     },
     "Thruster2": {
       "id": "Thruster2",
@@ -8557,7 +8805,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipEngine"
     },
     "ThrusterAE1": {
       "id": "ThrusterAE1",
@@ -8614,7 +8863,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipEngine"
     },
     "ThrusterMK1": {
       "id": "ThrusterMK1",
@@ -8679,7 +8929,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipEngine"
     },
     "ThrusterDA1": {
       "id": "ThrusterDA1",
@@ -8748,7 +8999,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipPart"
+      "displayCategory": "ShipPart",
+      "subcategory": "ShipEngine"
     },
     "Storage1": {
       "id": "Storage1",
@@ -8778,7 +9030,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipInventoryModules"
     },
     "Storage2": {
       "id": "Storage2",
@@ -8813,7 +9066,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipInventoryModules"
     },
     "Storage3": {
       "id": "Storage3",
@@ -8847,7 +9101,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipInventoryModules"
     },
     "LiquidStorage1": {
       "id": "LiquidStorage1",
@@ -8880,7 +9135,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipInventoryModules"
     },
     "LiquidStorage2": {
       "id": "LiquidStorage2",
@@ -8918,7 +9174,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipInventoryModules"
     },
     "LiquidStorage3PH": {
       "id": "LiquidStorage3PH",
@@ -8957,7 +9214,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipInventoryModules"
     },
     "PressureStorage1": {
       "id": "PressureStorage1",
@@ -8986,7 +9244,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipInventoryModules"
     },
     "PressureStorage2PH": {
       "id": "PressureStorage2PH",
@@ -9016,7 +9275,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipInventoryModules"
     },
     "PressureStorage3PH": {
       "id": "PressureStorage3PH",
@@ -9046,7 +9306,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipInventoryModules"
     },
     "FTLEngine1": {
       "id": "FTLEngine1",
@@ -9094,7 +9355,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipFTLModules"
     },
     "FTLEngine2_Light": {
       "id": "FTLEngine2_Light",
@@ -9146,7 +9408,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipFTLModules"
     },
     "FTLEngine2_Medium": {
       "id": "FTLEngine2_Medium",
@@ -9198,7 +9461,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipFTLModules"
     },
     "FTLEngine2_Heavy": {
       "id": "FTLEngine2_Heavy",
@@ -9250,7 +9514,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipFTLModules"
     },
     "FTLEngine3_Solo": {
       "id": "FTLEngine3_Solo",
@@ -9301,7 +9566,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipFTLModules"
     },
     "FTLEngine3_Support": {
       "id": "FTLEngine3_Support",
@@ -9352,7 +9618,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipFTLModules"
     },
     "FTLTank1": {
       "id": "FTLTank1",
@@ -9385,7 +9652,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipFTLModules"
     },
     "FTLTank2": {
       "id": "FTLTank2",
@@ -9423,7 +9691,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipFTLModules"
     },
     "FTLTank3": {
       "id": "FTLTank3",
@@ -9461,7 +9730,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipFTLModules"
     },
     "Navigator": {
       "id": "Navigator",
@@ -9490,7 +9760,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipFTLModules"
     },
     "Battery0": {
       "id": "Battery0",
@@ -9544,7 +9815,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipBattery"
     },
     "Battery1": {
       "id": "Battery1",
@@ -9596,7 +9868,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipBattery"
     },
     "Battery2": {
       "id": "Battery2",
@@ -9650,7 +9923,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipBattery"
     },
     "RBattery0": {
       "id": "RBattery0",
@@ -9699,7 +9973,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipBattery"
     },
     "PBattery": {
       "id": "PBattery",
@@ -9743,7 +10018,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipBattery"
     },
     "IsotopicGenerator": {
       "id": "IsotopicGenerator",
@@ -9776,7 +10052,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipPowerGenerators"
     },
     "FusionGenerator": {
       "id": "FusionGenerator",
@@ -9801,7 +10078,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipPowerGenerators"
     },
     "PowerSharerPH": {
       "id": "PowerSharerPH",
@@ -9817,7 +10095,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipPowerGenerators"
     },
     "Nitrogenerator": {
       "id": "Nitrogenerator",
@@ -9849,7 +10128,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipPowerGenerators"
     },
     "CarbonGenerator": {
       "id": "CarbonGenerator",
@@ -9889,7 +10169,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipPowerGenerators"
     },
     "CarbonGenerator2": {
       "id": "CarbonGenerator2",
@@ -9931,7 +10212,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipPowerGenerators"
     },
     "Heater": {
       "id": "Heater",
@@ -9967,7 +10249,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipHeatModule"
     },
     "Heater2": {
       "id": "Heater2",
@@ -10008,7 +10291,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipHeatModule"
     },
     "HeatRecouper": {
       "id": "HeatRecouper",
@@ -10045,7 +10329,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipHeatModule"
     },
     "KineticShield1": {
       "id": "KineticShield1",
@@ -10081,7 +10366,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipShields"
     },
     "KineticShield2": {
       "id": "KineticShield2",
@@ -10118,7 +10404,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipShields"
     },
     "KineticShield3": {
       "id": "KineticShield3",
@@ -10155,7 +10442,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipShields"
     },
     "BarrierShield1": {
       "id": "BarrierShield1",
@@ -10190,7 +10478,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipShields"
     },
     "BarrierShield2": {
       "id": "BarrierShield2",
@@ -10226,7 +10515,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipShields"
     },
     "BarrierShield3": {
       "id": "BarrierShield3",
@@ -10262,7 +10552,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipShields"
     },
     "HeavyShield2": {
       "id": "HeavyShield2",
@@ -10297,7 +10588,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipShields"
     },
     "HeavyShield3": {
       "id": "HeavyShield3",
@@ -10333,7 +10625,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipShields"
     },
     "KineticShield_Group": {
       "id": "KineticShield_Group",
@@ -10381,7 +10674,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipShields"
     },
     "StealthModule_Personnal": {
       "id": "StealthModule_Personnal",
@@ -10441,7 +10735,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipControlModule"
     },
     "AutoMineModule": {
       "id": "AutoMineModule",
@@ -10469,7 +10764,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipModule"
+      "displayCategory": "ShipModule",
+      "subcategory": "ShipControlModule"
     },
     "EngineBooster": {
       "id": "EngineBooster",
@@ -10514,7 +10810,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipTool"
+      "displayCategory": "ShipTool",
+      "subcategory": "ShipBooster"
     },
     "SolarPanel1": {
       "id": "SolarPanel1",
@@ -10547,7 +10844,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipTool"
+      "displayCategory": "ShipTool",
+      "subcategory": "ShipPowerTools"
     },
     "SolarPanel2": {
       "id": "SolarPanel2",
@@ -10585,7 +10883,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipTool"
+      "displayCategory": "ShipTool",
+      "subcategory": "ShipPowerTools"
     },
     "SolarPanel3": {
       "id": "SolarPanel3",
@@ -10623,7 +10922,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipTool"
+      "displayCategory": "ShipTool",
+      "subcategory": "ShipPowerTools"
     },
     "Radiator": {
       "id": "Radiator",
@@ -10667,7 +10967,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipTool"
+      "displayCategory": "ShipTool",
+      "subcategory": "ShipHeatTools"
     },
     "Radiator1": {
       "id": "Radiator1",
@@ -10709,7 +11010,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipTool"
+      "displayCategory": "ShipTool",
+      "subcategory": "ShipHeatTools"
     },
     "Radar0": {
       "id": "Radar0",
@@ -10746,7 +11048,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipTool"
+      "displayCategory": "ShipTool",
+      "subcategory": "ShipRadars"
     },
     "RadarMK1": {
       "id": "RadarMK1",
@@ -10780,7 +11083,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipTool"
+      "displayCategory": "ShipTool",
+      "subcategory": "ShipRadars"
     },
     "Radar_Sniffer": {
       "id": "Radar_Sniffer",
@@ -10820,7 +11124,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipTool"
+      "displayCategory": "ShipTool",
+      "subcategory": "ShipRadars"
     },
     "Radar_Smart": {
       "id": "Radar_Smart",
@@ -10861,7 +11166,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipTool"
+      "displayCategory": "ShipTool",
+      "subcategory": "ShipRadars"
     },
     "GraviteDetector": {
       "id": "GraviteDetector",
@@ -10886,7 +11192,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipTool"
+      "displayCategory": "ShipTool",
+      "subcategory": "ShipRadars"
     },
     "Scanner0": {
       "id": "Scanner0",
@@ -10915,7 +11222,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipTool"
+      "displayCategory": "ShipTool",
+      "subcategory": "ShipToolSpecial"
     },
     "Scanner1": {
       "id": "Scanner1",
@@ -10949,7 +11257,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipTool"
+      "displayCategory": "ShipTool",
+      "subcategory": "ShipToolSpecial"
     },
     "MiningTool0": {
       "id": "MiningTool0",
@@ -10988,7 +11297,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipTool"
+      "displayCategory": "ShipTool",
+      "subcategory": "ShipGatheringTools"
     },
     "MiningTool1": {
       "id": "MiningTool1",
@@ -11022,7 +11332,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipTool"
+      "displayCategory": "ShipTool",
+      "subcategory": "ShipGatheringTools"
     },
     "MiningTool1_OC": {
       "id": "MiningTool1_OC",
@@ -11060,7 +11371,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipTool"
+      "displayCategory": "ShipTool",
+      "subcategory": "ShipGatheringTools"
     },
     "MiningTool_Cold": {
       "id": "MiningTool_Cold",
@@ -11096,7 +11408,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipTool"
+      "displayCategory": "ShipTool",
+      "subcategory": "ShipGatheringTools"
     },
     "MiningTool2": {
       "id": "MiningTool2",
@@ -11130,7 +11443,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipTool"
+      "displayCategory": "ShipTool",
+      "subcategory": "ShipGatheringTools"
     },
     "MiningTool2_OC": {
       "id": "MiningTool2_OC",
@@ -11168,7 +11482,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipTool"
+      "displayCategory": "ShipTool",
+      "subcategory": "ShipGatheringTools"
     },
     "MiningTool3": {
       "id": "MiningTool3",
@@ -11202,7 +11517,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipTool"
+      "displayCategory": "ShipTool",
+      "subcategory": "ShipGatheringTools"
     },
     "MiningTool3_OC": {
       "id": "MiningTool3_OC",
@@ -11240,7 +11556,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipTool"
+      "displayCategory": "ShipTool",
+      "subcategory": "ShipGatheringTools"
     },
     "FluidPumpingTool1": {
       "id": "FluidPumpingTool1",
@@ -11276,7 +11593,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipTool"
+      "displayCategory": "ShipTool",
+      "subcategory": "ShipGatheringTools"
     },
     "ExplodingToolMk1": {
       "id": "ExplodingToolMk1",
@@ -11310,7 +11628,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipTool"
+      "displayCategory": "ShipTool",
+      "subcategory": "ShipWeapon"
     },
     "ExplodingToolMk2": {
       "id": "ExplodingToolMk2",
@@ -11343,7 +11662,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipTool"
+      "displayCategory": "ShipTool",
+      "subcategory": "ShipWeapon"
     },
     "GunTurretTool": {
       "id": "GunTurretTool",
@@ -11377,7 +11697,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipTool"
+      "displayCategory": "ShipTool",
+      "subcategory": "ShipWeapon"
     },
     "GunTurretTool1": {
       "id": "GunTurretTool1",
@@ -11411,7 +11732,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipTool"
+      "displayCategory": "ShipTool",
+      "subcategory": "ShipWeapon"
     },
     "PathwayPuncher": {
       "id": "PathwayPuncher",
@@ -11443,7 +11765,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "ShipTool"
+      "displayCategory": "ShipTool",
+      "subcategory": "ShipToolSpecial"
     },
     "SeekerMissile0": {
       "id": "SeekerMissile0",
@@ -11465,7 +11788,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "ShipAmmunition"
     },
     "BlastMissile0": {
       "id": "BlastMissile0",
@@ -11485,7 +11809,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "ShipAmmunition"
     },
     "CombatMissile_AntiMatter": {
       "id": "CombatMissile_AntiMatter",
@@ -11504,7 +11829,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "ShipAmmunition"
     },
     "Beacon": {
       "id": "Beacon",
@@ -11552,7 +11878,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "ShipAmmunition"
     },
     "HypergateBeacon": {
       "id": "HypergateBeacon",
@@ -11568,7 +11895,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "ShipAmmunition"
     },
     "LockedCapsule": {
       "id": "LockedCapsule",
@@ -11584,7 +11912,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "ShipAmmunition"
     },
     "BeaconKey": {
       "id": "BeaconKey",
@@ -11629,7 +11958,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "ShipAmmunition"
     },
     "Cartridge_Iron": {
       "id": "Cartridge_Iron",
@@ -11653,7 +11983,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "ShipAmmunition"
     },
     "P_MultiTool": {
       "id": "P_MultiTool",
@@ -13101,7 +13432,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "Automate"
     },
     "Shuttle0": {
       "id": "Shuttle0",
@@ -13130,7 +13462,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "Automate"
     },
     "Shuttle1": {
       "id": "Shuttle1",
@@ -13151,7 +13484,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "Automate"
     },
     "PShuttle": {
       "id": "PShuttle",
@@ -13172,7 +13506,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "FactoredMaterial"
+      "displayCategory": "FactoredMaterial",
+      "subcategory": "Automate"
     },
     "FPS_Instance_Entrance": {
       "id": "FPS_Instance_Entrance",
@@ -13627,7 +13962,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Command"
     },
     "B_ControlBase2": {
       "id": "B_ControlBase2",
@@ -13663,7 +13999,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Command"
     },
     "B_ControlBase3PH": {
       "id": "B_ControlBase3PH",
@@ -13691,7 +14028,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Command"
     },
     "B_ControlBase_Corpo1": {
       "id": "B_ControlBase_Corpo1",
@@ -13719,7 +14057,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Command"
     },
     "B_Extractor": {
       "id": "B_Extractor",
@@ -13755,7 +14094,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Gathering"
     },
     "B_LiquidExtractor": {
       "id": "B_LiquidExtractor",
@@ -13783,7 +14123,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Gathering"
     },
     "B_Extractor1PH": {
       "id": "B_Extractor1PH",
@@ -13824,7 +14165,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Gathering"
     },
     "B_SolarPanel": {
       "id": "B_SolarPanel",
@@ -13856,7 +14198,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Power"
     },
     "B_Warehouse": {
       "id": "B_Warehouse",
@@ -13888,7 +14231,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Storage"
     },
     "B_Organiser": {
       "id": "B_Organiser",
@@ -13920,7 +14264,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Logistic"
     },
     "B_Chest": {
       "id": "B_Chest",
@@ -13952,7 +14297,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Storage"
     },
     "B_Cistern": {
       "id": "B_Cistern",
@@ -13980,7 +14326,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Storage"
     },
     "B_FTLCistern": {
       "id": "B_FTLCistern",
@@ -14008,7 +14355,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Storage"
     },
     "B_FTLGatherer": {
       "id": "B_FTLGatherer",
@@ -14033,7 +14381,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Gathering"
     },
     "B_Crystaliser": {
       "id": "B_Crystaliser",
@@ -14066,7 +14415,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Crafting"
     },
     "B_Farm": {
       "id": "B_Farm",
@@ -14102,7 +14452,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Crafting"
     },
     "B_AntimatterSynthPH": {
       "id": "B_AntimatterSynthPH",
@@ -14135,7 +14486,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Crafting"
     },
     "B_LaboPH": {
       "id": "B_LaboPH",
@@ -14202,7 +14554,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Power"
     },
     "B_Generator": {
       "id": "B_Generator",
@@ -14238,7 +14591,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Power"
     },
     "B_Generator2": {
       "id": "B_Generator2",
@@ -14274,7 +14628,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Power"
     },
     "B_FusionGenerator": {
       "id": "B_FusionGenerator",
@@ -14303,7 +14658,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Power"
     },
     "B_HeatRecouper": {
       "id": "B_HeatRecouper",
@@ -14332,7 +14688,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Power"
     },
     "B_PowerTransmitter": {
       "id": "B_PowerTransmitter",
@@ -14360,7 +14717,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Power"
     },
     "B_Battery": {
       "id": "B_Battery",
@@ -14388,7 +14746,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Power"
     },
     "B_Factory1": {
       "id": "B_Factory1",
@@ -14425,7 +14784,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Crafting"
     },
     "B_Factory2": {
       "id": "B_Factory2",
@@ -14462,7 +14822,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Crafting"
     },
     "B_Smelter": {
       "id": "B_Smelter",
@@ -14499,7 +14860,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Crafting"
     },
     "B_SmelterSA": {
       "id": "B_SmelterSA",
@@ -14540,7 +14902,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Crafting"
     },
     "B_Chemical": {
       "id": "B_Chemical",
@@ -14577,7 +14940,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Crafting"
     },
     "B_BottlingPlant": {
       "id": "B_BottlingPlant",
@@ -14610,7 +14974,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Crafting"
     },
     "B_RecyclingPlant": {
       "id": "B_RecyclingPlant",
@@ -14647,7 +15012,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Crafting"
     },
     "B_ShuttlePad": {
       "id": "B_ShuttlePad",
@@ -14683,7 +15049,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Logistic"
     },
     "B_LandingPad": {
       "id": "B_LandingPad",
@@ -14707,7 +15074,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Logistic"
     },
     "B_Shipyard": {
       "id": "B_Shipyard",
@@ -14731,7 +15099,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Logistic"
     },
     "B_StandaloneFoundation": {
       "id": "B_StandaloneFoundation",
@@ -14823,7 +15192,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Logistic"
     },
     "B_SunStation": {
       "id": "B_SunStation",
@@ -14860,7 +15230,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Deco"
     },
     "B_DecoPirate": {
       "id": "B_DecoPirate",
@@ -14881,7 +15252,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Deco"
     },
     "B_DecoTranscendance": {
       "id": "B_DecoTranscendance",
@@ -14902,7 +15274,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Deco"
     },
     "B_DecoPlanet": {
       "id": "B_DecoPlanet",
@@ -14923,7 +15296,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Deco"
     },
     "B_DecoSakura": {
       "id": "B_DecoSakura",
@@ -14944,7 +15318,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Deco"
     },
     "B_DecoSnake": {
       "id": "B_DecoSnake",
@@ -14965,7 +15340,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Deco"
     },
     "B_DecoDiver": {
       "id": "B_DecoDiver",
@@ -14986,7 +15362,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "BaseBuilding"
+      "displayCategory": "BaseBuilding",
+      "subcategory": "BaseBuilding_Deco"
     },
     "EmptyInventory": {
       "id": "EmptyInventory",
@@ -15066,7 +15443,8 @@
         "width": 1,
         "height": 1
       },
-      "displayCategory": "Minerals"
+      "displayCategory": "Minerals",
+      "subcategory": "Metal"
     },
     "Deprecated": {
       "id": "Deprecated",

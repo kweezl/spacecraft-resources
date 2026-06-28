@@ -125,10 +125,11 @@ class JsonValidityTests(unittest.TestCase):
             self.assertIsInstance(entry, dict, f"{key}: entry not an object")
             self.assertEqual(entry.get("id"), key, f"{key}: 'id' must match its key")
             self.assertIsInstance(entry.get("type"), str, f"{key}: missing string 'type'")
-            if "displayCategory" in entry:
-                self.assertIsInstance(
-                    entry["displayCategory"], str, f"{key}: 'displayCategory' not a string"
-                )
+            for field in ("displayCategory", "subcategory"):
+                if field in entry:
+                    self.assertIsInstance(
+                        entry[field], str, f"{key}: '{field}' not a string"
+                    )
 
     def test_craft_schema(self):
         data = self._load(GENERATED / "craft.json")

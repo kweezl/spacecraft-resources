@@ -148,6 +148,25 @@ def display_category(type_id, types: dict[str, dict]) -> str | None:
     return None
 
 
+def subcategory(type_id, types: dict[str, dict]) -> str | None:
+    """The game's subcategory: the nearest ancestor below the main category that
+    carries a `categoryIndex` and is not itself a main category (e.g. "Gathering"
+    = ShipGatheringTools, between MiningTool and the "External Module" main). None
+    when the type is itself a main category or has no indexed subcategory."""
+    current = type_id
+    seen: set[str] = set()
+    while isinstance(current, str) and current in types and current not in seen:
+        seen.add(current)
+        props = types[current].get("props") if isinstance(types[current].get("props"), dict) else {}
+        flags = props.get("flags")
+        if isinstance(flags, int) and flags & DISPLAY_CATEGORY_FLAG:
+            return None  # reached the main category before any subcategory
+        if props.get("categoryIndex") is not None:
+            return current
+        current = types[current].get("parent")
+    return None
+
+
 def parse_items(cdb_path: Path) -> dict:
     cdb = load_cdb(cdb_path)
     sheet = find_sheet(cdb, "item")
@@ -166,6 +185,9 @@ def parse_items(cdb_path: Path) -> dict:
         category = display_category(record.get("type"), types)
         if category is not None:
             record["displayCategory"] = category
+        sub = subcategory(record.get("type"), types)
+        if sub is not None:
+            record["subcategory"] = sub
         if record["id"] in items:
             raise ValueError(f"Duplicate item id {record['id']!r}")
         items[record["id"]] = record
