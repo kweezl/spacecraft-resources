@@ -114,5 +114,54 @@ class ParseCraftTests(unittest.TestCase):
                 craft.parse_craft(path)
 
 
+from src.lib import workshops  # noqa: E402  (added for craft-time tests)
+
+
+class ComputeCraftTimeTests(unittest.TestCase):
+    TIMES = {"Workshop_Smelter": {"auto": 180, "manual": 5},
+             "Workshop_Crystalizer": {"auto": None, "manual": None}}
+
+    def test_manual_uses_manual_factor(self):
+        rec = {"where": "Workshop_Smelter", "props": {"craftTimeFactor": 2, "manualTimeFactor": 5}}
+        self.assertEqual(craft.compute_craft_time(rec, self.TIMES), {"manual": 25, "auto": 360})
+
+    def test_manual_falls_back_to_craft_factor(self):
+        rec = {"where": "Workshop_Smelter", "props": {"craftTimeFactor": 4}}
+        self.assertEqual(craft.compute_craft_time(rec, self.TIMES), {"manual": 20, "auto": 720})
+
+    def test_absolute_auto_time_overrides(self):
+        rec = {"where": "Workshop_Crystalizer", "props": {"autoTime": 43200}}
+        self.assertEqual(craft.compute_craft_time(rec, self.TIMES), {"manual": None, "auto": 43200})
+
+    def test_none_when_not_derivable(self):
+        rec = {"where": "Workshop_Building", "props": {}}
+        self.assertIsNone(craft.compute_craft_time(rec, self.TIMES))
+
+
+class ParseCraftWithTimesTests(unittest.TestCase):
+    def test_recipe_gains_craft_time(self):
+        cdb = {"sheets": [
+            {"name": "craft", "lines": [
+                {"id": "Steel", "outputs": [{"item": "Steel"}],
+                 "where": "Workshop_Smelter", "props": {"craftTimeFactor": 2, "manualTimeFactor": 5}}]},
+            {"name": "itemTag", "lines": [
+                {"id": "Workshop_Smelter", "props": {"autoCraftTime": 180, "manualCraftTime": 5}}]},
+        ]}
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "data.cdb"
+            path.write_text(json.dumps(cdb), encoding="utf-8")
+            result = craft.parse_craft(path)
+        self.assertEqual(result["recipes"]["Steel"]["craftTime"], {"manual": 25, "auto": 360})
+
+    def test_recipe_without_workshop_has_no_craft_time(self):
+        cdb = {"sheets": [{"name": "craft", "lines": [
+            {"id": "X", "outputs": [{"item": "X"}]}]}]}
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "data.cdb"
+            path.write_text(json.dumps(cdb), encoding="utf-8")
+            result = craft.parse_craft(path)
+        self.assertNotIn("craftTime", result["recipes"]["X"])
+
+
 if __name__ == "__main__":
     unittest.main()
