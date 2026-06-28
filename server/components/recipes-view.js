@@ -49,11 +49,17 @@ export const RecipesView = {
           );
         });
       }
-      return list;
+      return [...list].sort((a, b) =>
+        sortName(a).localeCompare(sortName(b))
+      );
     });
 
     function headerItem(r) {
       return r.outputs && r.outputs.length ? r.outputs[0].item : null;
+    }
+    function sortName(r) {
+      const h = headerItem(r);
+      return (h && name(h)) || h || r.id;
     }
     function itemHref(id) {
       return "#/items/" + encodeURIComponent(id);

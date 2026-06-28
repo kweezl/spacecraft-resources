@@ -19,8 +19,6 @@ export const ItemsView = {
     const typeFilter = ref("all");
     const missingOnly = ref(false);
     const view = ref("cards");
-    const sortKey = ref("id");
-    const sortDir = ref(1);
     const imgFailed = ref({});
     const flashId = ref(null);
 
@@ -50,14 +48,6 @@ export const ItemsView = {
       props.items.reduce((n, it) => n + (iconSrc(it.id) ? 0 : 1), 0)
     );
 
-    function sortValue(it, key) {
-      if (key === "name") return (name(it.id) || it.id).toLowerCase();
-      if (key === "attrs") return (it.attributes && it.attributes.length) || 0;
-      const v = it[key];
-      if (v === undefined || v === null) return typeof v === "string" ? "" : -Infinity;
-      return typeof v === "string" ? v.toLowerCase() : v;
-    }
-
     const filtered = computed(() => {
       let list = props.items;
       if (typeFilter.value !== "all")
@@ -72,13 +62,9 @@ export const ItemsView = {
             (i.type || "").toLowerCase().includes(q)
         );
       }
-      const key = sortKey.value, dir = sortDir.value;
-      return [...list].sort((a, b) => {
-        const av = sortValue(a, key), bv = sortValue(b, key);
-        if (av < bv) return -dir;
-        if (av > bv) return dir;
-        return 0;
-      });
+      return [...list].sort((a, b) =>
+        (name(a.id) || a.id).localeCompare(name(b.id) || b.id)
+      );
     });
 
     function scalars(it) {
@@ -87,11 +73,6 @@ export const ItemsView = {
         if (it[k] !== undefined && it[k] !== null) out[k] = it[k];
       }
       return out;
-    }
-
-    function sortBy(key) {
-      if (sortKey.value === key) sortDir.value = -sortDir.value;
-      else { sortKey.value = key; sortDir.value = 1; }
     }
 
     function focusItem(id) {
@@ -113,9 +94,9 @@ export const ItemsView = {
     watch(() => props.focusId, (id) => { if (id) focusItem(id); }, { immediate: true });
 
     return {
-      search, typeFilter, missingOnly, view, sortKey, sortDir, imgFailed, flashId,
+      search, typeFilter, missingOnly, view, imgFailed, flashId,
       chipFields, tableColumns, types, missingIconCount, filtered,
-      iconSrc, name, desc, attrName, scalars, sortBy,
+      iconSrc, name, desc, attrName, scalars,
     };
   },
   template: `
@@ -185,9 +166,8 @@ export const ItemsView = {
         <thead class="bg-slate-50 text-slate-500 text-left">
           <tr>
             <th class="px-2 py-2">icon</th>
-            <th v-for="col in tableColumns" :key="col.key" class="px-2 py-2 cursor-pointer select-none whitespace-nowrap" @click="sortBy(col.key)">
+            <th v-for="col in tableColumns" :key="col.key" class="px-2 py-2 whitespace-nowrap">
               {{ col.label }}
-              <span v-if="sortKey===col.key">{{ sortDir===1 ? '▲' : '▼' }}</span>
             </th>
           </tr>
         </thead>
