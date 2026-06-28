@@ -1,0 +1,62 @@
+{
+  "_comment": "Minimal stand-in for the gitignored unpacked/data.cdb. Mirrors the real CDB shape (sheets -> lines) for the item, craft, itemType and attribute sheets so the parsers/icon generator have something to chew on in CI. Named .json (not .cdb) because the source-leak guard forbids committing .cdb files; load_cdb() is just json.load and is extension-agnostic.",
+  "sheets": [
+    {
+      "name": "item",
+      "lines": [
+        {
+          "id": "IronOre",
+          "type": "resource",
+          "price": 5,
+          "name": "Iron Ore",
+          "desc": "Raw iron, dug from rock.",
+          "props": {
+            "refDesc": "ore.iron",
+            "tag": "ore",
+            "skills": [{"skill": "Mining"}],
+            "lootMaterial": [{"item": "IronIngot"}]
+          },
+          "attributes": [{"attr": 0, "value": 10}],
+          "icon": {"file": "ui/icons/sheet.png", "size": 64, "x": 0, "y": 0, "width": 1, "height": 1},
+          "color": {"colors": [0, 16777215], "positions": [0.0, 1.0]}
+        },
+        {
+          "id": "IronIngot",
+          "type": "material",
+          "price": 12,
+          "name": "Iron Ingot",
+          "desc": "Smelted iron, ready to forge.",
+          "props": {"tags": [{"tag": "metal"}, {"tag": "refined"}]},
+          "attributes": [{"attr": 0, "value": 8}],
+          "icon": {"file": "ui/icons/sheet.png", "size": 64, "x": 1, "y": 0, "width": 1, "height": 1}
+        }
+      ]
+    },
+    {
+      "name": "craft",
+      "lines": [
+        {
+          "id": "SmeltIron",
+          "inputs": [{"item": "IronOre", "qty": 2}],
+          "outputs": [{"item": "IronIngot", "qty": 1}],
+          "where": "Furnace",
+          "category": "Smelting"
+        }
+      ]
+    },
+    {
+      "name": "itemType",
+      "lines": [
+        {"id": "resource", "name": "Resource"},
+        {"id": "material", "name": "Material"},
+        {"id": "Smelting", "name": "Smelting"}
+      ]
+    },
+    {
+      "name": "attribute",
+      "lines": [
+        {"id": "Weight", "name": "Weight", "props": {"desc": "How heavy the item is."}}
+      ]
+    }
+  ]
+}

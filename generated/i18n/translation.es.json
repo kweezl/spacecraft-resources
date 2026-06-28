@@ -1,0 +1,3195 @@
+{
+  "lang": "es",
+  "item": {
+    "IronOre": {
+      "name": "Mena de hierro"
+    },
+    "IronNugget": {
+      "name": "Pepita de hierro"
+    },
+    "Hematite": {
+      "name": "Hematita",
+      "desc": "Óxido de hierro cristalino, útil como blindaje contra la radiación debido a su alta densidad. También destaca por su conductividad eléctrica."
+    },
+    "Carbon": {
+      "name": "Carbono-a",
+      "desc": "Un material esencial en la mayoría de las industrias, ya sea en forma de carbón, diamante o grafito. Además es uno seis únicos elementos químicos presentes en todas las formas de vida conocidas."
+    },
+    "GraphiteCrystal": {
+      "name": "Cristal de grafito",
+      "desc": "Un cristal compuesto por múltiples capas de grafeno. Aunque podría describirse como un diamante sin pulir, es lo suficientemente barato como para utilizarse en lápices."
+    },
+    "Diamond": {
+      "name": "Diamante",
+      "desc": "Una forma cristalina de carbono puro. Sigue siendo el material más duro y con mayor conductividad térmica jamás observado."
+    },
+    "CopperOre": {
+      "name": "Mena de cobre"
+    },
+    "CopperNugget": {
+      "name": "Pepita de cobre"
+    },
+    "AzuriteStone": {
+      "name": "Piedra de azurita",
+      "desc": "Cristal de carbonato rico en cobre y utilizado a menudo como pigmento a lo largo de la historia de la humanidad."
+    },
+    "MalachiteStone": {
+      "name": "Piedra de malaquita",
+      "desc": "Cristal de carbonato rico en cobre y utilizado como adorno funerario desde el Antiguo Egipto hasta la Mesoamérica maya."
+    },
+    "ZirconiumOre": {
+      "name": "Mena de circonio"
+    },
+    "ZirconiumNugget": {
+      "name": "Pepita de circonio"
+    },
+    "Quartz": {
+      "name": "Cuarzo",
+      "desc": "Cristal compuesto principalmente de sílice, y un componente importante de muchos objetos astronómicos. Sus numerosas variedades se han comercializado como piedras preciosas desde la antigüedad."
+    },
+    "Sandstone": {
+      "name": "Silicato",
+      "desc": "Roca sedimentaria compuesta principalmente de silicio oxidado. Componente esencial del vidrio, la cerámica y el cemento, es tan abundante que los planetas terrestres también se conocen como \"planetas de silicato\"."
+    },
+    "Kaolinite": {
+      "name": "Caolinita",
+      "desc": "Un tipo de mineral de silicato muy común, ampliamente utilizado en la producción de papel y pintura y que se encuentra a menudo en capas de arcilla. Es seguro ingerirlo en pequeñas cantidades, y también es un ingrediente común en la pasta de dientes."
+    },
+    "QuartzShavings": {
+      "name": "Polvo de cuarzo"
+    },
+    "Calcite": {
+      "name": "Calcita",
+      "desc": "Cristal de carbonato también conocido como alabastro. Principal componente de la piedra caliza y el mármol, es el material de escultura por excelencia."
+    },
+    "TitaniumOre": {
+      "name": "Mena de titanio"
+    },
+    "TitaniumNugget": {
+      "name": "Pepita de titanio"
+    },
+    "AluminiumOre": {
+      "name": "Mena de aluminio"
+    },
+    "AluminiumNugget": {
+      "name": "Pepita de aluminio"
+    },
+    "Turquoise": {
+      "name": "Turquesa",
+      "desc": "Gema opaca formada por el contacto de agua meteórica y pórfido de cobre."
+    },
+    "Aquamarine": {
+      "name": "Aguamarina",
+      "desc": "Cristal de la familia del berilo, comercializado como piedra preciosa y valorado por su característico tono azul claro."
+    },
+    "Emerald": {
+      "name": "Esmeralda",
+      "desc": "Cristal de la familia del berilo, comercializado como piedra preciosa y valorado por su característico tono verde oscuro."
+    },
+    "Pyrite": {
+      "name": "Pirita",
+      "desc": "Sulfuro de hierro cristalino. Conocida popularmente como el \"oro de los tontos\" por su bajo valor, no obstante es un semiconductor útil y un componente fotovoltaico común."
+    },
+    "Cinnabar": {
+      "name": "Cinabrio",
+      "desc": "Un cristal de sulfuro de mercurio, que fue muy utilizado como pigmento por su brillante color rojo, antes de que se reconociera la alta toxicidad o la presencia del mercurio."
+    },
+    "Sulfur": {
+      "name": "Sulfuro",
+      "desc": "Material cristalino, componente químico y fertilizante. Descrito en la Biblia como el azufre del infierno, es uno de los seis únicos elementos químicos presentes en todas las formas de vida conocidas."
+    },
+    "VanadiumOre": {
+      "name": "Mena de vanadio"
+    },
+    "SilverNugget": {
+      "name": "Pepita de plata"
+    },
+    "PlatinumOre": {
+      "name": "Mena de platino"
+    },
+    "PlatinumNugget": {
+      "name": "Pepita de platino"
+    },
+    "TungstenOre": {
+      "name": "Mena de tungsteno"
+    },
+    "TungstenNugget": {
+      "name": "Pepita de tungsteno"
+    },
+    "UraniumNugget": {
+      "name": "Pepita de uranio",
+      "desc": "Material radiactivo peligroso que no debe manipularse sin el equipo adecuado."
+    },
+    "ElmeriumNugget": {
+      "name": "Pepita de elmerio"
+    },
+    "ElmeriumShavings": {
+      "name": "Polvo de elmerio"
+    },
+    "LowCrystal": {
+      "name": "Gema nubosa"
+    },
+    "Crystal": {
+      "name": "Gema clara",
+      "desc": "Las piedras preciosas pueden tener diferentes composiciones, aspectos y propiedades. Su rasgo común es un atractivo estético que los hace valiosos para los humanos."
+    },
+    "BigCrystal": {
+      "name": "Gema hermosa"
+    },
+    "HudgeCrystal": {
+      "name": "Gema maravillosa"
+    },
+    "TurquoiseBead": {
+      "name": "Cuenta turquesa"
+    },
+    "CalcifiedInvariant": {
+      "name": "Invariante calcificado",
+      "desc": "Las piedras antiguas, bañadas por las energías primordiales del Big Bang, a veces poseen una huella energética que las hace inconfundibles."
+    },
+    "SpaceWheat_Seed": {
+      "name": "Semilla de maíz espacial",
+      "desc": "La semilla de maíz espacial es un organismo alienígena altamente adaptable. Mejor aún, es una fuente de nutrientes compatibles con la biología humana."
+    },
+    "SpaceWheat_PlainPulp": {
+      "name": "Pulpa simple",
+      "desc": "Esta pulpa es prácticamente insípida, a pesar del nutriente inusual que contiene."
+    },
+    "SpaceWheat_SourPulp": {
+      "name": "Pulpa ácida",
+      "desc": "Esta pulpa ya se ha echado a perder y podría ser una fuente de compuestos fermentados."
+    },
+    "SpaceWheat_WoolyKorn": {
+      "name": "Maíz lanudo",
+      "desc": "Esta cáscara dura y fibrosa debería contener algunas semillas de maíz espacial. Se necesita un molinillo para extraerlas."
+    },
+    "SpaceWheat_FrostPulp": {
+      "name": "Pulpa helada",
+      "desc": "A pesar de su nombre, esta pulpa es extrañamente tibia, como si no le afectara la temperatura exterior."
+    },
+    "Rockwood_Seed": {
+      "name": "Nuez de madera de roca",
+      "desc": "La madera de roca combina compuestos minerales y orgánicos de una manera inusual. Con frecuencia produce estructuras minerales complejas que rara vez se encuentran en otros lugares de la naturaleza."
+    },
+    "Rockwood_DreamwoodFruit": {
+      "name": "Esporula de ensueño",
+      "desc": "Se desaconseja totalmente el consumo de esta fruta. Los efectos secundarios pueden incluir: alucinaciones vívidas, paranoia aguda y muerte súbita."
+    },
+    "Rockwood_GlowwoodFruit": {
+      "name": "Nódulo brillante",
+      "desc": "Esta baya brillante está ligeramente tibia al tacto, señal de radiactividad latente."
+    },
+    "Rockwood_GlowwoodBark": {
+      "name": "Corteza rugosa",
+      "desc": "Esta corteza oscura y gruesa ha crecido en un entorno radiactivo, pero no parece haber sufrido por ello."
+    },
+    "Water": {
+      "name": "Agua",
+      "desc": "Al ser un disolvente extraordinariamente neutro con una fuerte polaridad y un pequeño tamaño molecular, el agua es esencial para todas las formas de vida conocidas y la mayoría de las industrias conocidas."
+    },
+    "Water_Brine": {
+      "name": "Agua de salmuera",
+      "desc": "Las grandes masas de agua abiertas al cielo están contaminadas con muchos compuestos y necesitan ser tratadas antes de utilizarse en aplicaciones químicas."
+    },
+    "Water_Waste": {
+      "name": "Agua contaminada"
+    },
+    "Ethanol": {
+      "name": "Etanol",
+      "desc": "Aunque es bien conocido por sus propiedades recreativas, el etanol es un biocombustible denso y un disolvente útil para las manchas de grasa."
+    },
+    "XenicOil": {
+      "name": "Aceite xénico",
+      "desc": "El aceite xénico, un hidrocarburo orgánico extraído de semillas alienígenas, es un lubricante útil y un combustible mediocre."
+    },
+    "ThermalPaste": {
+      "name": "Pasta térmica",
+      "desc": "Esta pasta semiorgánica es excepcionalmente resistente a los cambios de temperatura. Puede utilizarse para protegerse de condiciones extremas."
+    },
+    "Mercury": {
+      "name": "Mercurio",
+      "desc": "El mercurio es el único metal conocido que se encuentra en estado líquido a temperatura ambiente. Se amalgama con muchos otros metales y es altamente tóxico para los seres humanos."
+    },
+    "Vitriol": {
+      "name": "Ácido sulfúrico",
+      "desc": "El ácido sulfúrico es una de las sustancias industriales más utilizadas. Existen muchas maneras de producir este componente, e incluso más maneras de utilizarlo."
+    },
+    "Helium": {
+      "name": "Helio"
+    },
+    "Radon": {
+      "name": "Radón",
+      "desc": "Un gas radiactivo peligroso que no debe manipularse sin el equipo adecuado."
+    },
+    "FToiL": {
+      "name": "Plasma magnético",
+      "desc": "El descubrimiento de este extraordinario combustible fue lo que hizo posible la invención de los saltos superlumínicos."
+    },
+    "Bottle_Empty": {
+      "name": "Botella de acero inoxidable",
+      "desc": "Un recipiente rudimentario pero fiable para sustancias líquidas o semifluidas, que permite almacenarlas en las bodegas de carga habituales."
+    },
+    "Bottle_Water": {
+      "name": "Botella de agua"
+    },
+    "Bottle_WaterBrine": {
+      "name": "Botella de agua de salmuera"
+    },
+    "Bottle_Ethanol": {
+      "name": "Botella de etanol"
+    },
+    "Bottle_XenicOil": {
+      "name": "Botella de aceite xénico"
+    },
+    "Bottle_ThermalPaste": {
+      "name": "Botella de pasta térmica"
+    },
+    "Bottle_Vitriol": {
+      "name": "Botella de ácido sulfúrico"
+    },
+    "Bottle_Mercury": {
+      "name": "Botella de mercurio"
+    },
+    "BottlePlasma_Empty": {
+      "name": "Botella de confinamiento",
+      "desc": "Un contenedor de plasma magnético resistente, que permite almacenar esta sustancia en bodegas de carga convencionales."
+    },
+    "BottlePlasma_FToiL": {
+      "name": "Botella de plasma magnético"
+    },
+    "IronIngot": {
+      "name": "Lingote de hierro",
+      "desc": "Un material estrechamente relacionado con la llegada de la civilización humana. Ampliamente utilizado en la industria, es uno de los elementos más abundantes en los planetas terrestres."
+    },
+    "Graphene": {
+      "name": "Grafeno",
+      "desc": "Un material compuesto por átomos de carbono entrelazados. Su inigualable fuerza de tracción lo convierte en una solución óptima cuando la ligereza y la solidez son esenciales."
+    },
+    "CopperIngot": {
+      "name": "Lingote de cobre",
+      "desc": "Un material altamente conductor que destaca por su versatilidad. Se presenta en la naturaleza como un metal nativo, pero también se puede encontrar en forma de cristales."
+    },
+    "ZirconiumIngot": {
+      "name": "Lingote de circonio",
+      "desc": "Un material extraordinariamente resistente a la corrosión y a las altas temperaturas. También es capaz de almacenar energía radiactiva con una pérdida mínima."
+    },
+    "TitaniumIngot": {
+      "name": "Lingote de titanio",
+      "desc": "Un material comúnmente utilizado en aleaciones por su ligereza, resistencia y biocompatibilidad. También se puede encontrar en la mayoría de los organismos vivos."
+    },
+    "SiliciumIngot": {
+      "name": "Lingote de silicio",
+      "desc": "Un semiconductor extraordinariamente equilibrado que se utiliza en la mayoría de los dispositivos electrónicos. Este metaloide también se puede encontrar en la arcilla, el vidrio y numerosos tipos de piedra."
+    },
+    "AluminiumIngot": {
+      "name": "Lingote de aluminio",
+      "desc": "Un material que destaca por su muy baja densidad y alta conductividad. Aunque es abundante, rara vez aparece de forma natural en estado puro."
+    },
+    "VanadiumIngot": {
+      "name": "Lingote de vanadio",
+      "desc": "Un material comúnmente utilizado en aleaciones de acero. También se puede encontrar como toxina en diversos organismos vivos."
+    },
+    "SilverIngot": {
+      "name": "Lingote de plata",
+      "desc": "Es el metal más conductor y reflectante de todos. Se puede encontrar en su forma pura de manera natural, y se ha utilizado en numerosos aspectos de la industria humana y el arte durante milenios."
+    },
+    "PlatinumIngot": {
+      "name": "Lingote de platino",
+      "desc": "Un metal noble de valor especialmente elevado. Su notable resistencia a la corrosión lo convierte en un componente industrial muy valorado."
+    },
+    "TungstenIngot": {
+      "name": "Lingote de tungsteno",
+      "desc": "El tungsteno es un metal denso y duro con un punto de fusión excepcionalmente alto, lo que hace que sea difícil de trabajar, pero sus propiedades también lo convierten en un componente fundamental de muchas aleaciones."
+    },
+    "Steel": {
+      "name": "Lingote de acero",
+      "desc": "Aleación de hierro y carbono, que frecuentemente incorpora cromo para prevenir la oxidación. Su fiabilidad y bajo coste lo convierten en un elemento básico de la mayoría de las industrias."
+    },
+    "AluK": {
+      "name": "Lingote de alu-k",
+      "desc": "Una aleación de aluminio, de bajo peso y con un excelente aislamiento térmico."
+    },
+    "BTitanium": {
+      "name": "Lingote de titanio-b",
+      "desc": "Aleación de titanio y vanadio, valorada por su extraordinaria maleabilidad, que la convierte en un excelente material para soldar."
+    },
+    "Levinium": {
+      "name": "Lingote de levinio",
+      "desc": "Un material metálico descubierto recientemente, que destaca por su extraordinaria ligereza. Sus propiedades y casos de uso son aún relativamente desconocidos."
+    },
+    "Unbendinium": {
+      "name": "Lingote de unbendinio",
+      "desc": "Esta misteriosa aleación ha sido fundamental para la logística de los viajes espaciales de la humanidad. Su resistencia a la tracción y su límite elástico no se pueden comparar a ningún otro metal conocido por el hombre."
+    },
+    "Elmerium": {
+      "name": "Núcleo de elmerio",
+      "desc": "Un material relativamente poco conocido cuyas propiedades electromagnéticas pueden moldear los campos de plasma. Su descubrimiento durante la era de los Planetas Unidos impulsó el desarrollo de los escudos superlumínicos."
+    },
+    "Wire": {
+      "name": "Cable",
+      "desc": "Un dispositivo sencillo para transmitir corriente eléctrica entre dos puntos."
+    },
+    "Pipe1": {
+      "name": "Tubería sellada",
+      "desc": "Un dispositivo sencillo para transferir fluidos entre dos puntos."
+    },
+    "Pipe2": {
+      "name": "Tubo resistente a la presión"
+    },
+    "Coil": {
+      "name": "Bobina magnética",
+      "desc": "Un dispositivo sencillo que convierte campos magnéticos en corriente eléctrica, y viceversa."
+    },
+    "Motor": {
+      "name": "Motor",
+      "desc": "Un dispositivo que convierte la energía eléctrica en movimiento, y viceversa."
+    },
+    "Pump": {
+      "name": "Bomba",
+      "desc": "Un dispositivo para impulsar fluidos a través de tuberías conectadas."
+    },
+    "Actuator": {
+      "name": "Activador hidráulico",
+      "desc": "Un dispositivo que convierte la presión de un fluido en movimientos precisos y controlados."
+    },
+    "ElmeriumEngine": {
+      "name": "Motor de elmerio",
+      "desc": "Un dispositivo capaz de dispersar un campo de plasma a través de un volumen esférico. Un componente esencial de la mayoría de los modelos Escudo."
+    },
+    "Focuser": {
+      "name": "Enfocador cristalino",
+      "desc": "Un dispositivo óptico para concentrar la radiación a través de cristales pulidos."
+    },
+    "Focuser2": {
+      "name": "Hiperlente"
+    },
+    "Focuser3": {
+      "name": "Lente ciliar"
+    },
+    "Graphenoid": {
+      "name": "Grafenoide cuántico",
+      "desc": "Una estructura de grafeno que exhibe efectos moleculares cuánticos, esenciales para que los motores superlumínicos de alta gama puedan alcanzar masa negativa."
+    },
+    "Alternator": {
+      "name": "Alternador Hall",
+      "desc": "Un dispositivo capaz de producir un fuerte efecto Hall, que permite a los propulsores iónicos acelerar su propelente."
+    },
+    "Grating": {
+      "name": "Red de difracción",
+      "desc": "Un dispositivo óptico que descompone la luz en un espectro de frecuencias."
+    },
+    "MagneticChamber": {
+      "name": "Cámara de confinamiento",
+      "desc": "Un dispositivo que permite que la corriente de plasma fluya en movimiento circular a alta velocidad sin desviarse de su trayectoria."
+    },
+    "MetalBolt": {
+      "name": "Tuerca y tornillo",
+      "desc": "Un dispositivo sencillo que utiliza la fuerza de torsión para unir componentes."
+    },
+    "MetalSheet1": {
+      "name": "Chapa metálica",
+      "desc": "Una chapa de metal procesada industrialmente, por lo general utilizada como material básico de construcción."
+    },
+    "MetalSheet2": {
+      "name": "Chapa metálica resistente"
+    },
+    "MetalSheet3": {
+      "name": "Chapa metálica de alta calidad"
+    },
+    "MagSheet": {
+      "name": "Chapa monomagnética",
+      "desc": "Una chapa de elmerio polarizada magnéticamente, comúnmente utilizada para las capas internas de los tanques de plasma magnético."
+    },
+    "ThermalSheet": {
+      "name": "Chapa térmica",
+      "desc": "Una chapa de metal procesada industrialmente con una conductividad térmica extraordinariamente baja."
+    },
+    "Plate1": {
+      "name": "Placa de acero inoxidable",
+      "desc": "Un panel metálico grueso capaz de resistir condiciones climáticas adversas. Se utiliza habitualmente en la construcción de exteriores o en cascos de naves."
+    },
+    "Plate2": {
+      "name": "Placa inerte"
+    },
+    "Plate_Light": {
+      "name": "Placa muy ligera"
+    },
+    "Beam1": {
+      "name": "Viga estructural",
+      "desc": "Una pieza de metal alargada con una sección transversal en forma de H. Se utiliza comúnmente en la construcción para proporcionar resistencia estructural."
+    },
+    "Beam2": {
+      "name": "Viga resistente"
+    },
+    "Beam3": {
+      "name": "Viga rígida"
+    },
+    "SolarCell": {
+      "name": "Célula solar",
+      "desc": "Un dispositivo electrónico que convierte las ondas electromagnéticas en electricidad."
+    },
+    "SiliconeGel": {
+      "name": "Gel de silicona",
+      "desc": "Un semisólido no reactivo y altamente absorbente, utilizado principalmente en química, filtración de agua y refrigeración."
+    },
+    "Semiconductor": {
+      "name": "Sustrato semiconductor",
+      "desc": "Una página en blanco para un futuro microchip o célula solar."
+    },
+    "MicroChip": {
+      "name": "Microchip",
+      "desc": "Un dispositivo electrónico que ejecuta programas informáticos mediante una serie de operaciones matemáticas sencillas. También conocido como \"unidad central de procesamiento\"."
+    },
+    "Gunpowder": {
+      "name": "Explosivo sólido",
+      "desc": "Compuesto químico que deflagra al calentarse."
+    },
+    "AluPowder": {
+      "name": "Polvo de aluminio"
+    },
+    "Fertilizer_Neutral": {
+      "name": "Fertilizante neutro",
+      "desc": "Un suplemento en polvo que se puede administrar a plantas alienígenas para proporcionarles nutrientes específicos."
+    },
+    "Fertilizer_Acidic": {
+      "name": "Fertilizante ácido"
+    },
+    "Fertilizer_Carbonic": {
+      "name": "Fertilizante carbónico"
+    },
+    "Fertilizer_Metallic": {
+      "name": "Fertilizante metálico"
+    },
+    "ActivatedCoal": {
+      "name": "Carbón activado",
+      "desc": "Una forma porosa de carbono con excelentes propiedades de adsorción. Ampliamente utilizado para filtrar gases y fluidos."
+    },
+    "CarbonicFuel": {
+      "name": "Supercombustible carbónico",
+      "desc": "Un derivado del carbono ultraprocesado, diseñado como una alternativa más eficiente a los combustibles fósiles naturales."
+    },
+    "Battery": {
+      "name": "Batería química",
+      "desc": "Un dispositivo capaz de almacenar energía química y convertirla en electricidad. Constituye la base de los RSM de baterías más grandes."
+    },
+    "ThermalIsolant": {
+      "name": "Lana térmica",
+      "desc": "Una fibra mineral que atrapa finas capas de aire para ralentizar la conducción térmica. Su nombre evoca el dulce recuerdo de una época en la que todavía existía la lana auténtica."
+    },
+    "Antimatter_Empty": {
+      "name": "Núcleo de antimateria (vacío)",
+      "desc": "Un contenedor para guardar antipartículas. La antimateria, notoriamente difícil de producir, es aún más difícil de almacenar."
+    },
+    "Antimatter_Full": {
+      "name": "Núcleo de antimateria (lleno)"
+    },
+    "MissileAirframe_Small": {
+      "name": "Armazón de misiles pequeños",
+      "desc": "Una carcasa metálica y una estructura de propulsión capaces de transportar una ojiva explosiva."
+    },
+    "Concrete": {
+      "name": "Hormigón",
+      "desc": "Un agregado artificial de minerales unidos por una sustancia química conocida como cemento. El hormigón, utilizado principalmente en la construcción, era el material más fabricado en la Tierra."
+    },
+    "Protein": {
+      "name": "Proteína xénica",
+      "desc": "Las proteínas, un componente esencial de los organismos vivos, son biomoléculas compuestas por cadenas de aminoácidos."
+    },
+    "Lime": {
+      "name": "Cal",
+      "desc": "Un componente mineral que se utiliza comúnmente en el cemento y el hormigón. Se obtiene mediante la carbonatación de la piedra caliza y está compuesta principalmente de óxidos de calcio."
+    },
+    "CrystalLattice_M": {
+      "name": "Matriz de cristal-m",
+      "desc": "Un cristal tallado con precisión que puede utilizarse en un dispositivo óptico. Su estructura monoclínica es notablemente asimétrica."
+    },
+    "CrystalLattice_H": {
+      "name": "Matriz de cristal-h",
+      "desc": "Un cristal tallado con precisión que puede utilizarse en un dispositivo óptico. Su estructura hexagonal es la más común en la naturaleza."
+    },
+    "CrystalLattice_C": {
+      "name": "Matriz de cristal-c",
+      "desc": "Un cristal tallado con precisión que puede utilizarse en un dispositivo óptico. Su estructura cúbica es la forma cristalina más simple que se encuentra en la naturaleza."
+    },
+    "SteelScraps": {
+      "name": "Chatarra de acero",
+      "desc": "La chatarra es el resultado del desmontaje industrial. No se pueden reutilizar sin un procesamiento extenso en una [B_RecyclingPlant]."
+    },
+    "AluScraps": {
+      "name": "Chatarra de aluminio"
+    },
+    "IronScraps": {
+      "name": "Chatarra de hierro"
+    },
+    "TitaniumScraps": {
+      "name": "Chatarra de titanio"
+    },
+    "BuildingScraps": {
+      "name": "Escombros industriales",
+      "desc": "Los escombros son el resultado del desmantelamiento industrial y contiene restos de diferentes metales."
+    },
+    "SystemScraps": {
+      "name": "Grandes cantidades de chatarra electrónica",
+      "desc": "La chatarra electrónica son dispositivos que están dañados sin posibilidad de reparación. Se pueden desmontar para extraer las piezas de cobre y silicio."
+    },
+    "SteelHullScraps": {
+      "name": "Casco destrozado",
+      "desc": "Los cascos destrozados son partes de naves que han sufrido daños irreparables. Se pueden desmontar para extraer piezas de acero, aluminio y cobre."
+    },
+    "ModuleCasing1": {
+      "name": "Kit de módulos pequeños",
+      "desc": "Un estándar universal que sirve de base para todos los \"módulos de nave Reliant\". El RSM se ancla a su nave asociada mediante imanes electropermanentes B-Switch."
+    },
+    "ModuleCasing2": {
+      "name": "Kit de módulo"
+    },
+    "ModuleCasing3": {
+      "name": "Kit de módulo grande"
+    },
+    "SupportCasing": {
+      "name": "Hardware de soporte",
+      "desc": "Un conjunto estandarizado de cables y tuberías que permite a todos los RSM comunicarse con su nave asociada. Sigue la convención del \"Sistema de circulación de ensamblaje de módulos\" o MACS."
+    },
+    "SteelCasingMK1": {
+      "name": "Carcasa de piezas de acero pequeña",
+      "desc": "Un casco modular que recubre un barco o un RSM. Además de limitar la fricción en espacios atmosféricos, la carcasa proporciona protección contra la radiación electromagnética."
+    },
+    "TitaniumCasingMK1": {
+      "name": "Carcasa de piezas de titanio pequeña"
+    },
+    "TitaniumCasingMK2": {
+      "name": "Carcasa de piezas de titanio"
+    },
+    "PlatinumCasingMK1": {
+      "name": "Carcasa de armazón sólido pequeña"
+    },
+    "PlatinumCasingMK2": {
+      "name": "Carcasa de armazón sólido"
+    },
+    "LeviniumCasingMK1": {
+      "name": "Carcasa de piezas de levinio pequeña"
+    },
+    "AlloyXCasingMK1": {
+      "name": "Carcasa de aleación X pequeña"
+    },
+    "AlloyXCasingMK2": {
+      "name": "Carcasa de aleación X"
+    },
+    "ControlBaseKit": {
+      "name": "Kit de despliegue de base",
+      "desc": "Este dispositivo autónomo puede desplegar una base planetaria en cuestión de segundos. Su uso está reservado a los asociados autorizados seleccionados por la Compañía."
+    },
+    "ControlBaseCore": {
+      "name": "Unidad de núcleo base",
+      "desc": "Este dispositivo puede reclamar el área circundante para la base del usuario y suministrarle energía eléctrica. Su uso está reservado a los asociados autorizados seleccionados por la Compañía."
+    },
+    "HullMK1_Flat_Steel_Virtual": {
+      "name": "Pieza de acero virtual plano mod. 1"
+    },
+    "HullMK1_Steel_Virtual": {
+      "name": "Pieza de acero virtual mod. 1"
+    },
+    "HullMK1_Titanium_Virtual": {
+      "name": "Pieza de titanio virtual mod. 1"
+    },
+    "HullMK2_Titanium_Virtual": {
+      "name": "Pieza de titanio virtual mod. 2"
+    },
+    "HullMK1_004": {
+      "name": "Acero 4x3x1",
+      "desc": "Las naves espaciales se componen de tres capas principales: una capa exterior antivacío, hecha de material resistente; un esqueleto interno estructuralmente sólido formado por vigas pesadas; y los sistemas internos que mantienen la nave habitable y en funcionamiento."
+    },
+    "Wing_01": {
+      "name": "Disruptor \"Nimbus\""
+    },
+    "Wing_02": {
+      "name": "Disruptor \"Catfin\""
+    },
+    "Wing_03": {
+      "name": "Ala \"Warden\""
+    },
+    "HullMK1_005": {
+      "name": "Acero 6x3x1"
+    },
+    "HullMK1_006": {
+      "name": "Acero 8x3x1"
+    },
+    "HullMK1_001": {
+      "name": "Acero 4x3x2"
+    },
+    "HullMK1_002": {
+      "name": "Acero 6x3x2"
+    },
+    "HullMK1_003": {
+      "name": "Acero 8x3x2"
+    },
+    "HullMK1_004_Steel_AluK": {
+      "name": "Acero térmico 4x3x1"
+    },
+    "Wing_01_Steel_AluK": {
+      "name": "Disruptor térmico \"Nimbus\""
+    },
+    "Wing_02_Steel_AluK": {
+      "name": "Disruptor térmico \"Catfin\""
+    },
+    "Wing_03_Steel_AluK": {
+      "name": "Disruptor térmico \"Warden\""
+    },
+    "HullMK1_005_Steel_AluK": {
+      "name": "Acero térmico 6x3x1"
+    },
+    "HullMK1_006_Steel_AluK": {
+      "name": "Acero térmico 8x3x1"
+    },
+    "HullMK1_001_Steel_AluK": {
+      "name": "Acero térmico 4x3x2"
+    },
+    "HullMK1_002_Steel_AluK": {
+      "name": "Acero térmico 6x3x2"
+    },
+    "HullMK1_003_Steel_AluK": {
+      "name": "Acero térmico 8x3x2"
+    },
+    "HullMK1_004_Tit": {
+      "name": "Titanio 4x3x1"
+    },
+    "HullMK1_005_Tit": {
+      "name": "Titanio 6x3x1"
+    },
+    "HullMK1_006_Tit": {
+      "name": "Titanio 8x3x1"
+    },
+    "HullMK1_001_Tit": {
+      "name": "Titanio 4x3x2"
+    },
+    "HullMK1_002_Tit": {
+      "name": "Titanio 6x3x2"
+    },
+    "HullMK1_003_Tit": {
+      "name": "Titanio 8x3x2"
+    },
+    "HullMK2_004_Tit": {
+      "name": "Titanio 8x6x2"
+    },
+    "Wing_04": {
+      "name": "Ala \"Condor\""
+    },
+    "HullMK2_005_Tit": {
+      "name": "Titanio 12x6x2"
+    },
+    "HullMK2_006_Tit": {
+      "name": "Titanio 16x6x2"
+    },
+    "HullMK1_004_Tit_AluK": {
+      "name": "Titanio térmico 4x3x1"
+    },
+    "HullMK1_005_Tit_AluK": {
+      "name": "Titanio térmico 6x3x1"
+    },
+    "HullMK1_006_Tit_AluK": {
+      "name": "Titanio térmico 8x3x1"
+    },
+    "HullMK1_001_Tit_AluK": {
+      "name": "Titanio térmico 4x3x2"
+    },
+    "HullMK1_002_Tit_AluK": {
+      "name": "Titanio térmico 6x3x2"
+    },
+    "HullMK1_003_Tit_AluK": {
+      "name": "Titanio térmico 8x3x2"
+    },
+    "HullMK2_004_Tit_AluK": {
+      "name": "Titanio térmico 8x6x2"
+    },
+    "Wing_04_Tit_AluK": {
+      "name": "Ala \"Condor\" térmica"
+    },
+    "HullMK2_005_Tit_AluK": {
+      "name": "Titanio térmico 12x6x2"
+    },
+    "HullMK2_006_Tit_AluK": {
+      "name": "Titanio térmico 16x6x2"
+    },
+    "HullMK1_001_Lev": {
+      "name": "Levinio 4x3x2"
+    },
+    "HullMK1_002_Lev": {
+      "name": "Levinio 6x3x2"
+    },
+    "HullMK1_003_Lev": {
+      "name": "Levinio 8x3x2"
+    },
+    "HullMK1_004_Plat": {
+      "name": "Armazón sólido 4x3x1"
+    },
+    "HullMK1_005_Plat": {
+      "name": "Armazón sólido 6x3x1"
+    },
+    "HullMK1_006_Plat": {
+      "name": "Armazón sólido 8x3x1"
+    },
+    "HullMK2_004_Plat": {
+      "name": "Armazón sólido 8x6x2"
+    },
+    "HullMK2_005_Plat": {
+      "name": "Armazón sólido 12x6x2"
+    },
+    "HullMK2_006_Plat": {
+      "name": "Armazón sólido 16x6x2"
+    },
+    "HullMK1_004_AX": {
+      "name": "Aleación X 4x3x1"
+    },
+    "HullMK1_005_AX": {
+      "name": "Aleación X 6x3x1"
+    },
+    "HullMK1_006_AX": {
+      "name": "Aleación X 8x3x1"
+    },
+    "HullMK1_001_AX": {
+      "name": "Aleación X 4x3x2"
+    },
+    "HullMK1_002_AX": {
+      "name": "Aleación X 6x3x2"
+    },
+    "HullMK1_003_AX": {
+      "name": "Aleación X 8x3x2"
+    },
+    "HullMK2_004_AX": {
+      "name": "Aleación X 8x6x2"
+    },
+    "HullMK2_005_AX": {
+      "name": "Aleación X 12x6x2"
+    },
+    "HullMK2_006_AX1": {
+      "name": "Aleación X 12x6x4"
+    },
+    "HullMK2_007_AX": {
+      "name": "Aleación X 16x6x2"
+    },
+    "HullMK2_008_AX1": {
+      "name": "Aleación X 16x6x4"
+    },
+    "Cockpit_LR1": {
+      "name": "Cabina de \"Interceptor\" LR"
+    },
+    "Cockpit_LR2": {
+      "name": "Cabina de \"Raptor\" LR"
+    },
+    "Cockpit_LR3": {
+      "name": "Cabina de \"Marauder\" LR"
+    },
+    "Cockpit_AE1": {
+      "name": "Cabina de \"Pathfinder\"",
+      "desc": "La cabina individual del AEgir es aerodinámica para reducir la probabilidad de daños críticos durante los saltos superlumínicos. También incluye una batería pequeña, pero de alta eficiencia."
+    },
+    "Cockpit_AE2": {
+      "name": "Cabina de \"Wanderback\"",
+      "desc": "La espaciosa cabina de mando del Aegir es una maravilla tecnológica, capaz de guardar una ubicación precisa a la que puede regresar en cualquier momento sin usar plasma magnético y sin riesgo de sufrir daños."
+    },
+    "Cockpit_AE3": {
+      "name": "Cubierta del \"Skygazer\" AE"
+    },
+    "Cockpit_TC1": {
+      "name": "Cabina \"Brick\"",
+      "desc": "La cabina de nivel básico de la Compañía, instalada principalmente en vehículos de prueba."
+    },
+    "Cockpit_MK1": {
+      "name": "Cabina \"Beaver\"",
+      "desc": "La cabina individual de Meitner & Karls está optimizada para ofrecer espacio de almacenamiento y resistencia a las colisiones, lo que la convierte en la opción perfecta para transportar carga a través de campos de asteroides."
+    },
+    "Cockpit_MK2": {
+      "name": "Cabina de mando \"Anvil\"",
+      "desc": "La cabina de mando de Meitner & Karls es lo suficientemente grande como para incluir una fundición a bordo, parecida a las que se construirían en una base terrestre."
+    },
+    "Cockpit_MK3": {
+      "name": "Cubierta \"Foreman\" de M&K"
+    },
+    "Cockpit_DA1": {
+      "name": "Cubierta de mando \"Cocoon\"",
+      "desc": "La cabina individual de Damona es una proeza de la ingeniería de aislamiento que la hace menos vulnerable a las temperaturas exteriores, pero también ralentiza el enfriamiento por láser. También incluye un pequeño radiador para ayudar a la nave a evacuar el exceso de calor o a generarlo cuando hace frío."
+    },
+    "Cockpit_DA2": {
+      "name": "Cabina de mando \"Reality\""
+    },
+    "Cockpit_DA3": {
+      "name": "Cubierta \"PlaceholderName\" DA"
+    },
+    "Deco_01": {
+      "name": "Escotilla redonda",
+      "desc": "Esta junta de seguridad que cubre una abertura de la nave espacial también puede tener cierto valor ornamental. En ausencia de ruedas, sirve como borde decorativo."
+    },
+    "Deco_04": {
+      "name": "Ventilación de entrada"
+    },
+    "Deco_05": {
+      "name": "Ventilación de entrada grande"
+    },
+    "Light_01": {
+      "name": "Foco de luz",
+      "desc": "Una buena luz, utilizada para abrir un camino de visión en la oscuridad."
+    },
+    "Light_02": {
+      "name": "Tira de luces"
+    },
+    "Light_03": {
+      "name": "Foco delantero"
+    },
+    "Thruster0": {
+      "name": "Propulsor \"Remolcador\"",
+      "desc": "Este dispositivo de propulsión eléctrica genera empuje y sustentación a una nave espacial sin necesidad de combustión ni de combustibles no renovables."
+    },
+    "Thruster1": {
+      "name": "\"Potenciador de largo alcance\""
+    },
+    "Thruster2": {
+      "name": "\"Propulsor silencioso\""
+    },
+    "ThrusterAE1": {
+      "name": "Propulsor \"Brisa silenciosa\"",
+      "desc": "Este sutil propulsor AEgir se integra profundamente en los sistemas de la nave para alcanzar la cima de la eficiencia energética y la oscuridad inexplorada."
+    },
+    "ThrusterMK1": {
+      "name": "Propulsor \"Saltamontes\"",
+      "desc": "Meitner & Karls han diseñado este potente propulsor para hacer frente al calor seco de las expediciones mineras más intensas."
+    },
+    "ThrusterDA1": {
+      "name": "Propulsor \"Buscador del vacío\"",
+      "desc": "La ciencia a menudo lleva a las mentes curiosas más allá de los límites de la seguridad. Con este propulsor, Damona les proporciona una forma de regresar rápidamente al vacío seguro del espacio."
+    },
+    "Storage1": {
+      "name": "Bodega de carga pequeña",
+      "desc": "Este módulo de almacenamiento es adecuado para materiales sólidos. Su sistema de estabilización magnética protege la carga de colisiones, independientemente de los movimientos de la nave."
+    },
+    "Storage2": {
+      "name": "Bodega de carga"
+    },
+    "Storage3": {
+      "name": "Bodega de carga grande"
+    },
+    "LiquidStorage1": {
+      "name": "Tanque de líquidos pequeño",
+      "desc": "Este módulo de almacenamiento es adecuado para materiales líquidos o semifluidos. Sus conexiones MACS le permiten suministrar otros RSM si contiene combustible o líquido refrigerante."
+    },
+    "LiquidStorage2": {
+      "name": "Tanque de líquido mediano"
+    },
+    "LiquidStorage3PH": {
+      "name": "Tanque de líquido grande"
+    },
+    "PressureStorage1": {
+      "name": "Cámara de presión pequeña",
+      "desc": "Este módulo de almacenamiento es adecuado para gases licuados que requieren una presurización extrema. Sus conexiones MACS le permiten suministrar otros RSM si contiene combustible o líquido refrigerante."
+    },
+    "PressureStorage2PH": {
+      "name": "Cámara de presión mediana"
+    },
+    "PressureStorage3PH": {
+      "name": "Cámara de presión grande"
+    },
+    "FTLEngine1": {
+      "name": "Motor superlumínico - Eco",
+      "desc": "Considerado como el mayor invento de la era de los Planetas Unidos, esta categoría de módulos puede contraer y expandir el espacio, haciendo posible viajar más rápido que la luz."
+    },
+    "FTLEngine2_Light": {
+      "name": "Motor superlumínico - Ligero"
+    },
+    "FTLEngine2_Medium": {
+      "name": "Motor superlumínico - Peso medio"
+    },
+    "FTLEngine2_Heavy": {
+      "name": "Motor superlumínico - Pesado"
+    },
+    "FTLEngine3_Solo": {
+      "name": "Motor superlumínico avanzado - Una nave",
+      "desc": "Considerado como el mayor invento de la era de los Planetas Unidos, esta categoría de módulos puede contraer y expandir el espacio, haciendo posible viajar más rápido que la luz. Este modelo está optimizado para una sola nave."
+    },
+    "FTLEngine3_Support": {
+      "name": "Motor superlumínico avanzado - Soporte",
+      "desc": "Considerado como el mayor invento de la era de los *Planetas Unidos*, esta categoría de módulos puede contraer y expandir el espacio, haciendo posible viajar más rápido que la luz. Este modelo puede transportar varias naves a la vez."
+    },
+    "FTLTank1": {
+      "name": "Tanque de plasma magnético pequeño",
+      "desc": "Este módulo de almacenamiento es adecuado para plasma magnético activo. Sus conexiones MACS le permiten suministrar RMS del escudo."
+    },
+    "FTLTank2": {
+      "name": "Tanque de plasma magnético"
+    },
+    "FTLTank3": {
+      "name": "Tanque de plasma magnético grande"
+    },
+    "Navigator": {
+      "name": "Navegador cósmico",
+      "desc": "Este módulo utiliza algoritmos complejos y coordenadas espaciales precisas para ayudar al contratista distraído a planificar una ruta a través de las estrellas."
+    },
+    "Battery0": {
+      "name": "Batería cruda"
+    },
+    "Battery1": {
+      "name": "Módulo de batería",
+      "desc": "Este módulo puede almacenar energía química y convertirla fácilmente en corriente eléctrica para alimentar otros módulos RSM."
+    },
+    "Battery2": {
+      "name": "Módulo BESS"
+    },
+    "RBattery0": {
+      "name": "Batería de volante de inercia",
+      "desc": "Este módulo puede almacenar energía cinética mediante una rueda giratoria para alimentar otros RSM, evitando así las desventajas de las baterías químicas."
+    },
+    "PBattery": {
+      "name": "Batería paradójica"
+    },
+    "IsotopicGenerator": {
+      "name": "Generador isotópico"
+    },
+    "FusionGenerator": {
+      "name": "Generador de fusión"
+    },
+    "PowerSharerPH": {
+      "name": "Proyector eléctrico"
+    },
+    "Nitrogenerator": {
+      "name": "Generador de nitrógeno LR"
+    },
+    "CarbonGenerator": {
+      "name": "Generador de combustible pequeño",
+      "desc": "Este módulo consume combustible a base de carbono para producir corriente eléctrica que alimenta a otros RSM."
+    },
+    "CarbonGenerator2": {
+      "name": "Generador de combustible grande"
+    },
+    "Heater": {
+      "name": "Calentador eléctrico",
+      "desc": "Un calentador se utiliza para combatir el frío intenso del exterior, transformando la energía eléctrica en calor puro."
+    },
+    "Heater2": {
+      "name": "Calentador de caldera"
+    },
+    "HeatRecouper": {
+      "name": "Condensador de calor"
+    },
+    "KineticShield1": {
+      "name": "Escudo reactivo pequeño",
+      "desc": "Mediante un par de bobinas de Tesla, este módulo genera una burbuja de plasma cargado que puede proteger una nave espacial de la radiación y las partículas."
+    },
+    "KineticShield2": {
+      "name": "Escudo reactivo"
+    },
+    "KineticShield3": {
+      "name": "Escudo hiperreactivo"
+    },
+    "BarrierShield1": {
+      "name": "Escudo de barrera pequeño",
+      "desc": "Este módulo de escudo de plasma tiene suficiente carga para proteger una nave espacial de armas ligeras fabricadas por el hombre, pero tarda más en cargarse que los escudos normales."
+    },
+    "BarrierShield2": {
+      "name": "Escudo de barrera"
+    },
+    "BarrierShield3": {
+      "name": "Escudo de barrera grande"
+    },
+    "HeavyShield2": {
+      "name": "Escudo pesado"
+    },
+    "HeavyShield3": {
+      "name": "Escudo pesado grande"
+    },
+    "KineticShield_Group": {
+      "name": "Proyector de escudo cinético"
+    },
+    "HeatShield": {
+      "name": "Escudo térmico"
+    },
+    "MagShield": {
+      "name": "Generador de escudo magnetocinético"
+    },
+    "StealthModule_Personnal": {
+      "name": "Microproyector furtivo"
+    },
+    "StealthModule_Group": {
+      "name": "Macroproyector furtivo"
+    },
+    "AutoBoostModule": {
+      "name": "Modificación de control de potenciadores",
+      "desc": "Este pequeño componente informático mejora el control de los propulsores: pulsa [key.Booster] para activar el potenciador."
+    },
+    "AutoMineModule": {
+      "name": "Modificador de control láser para minería",
+      "desc": "Este pequeño componente informático mejora el control del láser minero: pulsa [key.Mine] para activar la habilidad de minería."
+    },
+    "EngineBooster": {
+      "name": "\"Speedster\" de LR",
+      "desc": "El módulo de motor auxiliar básico de Luo Ri puede proporcionar una ventaja de velocidad sustancial a los pilotos con presupuesto ajustado."
+    },
+    "SolarPanel1": {
+      "name": "Panel solar pequeño",
+      "desc": "Este módulo convierte la radiación electromagnética en corriente eléctrica para alimentar otros módulos RSM."
+    },
+    "SolarPanel2": {
+      "name": "Panel solar mediano"
+    },
+    "SolarPanel3": {
+      "name": "Panel solar grande"
+    },
+    "Radiator": {
+      "name": "Radiador pequeño",
+      "desc": "Este módulo puede liberar grandes cantidades de energía térmica. Se utiliza principalmente para enfriar el interior de una nave espacial dispersando su calor en el espacio."
+    },
+    "Radiator1": {
+      "name": "Radiador mediano"
+    },
+    "Radar0": {
+      "name": "Detector de recursos crudo",
+      "desc": "Al emitir de ondas electromagnéticas e interpretar su refracción, este radar puede detectar e identificar objetos metálicos dentro de un perímetro grande."
+    },
+    "RadarMK1": {
+      "name": "Detector de recursos simple"
+    },
+    "Radar_Sniffer": {
+      "name": "Detector mimético",
+      "desc": "Mediante una muestra de un recurso determinado, este detector puede localizar depósitos cercanos que contengan el mismo elemento."
+    },
+    "Radar_Smart": {
+      "name": "Detector de recursos espectral",
+      "desc": "Mediante el análisis espectral y la comparación con una base de datos de componentes, este detector puede identificar recursos conocidos a distancia."
+    },
+    "GraviteDetector": {
+      "name": "Gravitrón",
+      "desc": "Este detector especializado puede localizar piedras de gravita con precisión. Se diferencia en gran medida de otros detectores, que pueden localizar prácticamente todo excepto la gravita."
+    },
+    "Scanner0": {
+      "name": "Escanalizador alfa",
+      "desc": "Este módulo identifica la composición de una muestra mediante espectrometría de masas. Los láseres de minería solo pueden utilizarse en recursos que hayan sido identificados mediante este proceso."
+    },
+    "Scanner1": {
+      "name": "Escanalizador beta"
+    },
+    "MiningTool0": {
+      "name": "Láser de minería rudimentario"
+    },
+    "MiningTool1": {
+      "name": "Láser de minería simple",
+      "desc": "Este módulo óptico amplifica la luz hasta una intensidad capaz de vaporizar muchos materiales. Actualmente es la forma más precisa de cortar cosas."
+    },
+    "MiningTool1_OC": {
+      "name": "Láser de minería sobreacelerado"
+    },
+    "MiningTool_Cold": {
+      "name": "Láser de enfriamiento",
+      "desc": "Este chorro de gas licuado a alta presión ofrece una alternativa a los rayos láser, con el efecto contrario sobre la temperatura del objetivo. Ambos pueden utilizarse en combinación."
+    },
+    "MiningTool2": {
+      "name": "Láser Hi-Pi"
+    },
+    "MiningTool2_OC": {
+      "name": "Láser Hi-Pi sobreacelerado"
+    },
+    "MiningTool3": {
+      "name": "Láser gigante"
+    },
+    "MiningTool3_OC": {
+      "name": "Láser gigante sobreacelerado"
+    },
+    "FluidPumpingTool1": {
+      "name": "Bomba de manguera simple",
+      "desc": "Un módulo diseñado para recoger todo tipo de fluidos presentes en el ambiente mediante una potente succión."
+    },
+    "ExplodingToolMk1": {
+      "name": "Lanzador de misiles de un solo tubo",
+      "desc": "Módulo utilizado para lanzar una única carga explosiva a un objetivo remoto."
+    },
+    "ExplodingToolMk2": {
+      "name": "Lanzador de misiles de 8 tubos"
+    },
+    "GunTurretTool": {
+      "name": "Torreta de cañón pequeña"
+    },
+    "GunTurretTool1": {
+      "name": "Torreta de cañón"
+    },
+    "PathwayPuncher": {
+      "name": "Perforador del espacio-tiempo",
+      "desc": "Un módulo que perfora un pequeño agujero en el continuo espacio-tiempo. Esto permite el despliegue de un [PathwayAmmo] que excavará una ruta hacia un [B_PathwayHolder] existente."
+    },
+    "SeekerMissile0": {
+      "name": "Misil rastreador",
+      "desc": "Antes del éxodo, los explosivos químicos simples eran un arma común. Existen opciones más destructivas, pero ninguna es tan barata ni tan fácil de producir."
+    },
+    "BlastMissile0": {
+      "name": "Misil explosivo",
+      "desc": "Los explosivos se utilizan con frecuencia en las operaciones mineras para acceder a los minerales protegidos por materiales superficiales densos."
+    },
+    "CombatMissile_AntiMatter": {
+      "name": "Torpedo de antimateria"
+    },
+    "Beacon": {
+      "name": "Baliza cuántica",
+      "desc": "Un método experimental de comunicación de alta velocidad. Esta baliza puede revelar instantáneamente su posición mediante una firma cuántica en toda la galaxia, sin importar dónde se encuentre."
+    },
+    "PathwayAmmo": {
+      "name": "Núcleo de la ruta",
+      "desc": "Utilizado con un [PathwayPuncher], este núcleo puede perforar una ruta a cualquier [B_PathwayHolder] disponible. Dicha ruta puede utilizarse para viajar entre dos ubicaciones con un motor superlumínico convencional."
+    },
+    "HypergateBeacon": {
+      "name": "Baliza de hiperportal"
+    },
+    "LockedCapsule": {
+      "name": "Cápsula personal"
+    },
+    "BeaconKey": {
+      "name": "Señal cuántica",
+      "desc": "Un método experimental de comunicación de alta velocidad. Este dispositivo puede detectar instantáneamente la posición de la baliza con la que está emparejado."
+    },
+    "NitroCapsule": {
+      "name": "Cápsula de nitrógeno"
+    },
+    "Cartridge_Iron": {
+      "name": "Cartucho pequeño",
+      "desc": "Las armas de proyectiles todavía son muy utilizadas por el Cuerpo de Defensa Universal y para ello desarrolló una serie de estándares para los calibres de los cartuchos."
+    },
+    "P_MultiTool": {
+      "name": "Máquina de depuración"
+    },
+    "P_ConstructionTool": {
+      "name": "Herramienta de construcción",
+      "desc": "La \"síntesis de planos\" libera una nube de nanobots flotantes capaces de reconocer, cortar y ensamblar materiales basándose en un patrón predefinido. En resumen, construye cosas."
+    },
+    "P_DismentlingTool": {
+      "name": "Herramienta de construcción 2.0",
+      "desc": "Esta herramienta mejorada incluye la función de \"Desintetización de materiales\", capaz de revertir un proceso de construcción finalizado con un daño mínimo a los componentes implicados."
+    },
+    "P_MovingTool": {
+      "name": "Herramienta de construcción 3.0",
+      "desc": "Esta herramienta mejorada incluye la función de \"Integridad continua\", que permite reubicar un edificio dentro de una base sin necesidad de desmantelarlo antes."
+    },
+    "P_FarmingTool": {
+      "name": "Herramienta de cultivo",
+      "desc": "Poner a remojo una semilla sucia puede parecer una tarea mundana, pero esta herramienta sublima el arte de colocar una pieza de planta alienígena en germinación en el lugar perfecto para el éxito de su desarrollo."
+    },
+    "P_Jetpack": {
+      "name": "Mochila propulsora",
+      "desc": "[NOTIMPL]"
+    },
+    "P_JetpackV2": {
+      "name": "Mochila propulsora v2",
+      "desc": "[NOTIMPL]"
+    },
+    "P_CritterPheromon": {
+      "name": "Mezcla de feromonas"
+    },
+    "P_ThermoSuit": {
+      "name": "Chip de traje térmico",
+      "desc": "Este accesorio aumenta la capacidad de aislamiento térmico del traje frente a temperaturas altas y bajas. Se pueden utilizar varios chips para aumentar la eficiencia."
+    },
+    "P_HeatSuit": {
+      "name": "Chip de traje de protección contra el calor",
+      "desc": "Este accesorio aumenta la capacidad de aislamiento del traje frente a temperaturas altas. Se pueden utilizar varios chips para aumentar la eficiencia."
+    },
+    "P_ColdSuit": {
+      "name": "Chip de traje de protección contra el frío",
+      "desc": "Este accesorio aumenta la capacidad de aislamiento del traje frente a temperaturas bajas. Se pueden utilizar varios chips para aumentar la eficiencia."
+    },
+    "P_RadSuit": {
+      "name": "Chip de traje antirradiación",
+      "desc": "Este accesorio aumenta la capacidad de aislamiento del traje frente a la radiación. Se pueden utilizar varios chips para aumentar la eficiencia."
+    },
+    "Access_Corpo1": {
+      "name": "Pase del CECF (sujeto de prueba)",
+      "desc": "Otorga acceso a la habitación contigua."
+    },
+    "Access_Corpo2": {
+      "name": "Pase del CECF (diseñador)",
+      "desc": "Otorga acceso a las oficinas de los diseñadores."
+    },
+    "Access_Warehouse": {
+      "name": "Pase de almacén",
+      "desc": "Otorga acceso a la oficina de supervisión en el almacén."
+    },
+    "Access_Prospecting": {
+      "name": "Pase del centro de prospección",
+      "desc": "Otorga acceso a la cámara de la oficina minera."
+    },
+    "Access_Mine1": {
+      "name": "Pase del distrito administrativo",
+      "desc": "Otorga acceso a las oficinas de la mina."
+    },
+    "Access_Mine2": {
+      "name": "Pase de ascensor",
+      "desc": "Otorga acceso al ascensor para civiles de la mina."
+    },
+    "Access_LabMonsters": {
+      "name": "Pase de conserje",
+      "desc": "Otorga acceso a todas las áreas del centro de pruebas."
+    },
+    "QuestFakeAlienArtefact": {
+      "name": "Posible artefacto alienígena",
+      "desc": "Este artefacto fue desenterrado en un planeta desconocido. No parece natural."
+    },
+    "WreckBlackBox": {
+      "name": "Caja negra",
+      "desc": "Una caja negra que contiene todos los datos de vuelo hasta el momento del accidente. Alguien podría estar interesado en adquirirla."
+    },
+    "InfoItemCompanyCommon": {
+      "name": "Datos de la Compañía",
+      "desc": "Este disco duro contiene información valiosa sobre *la Compañía*. Eso podría interesar a mucha gente, pero no todos le pondrían el mismo precio."
+    },
+    "InfoItemCompanyUnco": {
+      "name": "Datos de la Compañía II",
+      "desc": "Este disco duro contiene información altamente confidencial sobre *la Compañía*. Eso podría interesar a mucha gente, pero no todos le pondrían el mismo precio."
+    },
+    "InfoItemCompanyRare": {
+      "name": "Datos de la Compañía III",
+      "desc": "Este disco duro contiene información crítica sobre *la Compañía*. Eso podría interesar a mucha gente, pero no todos le pondrían el mismo precio."
+    },
+    "InfoItemRepublicCommon": {
+      "name": "Datos de la República",
+      "desc": "Este disco duro contiene información valiosa sobre *la República*. Eso podría interesar a mucha gente, pero no todos le pondrían el mismo precio."
+    },
+    "InfoItemRepublicUnco": {
+      "name": "Datos de la República II",
+      "desc": "Este disco duro contiene información altamente confidencial sobre *la República*. Eso podría interesar a mucha gente, pero no todos le pondrían el mismo precio."
+    },
+    "InfoItemRepublicRare": {
+      "name": "Datos de la República III",
+      "desc": "Este disco duro contiene información crítica sobre *la República*. Eso podría interesar a mucha gente, pero no todos le pondrían el mismo precio."
+    },
+    "InfoItemPiratesCommon": {
+      "name": "Datos de los piratas",
+      "desc": "Este disco duro contiene información altamente confidencial sobre facciones piratas. Eso podría interesar a mucha gente, pero no todos le pondrían el mismo precio."
+    },
+    "InfoItemPiratesUnco": {
+      "name": "Datos de los piratas II",
+      "desc": "Este disco duro contiene información valiosa sobre facciones piratas. Eso podría interesar a mucha gente, pero no todos le pondrían el mismo precio."
+    },
+    "InfoItemPiratesRare": {
+      "name": "Datos de los piratas III",
+      "desc": "Este disco duro contiene información crítica sobre piratas facciones. Eso podría interesar a mucha gente, pero no todos le pondrían el mismo precio."
+    },
+    "InfoItemConglomeratesCommon": {
+      "name": "Datos de los conglomerados",
+      "desc": "Este disco duro contiene información altamente confidencial sobre al menos un conglomerado. Eso podría interesar a mucha gente, pero no todos le pondrían el mismo precio."
+    },
+    "InfoItemConglomeratesUnco": {
+      "name": "Datos de los conglomerados II",
+      "desc": "Este disco duro contiene información valiosa sobre al menos un conglomerado. Eso podría interesar a mucha gente, pero no todos le pondrían el mismo precio."
+    },
+    "InfoItemConglomeratesRare": {
+      "name": "Datos de los conglomerados III",
+      "desc": "Este disco duro contiene información crítica sobre al menos un conglomerado. Eso podría interesar a mucha gente, pero no todos le pondrían el mismo precio."
+    },
+    "InfoItemAliensCommon": {
+      "name": "Datos de no humanos",
+      "desc": "Este disco duro contiene información valiosa sobre formas de vida inteligentes no humanas. Eso podría interesar a mucha gente, pero no todos le pondrían el mismo precio."
+    },
+    "InfoItemAliensUnco": {
+      "name": "Datos de no humanos II",
+      "desc": "Este disco duro contiene información altamente confidencial sobre formas de vida inteligentes no humanas. Eso podría interesar a mucha gente, pero no todos le pondrían el mismo precio."
+    },
+    "InfoItemAliensRare": {
+      "name": "Datos de no humanos III",
+      "desc": "Este disco duro contiene información crítica sobre formas de vida inteligentes no humanas. Eso podría interesar a mucha gente, pero no todos le pondrían el mismo precio."
+    },
+    "KnowCompany1": {
+      "name": "La Compañía",
+      "desc": "La mayoría de las estaciones espaciales existentes en la *Galaxia Atlas* son construidas y operadas por *la Compañía*. Su programa de trabajadores afiliados le ayudó a asegurarse un cuasi monopolio en la extracción y el procesamiento de recursos naturales tras la compra de su competidor Industrias Unidas. Mantiene alianzas a largo plazo con *la República*, así como con otros conglomerados. Actualmente está dirigida por *Martin J. Miller*."
+    },
+    "KnowCompany2": {
+      "name": "La Compañía: Guerra de los Trípodes",
+      "desc": "Fundada cuando la humanidad aún habitaba la *Vía Láctea*, la Compañía era originalmente un contratista de servicios públicos. Adquirió importancia durante la *Guerra de los Trípodes*, a medida que la *Federación de Planetas Unidos* se volvía cada vez más incapaz de mantener el control sobre los territorios amenazados y comenzó a depender más de sus contratistas privados. Al final del conflicto, la Compañía había extendido su control sobre la mayoría de los servicios vitales en cada una de las 8 colonias humanas."
+    },
+    "KnowCompany3": {
+      "name": "La Compañía: la señal",
+      "desc": "Tras el *Incidente H-378*, que sepultó toda esperanza de una victoria humana en la *Guerra de los Trípodes*, los ingenieros de comunicaciones que trabajaban para la Compañía descifraron la señal que condujo al descubrimiento de la *Galaxia Atlas*. El posterior traslado de la mayoría de los ciudadanos humanos supervivientes a Atlas ofreció a la Compañía un nuevo comienzo, sin ninguna institución que pudiera contrarrestar su monopolio. Como resultado, desempeñó un papel fundamental en la configuración de la nueva sociedad humana de la era Atlas."
+    },
+    "KnowCompany4": {
+      "name": "La Compañía: escasez artificial",
+      "desc": "La Compañía está creando una *escasez artificial* de recursos clave para inflar los precios del mercado, mientras sigue comprando estos recursos a sus trabajadores afiliados a precios más bajos. Según los informes, se han producido al menos *167 accidentes mortales* debido a que las compañías o los contratistas tuvieron que sustituir materiales clave para las naves espaciales por alternativas más baratas durante periodos de escasez. Se estima que 19 empresas más pequeñas se han visto obligadas a cerrar debido a que la Compañía acaparó intencionalmente un material del que dependían en gran medida."
+    },
+    "KnowCompany5": {
+      "name": "La Compañía: vigilancia de afiliados",
+      "desc": "La compañía de inteligencia *Ophanim*, filial del conglomerado bancario UIB, recibió el mandato de la Compañía de proporcionar *registros de vigilancia de todos sus trabajadores afiliados*. La información resultante es utilizada por la Compañía para evaluar la lealtad de sus afiliados. La *puntuación de fidelidad* de un afiliado se mantiene en secreto y determina las tarifas que le ofrecen los agentes comerciales. También puede conllevar la rescisión de su contrato o su arresto inmediato en caso de cualquier interacción con piratas."
+    },
+    "KnowCompany6": {
+      "name": "La Compañía: operaciones de robo",
+      "desc": "Con un presupuesto insuficiente para defender todos los sectores habitados de los ataques piratas, *la República* formó una alianza policial no oficial con la Compañía, lo que le permitió llevar a cabo sus propias *operaciones militares bajo la bandera del CDU*. Como parte de este acuerdo, la Compañía está autorizada a reclamar la carga y las piezas de desecho de cada *nave pirata* que hunda, sin ningún requisito legal de probar la afiliación pirata del objetivo."
+    },
+    "KnowCompanySpecific": {
+      "name": "La Compañía: corporación Laniakea",
+      "desc": "El programa de trabajadores afiliados fue desarrollado inicialmente por *Industrias unidas*, una antigua filial del conglomerado *Laniakea*, que posteriormente fue absorbida por la Compañía. Laniakea, un serio aspirante a la hegemonía industrial en *Atlas*, fue la primera en completar una estación espacial allí. En ese momento, la Compañía adoptó una estrategia híbrida de espionaje, presión legislativa, sabotaje y compras hostiles, lo que le permitió absorber a su competidor y borrar todo rastro de su existencia."
+    },
+    "KnowCompanySpecific2": {
+      "name": "La Compañía: la mentira de Atlas",
+      "desc": "Los vestigios más antiguos de la presencia de la Compañía en la *Galaxia Atlas* son anteriores a su descubrimiento oficial. Durante la *Guerra de los Trípodes*, la Compañía comenzó a explotar los recursos de Atlas para impulsar su dominio industrial, al tiempo que ocultaba esta nueva galaxia a la sociedad en general. A todos los trabajadores de las minas de Atlas se les prohibió regresar a la Vía Láctea. Solo tres años después del *Incidente H-378*, cuando la humanidad estaba al borde de la aniquilación, la Compañía reveló el *Portal Atlas*, lo que permitió que comenzara el éxodo."
+    },
+    "KnowRepublic1": {
+      "name": "La República",
+      "desc": "*La República* es una institución política que actúa como ejecutora de las leyes comerciales y territoriales en la *Galaxia Atlas*. Su jurisdicción incluye la administración de licencias de trabajo, el cumplimiento de las normas de tierras y propiedad, la prevención de la piratería y la mediación entre empresas privadas. Su senado, actualmente dirigido por Leni Lehman, se reúne en la estación *Sumer* e incluye representantes de todos los conglomerados."
+    },
+    "KnowRepublic2": {
+      "name": "La República: Federación de Planetas Unidos",
+      "desc": "Fundada al comienzo de la era Atlas, la República es vista como sucesora de la *Federación de Planetas Unidos*, que supervisó el desarrollo de los primeros motores superlumínicos y se convirtió en el órgano de gobierno de la *Vía Láctea* durante su colonización. Cuando las máquinas autorreplicantes conocidas como los Trípodes despertaron, un conflicto que duró décadas, la llamada *Guerra de los Trípodes*, obligó a la humanidad a abandonar la Vía Láctea y a poner fin al dominio de la Federación de Planetas Unidos."
+    },
+    "KnowRepublic3": {
+      "name": "La República: fuerzas del orden",
+      "desc": "Si bien los conglomerados utilizan milicias privadas para imponer sus propias leyes en las estaciones espaciales o fábricas que controlan, la República mantiene una fuerza policial llamada *Guardia Civil Universal*, que se moviliza principalmente contra facciones piratas. También mantiene una pequeña fuerza armada, el *Cuerpo de Defensa Universal*, que custodia el portal a la Vía Láctea, mantiene medidas defensivas ante un posible regreso de los Trípodes y realiza labores de I+D en tecnología de defensa."
+    },
+    "KnowRepublic4": {
+      "name": "La República: cártel glorificado",
+      "desc": "La República fue diseñada por los grandes conglomerados, que aún hoy aportan la mayor parte de su presupuesto. El propósito de esta institución era proteger sus intereses en la *Galaxia Atlas*, permitirles resolver sus disputas territoriales, reprimir las primeras rebeliones piratas de manera que se evitara la indignación pública y acallar las demandas ciudadanas de un resurgimiento democrático. Sus primeros senadores fueron elegidos entre antiguos políticos de la *Federación de Planetas Unidos* que eran leales a los conglomerados y habían perdido la mayor parte de su autoridad política."
+    },
+    "KnowRepublic5": {
+      "name": "La República: represión enmascarada",
+      "desc": "La República considera piratería todas las actividades que carecen de una licencia oficial, incluso en los casos en que la *Agencia de Licencias Universales* no haya proporcionado ninguna razón para el reiterado rechazo de una solicitud de licencia. Con frecuencia, las licencias se *revocan* sin previo aviso, lo que provoca que la institución y las personas asociadas sean señaladas inmediatamente como piratas. Entre las víctimas se encuentran periodistas, científicos, artistas y trabajadores sociales, que se ven obligados a trasladarse a *sectores piratas* y a asociarse con entidades más radicales para poder sobrevivir."
+    },
+    "KnowRepublic6": {
+      "name": "La República: trabajo forzoso",
+      "desc": "Los contratos públicos de *la Compañía* incluyen la operación y el mantenimiento de *campos de trabajo* para convictos que cumplen largas condenas. Antes del programa de trabajadores afiliados, la mayoría de estos campamentos eran minas. Hoy en día, están trasladando naves espaciales en las que se ensamblan las *estaciones espaciales* de la Compañía. Nunca se ha aprobado ninguna ley para regular las condiciones laborales a bordo de estas naves. Todos los convictos que fueron detenidos antes del *Incidente H-378* y el posterior colapso de la Federación de los Planetas Unidos se perdieron."
+    },
+    "KnowRepublic7": {
+      "name": "La República: revolución fallida",
+      "desc": "En los inicios de *la República*, una coalición de denunciantes y antiguos legisladores de *Planetas Unidos* votó a favor de establecer el sufragio universal, ilegalizar la presión política industrial ilegal, establecer impuestos corporativos y eliminar el derecho a veto de los conglomerados. Los medios de comunicación calificaron esta votación como una insurrección pirata, y las milicias tomaron el control de las instituciones de la República. Los senadores que lo impulsaron desaparecieron y luego fueron acusados de huir a bordo de naves piratas para evitar ser procesados."
+    },
+    "KnowRepublicSpecific": {
+      "name": "La República: Proyecto Vía Láctea",
+      "desc": "El Cuerpo de Defensa Universal firmó un contrato a largo plazo con *la Compañía*, asegurando cantidades sin precedentes de recursos minerales para comenzar la construcción de un megaproyecto confidencial con nombre en clave \"Proyecto Vía Láctea\". Presentado ante el senado de la República como una medida defensiva para preparar a Atlas ante la posibilidad de una invasión del *Trípode*, es en realidad una reproducción de la tecnología del Trípode, destinada a reconquistar la Vía Láctea."
+    },
+    "KnowPirates1": {
+      "name": "Facciones piratas",
+      "desc": "Las *facciones piratas* son numerosas, diversas y *descentralizadas*. En términos legales, incluyen a todas las personas y actividades *no reconocidas* por la República o contratadas por uno de sus conglomerados autorizados. Los intereses de las facciones etiquetadas como piratas no necesariamente coinciden, pero suelen colaboran para construir redes alternativas de comercio, intercambio de información y estaciones espaciales piratas."
+    },
+    "KnowPirates2": {
+      "name": "Facciones piratas: Vox Populi",
+      "desc": "*Vox Populi* es una federación política que une a varias *estaciones espaciales* piratas, organizadas en su mayoría según un modelo comunalista. A diferencia de las estaciones controladas por conglomerados, las estaciones piratas se ensamblan gradualmente y los individuos pueden añadirles sus propios módulos. Después de que la República catalogara a Vox Populi como una organización terrorista, su portavoz más conocido, *Bo Zeya*, se convirtió en fugitivo."
+    },
+    "KnowPirates3": {
+      "name": "Facciones piratas: Rallize",
+      "desc": "*Rallize* es un *grupo revolucionario armado* cuyo principal objetivo es desestabilizar el orden mercantil de los conglomerados y de la República. Sus métodos de guerrilla incluyen el robo, el secuestro, el sabotaje y el conflicto abierto con el *Cuerpo de Defensa Universal*. En las noticias, el término \"piratas\" suele referirse a Rallize, y solo se documentan sus acciones más violentas. Sin embargo, también es un importante proveedor de asistencia social y protección dentro de los sectores piratas."
+    },
+    "KnowPirates4": {
+      "name": "Facciones piratas: ACI",
+      "desc": "La *Agencia de Comunicación Interespecies* es un antiguo laboratorio público fundado por Lauren Amaechi para estudiar los *Trípodes* autorreplicantes y las especies extraterrestres que los crearon. Tras haber sido desfinanciada por *la República*, continúa sus actividades fuera de cualquier marco legal, lo que ha llevado a su gradual criminalización."
+    },
+    "KnowPirates5": {
+      "name": "Facciones piratas: Alianza Verde",
+      "desc": "Aunque no se la considera una organización pirata, la *Alianza Verde* se volvió cada vez más activa en sectores piratas después de que varios de sus miembros se convirtieran en fugitivos, incluido el informante *Jeongwol*. Su escasa presencia en el *Senado de la República* es un tema frecuente de controversia, particularmente debido a su frecuente asociación con *Vox Populi*."
+    },
+    "KnowPirates6": {
+      "name": "Facciones piratas: división original",
+      "desc": "*Rallize* fue el primer grupo pirata en Atlas. Tras completar la construcción de su primera estación espacial, comenzó a dedicar gran parte de su capacidad industrial a las armas. Sus ambiciones a largo plazo pasaron de la mera supervivencia a la destrucción total de *la República*. Fue por esta época cuando *Vox Populi* surgió como una rama pacífica y reformista de la resistencia pirata. Desde entonces, este grupo ha intentado conciliar los intereses piratas con la integración dentro de las instituciones de la República."
+    },
+    "KnowPirates7": {
+      "name": "Facciones piratas: motín primigenio",
+      "desc": "Los primeros grupos piratas surgieron durante los levantamientos en las minas de *la Compañía*, después de la liberación de los convictos sentenciados a trabajos forzosos se retrasará indefinidamente sin explicación alguna. Tomaron el control de algunas de las minas y extrajeron suficientes recursos para construir sus propias estaciones espaciales. Posteriormente desmantelaron las antiguas instalaciones y aún hoy todavía reciclan partes de ellas. Estos sucesos fueron la principal razón que llevó a la Compañía a dejar de construir grandes minas y, en su lugar, a depender de *trabajadores afiliados* aislados."
+    },
+    "KnowPirates8": {
+      "name": "Facciones piratas: verdades incómodas",
+      "desc": "Fundada originalmente por el Cuerpo de Defensa Universal de *la República*, la *Agencia de Comunicación Interespecies* sufrió recortes drásticos en su financiación tras descubrir minas abandonadas en la *Galaxia Atlas*. En los años siguientes, el laboratorio fue prohibido por razones desconocidas, y muchos de sus investigadores se exiliaron en estaciones piratas. Ahora continúa sus operaciones como una institución pirata."
+    },
+    "KnowPirates9": {
+      "name": "Facciones piratas: estación perdida",
+      "desc": "La estación pirata *Clousden* fue destruida después de que 2 facciones piratas compitieran por su control. Un grupo asociado a *Vox Populi* había proporcionado la mayor parte de los recursos para la construcción de la estación, mientras que otro grupo vinculado a *Rallize* representaba inicialmente a la mayoría de los habitantes. Para aumentar su influencia, el grupo Vox Populi animó a sus trabajadores de otras emisoras a trasladarse allí, lo que provocó una superpoblación, pero les permitió asegurarse la mayoría de los votos. El conflicto culminó con el bombardeo de la estación por parte de Rallize."
+    },
+    "KnowPiratesSpecific": {
+      "name": "Facciones piratas: criaturas terroristas",
+      "desc": "*Vox Populi* introdujo deliberadamente criaturas en *Sirona IV* en un intento de retrasar los esfuerzos de terraformación de Ninmah en el planeta y evitar que más trabajadores se expusieran a su atmósfera cada vez más tóxica. El grupo no previó que las criaturas consumirían el veneno, lo que hizo que mutaran y se volvieran más agresivas. Finalmente, las criaturas mutantes atacaron a los empleados de *Ninmah*, y el conglomerado no envió ayuda militar para rescatarlos."
+    },
+    "KnowConglomerates1": {
+      "name": "Conglomerados",
+      "desc": "Los conglomerados son compañías con múltiples filiales en *múltiples sectores*. Para ser reconocida como conglomerado por la República, una compañía debe mantener una cuota de mercado de al menos el 20% en tres o más sectores distintos. Aparte de *la Compañía*, actualmente solo 4 entidades se consideran conglomerados: *UIB*, *Ingeniería Estelar*, *Grupo Ninmah* y *Corp. Eris*"
+    },
+    "KnowConglomerates2": {
+      "name": "Conglomerados: UIB",
+      "desc": "*UIB*, la Unión Interestelar de Bancos, se formó durante la era de la Vía Láctea. Requisada por la Federación de los Planetas Unidos durante la guerra, posteriormente recuperó su autonomía formando alianzas con otros conglomerados y la diversificación de sus actividades. En la actualidad, controla la bolsa de valores *QUASR*, la empresa de vigilancia *Ophanim* y varias instituciones financieras, cadenas de casinos y restaurantes de lujo. Actualmente está dirigida por *Edith Wei*."
+    },
+    "KnowConglomerates3": {
+      "name": "Conglomerados: Ingeniería Estelar",
+      "desc": "*Ingeniería Estelar* fue el mayor conglomerado de la era de la Vía Láctea. Establecida en todas las colonias de los Planetas Unidos como *Meitner & Karls*, experimentó un crecimiento tremendo durante la guerra. La mayoría de sus patentes, incluido el *módulo de nave Reliant*, se hicieron públicas durante este periodo para diversificar los proveedores militares, pero Ingeniería Estelar posteriormente pudo absorber a sus principales competidores, *AEgir* y *Luo Ri*. Ingeniería Estelar también domina el sector del transporte y la industria informática. Actualmente está dirigida por *Jin Yichen*."
+    },
+    "KnowConglomerates4": {
+      "name": "Conglomerados: Grupo Ninmah",
+      "desc": "*Ninmah* fue fundada durante la Guerra de los Trípodes, ofreciendo alimentos asequibles y asistencia médica en situaciones de crisis. Al comienzo de la era Atlas, se convirtió en un nuevo movimiento espiritual que promovía la idea de que la *Tierra* puede y debe ser reconstruida. Actualmente domina los sectores farmacéutico, médico e hidropónico, y también controla a varios gigantes mediáticos y al importante constructor de RSM, *Damona*. Actualmente está dirigida por *Claudia Katavsky*."
+    },
+    "KnowConglomerates5": {
+      "name": "Conglomerados: Corp. Eris",
+      "desc": "*Corp. Eris* es el único conglomerado formado después de la guerra. Aunque no es tan poderoso como los conglomerados más antiguos, es el más conocido por el público en general. Además de su dominio en el mercado de alimentos con marcas tan conocidas como *Star Sip* y *Master Soda*, también es un imperio mediático y el principal organizador de eventos deportivos en Atlas. Actualmente está dirigida por *Nasim de Beaumont*."
+    },
+    "KnowConglomerates6": {
+      "name": "Conglomerados: niño repudiado",
+      "desc": "*Corp. Eris* tuvo su origen en una filial menor de *la Compañía*, anteriormente conocida como Star Foods. Esta sucursal desarrolló las primeras marcas de consumo exitosas de Atlas, instalando máquinas expendedoras en todos los espacios públicos del nuevo territorio. Sin embargo, a medida que aumentaban las tensiones entre la dirección de la filial y la autoridad central de la Compañía, una serie de conflictos culminaron con la compra total de *Star Foods* por parte de su propia dirección y plantilla. Aún no está claro el origen de los fondos que hicieron posible esta adquisición."
+    },
+    "KnowConglomerates7": {
+      "name": "Conglomerados: espionaje industrial",
+      "desc": "*UIB*, anteriormente controlada por la Federación, obtuvo influencia sobre otros conglomerados al realizar operaciones de espionaje. Al final de la guerra, su filial *Ophanim* había descubierto suficientes secretos comprometedores como para representar una seria amenaza para cada uno de ellos, resultando a su vez especialmente útil como consultora para sus estrategias comerciales. Mediante la negociación de acuerdos de confidencialidad sobre cuestiones clave, *UIB* logró convertirse en un actor esencial en el panorama industrial de Atlas y recuperar su independencia."
+    },
+    "KnowConglomerates8": {
+      "name": "Conglomerados: conocidos piratas",
+      "desc": "Según informes, *Bo Zeya*, la figura más conocida y buscada de la federación pirata Vox Populi, se ha estado escondiendo en instalaciones controladas por *Corp. Eris*. Los ejecutivos del conglomerado no revelarán ninguna información que pueda conducir a su arresto. La búsqueda de Bo, ampliamente cubierta por los medios de comunicación filiales de Eris, lo convirtió en un personaje de interés público. A pesar de su aparente apoyo hacia él, el conglomerado suele emplear métodos violentos contra los piratas en los sectores que controla."
+    },
+    "KnowConglomerates9": {
+      "name": "Conglomerados: crímenes de guerra",
+      "desc": "Cuando *Ninmah* surgió como una organización humanitaria durante la *Guerra de los Trípodes*, forjó su reputación gracias a su capacidad para producir medicamentos y alimentos milagrosamente eficaces a un ritmo excepcional. En realidad, los experimentos de Ninmah causaron directa o indirectamente la caída de *3 de las 8 colonias humanas* en la Vía Láctea. En todos estos casos, Ninmah logró ocultar su responsabilidad el tiempo suficiente para que las primeras demandas judiciales solo aparecieran poco antes del éxodo a Atlas, cuando todas las instituciones existentes desaparecieron."
+    },
+    "KnowConglomeratesSpecific": {
+      "name": "Conglomerados: cayendo de pie",
+      "desc": "*Ninmah* nunca esperó que ninguno de sus proyectos de *terraformación* tuviera éxito. Al vender los terrenos de cada planeta a precios desorbitados y luego recomprarlo por sumas insignificantes, recauda suficiente dinero para financiar diversas empresas nuevas. Cada uno de ellos funciona como un laboratorio abierto que elude las regulaciones habituales de la República sobre *pruebas químicas*. Además, la condición de exoplaneta otorgada por la Agencia de Licencias Universales concede a Ninmah autorizaciones especiales para todas las actividades mineras dentro del sector circundante."
+    },
+    "KnowConglomeratesSpecific2": {
+      "name": "Conglomerados: trabajadores sacrificados",
+      "desc": "*Ninmah* y su filial *Hydropon Inc.* eran conscientes de los riesgos de envenenamiento para sus empleados en *Sirona IV*, pero ocultaron esta información para apaciguar a los terratenientes del planeta. También recibieron las señales de socorro enviadas por los equipos en el lugar, pero vieron el ataque de la criatura como una oportunidad para deshacerse de los testigos de los desastrosos efectos de sus intentos de terraformación. Más tarde, se envió un regimiento de la milicia a una misión suicida para demostrar el afán de Ninmah por salvar a sus empleados."
+    },
+    "KnowConglomeratesSpecific3": {
+      "name": "Conglomerados: el Gran Incidente",
+      "desc": "*Ingeniería Estelar* tuvo responsabilidad directa en el *Incidente H-378*, que provocó la desaparición de la flota extendida de los Planetas Unidos. Los *módulos superlumínicos* defectuosos fabricados por el conglomerado presentaban riesgos que ya habían sido documentados por sus ingenieros. Posteriormente, Ingeniería Estelar anunció que decenas de sus instalaciones habían sido alcanzadas por los *Trípodes*. Todos y cada uno de los ingenieros que habían expresado su preocupación por los módulos superlumínicos fueron encontrados muertos."
+    },
+    "KnowAliens": {
+      "name": "Inteligencia no humana"
+    },
+    "Drone0": {
+      "name": "Dron",
+      "desc": "Este vehículo autónomo transporta cargas de un punto a otro siguiendo una ruta predefinida."
+    },
+    "Shuttle0": {
+      "name": "Lanzadera",
+      "desc": "Este vehículo autónomo transporta cargas dentro y fuera de la base, conectándola con otras bases."
+    },
+    "Shuttle1": {
+      "name": "Carguero"
+    },
+    "PShuttle": {
+      "name": "Lanzadera de electricidad"
+    },
+    "FPS_Instance_Entrance": {
+      "name": "Entrada de instancia FPS"
+    },
+    "SpaceStation0": {
+      "name": "Estación Umbral"
+    },
+    "SpaceStation1": {
+      "name": "Estación Alfa solar"
+    },
+    "SpaceStation4": {
+      "name": "Estación de Justicia"
+    },
+    "SpaceStation5": {
+      "name": "Estación Horizonte"
+    },
+    "SpaceStation2": {
+      "name": "Estación terminal"
+    },
+    "SpaceStation3": {
+      "name": "Estación Cairn"
+    },
+    "Knowledge_ShipControl": {
+      "name": "Controles de la nave",
+      "desc": "Orienta tu nave con el ratón."
+    },
+    "Knowledge_Landing": {
+      "name": "Aterrizaje"
+    },
+    "Knowledge_Mining": {
+      "name": "Minería",
+      "desc": "Con un láser minero equipado en tu nave, recoge varios minerales apuntando hacia un nodo de recursos y manteniendo [key.Mine], la tecla asignada a la habilidad de minería láser."
+    },
+    "Knowledge_Gravite": {
+      "name": "Gravita"
+    },
+    "Knowledge_OrganicResource": {
+      "name": "Recursos orgánicos y agricultura"
+    },
+    "Knowledge_Exploration": {
+      "name": "Exploración planetaria",
+      "desc": "Explorar un planeta es el proceso de identificar todos los depósitos de recursos presentes en su superficie."
+    },
+    "Knowledge_Science": {
+      "name": "Ciencia",
+      "desc": "Algunos objetos pueden estudiarse en el laboratorio. Dependiendo del objeto, pueden existir varios niveles de estudio, y cada uno requiere una cierta cantidad de copias del mismo."
+    },
+    "Knowledge_BaseBuilding": {
+      "name": "Edificio base"
+    },
+    "Knowledge_FTL": {
+      "name": "Viajes superlumínicos",
+      "desc": "La distancia entre dos sistemas estelares es demasiado grande como para poder cruzarla fácilmente por medios convencionales. El motor superlumínico es un módulo fundamental de la nave que permite a un contratista cruzar esa brecha en segundos."
+    },
+    "Knowledge_Wreck": {
+      "name": "Restos de nave"
+    },
+    "Knowledge_ShipEditor": {
+      "name": "Editor de nave"
+    },
+    "Knowledge_Fluid": {
+      "name": "Líquidos y gases"
+    },
+    "Knowledge_Shell": {
+      "name": "Capas minerales"
+    },
+    "Knowledge_Radioactivity": {
+      "name": "Radiactividad"
+    },
+    "Knowledge_Heat": {
+      "name": "Calor y frío"
+    },
+    "Knowledge_Instances": {
+      "name": "Zona restringida",
+      "desc": "Los contratistas podrían encontrar complejos pertenecientes a diversas facciones en la superficie de los planetas."
+    },
+    "B_ControlBase": {
+      "name": "Centro de mando de la base",
+      "desc": "Este edificio central proporciona los sistemas básicos de almacenamiento, energía eléctrica y administración necesarios para operar una pequeña base territorial. Desplegar una base constituye una reclamación legal sobre el área y los depósitos sobre los que se ubica. También incluye máquinas básicas de fundición y fabricación manual."
+    },
+    "B_ControlBase2": {
+      "name": "Torre de mando",
+      "desc": "Este edificio permite que una base se expanda sobre un área de terreno de nivel 2, lo que duplica su superficie máxima y desbloquea umbrales de experiencia de hasta 800 puntos."
+    },
+    "B_ControlBase3PH": {
+      "name": "Relé de comando",
+      "desc": "Este edificio permite que una base se expanda sobre un área de terreno de nivel 3, lo que duplica su superficie máxima y desbloquea umbrales de experiencia de hasta 2000 puntos."
+    },
+    "B_ControlBase_Corpo1": {
+      "name": "Centro de mando de la corporación",
+      "desc": "Una corporación importante y legalmente reconocida a menudo necesita un lugar donde centralizar sus operaciones. Este edificio aumenta el tamaño máximo de una sola base de la corporación y contiene máquinas de fabricación, una sala de conferencias y muchos espacios personalizables."
+    },
+    "B_Extractor": {
+      "name": "Extractor",
+      "desc": "Este edificio solo puede ensamblarse sobre un yacimiento de recursos, en el que luego perforará para extraer la mena en bruto automáticamente."
+    },
+    "B_LiquidExtractor": {
+      "name": "Extractor de líquidos",
+      "desc": "Este edificio solo puede construirse sobre un pozo geotérmico, del cual extraerá fluido puro automáticamente."
+    },
+    "B_Extractor1PH": {
+      "name": "Extractor avanzado"
+    },
+    "B_SolarPanel": {
+      "name": "Planta solar",
+      "desc": "Este edificio convierte la radiación electromagnética en corriente eléctrica, suministrando energía a la red eléctrica de la base. Ocupa espacio y debe estar correctamente orientada, pero funciona sin combustible."
+    },
+    "B_Warehouse": {
+      "name": "Almacén",
+      "desc": "Este edificio es apto para almacenar materiales sólidos, que pueden ser fácilmente transportados dentro y fuera mediante drones."
+    },
+    "B_Organiser": {
+      "name": "Despachador de drones",
+      "desc": "Este edificio puede supervisar múltiples rutas de drones e integrarlas en cadenas de producción completas. La columna vertebral de un oleoducto bien organizado."
+    },
+    "B_Chest": {
+      "name": "Caja de intercambio",
+      "desc": "Esta pequeña caja permite que cualquier persona de la misma corporación que el propietario de la base deje o reciba regalos."
+    },
+    "B_Cistern": {
+      "name": "Cisterna",
+      "desc": "Este edificio es apto para almacenar materiales líquidos o semifluidos."
+    },
+    "B_FTLCistern": {
+      "name": "Cisterna de plasma magnético",
+      "desc": "Este edificio es adecuado para almacenar plasma magnético activo."
+    },
+    "B_FTLGatherer": {
+      "name": "Condensador cósmico"
+    },
+    "B_Crystaliser": {
+      "name": "Cristalizador",
+      "desc": "Este edificio utiliza soluciones químicas para generar cristales a velocidades excepcionalmente altas en comparación con su proceso de formación natural."
+    },
+    "B_Farm": {
+      "name": "Granja xénica",
+      "desc": "Este edificio proporciona un entorno adecuado para el cultivo de organismos vivos."
+    },
+    "B_AntimatterSynthPH": {
+      "name": "Sintetizador de antimateria",
+      "desc": "Este edificio consume enormes cantidades de electricidad para producir cantidades ínfimas de antimateria, lo cual no deja de ser sorprendente."
+    },
+    "B_LaboPH": {
+      "name": "Laboratorio",
+      "desc": "Este edificio alberga un laboratorio Ninmah compacto con todo lo necesario para analizar sustancias exóticas."
+    },
+    "B_Connector": {
+      "name": "Cable",
+      "desc": "Este sencillo cable forma parte de la red eléctrica que alimenta todos los asentamientos de la galaxia Atlas."
+    },
+    "B_ElectricPillar": {
+      "name": "Pilón",
+      "desc": "Este poste puede soportar cables eléctricos y conectar la red eléctrica de la base con otro edificio. Para conectar un cable, apunta a la parte superior del pilón y pulsa E."
+    },
+    "B_Generator": {
+      "name": "Central eléctrica de combustible",
+      "desc": "Este edificio consume combustible a base de carbono para producir corriente eléctrica, que abastece la red eléctrica de la base. Es eficaz y compacta, pero requiere muchos recursos."
+    },
+    "B_Generator2": {
+      "name": "Central eléctrica de combustible avanzada"
+    },
+    "B_FusionGenerator": {
+      "name": "Planta de fusión"
+    },
+    "B_HeatRecouper": {
+      "name": "Condensador de calor"
+    },
+    "B_PowerTransmitter": {
+      "name": "Transmisor de electricidad",
+      "desc": "Este edificio aprovecha la tecnología de blindaje de vanguardia y la deformación gravitacional del espacio-tiempo para transmitir electricidad sin pérdidas entre diferentes bases en el mismo sistema estelar."
+    },
+    "B_Battery": {
+      "name": "Banco de baterías",
+      "desc": "Este edificio almacena energía química cuando la red eléctrica produce un exceso de energía. Luego, puede convertir fácilmente esa energía de nuevo en electricidad durante los picos de consumo."
+    },
+    "B_Factory1": {
+      "name": "Ensamblador",
+      "desc": "Este edificio reúne recursos básicos para formar complejos industriales. Como alternativa automatizada al taller manual, puede funcionar de forma continua sin intervención humana, lo que la hace idónea para la producción a gran escala."
+    },
+    "B_Factory2": {
+      "name": "Fábrica",
+      "desc": "Los materiales para las naves más grandes solo pueden fabricarse en una fábrica especializada a gran escala que consume mucha energía."
+    },
+    "B_Smelter": {
+      "name": "Horno de fundición",
+      "desc": "Este edificio transforma la mena en bruto en lingotes industriales. Como alternativa automatizada a la fundición manual, puede funcionar de forma continua sin intervención humana, lo que la hace idónea para la producción a gran escala."
+    },
+    "B_SmelterSA": {
+      "name": "Microhorno",
+      "desc": "Meitner & Karls han perfeccionado el proceso de transformación del mineral en lingotes con este microhorno. Más pequeño y rápido que una fundición regular, es el accesorio perfecto para tus días de fabricación manual intensiva."
+    },
+    "B_Chemical": {
+      "name": "Fábrica química",
+      "desc": "Este edificio reúne elementos químicos para formar complejos industriales. Puede funcionar de forma continua sin intervención humana, lo que la hace idónea para la producción a gran escala."
+    },
+    "B_BottlingPlant": {
+      "name": "Planta embotelladora",
+      "desc": "Este edificio envasa productos líquidos o semifluidos en recipientes estandarizados."
+    },
+    "B_RecyclingPlant": {
+      "name": "Planta de reciclaje",
+      "desc": "Este edificio procesa los desechos para extraer sus diversos componentes y prepararlos para su reutilización industrial."
+    },
+    "B_ShuttlePad": {
+      "name": "Plataforma de aterrizaje para transbordador",
+      "desc": "Esta plataforma permite que una lanzadera se acople a la base, transportando mercancías dentro y fuera de ella."
+    },
+    "B_LandingPad": {
+      "name": "Plataforma de aterrizaje",
+      "desc": "Esta plataforma permite que una nave se acople a la base y se conecte a su sistema de distribución para transferir combustible u otros fluidos."
+    },
+    "B_Shipyard": {
+      "name": "Astillero",
+      "desc": "Esta plataforma permite que una nave se acople a la base para modificar su estructura y reemplazar sus módulos. Es similar a los astilleros de las estaciones espaciales."
+    },
+    "B_StandaloneFoundation": {
+      "name": "Fundación independiente"
+    },
+    "B_PathwayHolder": {
+      "name": "Puesto de ruta",
+      "desc": "Esta imponente estructura puede mantener estable un túnel espaciotemporal existente, incluso en el pozo gravitacional de un planeta. Una nave puede viajar a través de dicha ruta con su motor superlumínico convencional."
+    },
+    "B_AtmoDome": {
+      "name": "Generador de cúpula atmosférica"
+    },
+    "B_Observatory": {
+      "name": "Observatorio"
+    },
+    "B_Hypergate": {
+      "name": "Hiperportal"
+    },
+    "B_SunStation": {
+      "name": "Estación solar"
+    },
+    "B_DecoTest": {
+      "name": "Decoración de prueba",
+      "desc": "Este edificio es solo un elemento decorativo, pero el estilo suele ser lo que diferencia a los buenos contratistas de los grandes."
+    },
+    "B_DecoPirate": {
+      "name": "Holograma pirata",
+      "desc": "Este edificio es solo un elemento decorativo, pero el estilo suele ser lo que diferencia a los buenos contratistas de los grandes."
+    },
+    "B_DecoTranscendance": {
+      "name": "Holograma de trascendencia",
+      "desc": "Este edificio es solo un elemento decorativo, pero el estilo suele ser lo que diferencia a los buenos contratistas de los grandes."
+    },
+    "B_DecoPlanet": {
+      "name": "Holograma de planeta",
+      "desc": "Este edificio es solo un elemento decorativo, pero el estilo suele ser lo que diferencia a los buenos contratistas de los grandes."
+    },
+    "B_DecoSakura": {
+      "name": "Holograma de sakura",
+      "desc": "Este edificio es solo un elemento decorativo, pero el estilo suele ser lo que diferencia a los buenos contratistas de los grandes."
+    },
+    "B_DecoSnake": {
+      "name": "Holograma de serpiente",
+      "desc": "Este edificio es solo un elemento decorativo, pero el estilo suele ser lo que diferencia a los buenos contratistas de los grandes."
+    },
+    "B_DecoDiver": {
+      "name": "Holograma de peces",
+      "desc": "Este edificio es solo un elemento decorativo, pero el estilo suele ser lo que diferencia a los buenos contratistas de los grandes."
+    },
+    "EmptyInventory": {
+      "name": "Vacío",
+      "desc": "<i>No hay nada en la bodega de tu nave.</i>"
+    },
+    "EmptyAttachment": {
+      "desc": "Sin accesorios"
+    },
+    "Unknown": {
+      "name": "???"
+    },
+    "Deprecated": {
+      "name": "Escombros",
+      "desc": "Los restos de algo antiguo. Ahora no hay manera de restaurarlo, ni de averiguar qué era. El universo ha cambiado y ya no es necesario."
+    },
+    "RegionPiratesSpawn": {
+      "name": "Piratas espaciales"
+    },
+    "EmptySlot": {
+      "name": "Selecciona...",
+      "desc": "Pulsa para equipar"
+    },
+    "EmptyCraft": {
+      "name": "Selecciona...",
+      "desc": "Clic para seleccionar la receta"
+    },
+    "EmptyFuel": {
+      "name": "Selecciona...",
+      "desc": "Pulsa para seleccionar el combustible"
+    },
+    "EmptyLiquid": {
+      "name": "Selecciona...",
+      "desc": "Pulsa para seleccionar el líquido"
+    },
+    "EmptyPatch": {
+      "name": "Añadir parche..."
+    },
+    "Foundation": {
+      "name": "Fundación"
+    },
+    "ScienceXP": {
+      "name": "EXP de ciencia"
+    },
+    "Credits": {
+      "name": "Créditos",
+      "desc": "Los créditos son la moneda común de la Galaxia Atlas, emitida por la Unión Interestelar de Bancos bajo la supervisión de la República."
+    },
+    "CorpoCredits": {
+      "name": "Créditos de corpo",
+      "desc": "Estos créditos pertenecen a una corporación, no a un particular."
+    },
+    "SoftMoney": {
+      "name": "NXT",
+      "desc": "El NXT es la moneda que permite desbloquear elementos visuales adicionales para tu personaje, tu nave o tu base espacial."
+    },
+    "HardMoney": {
+      "name": "PXE",
+      "desc": "El PXE se puede comprar con dinero real para desbloquear algunos efectos visuales."
+    },
+    "CorpoReputation": {
+      "name": "Reputación",
+      "desc": "A medida que cada corpo completa sus diversas solicitudes, su reputación en toda la galaxia mejora."
+    },
+    "LicensePoints": {
+      "name": "Puntos de licencia",
+      "desc": "Estos puntos, que regulan el acceso a las licencias industriales, son emitidos por la Agencia Universal de Licencias de la República."
+    },
+    "RandomLoot": {
+      "name": "Lote"
+    },
+    "EditorDecal": {
+      "name": "Pegatina"
+    },
+    "PatchDescHolder": {
+      "desc": "Esta mejora puede ponerse de forma permanente en un módulo de una nave espacial. Si el módulo se recicla, el parche instalado tiene un 50% de probabilidades de conservarse."
+    },
+    "TestReadable": {
+      "name": "Lectura de prueba"
+    },
+    "Blueprint": {
+      "name": "Plano",
+      "desc": "Este plano detallado contiene todas las instrucciones necesarias para construir un módulo específico de la nave. Puede ser leído por un ser humano o por una máquina."
+    },
+    "Patch_SystemIntegration_1": {
+      "name": "Parche del módulo: sistema I"
+    },
+    "Patch_SystemIntegration_2": {
+      "name": "Parche del módulo: sistema II"
+    },
+    "Patch_SystemIntegration_3": {
+      "name": "Parche del módulo: sistema III"
+    },
+    "Patch_HeatAbsorber_1": {
+      "name": "Parche del módulo: amortiguador de calor I"
+    },
+    "Patch_HeatAbsorber_2": {
+      "name": "Parche del módulo: amortiguador de calor II"
+    },
+    "Patch_HeatAbsorber_3": {
+      "name": "Parche del módulo: amortiguador de calor III"
+    },
+    "Patch_PowerEfficiency_1": {
+      "name": "Parche del módulo: eficiencia eléctrica I"
+    },
+    "Patch_PowerEfficiency_2": {
+      "name": "Parche del módulo: eficiencia eléctrica II"
+    },
+    "Patch_PowerEfficiency_3": {
+      "name": "Parche del módulo: eficiencia eléctrica III"
+    },
+    "Patch_FuelEfficiency_1": {
+      "name": "Parche del módulo: eficiencia de combustible I"
+    },
+    "Patch_FuelEfficiency_2": {
+      "name": "Parche del módulo: eficiencia de combustible II"
+    },
+    "Patch_FuelEfficiency_3": {
+      "name": "Parche del módulo: eficiencia de combustible III"
+    },
+    "Patch_BatteryMultiplicator_1": {
+      "name": "Parche de batería: sobrecarga I"
+    },
+    "Patch_BatteryMultiplicator_2": {
+      "name": "Parche de batería: sobrecarga II"
+    },
+    "Patch_BatteryMultiplicator_3": {
+      "name": "Parche de batería: sobrecarga III"
+    },
+    "Patch_PrecisionTargeting_1": {
+      "name": "Parche de arma: precisión I"
+    },
+    "Patch_PrecisionTargeting_2": {
+      "name": "Parche de arma: precisión II"
+    },
+    "Patch_PrecisionTargeting_3": {
+      "name": "Parche de arma: precisión III"
+    },
+    "Patch_WildShot_1": {
+      "name": "Parche de arma: disparo salvaje I"
+    },
+    "Patch_WildShot_2": {
+      "name": "Parche de arma: disparo salvaje II"
+    },
+    "Patch_WildShot_3": {
+      "name": "Parche de arma: disparo salvaje III"
+    },
+    "Patch_SureShot_1": {
+      "name": "Parche de arma: tiro certero I"
+    },
+    "Patch_SureShot_2": {
+      "name": "Parche de arma: tiro certero II"
+    },
+    "Patch_SureShot_3": {
+      "name": "Parche de arma: tiro certero III"
+    },
+    "Patch_EdgeExplorer_1": {
+      "name": "Parche superlumínico: explorador fronterizo I"
+    },
+    "Patch_EdgeExplorer_2": {
+      "name": "Parche superlumínico: explorador fronterizo II"
+    },
+    "Patch_Magplasma_1": {
+      "name": "Parche superlumínico: plasma magnético I"
+    },
+    "Patch_Magplasma_2": {
+      "name": "Parche superlumínico: Plasma magnético II"
+    },
+    "Patch_Magplasma_3": {
+      "name": "Parche superlumínico: plasma magnético III"
+    },
+    "Patch_FTLDodge_1": {
+      "name": "Parche superlumínico: esquiva de luz I"
+    },
+    "Patch_FTLDodge_2": {
+      "name": "Parche superlumínico: esquiva de luz II"
+    },
+    "Patch_FTLDodge_3": {
+      "name": "Parche superlumínico: esquiva de luz III"
+    },
+    "Patch_Charted_1": {
+      "name": "Parche superlumínico: cielos cartografiados I"
+    },
+    "Patch_Charted_2": {
+      "name": "Parche superlumínico: cielos cartografiados II"
+    },
+    "Patch_Charted_3": {
+      "name": "Parche superlumínico: cielos cartografiados III"
+    },
+    "Patch_MiningTier_1": {
+      "name": "Parche de láser: nivel de minería I"
+    },
+    "Patch_MiningTier_2": {
+      "name": "Parche de láser: nivel de minería II"
+    },
+    "Patch_LastYield_1": {
+      "name": "Parche de láser: rendimiento final I"
+    },
+    "Patch_MiningPower_1": {
+      "name": "Parche de láser: electricidad minera I"
+    },
+    "Patch_MiningPower_2": {
+      "name": "Parche de láser: electricidad minera II"
+    },
+    "Patch_MiningPower_3": {
+      "name": "Parche de láser: electricidad minera III"
+    },
+    "Patch_IncreasedOutput_1": {
+      "name": "Parche de láser: aumento de producción I"
+    },
+    "Patch_IncreasedOutput_2": {
+      "name": "Parche de láser: aumento de producción II"
+    },
+    "Patch_IncreasedOutput_3": {
+      "name": "Parche de láser: aumento de producción III"
+    },
+    "Patch_RareFind_1": {
+      "name": "Parche de láser: hallazgo raro I"
+    },
+    "Patch_RareFind_2": {
+      "name": "Parche de láser: hallazgo raro II"
+    },
+    "Patch_RareFind_3": {
+      "name": "Parche de láser: hallazgo raro III"
+    },
+    "Patch_PowerProduction_1": {
+      "name": "Parche del generador: electricidad I"
+    },
+    "Patch_PowerProduction_2": {
+      "name": "Parche del generador: electricidad II"
+    },
+    "Patch_PowerProduction_3": {
+      "name": "Parche del generador: electricidad III"
+    },
+    "Patch_RadarRange_1": {
+      "name": "Parche del radar: alcance I"
+    },
+    "Patch_RadarRange_2": {
+      "name": "Parche del radar: alcance II"
+    },
+    "Patch_RadarRange_3": {
+      "name": "Parche del radar: alcance III"
+    },
+    "Patch_BarrierToughness_1": {
+      "name": "Parche del escudo: resistente I"
+    },
+    "Patch_BarrierToughness_2": {
+      "name": "Parche del escudo: resistente II"
+    },
+    "Patch_BarrierToughness_3": {
+      "name": "Parche del escudo: resistente III"
+    },
+    "Patch_FastShield_1": {
+      "name": "Parche del escudo: rápido I"
+    },
+    "Patch_FastShield_2": {
+      "name": "Parche del escudo: rápido II"
+    },
+    "Patch_FastShield_3": {
+      "name": "Parche del escudo: rápido III"
+    },
+    "Patch_HeavyBarrier_1": {
+      "name": "Parche del escudo: pesado I"
+    },
+    "Patch_HeavyBarrier_2": {
+      "name": "Parche del escudo: pesado II"
+    },
+    "Patch_HeavyBarrier_3": {
+      "name": "Parche del escudo: pesado III"
+    }
+  },
+  "attribute": {
+    "Default": {
+      "name": "Predeterminado"
+    },
+    "Meters": {
+      "name": "Distancia"
+    },
+    "StorageUnits": {
+      "name": "Unidades de almacenamiento"
+    },
+    "Price": {
+      "name": "Precio"
+    },
+    "PriceFromCraftOutput": {
+      "name": "Precio por tasa de fabricación"
+    },
+    "MaxSpeed": {
+      "name": "Velocidad máxima",
+      "desc": "La velocidad máxima es la velocidad de la nave a máxima potencia, sin potenciadores, en un vacío. Los diferentes medios de transporte afectarán a la velocidad real de la nave."
+    },
+    "MaxBoostSpeed": {
+      "name": "Velocidad máxima de potenciación",
+      "desc": "La velocidad máxima de potenciación es la velocidad de la nave a máxima potencia, al usar potenciadores, en un vacío. Los diferentes medios de transporte afectarán a la velocidad real de la nave."
+    },
+    "PowerStorage": {
+      "name": "Almacenamiento de electricidad",
+      "desc": "El almacenamiento de electricidad es la cantidad de carga eléctrica que se puede guardar en la batería de la nave."
+    },
+    "MaxPowerStorage": {
+      "name": "Almacenamiento de electricidad máximo"
+    },
+    "CurrentPower_Display": {
+      "name": "Electricidad actual"
+    },
+    "SolidStorage": {
+      "name": "Almacenamiento sólido",
+      "desc": "El almacenamiento de materiales sólidos es, principalmente una cuestión de organización eficiente."
+    },
+    "CurrentSolidStorage_Display": {
+      "name": "Almacenamiento sólido actual"
+    },
+    "OutputStorage": {
+      "name": "Almacenamiento de salida",
+      "desc": "En una fábrica, el almacenamiento de salida limita la cantidad máxima de la producción actual que puede almacenarse en la fábrica."
+    },
+    "InputStorage": {
+      "name": "Almacenamiento de entrada",
+      "desc": "En una fábrica, el almacenamiento de entrada limita la cantidad máxima de la producción actual que puede almacenarse en la fábrica."
+    },
+    "ConstructionTime": {
+      "name": "Tiempo de construcción"
+    },
+    "CraftTime": {
+      "name": "Tiempo de fabricación"
+    },
+    "CraftTax": {
+      "name": "Impuesto de fabricación"
+    },
+    "Duration": {
+      "name": "Duración"
+    },
+    "PersonaEquipCost": {
+      "name": "Coste del equipo",
+      "desc": "El coste del equipo para contratistas limita cuánto puede llevar un solo contratista a la vez."
+    },
+    "ItemDurability": {
+      "name": "Durabilidad",
+      "desc": "Nada es eterno. Este objeto se deteriora lentamente con cada uso, hasta que finalmente deja de funcionar."
+    },
+    "Temperature": {
+      "name": "Temperatura",
+      "desc": "La temperatura media actual de la nave es una función de cuánto calor almacena en comparación con su capacidad térmica. Si la temperatura sube o baja demasiado, la nave sufrirá daños."
+    },
+    "HeatProtection": {
+      "name": "Protección térmica",
+      "desc": "La protección térmica mejora la capacidad del traje para proteger al contratista de las altas temperaturas."
+    },
+    "ColdProtection": {
+      "name": "Protección contra el frío",
+      "desc": "La protección contra el frío mejora la capacidad del traje para proteger al contratista de las temperaturas bajo cero."
+    },
+    "Radioactivity": {
+      "name": "Radiactividad"
+    },
+    "RadioactivityProtection": {
+      "name": "Protección contra la radiactividad",
+      "desc": "La protección contra la radiactividad protege al contratista de toda radiación dañina, hasta un rango determinado."
+    },
+    "BeaconRange": {
+      "name": "Alcance",
+      "desc": "La cantidad de recursos dentro del alcance de la baliza se incorporará a su señal cuántica."
+    },
+    "MaxTechXP": {
+      "name": "Capacidad de experiencia",
+      "desc": "La experiencia en la rama de Tecnología se adquiere construyendo nuevas bases y fabricando componentes en fábricas automatizadas."
+    },
+    "PatchSlots": {
+      "name": "Espacios para parches",
+      "desc": "Este objeto puede recibir parches para mejorar su rendimiento. Los parches equipados no se pueden quitar sin destruir el objeto completo."
+    },
+    "ShuttleSlots": {
+      "name": "Espacios para lanzadera"
+    },
+    "ShuttleRange": {
+      "name": "Alcance de la lanzadera",
+      "desc": "La distancia a la que puede viajar la lanzadera."
+    },
+    "Frame": {
+      "name": "Armazón",
+      "desc": "El armazón se refiere a la capacidad estructural de una nave para no romperse bajo su propio peso. Aumenta la integridad de la nave."
+    },
+    "ShipWeight": {
+      "name": "Peso",
+      "desc": "El peso es una medida de la masa total de una nave. Afecta tanto a su integridad estructural como a su capacidad de movimiento."
+    },
+    "Hull": {
+      "name": "Casco",
+      "desc": "El casco representa la resistencia general de su nave. Cuando una nave se queda sin puntos del casco, queda fuera de servicio y requiere remolque."
+    },
+    "CurrentHull_Display": {
+      "name": "Casco actual"
+    },
+    "HeatCapacity": {
+      "name": "Capacidad térmica",
+      "desc": "La capacidad térmica corresponde a la cantidad de energía necesaria para elevar la temperatura de la nave. Cuanto más grande sea la nave, mayor será su capacidad térmica y más calor absorberá antes de sobrecalentarse."
+    },
+    "HeatInterfaceMaterial": {
+      "name": "Conductividad térmica del material",
+      "desc": "La conductividad térmica de un material determina la rapidez con la que el calor puede transmitirse a través de él. Un casco fabricado con materiales de alta conductividad térmica tendrá una mayor interfaz térmica y cambiará de temperatura más rápidamente en función del entorno."
+    },
+    "HeatInterfaceParts": {
+      "name": "Interfaz térmica de las partes"
+    },
+    "HeatInterfaceShip": {
+      "name": "Interfaz térmica",
+      "desc": "La interfaz térmica corresponde a la cantidad de transferencia de calor entre la nave y su entorno. Varía según el tamaño de la nave, pero también según los materiales utilizados en su construcción. Cuanto mayor sea la interfaz térmica, más rápidamente se verá afectada la nave por las temperaturas ambientales."
+    },
+    "SystemSupport": {
+      "name": "Soporte del sistema",
+      "desc": "El soporte del sistema es el número de sistemas secundarios disponibles en tu nave para dar servicio a sus módulos. Si los requisitos del sistema son mayores que el soporte del sistema, la nave tendrá más dificultades para evacuar correctamente el calor de su módulo, lo que provocará un sobrecalentamiento más rápido."
+    },
+    "SystemRequirement": {
+      "name": "Requisitos del sistema",
+      "desc": "Los requisitos del sistema representan cuánta ayuda necesita un módulo de los sistemas secundarios para funcionar correctamente sin sobrecalentarse."
+    },
+    "SystemMalusForShipPoints": {
+      "name": "Penalización del sistema"
+    },
+    "SystemEfficiency": {
+      "name": "Eficiencia del sistema",
+      "desc": "La eficiencia del sistema representa el alcance en que el soporte del sistema de la nave es suficiente para cumplir sus requisitos."
+    },
+    "EngineForce": {
+      "name": "Fuerza",
+      "desc": "La fuerza de un motor determina cuánto peso puede mover. Si la fuerza total de todos los motores de una nave es menor que su peso total, la nave no podrá moverse."
+    },
+    "EngineThrust": {
+      "name": "Propulsión",
+      "desc": "La propulsión de un motor determina la velocidad a la que puede moverse y acelerar. Varios motores producen menos empuje que la suma de sus empujes individuales, y las naves pesadas se mueven más despacio que los más ligeros."
+    },
+    "EngineThrustBonusUpwards": {
+      "name": "Bonificación por velocidad de despegue",
+      "desc": "Un motor optimizado para el ascenso hará que la nave se mueva más rápido al intentar abandonar la órbita."
+    },
+    "FTOilStorage": {
+      "name": "Almacenamiento de plasma magnético",
+      "desc": "Este objeto puede contener plasma magnético, el material que desafía las leyes de la física y que permite realizar viajes supraluminales de forma segura."
+    },
+    "FTLEngineJumpCost": {
+      "name": "Coste del salto superlumínico",
+      "desc": "El coste de salto de un motor superlumínico determina el coste base de un salto superlumínico, sin tener en cuenta el peso de la nave."
+    },
+    "FTLEngineWeightCapacity": {
+      "name": "Capacidad de peso superlumínico",
+      "desc": "La capacidad de carga de un motor superlumínico determina cuánto influye el peso de la nave en el coste de un salto superlumínico. Cuanto mayor sea la capacidad de carga, menos importará el peso de la nave."
+    },
+    "FakeFTLEngineClass": {
+      "name": "Clase de motor superlumínico",
+      "desc": "Los motores superlumínicos de mayor rendimiento siguen la misma ruta con menos plasma magnético, pero requieren una mayor pericia."
+    },
+    "FakeFTLOptimalMaxWeight": {
+      "name": "Óptimo hasta",
+      "desc": "Cada motor superlumínico está calibrado para transportar una determinada masa de materia. Utilizar el motor incorrecto para tu nave provocará un consumo excesivo de plasma magnético, lo que conllevará un posible aumento del daño supralumínico."
+    },
+    "FTOilConsumptionFactor": {
+      "name": "Consumo de plasma magnético",
+      "desc": "Este motor superlumínico ha sido modificado para consumir menos plasma magnético por salto."
+    },
+    "FTOilConsumptionFactorOnVisitedPath": {
+      "name": "Coste del plasma magnético en rutas conocidas",
+      "desc": "Este motor superlumínico ha sido modificado para consumir menos plasma magnético al saltar a través de una ruta conocida."
+    },
+    "Integrity": {
+      "name": "Integridad",
+      "desc": "La integridad representa hasta qué punto el armazón de la nave es suficiente para soportar su peso. Un bajo índice de integridad debilita el casco de la nave."
+    },
+    "SpotLightAngle": {
+      "name": "Ángulo de luz"
+    },
+    "SpotLightRange": {
+      "name": "Alcance de luz",
+      "desc": "La luz de este módulo alcanza el alcance especificado en la oscuridad frente a ti."
+    },
+    "SpotLightPower": {
+      "name": "Electricidad luminosa",
+      "desc": "Este módulo luminoso se activa en la oscuridad para iluminar el entorno que se encuentra frente a la nave."
+    },
+    "EnableNavigator": {
+      "name": "Desbloquea la planificación de rutas",
+      "desc": "Cuando este módulo esté instalado en la nave, haz clic derecho en una estrella del mapa galáctico para planificar una ruta."
+    },
+    "SteeringStrength": {
+      "name": "Fuerza de dirección",
+      "desc": "La fuerza de dirección de una pieza se utiliza para calcular la manejabilidad de la nave. Cuanto mayor sea su fuerza de dirección, mayor será la contribución de una pieza a la dirección del barco."
+    },
+    "Maneuvrability": {
+      "name": "Manejabilidad",
+      "desc": "La manejabilidad es una medida de la eficiencia con la que la fuerza de dirección de las alas y los propulsores permite mover el peso de la nave."
+    },
+    "AccelerationTime": {
+      "name": "Tiempo de aceleración",
+      "desc": "El tiempo de aceleración es el tiempo que tarda la nave en acelerar desde un estado de reposo hasta su velocidad máxima. Unos mejores propulsores y un casco más ligero pueden mejorar este valor."
+    },
+    "ShipDecoSupport": {
+      "name": "Capacidad de decoración"
+    },
+    "MaximumBases": {
+      "name": "Bases"
+    },
+    "CorpoPermitAccess": {
+      "name": "Pestaña de “Permisos de corpo”"
+    },
+    "MaximumShips": {
+      "name": "Naves"
+    },
+    "MaximumMembers": {
+      "name": "Miembros"
+    },
+    "CorpoUnlockAttribute": {
+      "name": "Derecho de “invitación”"
+    },
+    "CorpoUnlockAttribute1": {
+      "name": "Derecho de “despido”"
+    },
+    "CorpoUnlockGroupConfig": {
+      "name": "Configuración de grupo"
+    },
+    "CorpoUnlockAttribute2": {
+      "name": "Derecho de “gestión de permisos”"
+    },
+    "CorpoUnlockCredits": {
+      "name": "Agrupación de créditos"
+    },
+    "CorpoUnlockAttribute3": {
+      "name": "Derecho de “donación de créditos”"
+    },
+    "CorpoUnlockAttribute4": {
+      "name": "Derecho de “gestión de bases”"
+    },
+    "CorpoLicenseToReput": {
+      "name": "Reputación basada en puntos de licencia"
+    },
+    "CorpoBaseFootprint": {
+      "name": "Capacidad de superficie"
+    },
+    "CorpoStorageBonus": {
+      "name": "Bonificación por almacenamiento"
+    },
+    "CorpoManageStorage": {
+      "name": "Derecho de “gestión de almacenamiento de la estación”"
+    },
+    "CorpoUnlockStorage": {
+      "name": "Almacenamiento de la estación"
+    },
+    "CorpoUseStorage": {
+      "name": "Derecho de “uso de almacenamiento de la estación”"
+    },
+    "MaximumContracts": {
+      "name": "Solicitudes máximas"
+    },
+    "CorpoContractReputationBonus": {
+      "name": "Reputación"
+    },
+    "CorpoContractLPBonus": {
+      "name": "Puntos de licencia"
+    },
+    "CorpoContractCreditsBonus": {
+      "name": "Créditos"
+    },
+    "CorpoUpkeep": {
+      "name": "Mantenimiento",
+      "desc": "El mantenimiento de una corporación es la cantidad de créditos que la corpo debe pagar cada día para sostener sus operaciones. Cada permiso que desbloquees generará más mantenimiento. Puedes devolver los permisos para reducir el mantenimiento."
+    },
+    "CorpoCanInvite": {
+      "name": "Puedes invitar a nuevos miembros"
+    },
+    "CorpoCanRemoveUser": {
+      "name": "Puedes despedir miembros",
+      "desc": "Puede eliminar miembros del mismo grupo o de cualquier grupo con un rango inferior."
+    },
+    "CorpoCanPromoteUser": {
+      "name": "Puedes promocionar a los miembros",
+      "desc": "Puede promocionar a miembros del mismo grupo o de cualquier grupo con un rango inferior."
+    },
+    "CorpoCanDemoteUser": {
+      "name": "Puedes degradar a los miembros",
+      "desc": "Puedes degradar a los miembros del mismo grupo o de cualquier grupo con un rango inferior."
+    },
+    "CorpoCanEditInternalInfos": {
+      "name": "Puedes editar la información interna",
+      "desc": "Puede modificar el texto que aparece en el menú de corpo de todos los miembros."
+    },
+    "CorpoCanAcceptContract": {
+      "name": "Puedes aceptar solicitudes"
+    },
+    "CorpoCanTransferCredits": {
+      "name": "Puedes transferir créditos"
+    },
+    "CorpoCanTransferAssets": {
+      "name": "Puedes transferir activos",
+      "desc": "Puedes transferir naves y bases propiedad de la corpo a miembros de la corpo."
+    },
+    "CorpoCanManageBases": {
+      "name": "Puedes gestionar bases",
+      "desc": "Puedes desplegar bases para la corpo y abandonar bases propiedad de la corpo."
+    },
+    "CorpoCanSpendLP": {
+      "name": "Puedes gastar puntos de licencia"
+    },
+    "CorpoCanManagePermits": {
+      "name": "Puedes desbloquear y cancelar permisos de corpo"
+    },
+    "CorpoCanManageStorage": {
+      "name": "Puede comprar y mejorar el almacenamiento de la estación"
+    },
+    "CorpoCanUseStorage": {
+      "name": "Puede utilizar el almacenamiento de la estación"
+    },
+    "CorpoDefaultGroup": {
+      "name": "Grupo predeterminado",
+      "desc": "Este es el grupo predeterminado para los nuevos miembros."
+    },
+    "MiningPower": {
+      "name": "Electricidad minera",
+      "desc": "La electricidad minera es una estimación de la velocidad a la que tu láser perforará un trozo de mineral. Algunos minerales son más duros que otros, pero a mayor potencia, más rápida es la extracción."
+    },
+    "MiningTier": {
+      "name": "Nivel de minería",
+      "desc": "Cada nodo mineral tiene un nivel. Solo un láser con un nivel de minería suficientemente alto en relación con un nodo determinado podrá extraerlo."
+    },
+    "MiningLastYield": {
+      "name": "Rendimiento final",
+      "desc": "Cuando este módulo da el último golpe a un nodo de recursos, produce un rendimiento adicional."
+    },
+    "MiningOutputIncrease": {
+      "name": "Aumento de producción",
+      "desc": "Este módulo extrae más recursos principales presentes en un nodo. Este aumento de la producción no se aplica a los hallazgos raros."
+    },
+    "MiningSecondaryChanceIncrease": {
+      "name": "Probabilidad de hallazgo raro",
+      "desc": "Este módulo aumenta la probabilidad de encontrar minerales raros al extraerlos."
+    },
+    "ResourceScanningPower": {
+      "name": "Electricidad de escaneo"
+    },
+    "MaxScanningTier": {
+      "name": "Nivel de escaneo",
+      "desc": "Cada nodo mineral tiene un nivel. Solo un escáner con un nivel de escaneo suficientemente alto en relación con un nodo determinado podrá escanearlo."
+    },
+    "FluidStorage": {
+      "name": "Tamaño del depósito",
+      "desc": "El tamaño del depósito es una medida de la cantidad de líquido que puede contener este objeto."
+    },
+    "FluidPumpingSpeed": {
+      "name": "Tasa de flujo",
+      "desc": "El flujo es la cantidad de fluido recogido cada segundo que se utiliza la habilidad en el entorno adecuado."
+    },
+    "ActiveHeatGeneration": {
+      "name": "Generación de calor",
+      "desc": "Esta habilidad calentará la nave al ser utilizada."
+    },
+    "EngineHeatGeneration": {
+      "name": "Generación de calor del motor"
+    },
+    "BoosterHeatGeneration": {
+      "name": "Generación de calor por impulso",
+      "desc": "Los potenciadores activos calientan la nave."
+    },
+    "FakeAllActiveHeatGeneration": {
+      "name": "Generación de calor",
+      "desc": "Este modificador afecta a todas las formas de generación de calor activa del módulo conectado."
+    },
+    "HeatGeneration": {
+      "name": "Generación de calor",
+      "desc": "Los módulos de generación de calor se activan automáticamente para calentar la nave cuando la temperatura baja demasiado."
+    },
+    "HeatDissipation": {
+      "name": "Disipación de calor",
+      "desc": "Los módulos de disipación de calor se activan automáticamente para enfriar la nave cuando se calienta demasiado."
+    },
+    "EngineHeatDissipation": {
+      "name": "Disipación de calor del motor",
+      "desc": "Un motor especializado puede aprovechar la conducción térmica natural de la atmósfera para enfriarse más rápidamente mientras está en movimiento."
+    },
+    "BatteryChargeSpeed": {
+      "name": "Velocidad máxima de carga",
+      "desc": "Por mucha corriente que se les suministre, las baterías nunca podrán cargarse más rápido que su velocidad máxima de carga."
+    },
+    "BatteryEfficiency": {
+      "name": "Eficiencia teórica",
+      "desc": "Las baterías no son perfectamente eficientes: una parte de la corriente eléctrica utilizada para cargarlas se pierde. La eficiencia real de una batería depende de su eficiencia teórica, pero también disminuye con la cantidad de corriente que recibe."
+    },
+    "BatteryWastage": {
+      "name": "Autodescarga",
+      "desc": "Una batería que no se utiliza se descarga por sí sola con el tiempo."
+    },
+    "BoostThrust": {
+      "name": "Propulsión potenciadora",
+      "desc": "Este módulo añade empuje al motor cuando los potenciadores están activos, lo que aumenta la velocidad máxima de potenciación."
+    },
+    "PowerProduction": {
+      "name": "Generación de electricidad",
+      "desc": "La generación de electricidad se refiere a la producción de corrientes eléctricas que pueden utilizarse para alimentar la nave."
+    },
+    "PowerUsage": {
+      "name": "Uso de electricidad",
+      "desc": "Este módulo consume potencia eléctrica cuando está en uso."
+    },
+    "FakeAllPowerConsumption": {
+      "name": "Consumo de electricidad",
+      "desc": "Este modificador afecta a todas las formas de consumo de electricidad del módulo conectado."
+    },
+    "EngineConsumption": {
+      "name": "Consumo de electricidad",
+      "desc": "El consumo del motor es la cantidad de corriente eléctrica necesaria para utilizar los motores a máxima potencia."
+    },
+    "EngineConsumptionReductionInDark": {
+      "name": "Consumo de electricidad nocturno",
+      "desc": "Mediante ingeniosos trucos electromagnéticos, a veces es posible optimizar un propulsor iónico para que consuma menos energía a oscuras."
+    },
+    "BoostConsumption": {
+      "name": "Consumo de potenciación",
+      "desc": "Los potenciadores activos consumen potencia eléctrica."
+    },
+    "FTLMaxCritProbaReduction": {
+      "name": "Probabilidad de daño crítico superlumínico",
+      "desc": "Este módulo reduce la probabilidad de daños críticos durante un salto supraluminal."
+    },
+    "FTLDamageAbsorption": {
+      "name": "Reducción de daño superlumínico",
+      "desc": "Este módulo reduce la cantidad de daños sufridos durante los viajes superlumínicos."
+    },
+    "HullImpactDamageReduction": {
+      "name": "Daños por impacto en el casco",
+      "desc": "Este módulo reduce los daños en el casco causados por colisiones con el suelo, asteroides y otros objetos espaciales."
+    },
+    "RadarRange": {
+      "name": "Alcance máximo",
+      "desc": "El alcance máximo del radar es la distancia a la que detecta minerales y otros recursos en la superficie de un planeta. Los principales puntos de referencia y lugares únicos pueden detectarse desde mayor distancia."
+    },
+    "RadarRevealFromAfar": {
+      "name": "Revela recursos conocidos desde lejos"
+    },
+    "WreckFinder": {
+      "name": "Buscador de restos",
+      "desc": "Se han mejorado las capacidades del radar para detectar restos desde una distancia mucho mayor."
+    },
+    "ShieldMaxCharge": {
+      "name": "Carga máxima del escudo",
+      "desc": "La carga máxima es la cantidad máxima de daño que puede absorber un escudo antes de que se desactive, sin contar la regeneración del escudo."
+    },
+    "DamageNegation": {
+      "name": "Negación de daños",
+      "desc": "La negación de daño es la cantidad de daño que ignora un escudo cada vez que recibe un impacto."
+    },
+    "RegenPowerConsumption": {
+      "name": "Consumo de electricidad regenerativa",
+      "desc": "El consumo de electricidad de un escudo aumenta durante su regeneración. Este es su consumo de electricidad regenerativa."
+    },
+    "RegenDelay": {
+      "name": "Retraso de regeneración",
+      "desc": "Para que un escudo pueda regenerarse, no debe sufrir ningún daño durante un cierto periodo. Esto es su retraso de regeneración."
+    },
+    "RegenSpeed": {
+      "name": "Velocidad de regeneración",
+      "desc": "La velocidad de regeneración de un escudo es la velocidad a la que recupera su carga durante la regeneración."
+    },
+    "RegenSpeedDeactivated": {
+      "name": "Velocidad de regeneración desactivada"
+    },
+    "Cooldown": {
+      "name": "Tiempo de recarga",
+      "desc": "El tiempo de recarga es el tiempo mínimo entre la activación de una habilidad."
+    },
+    "ChargeDuration": {
+      "name": "Carga"
+    },
+    "SkillDurabilityCostInstant": {
+      "name": "Coste de durabilidad por uso"
+    },
+    "SkillDurabilityCostPerSecond": {
+      "name": "Coste de durabilidad por segundo"
+    },
+    "Sustain": {
+      "name": "Preservar"
+    },
+    "Damage": {
+      "name": "Daño estructural"
+    },
+    "BurstShotCount": {
+      "name": "Recuento de disparos en ráfaga"
+    },
+    "BurstShotDuration": {
+      "name": "Duración de disparos en ráfaga"
+    },
+    "AmmoConsumption": {
+      "name": "Consumo de munición",
+      "desc": "El consumo de munición es la cantidad de munición utilizada en cada activación de habilidad."
+    },
+    "ProjectileSpeed": {
+      "name": "Velocidad del proyectil"
+    },
+    "Accuracy": {
+      "name": "Precisión"
+    },
+    "CurrentAgility_Display": {
+      "name": "Agilidad",
+      "desc": "La agilidad es la capacidad de la nave para maniobrar y evitar proyectiles peligrosos que se dirigen hacia él. Afecta a la probabilidad de esquivar de la nave en combate."
+    },
+    "AgilityIgnoreWeightThroughEngineForce": {
+      "name": "Peso ignorado"
+    },
+    "Reliability": {
+      "name": "Fiabilidad"
+    },
+    "AllowDismantleShipWrecks": {
+      "name": "Desmantelamiento de restos",
+      "desc": "Este objeto puede desmantelar estructuras y naves gravemente dañadas."
+    },
+    "MaxConnectorAmount": {
+      "name": "Conexión máxima",
+      "desc": "La conexión máxima indica el número máximo de cables que pueden conectarse a este edificio para la gestión de la red eléctrica."
+    },
+    "ControlBaseRadius": {
+      "name": "Radio de base de control"
+    },
+    "EnergyDemand": {
+      "name": "Demanda de energía",
+      "desc": "Este edificio necesita energía para funcionar correctamente. Debe estar conectado a la red eléctrica de su base y se ralentizará si no se satisfacen sus necesidades energéticas."
+    },
+    "EnergyOffer": {
+      "name": "Generación de energía",
+      "desc": "Este edificio ayuda a generar energía para su base. Para que esto sea posible, debe estar conectado a la red eléctrica de la base."
+    },
+    "EnergyStockCapacity": {
+      "name": "Capacidad energética",
+      "desc": "La capacidad energética de un edificio con baterías es la cantidad máxima de energía que puede almacenar cuando la red eléctrica produce un excedente."
+    },
+    "EnergyTransferCapacity": {
+      "name": "Capacidad de transferencia",
+      "desc": "La capacidad de transferencia es la cantidad máxima de energía que puede transitar a través de un edificio transmisor."
+    },
+    "FuelConversion": {
+      "name": "Potencia del combustible",
+      "desc": "La potencia del combustible es la cantidad de combustible en una sola unidad del objeto seleccionado. Cuanto mayor sea la potencia del combustible, más lentamente se consumirá el objeto."
+    },
+    "FuelConsumption": {
+      "name": "Consumo de combustible",
+      "desc": "El consumo de combustible es la cantidad de potencia de combustible consumida cada segundo."
+    },
+    "ProduceTimeFactor": {
+      "name": "Factor de tiempo de producción"
+    },
+    "UseManualCraftingTime": {
+      "name": "Usa el tiempo de fabricación manual"
+    },
+    "BuildPointsCost": {
+      "name": "Superficie",
+      "desc": "La mayoría de los edificios utilizan superficie. El espacio total utilizado en una base siempre debe ser inferior a su capacidad de espacio."
+    },
+    "DecoPointsCost": {
+      "name": "Puntos de decoración",
+      "desc": "Los edificios decorativos utilizan puntos de decoración en lugar de superficie. El total de puntos de decoración utilizados en una base siempre debe ser inferior a su capacidad de decoración."
+    },
+    "MaxBuildPoints": {
+      "name": "Capacidad de superficie",
+      "desc": "La capacidad de superficie es una medida que determina la cantidad de edificios que puede albergar una base."
+    },
+    "MaxDecoPoints": {
+      "name": "Capacidad de decoración",
+      "desc": "La capacidad de decoración es una medida de la cantidad de edificios de decoración que una base puede albergar."
+    },
+    "DroneRouteCount": {
+      "name": "Recuento de rutas de drones",
+      "desc": "Este edificio puede albergar más de una ruta de drones."
+    },
+    "FakeGiveTechXP": {
+      "name": "Generar EXP tecnológica",
+      "desc": "Cuando este edificio fabrica un objeto, también contribuye a la generación de experiencia tecnológica en la base."
+    },
+    "FarmPlantGrowthSpeed": {
+      "name": "Velocidad metabólica productiva",
+      "desc": "La velocidad metabólica productiva afecta a la duración del crecimiento de una planta sin modificar la cantidad horaria de productos generados."
+    },
+    "FarmPlantGrowthSpeedMult": {
+      "name": "Velocidad metabólica productiva",
+      "desc": "La velocidad metabólica productiva afecta a la duración del crecimiento de una planta sin modificar la cantidad horaria de productos generados."
+    },
+    "FarmPlantFruitProductionSpeed": {
+      "name": "Cantidad de gérmenes",
+      "desc": "La cantidad de gérmenes influye en la cantidad de productos de germinación que se recogerán al final del crecimiento de la planta."
+    },
+    "FarmPlantFruitProductionSpeedMult": {
+      "name": "Cantidad de gérmenes",
+      "desc": "La cantidad de gérmenes influye en la cantidad de productos de germinación que se recogerán al final del crecimiento de la planta."
+    },
+    "FarmPlantExtraProductionSpeed": {
+      "name": "Cantidad de subproducto",
+      "desc": "La cantidad de subproductro afecta a la cantidad de productos no germinados que se recogerán al final del crecimiento de la planta."
+    },
+    "FarmPlantExtraProductionSpeedMult": {
+      "name": "Cantidad de subproducto",
+      "desc": "La cantidad de subproductro afecta a la cantidad de productos no germinados que se recogerán al final del crecimiento de la planta."
+    },
+    "FarmPlantAllSpeed": {
+      "name": "Velocidad de crecimiento y producción",
+      "desc": "La velocidad de crecimiento afecta al tiempo que tardará una planta en alcanzar su estado de recolección."
+    },
+    "FarmPlantDeathSpeed": {
+      "name": "Velocidad de decaimiento",
+      "desc": "La velocidad de decaimiento afecta al tiempo que tardará una planta en morir si no se cumplen sus requisitos."
+    },
+    "FarmPlantDissolveDead": {
+      "name": "Disuelve las plantas muertas",
+      "desc": "La planta afectada se disolverá por sí sola si ya está muerta."
+    },
+    "FarmPlantSeedGerminateSpeed": {
+      "name": "Velocidad de crecimiento de las semillas",
+      "desc": "La velocidad de germinación afecta al tiempo que tardará una planta en completar su fase de germinación."
+    },
+    "FarmPlantSeedDeathSpeed": {
+      "name": "Velocidad de muerte de las semillas",
+      "desc": "La velocidad de decaimiento afecta al tiempo que tardará una planta en morir si no se cumplen sus requisitos. Este efecto solo se aplica durante la fase de germinación."
+    },
+    "FarmPlantLiquidConsumption": {
+      "name": "Consumo de líquidos",
+      "desc": "El consumo de líquidos afecta a la cantidad de líquido que una planta consumirá a lo largo del tiempo."
+    },
+    "FarmPlantLiquidConsumptionMult": {
+      "name": "Consumo de líquidos",
+      "desc": "El consumo de líquidos afecta a la cantidad de líquido que una planta consumirá a lo largo del tiempo."
+    },
+    "FarmPlantSupplementConsumption": {
+      "name": "Consumo de suplementos",
+      "desc": "El consumo de suplementos afecta a la cantidad de fertilizantes y otros suplementos utilizados en su zona que una planta consumirá con el tiempo."
+    },
+    "FarmPlantSupplementConsumptionMult": {
+      "name": "Consumo de suplementos",
+      "desc": "El consumo de suplementos afecta a la cantidad de fertilizantes y otros suplementos utilizados en su zona que una planta consumirá con el tiempo."
+    },
+    "FarmPlantIgnoreMinRequirement": {
+      "name": "Ignora un requisito",
+      "desc": "La planta afectada podrá crecer incluso si no se cumple alguno de sus requisitos."
+    },
+    "FarmPlantSetLightToUV": {
+      "name": "Ajuste la luz a UV",
+      "desc": "La planta afectada reaccionará como si estuviera expuesta a luces ultravioleta."
+    },
+    "PlayerStructureAccess": {
+      "name": "Acceso a la estructura",
+      "desc": "Accede a la pestaña de ensamblaje para mover, añadir y quitar piezas de tu nave en el hangar."
+    },
+    "PlayerShipDecoAccess": {
+      "name": "Acceso a la decoración",
+      "desc": "Obtén acceso a pinturas para decorar tu nave en el hangar"
+    },
+    "PlayerShipDecalAccess": {
+      "name": "Acceso a decoración avanzado",
+      "desc": "Obtén acceso a pegatinas y plantillas para decorar tu nave en el hangar"
+    },
+    "PlayerJetpackLevel": {
+      "name": "Nivel de mochila propulsora"
+    },
+    "PlayerFightSkillsAccess": {
+      "name": "Configura habilidades de combate"
+    },
+    "SoldCapBonus": {
+      "name": "Mejora la reputación de la Compañía",
+      "desc": "Mejora la reputación de la Compañía y la cantidad de recursos que puedes venderles."
+    },
+    "Exploration": {
+      "name": "Exploración",
+      "desc": "La exploración es el arte de viajar a lugares desconocidos, ir más lejos que nadie antes y expandir las fronteras del asentamiento humano en la galaxia."
+    },
+    "Technology": {
+      "name": "Tecnología",
+      "desc": "La tecnología consiste en mejorar la producción industrial para construir más, mejor y más rápido."
+    },
+    "Science": {
+      "name": "Ciencia",
+      "desc": "Comprender los misterios del universo no siempre conlleva beneficios inmediatos, pero es el único camino a seguir para la humanidad y para el programa científico de la compañía."
+    },
+    "Social": {
+      "name": "Social",
+      "desc": "La Galaxia es una competición global entre corpos. Tu nivel social representa tus logros personales acumulados a lo largo del tiempo."
+    },
+    "Combat": {
+      "name": "Combate",
+      "desc": "El sistema de combate te permitirá luchar en modo JcE y cooperativo contra enemigos piratas espaciales. Será en tiempo real, pero no requerirá una acción intensa."
+    },
+    "RequiredExploration": {
+      "name": "Nivel de exploración requerido",
+      "desc": "Este objeto requiere habilidades de exploración especializadas para su correcto uso."
+    },
+    "RequiredTechnology": {
+      "name": "Nivel de tecnología requerido",
+      "desc": "Este objeto requiere habilidades tecnológicas especializadas para su correcto uso."
+    },
+    "RequiredCombat": {
+      "name": "Nivel de combate requerido",
+      "desc": "Este objeto requiere habilidades de combate especializadas para su correcto uso."
+    },
+    "RequiredScience": {
+      "name": "Requiere nivel de ciencias",
+      "desc": "Este objeto requiere habilidades científicas especializadas para su correcto uso."
+    },
+    "RequiredSocial": {
+      "name": "Nivel social requerido",
+      "desc": "Este objeto requiere habilidades sociales especializadas para su correcto uso."
+    },
+    "ExplorationLevelReduction": {
+      "name": "Nivel de exploración del sector",
+      "desc": "Este motor superlumínico te permite alcanzar un sector con un nivel de exploración superior al tuyo."
+    },
+    "PlanetWater": {
+      "name": "Presencia de agua"
+    },
+    "PlanetWaterLow": {
+      "name": "Niveles bajos de agua"
+    },
+    "PlanetWaterHigh": {
+      "name": "Niveles altos de agua"
+    },
+    "PlanetTemperate": {
+      "name": "Templado"
+    },
+    "PlanetHot1": {
+      "name": "Caliente"
+    },
+    "PlanetHot2": {
+      "name": "Muy caliente"
+    },
+    "PlanetHot3": {
+      "name": "Infierno"
+    },
+    "PlanetCold1": {
+      "name": "Frío"
+    },
+    "PlanetCold2": {
+      "name": "Congelado"
+    },
+    "PlanetCold3": {
+      "name": "Congelado hasta morir"
+    },
+    "PlanetLowGravity": {
+      "name": "Baja gravedad"
+    },
+    "PlanetRadioactive": {
+      "name": "Radioactivo"
+    },
+    "PlanetCorrosive": {
+      "name": "Corrosivo"
+    },
+    "PlanetElectromagnetic": {
+      "name": "Electromagnético"
+    },
+    "PlanetFoggy": {
+      "name": "Nebuloso"
+    },
+    "AsteroidDensity": {
+      "name": "Densidad"
+    },
+    "SystemHot": {
+      "name": "Caliente"
+    },
+    "SystemDebris": {
+      "name": "Escombros"
+    },
+    "SystemSecret": {
+      "name": "Secreto"
+    },
+    "LinkMagneticAnomaly": {
+      "name": "Anomalía magnética"
+    }
+  },
+  "itemType": {
+    "Virtual": {
+      "name": "Objeto virtual"
+    },
+    "QuestItem": {
+      "name": "Objeto de contrato"
+    },
+    "DataDisc": {
+      "name": "Disco de datos"
+    },
+    "InstanceItem": {
+      "name": "Objeto de instancia"
+    },
+    "Readable": {
+      "name": "Objeto legible"
+    },
+    "BeaconData": {
+      "name": "Datos de baliza"
+    },
+    "Blueprint": {
+      "name": "Plano"
+    },
+    "Patch": {
+      "name": "Parche"
+    },
+    "Knowledge": {
+      "name": "Conocimiento"
+    },
+    "Knowledge_Factions": {
+      "name": "Facciones"
+    },
+    "Knowledge_Tuto": {
+      "name": "Tutorial"
+    },
+    "AnyResource": {
+      "name": "Componente"
+    },
+    "PureComponents": {
+      "name": "Material"
+    },
+    "Fluid": {
+      "name": "Fluido"
+    },
+    "Ingots": {
+      "name": "Lingote"
+    },
+    "CrystalMatrix": {
+      "name": "Matriz de cristal"
+    },
+    "Liquid": {
+      "name": "Líquido"
+    },
+    "Gas": {
+      "name": "Gas"
+    },
+    "Plasma": {
+      "name": "Plasma"
+    },
+    "Minerals": {
+      "name": "Recolección"
+    },
+    "Metal": {
+      "name": "Mena de metal"
+    },
+    "MetalOre": {
+      "name": "Mena"
+    },
+    "MetalNugget": {
+      "name": "Pepita"
+    },
+    "MetalShavings": {
+      "name": "Viruta"
+    },
+    "MineralParent": {
+      "name": "Mena de mineral"
+    },
+    "MineralOre": {
+      "name": "Mena"
+    },
+    "MineralNugget": {
+      "name": "Pepita"
+    },
+    "MineralShavings": {
+      "name": "Viruta"
+    },
+    "Scrap": {
+      "name": "Restos"
+    },
+    "Crystal": {
+      "name": "Cristal"
+    },
+    "Biological_Extra": {
+      "name": "Subproducto orgánico"
+    },
+    "Biological_Fruit": {
+      "name": "Germen"
+    },
+    "FactoredMaterial": {
+      "name": "Fabricado"
+    },
+    "SimpleFactoredMaterial": {
+      "name": "Producto simple"
+    },
+    "ComplexFactoredMaterial": {
+      "name": "Artilugio"
+    },
+    "Bottles": {
+      "name": "Botella"
+    },
+    "BottlesFull": {
+      "name": "Botella"
+    },
+    "Casings": {
+      "name": "Kit y carcasa"
+    },
+    "Automate": {
+      "name": "Agentes robóticos"
+    },
+    "Shuttle": {
+      "name": "Lanzadera"
+    },
+    "Luxuries": {
+      "name": "Objeto de lujo"
+    },
+    "PlanetResource": {
+      "name": "Recurso"
+    },
+    "PlanetResource_RegularNode": {
+      "name": "Cúmulo"
+    },
+    "PlanetResource_Exploration": {
+      "name": "Descubrimiento mundial"
+    },
+    "PlanetResource_Deposit": {
+      "name": "Yacimiento"
+    },
+    "PlanetResource_Shell": {
+      "name": "Capa"
+    },
+    "PlanetResource_Geyser": {
+      "name": "Géiser"
+    },
+    "FarmPlant": {
+      "name": "Planta de cultivo"
+    },
+    "ShipElement": {
+      "name": "Elemento de la nave"
+    },
+    "ShipPart": {
+      "name": "Parte de la nave"
+    },
+    "ShipHull": {
+      "name": "Parte del casco"
+    },
+    "ShipHull_Steel": {
+      "name": "Parte del casco de acero"
+    },
+    "ShipHull_Steel_AluK": {
+      "name": "Parte del casco de acero chapado en aluminio-K"
+    },
+    "ShipHull_Titanium": {
+      "name": "Parte del caso de titanio"
+    },
+    "ShipHull_Titanium_AluK": {
+      "name": "Parte del casco de titanio chapado en aluminio-K"
+    },
+    "ShipHull_Platinum": {
+      "name": "Parte del casco de armazón sólido"
+    },
+    "ShipHull_Levinium": {
+      "name": "Parte del casco de levinio"
+    },
+    "ShipHull_AlloyX": {
+      "name": "Parte del casco de aleación X"
+    },
+    "ShipCockpit": {
+      "name": "Cabina"
+    },
+    "ShipEngine": {
+      "name": "Propulsor"
+    },
+    "ShipWing": {
+      "name": "Ala"
+    },
+    "ShipDecorative": {
+      "name": "Decorativo"
+    },
+    "ShipTool": {
+      "name": "Módulo externo"
+    },
+    "ShipGatheringTools": {
+      "name": "Recolección"
+    },
+    "ShipRadars": {
+      "name": "Radar"
+    },
+    "ShipPowerTools": {
+      "name": "Panel solar"
+    },
+    "ShipHeatTools": {
+      "name": "Panel de calor"
+    },
+    "ShipWeapon": {
+      "name": "Arma"
+    },
+    "ShipBooster": {
+      "name": "Potenciador"
+    },
+    "ShipLight": {
+      "name": "Luz"
+    },
+    "ShipToolSpecial": {
+      "name": "Herramientas especializadas"
+    },
+    "ShipModule": {
+      "name": "Módulo interno"
+    },
+    "ShipInventoryModules": {
+      "name": "Módulo de almacenamiento"
+    },
+    "ShipFTLModules": {
+      "name": "Módulo superlumínico"
+    },
+    "ShipShields": {
+      "name": "Escudo"
+    },
+    "ShipPowerGenerators": {
+      "name": "Módulo de electricidad"
+    },
+    "ShipBattery": {
+      "name": "Batería"
+    },
+    "ShipHeatModule": {
+      "name": "Módulo de calor"
+    },
+    "ShipControlModule": {
+      "name": "Modificación de control"
+    },
+    "ShipAmmunition": {
+      "name": "Munición"
+    },
+    "MiningTool": {
+      "name": "Herramienta de minería"
+    },
+    "Building": {
+      "name": "Edificio"
+    },
+    "BaseBuilding": {
+      "name": "Edificio base"
+    },
+    "Pylon": {
+      "name": "Pilón"
+    },
+    "BaseBuilding_Crafting": {
+      "name": "Fabricante"
+    },
+    "BaseBuilding_Gathering": {
+      "name": "Recolector"
+    },
+    "BaseBuilding_Power": {
+      "name": "Electricidad"
+    },
+    "BaseBuilding_Storage": {
+      "name": "Almacenamiento"
+    },
+    "BaseBuilding_Logistic": {
+      "name": "Logística"
+    },
+    "BaseBuilding_Command": {
+      "name": "Mando"
+    },
+    "BaseBuilding_Deco": {
+      "name": "Decoración"
+    },
+    "SpaceStation": {
+      "name": "Estación espacial"
+    },
+    "Craft_RawResource": {
+      "name": "Procesamiento de minerales"
+    },
+    "Craft_CrystalSmelting": {
+      "name": "Procesamiento de cristales"
+    },
+    "Craft_Mixing": {
+      "name": "Mezcla"
+    },
+    "Craft_Alloy": {
+      "name": "Aleación"
+    },
+    "Craft_IntermediaryComponent": {
+      "name": "Material"
+    },
+    "Craft_CrystalLattice": {
+      "name": "Geometría cristalina"
+    },
+    "Craft_PlayerItem": {
+      "name": "Equipo para contratistas"
+    },
+    "Craft_Tools": {
+      "name": "Módulo externo"
+    },
+    "Craft_Modules": {
+      "name": "Módulo interno"
+    },
+    "Craft_Casings": {
+      "name": "Componente de la nave"
+    },
+    "Craft_Parts": {
+      "name": "Parte de la nave"
+    },
+    "Craft_Parts_Plating": {
+      "name": "Recubrimiento de partes de naves"
+    },
+    "Craft_Patch": {
+      "name": "Parche"
+    },
+    "Craft_BuildingKit": {
+      "name": "Kit de fábrica"
+    },
+    "Craft_Seed": {
+      "name": "Desintegración de semillas"
+    },
+    "Craft_Crystal": {
+      "name": "Cristalización"
+    },
+    "Craft_Recycle": {
+      "name": "Reciclaje"
+    },
+    "Craft_StudyCrystal": {
+      "name": "Muestra de cristal"
+    },
+    "Craft_StudyMineral": {
+      "name": "Muestra de mineral"
+    },
+    "Craft_StudyOrganic": {
+      "name": "Muestra biológica"
+    },
+    "Craft_StudyQuest": {
+      "name": "Objeto de contrato"
+    },
+    "Craft_BottleIn": {
+      "name": "Embotellado"
+    },
+    "Craft_BottleOut": {
+      "name": "Desembotellado"
+    },
+    "Craft_Other": {
+      "name": "Otro"
+    },
+    "Craft_Dismantle": {
+      "name": "Desmantelar"
+    },
+    "PlayerItem": {
+      "name": "Equipo para contratistas"
+    },
+    "PlayerHands": {
+      "name": "Herramienta manual"
+    },
+    "PlayerConsumable": {
+      "name": "Dispositivo del contratista"
+    },
+    "PlayerSuitChip": {
+      "name": "Chip de traje de contratista"
+    },
+    "Clothes": {
+      "name": "Ropa"
+    },
+    "Drone": {
+      "name": "Dron"
+    },
+    "Region": {
+      "name": "Región"
+    },
+    "Category_All": {
+      "name": "Todo"
+    },
+    "Category_Craft": {
+      "name": "Fabricación"
+    },
+    "Category_Blueprint": {
+      "name": "Plano"
+    },
+    "Category_Others": {
+      "name": "Otro"
+    },
+    "Category_Decals": {
+      "name": "Pegatina"
+    },
+    "Category_InStorage": {
+      "name": "Almacenamiento"
+    },
+    "Custo_Parts": {
+      "name": "Parte decorativa"
+    },
+    "Custo_Building": {
+      "name": "Edificio decorativo"
+    },
+    "Custo_Material": {
+      "name": "Material de la nave"
+    },
+    "Custo_Decal": {
+      "name": "Pegatina de la nave"
+    },
+    "Custo_Suit": {
+      "name": "Traje del personaje"
+    },
+    "Custo_Trail": {
+      "name": "Ruta de la nave"
+    }
+  }
+}

@@ -216,3 +216,35 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Project-specific ---
+
+# Extracted / unpacked game asset source (large, regenerable input).
+# Anchored to the repo root so the committed test fixture at
+# tests/fixtures/unpacked/ (the CI stand-in) is NOT ignored.
+/unpacked/
+
+# NOTE: generated/ is intentionally tracked — it's the release resource
+# consumed by other apps, built from unpacked/ via the parse/generate scripts.
+
+# AI agent / tooling working directories
+.agents/
+.codex*/
+.claude/
+
+# Editor / IDE
+.idea/
+.vscode/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Design specs and implementation plans (kept local, not committed)
+docs/
+
+# The generic lib/ rule above (Python packaging artifacts) would otherwise
+# ignore our source package src/lib/ and tests/lib/ — keep them tracked.
+!src/lib/
+!tests/lib/
