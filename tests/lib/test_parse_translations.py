@@ -2,7 +2,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-import parse_translations as script
+from src.lib import parse_translations as script
 
 
 class TranslationsFromCdbTests(unittest.TestCase):

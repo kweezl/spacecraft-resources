@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
-"""DEPRECATED: this root-level script is kept only for the src/commands wrappers
-that still call it. New parsing logic lives under src/ (see src/lib/craft.py and
-src/commands/parse_craft.py). Do not add features here; it will be migrated and
-removed in a follow-up task.
+"""Extract translatable strings (name + desc) into per-language translation files.
 
-Extract translatable strings (name + desc) into per-language translation files.
+Pure logic plus a thin argparse ``main`` driven by
+src/commands/parse_translations.py.
 
 English is the base language and comes from data.cdb itself.
 Other languages come from the extra/lang/export_<lang>.xml files.
@@ -23,7 +21,6 @@ import json
 import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
-
 
 # Which sheets to translate and where each sheet keeps its name/desc.
 # name_path / desc_path are dotted column paths inside a CDB row (and the

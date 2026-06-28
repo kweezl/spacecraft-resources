@@ -3,7 +3,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-import generate_icons
+from src.lib import generate_icons
 
 
 class GenerateIconsTests(unittest.TestCase):

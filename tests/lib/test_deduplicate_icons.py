@@ -1,6 +1,6 @@
 import unittest
 
-import deduplicate_icons as dd
+from src.lib import deduplicate_icons as dd
 
 
 def entry(file="sheet.png", size=64, x=0, y=0, w=1, h=1, colors=None, positions=None):

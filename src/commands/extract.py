@@ -1,20 +1,19 @@
-from typing import List, Optional
 
 import typer
 
-import extract as script
 from src.lib import config
+from src.lib import extract as script
 from src.lib.env import resolve
 
 
 def run(
-    pak: Optional[str] = None,
-    out: Optional[str] = None,
+    pak: str | None = None,
+    out: str | None = None,
     list_files: bool = False,
-    ext: Optional[List[str]] = None,
-    contains: Optional[List[str]] = None,
-    kind2: Optional[int] = None,
-    debug_at: Optional[str] = None,
+    ext: list[str] | None = None,
+    contains: list[str] | None = None,
+    kind2: int | None = None,
+    debug_at: str | None = None,
 ) -> int:
     resolved_pak = resolve(pak, config.EXTRACT_PAK)
     if not resolved_pak:
@@ -39,13 +38,13 @@ def run(
 
 
 def command(
-    pak: Optional[str] = typer.Argument(None, help="Path to the .pak archive. Env: SC_EXTRACT_PAK."),
-    out: Optional[str] = typer.Option(None, "--out", help="Output dir. Env: SC_EXTRACT_OUT (default: unpacked)."),
+    pak: str | None = typer.Argument(None, help="Path to the .pak archive. Env: SC_EXTRACT_PAK."),
+    out: str | None = typer.Option(None, "--out", help="Output dir. Env: SC_EXTRACT_OUT (default: unpacked)."),
     list_files: bool = typer.Option(False, "--list", help="List archive contents instead of extracting."),
-    ext: Optional[List[str]] = typer.Option(None, "--ext", help="Only files with these extensions."),
-    contains: Optional[List[str]] = typer.Option(None, "--contains", help="Only paths containing these substrings."),
-    kind2: Optional[int] = typer.Option(None, "--kind2", hidden=True),
-    debug_at: Optional[str] = typer.Option(None, "--debug-at", hidden=True, help="Hex offset to dump."),
+    ext: list[str] | None = typer.Option(None, "--ext", help="Only files with these extensions."),
+    contains: list[str] | None = typer.Option(None, "--contains", help="Only paths containing these substrings."),
+    kind2: int | None = typer.Option(None, "--kind2", hidden=True),
+    debug_at: str | None = typer.Option(None, "--debug-at", hidden=True, help="Hex offset to dump."),
 ) -> None:
     code = run(
         pak,

@@ -1,0 +1,16 @@
+# Ruff config for the `sc` tool. Lints the Python package (src/, tests/, sc.py);
+# the unpacked game source, generated release output, and the venv are excluded.
+target-version = "py312"
+line-length = 120
+
+extend-exclude = [".venv", "unpacked", "generated", "__pycache__"]
+
+[lint]
+# pyflakes (F) + pycodestyle (E/W) + isort (I) + pyupgrade (UP) + bugbear (B).
+select = ["E", "W", "F", "I", "UP", "B"]
+# Line length is a formatting concern, not enforced as a lint error here.
+ignore = ["E501"]
+
+[lint.flake8-bugbear]
+# Typer declares CLI options/arguments as call-defaults by design (not a B008 bug).
+extend-immutable-calls = ["typer.Option", "typer.Argument"]

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""DEPRECATED: this root-level script is kept only for the src/commands wrappers
-that still call it. New parsing logic lives under src/ (see src/lib/craft.py and
-src/commands/parse_craft.py). Do not add features here; it will be migrated and
-removed in a follow-up task.
+"""Generate colored item/resource icons from SpaceCraft data.cdb.
+
+Pure logic plus a thin argparse ``main`` driven by src/commands/generate_icons.py.
+Re-run after the game updates its data.cdb to regenerate the icon set.
 """
 import argparse
 import binascii
@@ -13,8 +13,7 @@ import zlib
 from dataclasses import dataclass
 from pathlib import Path
 
-import deduplicate_icons
-
+from src.lib import deduplicate_icons
 
 PNG_SIGNATURE = b"\x89PNG\r\n\x1a\n"
 DEFAULT_ICON_FILES = (
@@ -130,7 +129,7 @@ def parse_gradient(value) -> Gradient | None:
 
     pairs = sorted(
         (float(position), signed_int_to_rgb(int(color)))
-        for color, position in zip(colors, positions)
+        for color, position in zip(colors, positions, strict=True)
     )
     return Gradient(colors=[color for _, color in pairs], positions=[position for position, _ in pairs])
 
