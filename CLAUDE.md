@@ -19,7 +19,7 @@ Run the tool through the entry point (loads `.env` first via the Typer callback)
 python sc.py                 # no args -> help
 python sc.py pipeline        # parse-items, parse-craft, parse-translations, generate-icons
 python sc.py <cmd> --dry-run # most parse/generate cmds support dry-run (no writes)
-python sc.py serve           # static server + opens server/items.html
+python sc.py serve           # static server + opens server/index.html
 ```
 
 Commands: `extract`, `parse-items`, `parse-craft`, `parse-translations`,
@@ -123,6 +123,12 @@ command, a `tests/commands/test_sc_<name>.py` (argv/exit-code wiring). Red → g
 - Vue 3 Composition API, loaded from CDN (no build step); keep components small
   and data-driven from `generated/*.json`. Use `v-cloak`, `:key` on list renders,
   and computed properties over ad-hoc DOM work.
+- The SPA core (`app.js`, `components/*.js`, `composables.js`) is entry-agnostic:
+  it reads its data base from `data-data-base` on the `#app` element and imports
+  siblings relatively. `server/index.html` is the local entry; `.github/pages/index.html`
+  is the GitHub Pages entry, deployed by `.github/workflows/pages.yml` (assembles
+  `_site/` from the `server/` JS + `generated/`). Keep the two entry shells in sync
+  (guarded by `tests/test_server_spa.py`).
 
 **Docs are local, never committed** — design specs and implementation plans live
 under `docs/` (e.g. `docs/superpowers/{specs,plans}/`, dated markdown) and capture

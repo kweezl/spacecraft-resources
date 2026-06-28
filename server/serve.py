@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Tiny static file server for the items inspector (server/items.html).
+"""Tiny static file server for the resources inspector (server/index.html).
 
 The inspector loads generated/*.json over HTTP (browsers block file:// fetches),
 so this serves the repo root and opens the page. Dotfiles (.env, .git, ...) are
@@ -16,7 +16,7 @@ from urllib.parse import unquote, urlsplit
 
 # Repo root is the parent of this server/ directory.
 REPO_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_PAGE = "server/items.html"
+DEFAULT_PAGE = "server/index.html"
 
 
 def is_hidden_path(request_path: str) -> bool:
@@ -64,7 +64,7 @@ def parse_args(argv=None):
     parser.add_argument("--dir", type=Path, default=REPO_ROOT, help="Directory to serve (default: repo root).")
     parser.add_argument("--host", default="127.0.0.1", help="Bind host (default: 127.0.0.1).")
     parser.add_argument("--port", type=int, default=8000, help="Bind port (default: 8000).")
-    parser.add_argument("--page", default=DEFAULT_PAGE, help="Page path to open (default: server/items.html).")
+    parser.add_argument("--page", default=DEFAULT_PAGE, help="Page path to open (default: server/index.html).")
     parser.add_argument("--no-open", dest="open_browser", action="store_false", help="Do not open a browser.")
     return parser.parse_args(argv)
 
