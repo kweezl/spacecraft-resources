@@ -2,20 +2,56 @@ import { createApp, ref, computed, onMounted } from "https://unpkg.com/vue@3/dis
 import { resolveDataBase, loadJson, useLang, useHashRoute } from "./composables.js";
 import { ItemsView } from "./components/items-view.js";
 import { RecipesView } from "./components/recipes-view.js";
+import { WorkshopsView } from "./components/workshops-view.js";
+import { ContractsView } from "./components/contracts-view.js";
+import { CategoriesView } from "./components/categories-view.js";
+import { SpaceObjectsView } from "./components/space-objects-view.js";
+import { FactionsView } from "./components/factions-view.js";
 
 const mountEl = document.getElementById("app");
 const DATA = resolveDataBase(mountEl);
 
+const EMPTY_TR = { item: {}, attribute: {}, itemType: {}, contract: {}, workshop: {}, spaceObject: {}, faction: {}, instance: {} };
+
+const NAV = [
+  { view: "items", label: "Items", hash: "#/items" },
+  { view: "recipes", label: "Recipes", hash: "#/recipes" },
+  { view: "workshops", label: "Workshops", hash: "#/workshops" },
+  { view: "contracts", label: "Contracts", hash: "#/contracts" },
+  { view: "categories", label: "Categories", hash: "#/categories" },
+  { view: "space-objects", label: "Space Objects", hash: "#/space-objects" },
+  { view: "factions", label: "Factions", hash: "#/factions" },
+];
+
+// Tolerant loader: optional files resolve to a fallback on any error (e.g. 404).
+async function loadOptional(path, fallback) {
+  try {
+    return await loadJson(path);
+  } catch (e) {
+    return fallback;
+  }
+}
+
 createApp({
-  components: { ItemsView, RecipesView },
+  components: {
+    ItemsView, RecipesView, WorkshopsView, ContractsView,
+    CategoriesView, SpaceObjectsView, FactionsView,
+  },
   setup() {
     const loading = ref(true);
     const error = ref("");
     const notice = ref("");
     const items = ref([]);
     const recipes = ref([]);
+    const workshops = ref([]);
+    const contracts = ref([]);
+    const categories = ref([]);
+    const spaceObjects = ref([]);
+    const factions = ref([]);
     const aliases = ref({});
-    const tr = ref({ item: {}, attribute: {}, itemType: {} });
+    const categoryAliases = ref({});
+    const factionAliases = ref({});
+    const tr = ref({ ...EMPTY_TR });
     const { lang, langs, persistLang } = useLang();
     const { route } = useHashRoute();
     const dataBase = DATA;
@@ -24,7 +60,7 @@ createApp({
       try {
         tr.value = await loadJson(DATA + "/i18n/translation." + l + ".json");
       } catch (e) {
-        tr.value = { item: {}, attribute: {}, itemType: {} };
+        tr.value = { ...EMPTY_TR };
       }
     }
     function changeLang() {
@@ -39,17 +75,36 @@ createApp({
     const focusId = computed(() =>
       route.value.view === "items" ? route.value.itemId : null
     );
+    const categoriesById = computed(() => {
+      const map = {};
+      for (const c of categories.value) map[c.id] = c;
+      return map;
+    });
 
     onMounted(async () => {
       try {
-        const [it, cr, al] = await Promise.all([
+        const [it, cr, ws, co, ca, so, fa, al, cal, fal] = await Promise.all([
           loadJson(DATA + "/items.json"),
           loadJson(DATA + "/craft.json"),
+          loadOptional(DATA + "/workshops.json", { workshops: {} }),
+          loadOptional(DATA + "/contracts.json", { contracts: {} }),
+          loadOptional(DATA + "/item_categories.json", { categories: {} }),
+          loadOptional(DATA + "/space_objects.json", { spaceObjects: {} }),
+          loadOptional(DATA + "/factions.json", { factions: {} }),
           loadJson(DATA + "/aliases.json"),
+          loadOptional(DATA + "/aliases-categories.json", { icons: {} }),
+          loadOptional(DATA + "/aliases-factions.json", { icons: {} }),
         ]);
         items.value = Object.values(it.items || {});
         recipes.value = Object.values(cr.recipes || {});
+        workshops.value = Object.values(ws.workshops || {});
+        contracts.value = Object.values(co.contracts || {});
+        categories.value = Object.values(ca.categories || {});
+        spaceObjects.value = Object.values(so.spaceObjects || {});
+        factions.value = Object.values(fa.factions || {});
         aliases.value = (al && al.icons) || {};
+        categoryAliases.value = (cal && cal.icons) || {};
+        factionAliases.value = (fal && fal.icons) || {};
         await loadLang(lang.value);
       } catch (e) {
         error.value = e.message || String(e);
@@ -59,8 +114,10 @@ createApp({
     });
 
     return {
-      loading, error, notice, items, recipes, aliases, tr,
-      lang, langs, route, dataBase, focusId, changeLang, notify,
+      loading, error, notice, items, recipes, workshops, contracts, categories,
+      spaceObjects, factions, aliases, categoryAliases, factionAliases, tr,
+      categoriesById, lang, langs, route, dataBase, focusId, nav: NAV,
+      changeLang, notify,
     };
   },
   template: `
@@ -70,10 +127,11 @@ createApp({
       <div class="max-w-7xl mx-auto px-4 py-3">
         <div class="flex flex-wrap items-center gap-3">
           <h1 class="text-lg font-semibold">SpaceCraft resources</h1>
-          <nav class="flex items-center gap-2 text-sm">
-            <a href="#/items" :class="route.view==='items' ? 'font-semibold text-slate-900' : 'text-sky-600 hover:underline'">Items</a>
-            <span class="text-slate-300">·</span>
-            <a href="#/recipes" :class="route.view==='recipes' ? 'font-semibold text-slate-900' : 'text-sky-600 hover:underline'">Recipes</a>
+          <nav class="flex flex-wrap items-center gap-2 text-sm">
+            <template v-for="(n,i) in nav" :key="n.view">
+              <span v-if="i" class="text-slate-300">·</span>
+              <a :href="n.hash" :class="route.view===n.view ? 'font-semibold text-slate-900' : 'text-sky-600 hover:underline'">{{ n.label }}</a>
+            </template>
           </nav>
           <div class="ml-auto flex items-center gap-2">
             <label class="text-sm text-slate-500">Lang</label>
@@ -95,8 +153,13 @@ createApp({
           then open <code class="bg-red-100 px-1 rounded">http://localhost:8000/</code>.
         </p>
       </div>
-      <items-view v-else-if="route.view==='items'" :items="items" :aliases="aliases" :tr="tr" :base="dataBase" :focus-id="focusId" @notify="notify"></items-view>
-      <recipes-view v-else :recipes="recipes" :aliases="aliases" :tr="tr" :base="dataBase"></recipes-view>
+      <items-view v-else-if="route.view==='items'" :items="items" :aliases="aliases" :tr="tr" :base="dataBase" :categories-by-id="categoriesById" :category-aliases="categoryAliases" :focus-id="focusId" @notify="notify"></items-view>
+      <recipes-view v-else-if="route.view==='recipes'" :recipes="recipes" :aliases="aliases" :tr="tr" :base="dataBase"></recipes-view>
+      <workshops-view v-else-if="route.view==='workshops'" :workshops="workshops" :recipes="recipes" :tr="tr"></workshops-view>
+      <contracts-view v-else-if="route.view==='contracts'" :contracts="contracts" :aliases="aliases" :tr="tr" :base="dataBase"></contracts-view>
+      <categories-view v-else-if="route.view==='categories'" :categories="categories" :items="items" :tr="tr" :base="dataBase" :category-aliases="categoryAliases"></categories-view>
+      <space-objects-view v-else-if="route.view==='space-objects'" :space-objects="spaceObjects" :aliases="aliases" :faction-aliases="factionAliases" :tr="tr" :base="dataBase"></space-objects-view>
+      <factions-view v-else :factions="factions" :contracts="contracts" :faction-aliases="factionAliases" :tr="tr" :base="dataBase"></factions-view>
     </main>
   </div>
   `,
