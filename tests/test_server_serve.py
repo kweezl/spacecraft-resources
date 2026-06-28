@@ -13,7 +13,7 @@ class IsHiddenPathTests(unittest.TestCase):
         self.assertTrue(serve.is_hidden_path("/sub/.secret"))
 
     def test_allows_normal_paths(self):
-        self.assertFalse(serve.is_hidden_path("/server/items.html"))
+        self.assertFalse(serve.is_hidden_path("/server/index.html"))
         self.assertFalse(serve.is_hidden_path("/generated/items.json"))
         self.assertFalse(serve.is_hidden_path("/generated/icons/IronOre.webp"))
 
@@ -35,7 +35,7 @@ class _FakeServer:
 
 class ServeTests(unittest.TestCase):
     def test_missing_directory_returns_2(self):
-        code = serve.serve(Path("does/not/exist"), "127.0.0.1", 8000, "server/items.html", False)
+        code = serve.serve(Path("does/not/exist"), "127.0.0.1", 8000, "server/index.html", False)
         self.assertEqual(code, 2)
 
     def test_binds_and_opens_browser(self):
@@ -44,16 +44,16 @@ class ServeTests(unittest.TestCase):
             with mock.patch.object(serve, "ThreadingHTTPServer", _FakeServer), \
                  mock.patch.object(serve, "webbrowser") as wb:
                 wb.open.side_effect = lambda url: opened.setdefault("url", url)
-                code = serve.serve(Path(tmp), "127.0.0.1", 8123, "server/items.html", True)
+                code = serve.serve(Path(tmp), "127.0.0.1", 8123, "server/index.html", True)
         self.assertEqual(code, 0)
         self.assertEqual(_FakeServer.last.address, ("127.0.0.1", 8123))
-        self.assertEqual(opened["url"], "http://127.0.0.1:8123/server/items.html")
+        self.assertEqual(opened["url"], "http://127.0.0.1:8123/server/index.html")
 
     def test_no_open_does_not_launch_browser(self):
         with tempfile.TemporaryDirectory() as tmp:
             with mock.patch.object(serve, "ThreadingHTTPServer", _FakeServer), \
                  mock.patch.object(serve, "webbrowser") as wb:
-                serve.serve(Path(tmp), "127.0.0.1", 8123, "server/items.html", False)
+                serve.serve(Path(tmp), "127.0.0.1", 8123, "server/index.html", False)
                 wb.open.assert_not_called()
 
 

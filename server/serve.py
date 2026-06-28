@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Tiny static file server for the items inspector (server/items.html).
+"""Tiny static file server for the resources inspector (server/index.html).
 
 The inspector loads generated/*.json over HTTP (browsers block file:// fetches),
 so this serves the repo root and opens the page. Dotfiles (.env, .git, ...) are
@@ -16,7 +16,7 @@ from urllib.parse import unquote, urlsplit
 
 # Repo root is the parent of this server/ directory.
 REPO_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_PAGE = "server/items.html"
+DEFAULT_PAGE = "server/index.html"
 
 
 def is_hidden_path(request_path: str) -> bool:
