@@ -1,0 +1,16 @@
+version: 2
+updates:
+  # Python runtime + dev dependencies (typer, python-dotenv, Pillow, Ruff).
+  - package-ecosystem: pip
+    directory: "/"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+
+  # GitHub Actions used by the validate + pages workflows. Keeps the
+  # SHA-pinned actions current with their upstream releases.
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
