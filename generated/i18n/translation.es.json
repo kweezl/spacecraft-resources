@@ -2781,5 +2781,415 @@
     "LinkMagneticAnomaly": {
       "name": "Anomalía magnética"
     }
+  },
+  "itemType": {
+    "Virtual": {
+      "name": "Objeto virtual"
+    },
+    "QuestItem": {
+      "name": "Objeto de contrato"
+    },
+    "DataDisc": {
+      "name": "Disco de datos"
+    },
+    "InstanceItem": {
+      "name": "Objeto de instancia"
+    },
+    "Readable": {
+      "name": "Objeto legible"
+    },
+    "BeaconData": {
+      "name": "Datos de baliza"
+    },
+    "Blueprint": {
+      "name": "Plano"
+    },
+    "Patch": {
+      "name": "Parche"
+    },
+    "Knowledge": {
+      "name": "Conocimiento"
+    },
+    "Knowledge_Factions": {
+      "name": "Facciones"
+    },
+    "Knowledge_Tuto": {
+      "name": "Tutorial"
+    },
+    "AnyResource": {
+      "name": "Componente"
+    },
+    "PureComponents": {
+      "name": "Material"
+    },
+    "Fluid": {
+      "name": "Fluido"
+    },
+    "Ingots": {
+      "name": "Lingote"
+    },
+    "CrystalMatrix": {
+      "name": "Matriz de cristal"
+    },
+    "Liquid": {
+      "name": "Líquido"
+    },
+    "Gas": {
+      "name": "Gas"
+    },
+    "Plasma": {
+      "name": "Plasma"
+    },
+    "Minerals": {
+      "name": "Recolección"
+    },
+    "Metal": {
+      "name": "Mena de metal"
+    },
+    "MetalOre": {
+      "name": "Mena"
+    },
+    "MetalNugget": {
+      "name": "Pepita"
+    },
+    "MetalShavings": {
+      "name": "Viruta"
+    },
+    "MineralParent": {
+      "name": "Mena de mineral"
+    },
+    "MineralOre": {
+      "name": "Mena"
+    },
+    "MineralNugget": {
+      "name": "Pepita"
+    },
+    "MineralShavings": {
+      "name": "Viruta"
+    },
+    "Scrap": {
+      "name": "Restos"
+    },
+    "Crystal": {
+      "name": "Cristal"
+    },
+    "Biological_Extra": {
+      "name": "Subproducto orgánico"
+    },
+    "Biological_Fruit": {
+      "name": "Germen"
+    },
+    "FactoredMaterial": {
+      "name": "Fabricado"
+    },
+    "SimpleFactoredMaterial": {
+      "name": "Producto simple"
+    },
+    "ComplexFactoredMaterial": {
+      "name": "Artilugio"
+    },
+    "Bottles": {
+      "name": "Botella"
+    },
+    "BottlesFull": {
+      "name": "Botella"
+    },
+    "Casings": {
+      "name": "Kit y carcasa"
+    },
+    "Automate": {
+      "name": "Agentes robóticos"
+    },
+    "Shuttle": {
+      "name": "Lanzadera"
+    },
+    "Luxuries": {
+      "name": "Objeto de lujo"
+    },
+    "PlanetResource": {
+      "name": "Recurso"
+    },
+    "PlanetResource_RegularNode": {
+      "name": "Cúmulo"
+    },
+    "PlanetResource_Exploration": {
+      "name": "Descubrimiento mundial"
+    },
+    "PlanetResource_Deposit": {
+      "name": "Yacimiento"
+    },
+    "PlanetResource_Shell": {
+      "name": "Capa"
+    },
+    "PlanetResource_Geyser": {
+      "name": "Géiser"
+    },
+    "FarmPlant": {
+      "name": "Planta de cultivo"
+    },
+    "ShipElement": {
+      "name": "Elemento de la nave"
+    },
+    "ShipPart": {
+      "name": "Parte de la nave"
+    },
+    "ShipHull": {
+      "name": "Parte del casco"
+    },
+    "ShipHull_Steel": {
+      "name": "Parte del casco de acero"
+    },
+    "ShipHull_Steel_AluK": {
+      "name": "Parte del casco de acero chapado en aluminio-K"
+    },
+    "ShipHull_Titanium": {
+      "name": "Parte del caso de titanio"
+    },
+    "ShipHull_Titanium_AluK": {
+      "name": "Parte del casco de titanio chapado en aluminio-K"
+    },
+    "ShipHull_Platinum": {
+      "name": "Parte del casco de armazón sólido"
+    },
+    "ShipHull_Levinium": {
+      "name": "Parte del casco de levinio"
+    },
+    "ShipHull_AlloyX": {
+      "name": "Parte del casco de aleación X"
+    },
+    "ShipCockpit": {
+      "name": "Cabina"
+    },
+    "ShipEngine": {
+      "name": "Propulsor"
+    },
+    "ShipWing": {
+      "name": "Ala"
+    },
+    "ShipDecorative": {
+      "name": "Decorativo"
+    },
+    "ShipTool": {
+      "name": "Módulo externo"
+    },
+    "ShipGatheringTools": {
+      "name": "Recolección"
+    },
+    "ShipRadars": {
+      "name": "Radar"
+    },
+    "ShipPowerTools": {
+      "name": "Panel solar"
+    },
+    "ShipHeatTools": {
+      "name": "Panel de calor"
+    },
+    "ShipWeapon": {
+      "name": "Arma"
+    },
+    "ShipBooster": {
+      "name": "Potenciador"
+    },
+    "ShipLight": {
+      "name": "Luz"
+    },
+    "ShipToolSpecial": {
+      "name": "Herramientas especializadas"
+    },
+    "ShipModule": {
+      "name": "Módulo interno"
+    },
+    "ShipInventoryModules": {
+      "name": "Módulo de almacenamiento"
+    },
+    "ShipFTLModules": {
+      "name": "Módulo superlumínico"
+    },
+    "ShipShields": {
+      "name": "Escudo"
+    },
+    "ShipPowerGenerators": {
+      "name": "Módulo de electricidad"
+    },
+    "ShipBattery": {
+      "name": "Batería"
+    },
+    "ShipHeatModule": {
+      "name": "Módulo de calor"
+    },
+    "ShipControlModule": {
+      "name": "Modificación de control"
+    },
+    "ShipAmmunition": {
+      "name": "Munición"
+    },
+    "MiningTool": {
+      "name": "Herramienta de minería"
+    },
+    "Building": {
+      "name": "Edificio"
+    },
+    "BaseBuilding": {
+      "name": "Edificio base"
+    },
+    "Pylon": {
+      "name": "Pilón"
+    },
+    "BaseBuilding_Crafting": {
+      "name": "Fabricante"
+    },
+    "BaseBuilding_Gathering": {
+      "name": "Recolector"
+    },
+    "BaseBuilding_Power": {
+      "name": "Electricidad"
+    },
+    "BaseBuilding_Storage": {
+      "name": "Almacenamiento"
+    },
+    "BaseBuilding_Logistic": {
+      "name": "Logística"
+    },
+    "BaseBuilding_Command": {
+      "name": "Mando"
+    },
+    "BaseBuilding_Deco": {
+      "name": "Decoración"
+    },
+    "SpaceStation": {
+      "name": "Estación espacial"
+    },
+    "Craft_RawResource": {
+      "name": "Procesamiento de minerales"
+    },
+    "Craft_CrystalSmelting": {
+      "name": "Procesamiento de cristales"
+    },
+    "Craft_Mixing": {
+      "name": "Mezcla"
+    },
+    "Craft_Alloy": {
+      "name": "Aleación"
+    },
+    "Craft_IntermediaryComponent": {
+      "name": "Material"
+    },
+    "Craft_CrystalLattice": {
+      "name": "Geometría cristalina"
+    },
+    "Craft_PlayerItem": {
+      "name": "Equipo para contratistas"
+    },
+    "Craft_Tools": {
+      "name": "Módulo externo"
+    },
+    "Craft_Modules": {
+      "name": "Módulo interno"
+    },
+    "Craft_Casings": {
+      "name": "Componente de la nave"
+    },
+    "Craft_Parts": {
+      "name": "Parte de la nave"
+    },
+    "Craft_Parts_Plating": {
+      "name": "Recubrimiento de partes de naves"
+    },
+    "Craft_Patch": {
+      "name": "Parche"
+    },
+    "Craft_BuildingKit": {
+      "name": "Kit de fábrica"
+    },
+    "Craft_Seed": {
+      "name": "Desintegración de semillas"
+    },
+    "Craft_Crystal": {
+      "name": "Cristalización"
+    },
+    "Craft_Recycle": {
+      "name": "Reciclaje"
+    },
+    "Craft_StudyCrystal": {
+      "name": "Muestra de cristal"
+    },
+    "Craft_StudyMineral": {
+      "name": "Muestra de mineral"
+    },
+    "Craft_StudyOrganic": {
+      "name": "Muestra biológica"
+    },
+    "Craft_StudyQuest": {
+      "name": "Objeto de contrato"
+    },
+    "Craft_BottleIn": {
+      "name": "Embotellado"
+    },
+    "Craft_BottleOut": {
+      "name": "Desembotellado"
+    },
+    "Craft_Other": {
+      "name": "Otro"
+    },
+    "Craft_Dismantle": {
+      "name": "Desmantelar"
+    },
+    "PlayerItem": {
+      "name": "Equipo para contratistas"
+    },
+    "PlayerHands": {
+      "name": "Herramienta manual"
+    },
+    "PlayerConsumable": {
+      "name": "Dispositivo del contratista"
+    },
+    "PlayerSuitChip": {
+      "name": "Chip de traje de contratista"
+    },
+    "Clothes": {
+      "name": "Ropa"
+    },
+    "Drone": {
+      "name": "Dron"
+    },
+    "Region": {
+      "name": "Región"
+    },
+    "Category_All": {
+      "name": "Todo"
+    },
+    "Category_Craft": {
+      "name": "Fabricación"
+    },
+    "Category_Blueprint": {
+      "name": "Plano"
+    },
+    "Category_Others": {
+      "name": "Otro"
+    },
+    "Category_Decals": {
+      "name": "Pegatina"
+    },
+    "Category_InStorage": {
+      "name": "Almacenamiento"
+    },
+    "Custo_Parts": {
+      "name": "Parte decorativa"
+    },
+    "Custo_Building": {
+      "name": "Edificio decorativo"
+    },
+    "Custo_Material": {
+      "name": "Material de la nave"
+    },
+    "Custo_Decal": {
+      "name": "Pegatina de la nave"
+    },
+    "Custo_Suit": {
+      "name": "Traje del personaje"
+    },
+    "Custo_Trail": {
+      "name": "Ruta de la nave"
+    }
   }
 }

@@ -2781,5 +2781,415 @@
     "LinkMagneticAnomaly": {
       "name": "Магнитная аномалия"
     }
+  },
+  "itemType": {
+    "Virtual": {
+      "name": "Виртуальный предмет"
+    },
+    "QuestItem": {
+      "name": "Предмет контракта"
+    },
+    "DataDisc": {
+      "name": "Диск данных"
+    },
+    "InstanceItem": {
+      "name": "Предмет задания"
+    },
+    "Readable": {
+      "name": "Читаемый предмет"
+    },
+    "BeaconData": {
+      "name": "Данные маяка"
+    },
+    "Blueprint": {
+      "name": "Чертеж"
+    },
+    "Patch": {
+      "name": "Патч"
+    },
+    "Knowledge": {
+      "name": "Знания"
+    },
+    "Knowledge_Factions": {
+      "name": "Фракции"
+    },
+    "Knowledge_Tuto": {
+      "name": "Обучение"
+    },
+    "AnyResource": {
+      "name": "Компонент"
+    },
+    "PureComponents": {
+      "name": "Материал"
+    },
+    "Fluid": {
+      "name": "Жидкое вещество"
+    },
+    "Ingots": {
+      "name": "Слиток"
+    },
+    "CrystalMatrix": {
+      "name": "Кристаллическая матрица"
+    },
+    "Liquid": {
+      "name": "Жидкость"
+    },
+    "Gas": {
+      "name": "Газ"
+    },
+    "Plasma": {
+      "name": "Плазма"
+    },
+    "Minerals": {
+      "name": "Сбор"
+    },
+    "Metal": {
+      "name": "Металлическая руда"
+    },
+    "MetalOre": {
+      "name": "Руда"
+    },
+    "MetalNugget": {
+      "name": "Самородок"
+    },
+    "MetalShavings": {
+      "name": "Стружка"
+    },
+    "MineralParent": {
+      "name": "Минеральная руда"
+    },
+    "MineralOre": {
+      "name": "Руда"
+    },
+    "MineralNugget": {
+      "name": "Самородок"
+    },
+    "MineralShavings": {
+      "name": "Стружка"
+    },
+    "Scrap": {
+      "name": "Лом"
+    },
+    "Crystal": {
+      "name": "Кристалл"
+    },
+    "Biological_Extra": {
+      "name": "Органический побочный продукт"
+    },
+    "Biological_Fruit": {
+      "name": "Зародыши"
+    },
+    "FactoredMaterial": {
+      "name": "Произведен."
+    },
+    "SimpleFactoredMaterial": {
+      "name": "Простой продукт"
+    },
+    "ComplexFactoredMaterial": {
+      "name": "Устройство"
+    },
+    "Bottles": {
+      "name": "Бутылка"
+    },
+    "BottlesFull": {
+      "name": "Бутылка"
+    },
+    "Casings": {
+      "name": "Комплект и корпус"
+    },
+    "Automate": {
+      "name": "Роботы-агенты"
+    },
+    "Shuttle": {
+      "name": "Шаттл"
+    },
+    "Luxuries": {
+      "name": "Предмет роскоши"
+    },
+    "PlanetResource": {
+      "name": "Ресурс"
+    },
+    "PlanetResource_RegularNode": {
+      "name": "Скопление"
+    },
+    "PlanetResource_Exploration": {
+      "name": "Открытие мира"
+    },
+    "PlanetResource_Deposit": {
+      "name": "Залежи"
+    },
+    "PlanetResource_Shell": {
+      "name": "Корка"
+    },
+    "PlanetResource_Geyser": {
+      "name": "Гейзер"
+    },
+    "FarmPlant": {
+      "name": "Растение на ферме"
+    },
+    "ShipElement": {
+      "name": "Элемент корабля"
+    },
+    "ShipPart": {
+      "name": "Деталь корабля"
+    },
+    "ShipHull": {
+      "name": "Деталь корпуса"
+    },
+    "ShipHull_Steel": {
+      "name": "Стальная деталь корпуса"
+    },
+    "ShipHull_Steel_AluK": {
+      "name": "Стальная деталь корпуса с алюмо-калиевым покрытием"
+    },
+    "ShipHull_Titanium": {
+      "name": "Титановая деталь корпуса"
+    },
+    "ShipHull_Titanium_AluK": {
+      "name": "Титановая деталь корпуса с алюмо-калиевым покрытием"
+    },
+    "ShipHull_Platinum": {
+      "name": "Деталь корпуса с жестким каркасом"
+    },
+    "ShipHull_Levinium": {
+      "name": "Левиниевая деталь корпуса"
+    },
+    "ShipHull_AlloyX": {
+      "name": "Деталь корпуса из сплава Х"
+    },
+    "ShipCockpit": {
+      "name": "Кокпит"
+    },
+    "ShipEngine": {
+      "name": "Двигатель"
+    },
+    "ShipWing": {
+      "name": "Крыло"
+    },
+    "ShipDecorative": {
+      "name": "Украшение"
+    },
+    "ShipTool": {
+      "name": "Внешний модуль"
+    },
+    "ShipGatheringTools": {
+      "name": "Сбор"
+    },
+    "ShipRadars": {
+      "name": "Радар"
+    },
+    "ShipPowerTools": {
+      "name": "Солнечная панель"
+    },
+    "ShipHeatTools": {
+      "name": "Тепловая панель"
+    },
+    "ShipWeapon": {
+      "name": "Оружие"
+    },
+    "ShipBooster": {
+      "name": "Усиление"
+    },
+    "ShipLight": {
+      "name": "Светло"
+    },
+    "ShipToolSpecial": {
+      "name": "Специальные инструменты"
+    },
+    "ShipModule": {
+      "name": "Внутренний модуль"
+    },
+    "ShipInventoryModules": {
+      "name": "Модуль хранения"
+    },
+    "ShipFTLModules": {
+      "name": "Модуль ССП"
+    },
+    "ShipShields": {
+      "name": "Щит"
+    },
+    "ShipPowerGenerators": {
+      "name": "Силовой модуль"
+    },
+    "ShipBattery": {
+      "name": "Аккумулятор"
+    },
+    "ShipHeatModule": {
+      "name": "Тепловой модуль"
+    },
+    "ShipControlModule": {
+      "name": "Модуль управления"
+    },
+    "ShipAmmunition": {
+      "name": "Боеприпасы"
+    },
+    "MiningTool": {
+      "name": "Инструмент добычи"
+    },
+    "Building": {
+      "name": "Сооружение"
+    },
+    "BaseBuilding": {
+      "name": "Возведение базы"
+    },
+    "Pylon": {
+      "name": "Столб"
+    },
+    "BaseBuilding_Crafting": {
+      "name": "Ремесло"
+    },
+    "BaseBuilding_Gathering": {
+      "name": "Сбор"
+    },
+    "BaseBuilding_Power": {
+      "name": "Мощность"
+    },
+    "BaseBuilding_Storage": {
+      "name": "Склад"
+    },
+    "BaseBuilding_Logistic": {
+      "name": "Логистика"
+    },
+    "BaseBuilding_Command": {
+      "name": "Управление"
+    },
+    "BaseBuilding_Deco": {
+      "name": "Украшение"
+    },
+    "SpaceStation": {
+      "name": "Космическая станция"
+    },
+    "Craft_RawResource": {
+      "name": "Переработка минералов"
+    },
+    "Craft_CrystalSmelting": {
+      "name": "Переработка кристаллов"
+    },
+    "Craft_Mixing": {
+      "name": "Смесь"
+    },
+    "Craft_Alloy": {
+      "name": "Сплав"
+    },
+    "Craft_IntermediaryComponent": {
+      "name": "Материал"
+    },
+    "Craft_CrystalLattice": {
+      "name": "Геометрия кристаллов"
+    },
+    "Craft_PlayerItem": {
+      "name": "Оборудование подрядчика"
+    },
+    "Craft_Tools": {
+      "name": "Внешний модуль"
+    },
+    "Craft_Modules": {
+      "name": "Внутренний модуль"
+    },
+    "Craft_Casings": {
+      "name": "Компонент корабля"
+    },
+    "Craft_Parts": {
+      "name": "Деталь корабля"
+    },
+    "Craft_Parts_Plating": {
+      "name": "Обшивка деталей корабля"
+    },
+    "Craft_Patch": {
+      "name": "Патч"
+    },
+    "Craft_BuildingKit": {
+      "name": "Комплект завода"
+    },
+    "Craft_Seed": {
+      "name": "Дробление семян"
+    },
+    "Craft_Crystal": {
+      "name": "Кристаллизация"
+    },
+    "Craft_Recycle": {
+      "name": "Переработать"
+    },
+    "Craft_StudyCrystal": {
+      "name": "Образец кристалла"
+    },
+    "Craft_StudyMineral": {
+      "name": "Образец минерала"
+    },
+    "Craft_StudyOrganic": {
+      "name": "Биологический образец"
+    },
+    "Craft_StudyQuest": {
+      "name": "Предмет контракта"
+    },
+    "Craft_BottleIn": {
+      "name": "Бутилирование"
+    },
+    "Craft_BottleOut": {
+      "name": "Дебутилирование"
+    },
+    "Craft_Other": {
+      "name": "Прочее"
+    },
+    "Craft_Dismantle": {
+      "name": "Разобрать"
+    },
+    "PlayerItem": {
+      "name": "Оборудование подрядчика"
+    },
+    "PlayerHands": {
+      "name": "Ручной инструмент"
+    },
+    "PlayerConsumable": {
+      "name": "Устройство подрядчика"
+    },
+    "PlayerSuitChip": {
+      "name": "Чип костюма подрядчика"
+    },
+    "Clothes": {
+      "name": "Одежда"
+    },
+    "Drone": {
+      "name": "Дрон"
+    },
+    "Region": {
+      "name": "Регион"
+    },
+    "Category_All": {
+      "name": "Все"
+    },
+    "Category_Craft": {
+      "name": "Изготовить"
+    },
+    "Category_Blueprint": {
+      "name": "Чертеж"
+    },
+    "Category_Others": {
+      "name": "Прочее"
+    },
+    "Category_Decals": {
+      "name": "Наклейка"
+    },
+    "Category_InStorage": {
+      "name": "Склад"
+    },
+    "Custo_Parts": {
+      "name": "Деталь для украшения"
+    },
+    "Custo_Building": {
+      "name": "Здание-украшение"
+    },
+    "Custo_Material": {
+      "name": "Корабельный материал"
+    },
+    "Custo_Decal": {
+      "name": "Наклейка на корабль"
+    },
+    "Custo_Suit": {
+      "name": "Костюм персонажа"
+    },
+    "Custo_Trail": {
+      "name": "След корабля"
+    }
   }
 }
