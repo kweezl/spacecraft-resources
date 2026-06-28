@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
-"""DEPRECATED: this root-level script is kept only for the src/commands wrappers
-that still call it. New parsing logic lives under src/ (see src/lib/craft.py and
-src/commands/parse_craft.py). Do not add features here; it will be migrated and
-removed in a follow-up task.
+"""Deduplicate generated icons by their visual content.
 
-Deduplicate generated icons by their visual content.
+Pure logic plus a thin argparse ``main`` driven by
+src/commands/deduplicate_icons.py.
 
 Many items reuse the exact same icon: the same crop of the same sprite sheet
 with the same recolour gradient. ``generate_icons.py`` emits one PNG per item,
@@ -29,7 +27,7 @@ import argparse
 import json
 import shutil
 import sys
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from pathlib import Path
 
 DEFAULT_MANIFEST = Path("generated/icons_manifest.json")

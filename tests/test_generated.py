@@ -15,8 +15,7 @@ import subprocess
 import unittest
 from pathlib import Path
 
-import deduplicate_icons
-import generate_icons
+from src.lib import deduplicate_icons
 
 REPO = Path(__file__).resolve().parents[1]
 GENERATED = REPO / "generated"

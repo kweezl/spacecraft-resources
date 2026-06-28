@@ -2,7 +2,7 @@ import struct
 import types
 import unittest
 
-import extract
+from src.lib import extract
 
 
 def entry(name, entry_type, payload):

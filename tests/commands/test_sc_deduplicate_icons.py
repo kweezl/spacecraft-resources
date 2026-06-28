@@ -8,7 +8,7 @@ from src.commands import deduplicate_icons as cmd
 class DeduplicateIconsCommandTests(unittest.TestCase):
     def test_run_defaults(self):
         with mock.patch.dict(os.environ, {}, clear=True):
-            with mock.patch("deduplicate_icons.main", return_value=0) as m:
+            with mock.patch("src.lib.deduplicate_icons.main", return_value=0) as m:
                 code = cmd.run()
         self.assertEqual(code, 0)
         self.assertEqual(
@@ -18,7 +18,7 @@ class DeduplicateIconsCommandTests(unittest.TestCase):
 
     def test_write_and_aliases(self):
         with mock.patch.dict(os.environ, {}, clear=True):
-            with mock.patch("deduplicate_icons.main", return_value=0) as m:
+            with mock.patch("src.lib.deduplicate_icons.main", return_value=0) as m:
                 cmd.run(write="out/dir", aliases_out="aliases.json", icons_dir="icons", top=5)
         argv = m.call_args.args[0]
         self.assertEqual(argv[argv.index("--write") + 1], "out/dir")
@@ -28,7 +28,7 @@ class DeduplicateIconsCommandTests(unittest.TestCase):
 
     def test_manifest_env(self):
         with mock.patch.dict(os.environ, {"SC_DEDUPLICATE_ICONS_MANIFEST": "m.json"}, clear=True):
-            with mock.patch("deduplicate_icons.main", return_value=0) as m:
+            with mock.patch("src.lib.deduplicate_icons.main", return_value=0) as m:
                 cmd.run()
         self.assertIn("m.json", m.call_args.args[0])
 

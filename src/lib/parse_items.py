@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
-"""DEPRECATED: this root-level script is kept only for the src/commands wrappers
-that still call it. New parsing logic lives under src/ (see src/lib/craft.py and
-src/commands/parse_craft.py). Do not add features here; it will be migrated and
-removed in a follow-up task.
+"""Parse the `item` sheet from SpaceCraft data.cdb into a bot-friendly items.json.
 
-Parse the `item` sheet from SpaceCraft data.cdb into a bot-friendly items.json.
+Pure logic plus a thin argparse ``main`` driven by src/commands/parse_items.py.
 
 Re-run after the game updates its data.cdb to regenerate the output.
 Output is intentionally lean ("bot essentials") and keeps raw CDB codes for
@@ -18,7 +15,6 @@ import argparse
 import json
 import sys
 from pathlib import Path
-
 
 # Top-level fields copied verbatim from each item row when present.
 ESSENTIAL_FIELDS = ("id", "type", "price", "lootLevel", "storage")

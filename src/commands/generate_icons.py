@@ -1,21 +1,20 @@
-from typing import List, Optional
 
 import typer
 
-import generate_icons as script
 from src.lib import config
+from src.lib import generate_icons as script
 from src.lib.env import resolve
 
 
 def run(
-    data: Optional[str] = None,
-    assets: Optional[str] = None,
-    out: Optional[str] = None,
-    manifest: Optional[str] = None,
-    aliases: Optional[str] = None,
-    sheet: Optional[str] = None,
-    fmt: Optional[str] = None,
-    icon_file: Optional[List[str]] = None,
+    data: str | None = None,
+    assets: str | None = None,
+    out: str | None = None,
+    manifest: str | None = None,
+    aliases: str | None = None,
+    sheet: str | None = None,
+    fmt: str | None = None,
+    icon_file: list[str] | None = None,
     all_icon_files: bool = False,
     no_recolor: bool = False,
     clean: bool = False,
@@ -46,14 +45,14 @@ def run(
 
 
 def command(
-    data: Optional[str] = typer.Option(None, "--data", help="Path to data.cdb. Env: SC_DATA."),
-    assets: Optional[str] = typer.Option(None, "--assets", help="Unpacked assets root. Env: SC_ASSETS."),
-    out: Optional[str] = typer.Option(None, "--out", help="Icon output dir. Env: SC_GENERATE_ICONS_OUT."),
-    manifest: Optional[str] = typer.Option(None, "--manifest", help="Manifest path. Env: SC_GENERATE_ICONS_MANIFEST."),
-    aliases: Optional[str] = typer.Option(None, "--aliases", help="Alias map path (dedup mode). Env: SC_GENERATE_ICONS_ALIASES."),
-    sheet: Optional[str] = typer.Option(None, "--sheet", help="CDB sheet to generate from (default item). Env: SC_GENERATE_ICONS_SHEET."),
-    fmt: Optional[str] = typer.Option(None, "--format", help="Icon format: webp (default) or png. Env: SC_GENERATE_ICONS_FORMAT."),
-    icon_file: Optional[List[str]] = typer.Option(None, "--icon-file", help="Restrict to this CDB icon file (repeatable)."),
+    data: str | None = typer.Option(None, "--data", help="Path to data.cdb. Env: SC_DATA."),
+    assets: str | None = typer.Option(None, "--assets", help="Unpacked assets root. Env: SC_ASSETS."),
+    out: str | None = typer.Option(None, "--out", help="Icon output dir. Env: SC_GENERATE_ICONS_OUT."),
+    manifest: str | None = typer.Option(None, "--manifest", help="Manifest path. Env: SC_GENERATE_ICONS_MANIFEST."),
+    aliases: str | None = typer.Option(None, "--aliases", help="Alias map path (dedup mode). Env: SC_GENERATE_ICONS_ALIASES."),
+    sheet: str | None = typer.Option(None, "--sheet", help="CDB sheet to generate from (default item). Env: SC_GENERATE_ICONS_SHEET."),
+    fmt: str | None = typer.Option(None, "--format", help="Icon format: webp (default) or png. Env: SC_GENERATE_ICONS_FORMAT."),
+    icon_file: list[str] | None = typer.Option(None, "--icon-file", help="Restrict to this CDB icon file (repeatable)."),
     all_icon_files: bool = typer.Option(False, "--all-icon-files", help="Generate every CDB icon entry."),
     no_recolor: bool = typer.Option(False, "--no-recolor", help="Skip CDB color gradients."),
     clean: bool = typer.Option(False, "--clean", help="Delete stale PNGs in the output dir."),

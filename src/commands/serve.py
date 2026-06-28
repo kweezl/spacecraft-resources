@@ -1,4 +1,3 @@
-from typing import Optional
 
 import typer
 
@@ -8,10 +7,10 @@ from src.lib.env import resolve
 
 
 def run(
-    directory: Optional[str] = None,
-    host: Optional[str] = None,
-    port: Optional[str] = None,
-    page: Optional[str] = None,
+    directory: str | None = None,
+    host: str | None = None,
+    port: str | None = None,
+    page: str | None = None,
     open_browser: bool = True,
 ) -> int:
     argv = []
@@ -28,10 +27,10 @@ def run(
 
 
 def command(
-    directory: Optional[str] = typer.Option(None, "--dir", help="Directory to serve. Env: SC_SERVE_DIR (default: repo root)."),
-    host: Optional[str] = typer.Option(None, "--host", help="Bind host. Env: SC_SERVE_HOST."),
-    port: Optional[str] = typer.Option(None, "--port", help="Bind port. Env: SC_SERVE_PORT."),
-    page: Optional[str] = typer.Option(None, "--page", help="Page to open (default: server/items.html)."),
+    directory: str | None = typer.Option(None, "--dir", help="Directory to serve. Env: SC_SERVE_DIR (default: repo root)."),
+    host: str | None = typer.Option(None, "--host", help="Bind host. Env: SC_SERVE_HOST."),
+    port: str | None = typer.Option(None, "--port", help="Bind port. Env: SC_SERVE_PORT."),
+    page: str | None = typer.Option(None, "--page", help="Page to open (default: server/items.html)."),
     open_browser: bool = typer.Option(True, "--open/--no-open", help="Open a browser tab (default: open)."),
 ) -> None:
     raise typer.Exit(run(directory=directory, host=host, port=port, page=page, open_browser=open_browser))
