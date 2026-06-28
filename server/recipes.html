@@ -33,7 +33,7 @@
           </span>
           <div class="ml-auto flex items-center gap-2">
             <label class="text-sm text-slate-500">Lang</label>
-            <select v-model="lang" @change="loadLang(lang)"
+            <select v-model="lang" @change="loadLang(lang); persistLang()"
                     class="border border-slate-300 rounded px-2 py-1 text-sm">
               <option v-for="l in langs" :key="l" :value="l">{{ l }}</option>
             </select>
@@ -148,6 +148,14 @@
     const DATA = "../generated";
     const LANGS = ["en", "de", "es", "fr", "pl", "pt-BR", "ru", "zh"];
     const CRAFT_TIME_PROPS = ["craftTimeFactor", "manualTimeFactor", "autoTime"];
+    // Persist the chosen language across pages (items <-> recipes).
+    const LANG_KEY = "sc-lang";
+    function readLang() {
+      try {
+        const v = localStorage.getItem(LANG_KEY);
+        return LANGS.includes(v) ? v : "en";
+      } catch (e) { return "en"; }
+    }
 
     createApp({
       data() {
@@ -157,7 +165,7 @@
           recipes: [],
           aliases: {},
           tr: { item: {} },
-          lang: "en",
+          lang: readLang(),
           langs: LANGS,
           search: "",
           whereFilter: "all",
@@ -205,6 +213,9 @@
           return f ? DATA + "/icons/" + f : null;
         },
         name(id) { return this.tr.item?.[id]?.name || null; },
+        persistLang() {
+          try { localStorage.setItem(LANG_KEY, this.lang); } catch (e) {}
+        },
         headerItem(r) {
           return r.outputs && r.outputs.length ? r.outputs[0].item : null;
         },
