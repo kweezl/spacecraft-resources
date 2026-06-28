@@ -104,7 +104,7 @@ export const RecipesView = {
       </select>
     </div>
 
-    <div class="grid gap-3 grid-cols-[repeat(auto-fill,minmax(20rem,1fr))]">
+    <div class="grid gap-3 grid-cols-1 lg:grid-cols-3">
       <article v-for="r in filtered" :key="r.id" class="bg-white rounded-lg border border-slate-200 p-3 flex flex-col gap-2">
         <div class="flex items-center gap-2">
           <a v-if="headerItem(r)" :href="itemHref(headerItem(r))" class="flex items-center gap-2 min-w-0 hover:underline" :title="headerItem(r)">
@@ -115,9 +115,11 @@ export const RecipesView = {
             <span class="font-medium truncate">{{ name(headerItem(r)) || headerItem(r) }}</span>
           </a>
           <span v-else class="font-medium truncate">{{ r.id }}</span>
-          <span v-if="r.where" class="ml-auto text-[11px] bg-slate-100 rounded px-1.5 py-0.5">{{ r.where }}</span>
         </div>
         <div class="text-xs text-slate-400 font-mono truncate" :title="r.id">ID: {{ r.id }}</div>
+        <div v-if="r.where">
+          <span class="inline-block text-[11px] bg-slate-100 rounded px-1.5 py-0.5">{{ r.where }}</span>
+        </div>
 
         <section v-if="r.outputs.length" class="border-t border-slate-100 pt-2">
           <div class="text-xs font-semibold text-slate-500 mb-1">Output</div>

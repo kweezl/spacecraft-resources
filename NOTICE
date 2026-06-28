@@ -4,7 +4,7 @@ SpaceCraft Resources — Notice on Derived Game Content
 This repository contains two distinct kinds of material:
 
 1. The `sc` tooling — the Python CLI, its tests, and the HTML/Vue
-   inspectors under `server/`. This is original work authored for this
+   inspectors under `src/public/`. This is original work authored for this
    project.
 
 2. Generated release resources under `generated/` — item/recipe JSON,

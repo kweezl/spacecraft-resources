@@ -92,7 +92,7 @@ createApp({
           This page must be served over HTTP (browsers block <code>file://</code> fetches).
           Run <code class="bg-red-100 px-1 rounded">python sc.py serve</code> from the repo root,
           or <code class="bg-red-100 px-1 rounded">python -m http.server</code> in the repo root,
-          then open <code class="bg-red-100 px-1 rounded">http://localhost:8000/server/index.html</code>.
+          then open <code class="bg-red-100 px-1 rounded">http://localhost:8000/</code>.
         </p>
       </div>
       <items-view v-else-if="route.view==='items'" :items="items" :aliases="aliases" :tr="tr" :base="dataBase" :focus-id="focusId" @notify="notify"></items-view>

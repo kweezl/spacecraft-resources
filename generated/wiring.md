@@ -151,5 +151,5 @@ commands).
 
 To browse these resources visually (icons + properties, search, filters), run
 `python sc.py serve` from the repo root and open
-`http://localhost:8000/server/index.html`. The same generated data powers the
+`http://localhost:8000/`. The same generated data powers the
 published GitHub Pages inspector.
