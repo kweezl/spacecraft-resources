@@ -113,9 +113,45 @@ def parse_item(row: dict) -> dict | None:
     return record
 
 
+# An itemType is a "display category" (the one the game UI shows, e.g. "External
+# Module") when its props flags have bit 0 set. An item's display category is the
+# nearest such ancestor walking up the itemType `parent` chain — the leaf
+# `item.type` (e.g. "MiningTool") is usually too specific and is not what the game
+# groups by.
+DISPLAY_CATEGORY_FLAG = 1
+
+
+def build_type_index(cdb: dict) -> dict[str, dict]:
+    """Map itemType id -> row. Tolerant: returns {} when the sheet is absent."""
+    try:
+        sheet = find_sheet(cdb, "itemType")
+    except ValueError:
+        return {}
+    return {
+        row["id"]: row
+        for row in sheet.get("lines", [])
+        if isinstance(row, dict) and isinstance(row.get("id"), str)
+    }
+
+
+def display_category(type_id, types: dict[str, dict]) -> str | None:
+    """Nearest ancestor itemType with flags & 1 (the category the game shows)."""
+    current = type_id
+    seen: set[str] = set()
+    while isinstance(current, str) and current in types and current not in seen:
+        seen.add(current)
+        props = types[current].get("props")
+        flags = props.get("flags") if isinstance(props, dict) else None
+        if isinstance(flags, int) and flags & DISPLAY_CATEGORY_FLAG:
+            return current
+        current = types[current].get("parent")
+    return None
+
+
 def parse_items(cdb_path: Path) -> dict:
     cdb = load_cdb(cdb_path)
     sheet = find_sheet(cdb, "item")
+    types = build_type_index(cdb)
 
     items: dict[str, dict] = {}
     skipped = 0
@@ -127,6 +163,9 @@ def parse_items(cdb_path: Path) -> dict:
         if record is None:
             skipped += 1
             continue
+        category = display_category(record.get("type"), types)
+        if category is not None:
+            record["displayCategory"] = category
         if record["id"] in items:
             raise ValueError(f"Duplicate item id {record['id']!r}")
         items[record["id"]] = record
