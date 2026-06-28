@@ -48,7 +48,7 @@
           </select>
           <select v-model="categoryFilter" class="border border-slate-300 rounded px-2 py-1.5 text-sm">
             <option value="all">All categories</option>
-            <option v-for="c in categories" :key="c.name" :value="c.name">{{ c.name }} ({{ c.count }})</option>
+            <option v-for="c in categories" :key="c.name" :value="c.name">{{ categoryLabel(c.name) }} ({{ c.count }})</option>
           </select>
         </div>
       </div>
@@ -104,7 +104,7 @@
             </div>
             <dl class="text-xs grid grid-cols-2 gap-x-3 gap-y-0.5">
               <template v-if="r.category">
-                <dt class="text-slate-400">category</dt><dd class="text-right">{{ r.category }}</dd>
+                <dt class="text-slate-400">category</dt><dd class="text-right">{{ categoryLabel(r.category) }}</dd>
               </template>
               <template v-if="craftTime(r)">
                 <dt class="text-slate-400">craft time</dt><dd class="text-right">{{ craftTime(r) }}</dd>
@@ -213,6 +213,7 @@
           return f ? DATA + "/icons/" + f : null;
         },
         name(id) { return this.tr.item?.[id]?.name || null; },
+        categoryLabel(id) { return this.tr.itemType?.[id]?.name || id; },
         persistLang() {
           try { localStorage.setItem(LANG_KEY, this.lang); } catch (e) {}
         },

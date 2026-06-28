@@ -31,6 +31,9 @@ from pathlib import Path
 SHEETS = {
     "item": {"name": "name", "desc": "desc"},
     "attribute": {"name": "name", "desc": "props.desc"},
+    # Craft categories (recipe `category`) and item types live here; only a
+    # localized name, no desc.
+    "itemType": {"name": "name", "desc": "desc"},
 }
 
 

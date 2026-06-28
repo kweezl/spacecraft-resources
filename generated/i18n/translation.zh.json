@@ -2781,5 +2781,415 @@
     "LinkMagneticAnomaly": {
       "name": "磁异常"
     }
+  },
+  "itemType": {
+    "Virtual": {
+      "name": "虚拟物品"
+    },
+    "QuestItem": {
+      "name": "合约物品"
+    },
+    "DataDisc": {
+      "name": "数据硬盘"
+    },
+    "InstanceItem": {
+      "name": "事例物品"
+    },
+    "Readable": {
+      "name": "可读物品"
+    },
+    "BeaconData": {
+      "name": "信标数据"
+    },
+    "Blueprint": {
+      "name": "蓝图"
+    },
+    "Patch": {
+      "name": "补丁"
+    },
+    "Knowledge": {
+      "name": "知识"
+    },
+    "Knowledge_Factions": {
+      "name": "派系"
+    },
+    "Knowledge_Tuto": {
+      "name": "教程"
+    },
+    "AnyResource": {
+      "name": "部件"
+    },
+    "PureComponents": {
+      "name": "材料"
+    },
+    "Fluid": {
+      "name": "流体"
+    },
+    "Ingots": {
+      "name": "锭"
+    },
+    "CrystalMatrix": {
+      "name": "晶体矩阵"
+    },
+    "Liquid": {
+      "name": "液体"
+    },
+    "Gas": {
+      "name": "气体"
+    },
+    "Plasma": {
+      "name": "等离子体"
+    },
+    "Minerals": {
+      "name": "收集"
+    },
+    "Metal": {
+      "name": "金属矿石"
+    },
+    "MetalOre": {
+      "name": "砂"
+    },
+    "MetalNugget": {
+      "name": "块"
+    },
+    "MetalShavings": {
+      "name": "碎屑"
+    },
+    "MineralParent": {
+      "name": "矿物矿石"
+    },
+    "MineralOre": {
+      "name": "砂"
+    },
+    "MineralNugget": {
+      "name": "块"
+    },
+    "MineralShavings": {
+      "name": "碎屑"
+    },
+    "Scrap": {
+      "name": "废料"
+    },
+    "Crystal": {
+      "name": "晶体"
+    },
+    "Biological_Extra": {
+      "name": "有机副产品"
+    },
+    "Biological_Fruit": {
+      "name": "种胚"
+    },
+    "FactoredMaterial": {
+      "name": "制品"
+    },
+    "SimpleFactoredMaterial": {
+      "name": "简易产品"
+    },
+    "ComplexFactoredMaterial": {
+      "name": "装置"
+    },
+    "Bottles": {
+      "name": "瓶"
+    },
+    "BottlesFull": {
+      "name": "瓶"
+    },
+    "Casings": {
+      "name": "套件与外壳"
+    },
+    "Automate": {
+      "name": "机器人代理"
+    },
+    "Shuttle": {
+      "name": "穿梭机"
+    },
+    "Luxuries": {
+      "name": "奢侈品"
+    },
+    "PlanetResource": {
+      "name": "资源"
+    },
+    "PlanetResource_RegularNode": {
+      "name": "集群"
+    },
+    "PlanetResource_Exploration": {
+      "name": "世界探索"
+    },
+    "PlanetResource_Deposit": {
+      "name": "矿脉"
+    },
+    "PlanetResource_Shell": {
+      "name": "壳"
+    },
+    "PlanetResource_Geyser": {
+      "name": "间歇源"
+    },
+    "FarmPlant": {
+      "name": "农场作物"
+    },
+    "ShipElement": {
+      "name": "飞船元件"
+    },
+    "ShipPart": {
+      "name": "飞船零件"
+    },
+    "ShipHull": {
+      "name": "船体零件"
+    },
+    "ShipHull_Steel": {
+      "name": "钢制船体零件"
+    },
+    "ShipHull_Steel_AluK": {
+      "name": "铝-K 镀层钢制船体零件"
+    },
+    "ShipHull_Titanium": {
+      "name": "钛制船体零件"
+    },
+    "ShipHull_Titanium_AluK": {
+      "name": "铝-K 镀层钛制船体零件"
+    },
+    "ShipHull_Platinum": {
+      "name": "实心框架船体零件"
+    },
+    "ShipHull_Levinium": {
+      "name": "勒维宁船体零件"
+    },
+    "ShipHull_AlloyX": {
+      "name": "X 合金船体零件"
+    },
+    "ShipCockpit": {
+      "name": "驾驶舱"
+    },
+    "ShipEngine": {
+      "name": "推进器"
+    },
+    "ShipWing": {
+      "name": "机翼"
+    },
+    "ShipDecorative": {
+      "name": "装饰"
+    },
+    "ShipTool": {
+      "name": "外置模块"
+    },
+    "ShipGatheringTools": {
+      "name": "收集"
+    },
+    "ShipRadars": {
+      "name": "雷达"
+    },
+    "ShipPowerTools": {
+      "name": "太阳能板"
+    },
+    "ShipHeatTools": {
+      "name": "加热板"
+    },
+    "ShipWeapon": {
+      "name": "武器"
+    },
+    "ShipBooster": {
+      "name": "助推器"
+    },
+    "ShipLight": {
+      "name": "灯具"
+    },
+    "ShipToolSpecial": {
+      "name": "专用工具"
+    },
+    "ShipModule": {
+      "name": "内置模块"
+    },
+    "ShipInventoryModules": {
+      "name": "储存模块"
+    },
+    "ShipFTLModules": {
+      "name": "超光速模块"
+    },
+    "ShipShields": {
+      "name": "护盾"
+    },
+    "ShipPowerGenerators": {
+      "name": "能源模块"
+    },
+    "ShipBattery": {
+      "name": "电量"
+    },
+    "ShipHeatModule": {
+      "name": "热能模块"
+    },
+    "ShipControlModule": {
+      "name": "控制模组"
+    },
+    "ShipAmmunition": {
+      "name": "弹药"
+    },
+    "MiningTool": {
+      "name": "采矿工具"
+    },
+    "Building": {
+      "name": "建筑"
+    },
+    "BaseBuilding": {
+      "name": "基地建筑"
+    },
+    "Pylon": {
+      "name": "电塔"
+    },
+    "BaseBuilding_Crafting": {
+      "name": "制造设施"
+    },
+    "BaseBuilding_Gathering": {
+      "name": "收集设施"
+    },
+    "BaseBuilding_Power": {
+      "name": "能源"
+    },
+    "BaseBuilding_Storage": {
+      "name": "储存"
+    },
+    "BaseBuilding_Logistic": {
+      "name": "物流"
+    },
+    "BaseBuilding_Command": {
+      "name": "指挥"
+    },
+    "BaseBuilding_Deco": {
+      "name": "装饰"
+    },
+    "SpaceStation": {
+      "name": "空间站"
+    },
+    "Craft_RawResource": {
+      "name": "矿物加工"
+    },
+    "Craft_CrystalSmelting": {
+      "name": "晶体加工"
+    },
+    "Craft_Mixing": {
+      "name": "混合"
+    },
+    "Craft_Alloy": {
+      "name": "合金"
+    },
+    "Craft_IntermediaryComponent": {
+      "name": "材料"
+    },
+    "Craft_CrystalLattice": {
+      "name": "晶体几何"
+    },
+    "Craft_PlayerItem": {
+      "name": "合约工装备"
+    },
+    "Craft_Tools": {
+      "name": "外置模块"
+    },
+    "Craft_Modules": {
+      "name": "内置模块"
+    },
+    "Craft_Casings": {
+      "name": "飞船部件"
+    },
+    "Craft_Parts": {
+      "name": "飞船零件"
+    },
+    "Craft_Parts_Plating": {
+      "name": "飞船零件镀层"
+    },
+    "Craft_Patch": {
+      "name": "补丁"
+    },
+    "Craft_BuildingKit": {
+      "name": "工厂套件"
+    },
+    "Craft_Seed": {
+      "name": "粉碎种子"
+    },
+    "Craft_Crystal": {
+      "name": "结晶"
+    },
+    "Craft_Recycle": {
+      "name": "回收"
+    },
+    "Craft_StudyCrystal": {
+      "name": "晶体样本"
+    },
+    "Craft_StudyMineral": {
+      "name": "矿物样本"
+    },
+    "Craft_StudyOrganic": {
+      "name": "生物样本"
+    },
+    "Craft_StudyQuest": {
+      "name": "合约物品"
+    },
+    "Craft_BottleIn": {
+      "name": "灌装"
+    },
+    "Craft_BottleOut": {
+      "name": "倒出"
+    },
+    "Craft_Other": {
+      "name": "其它"
+    },
+    "Craft_Dismantle": {
+      "name": "拆解"
+    },
+    "PlayerItem": {
+      "name": "合约工装备"
+    },
+    "PlayerHands": {
+      "name": "手持工具"
+    },
+    "PlayerConsumable": {
+      "name": "合约工配件"
+    },
+    "PlayerSuitChip": {
+      "name": "合约工服装芯片"
+    },
+    "Clothes": {
+      "name": "服装"
+    },
+    "Drone": {
+      "name": "无人机"
+    },
+    "Region": {
+      "name": "区域"
+    },
+    "Category_All": {
+      "name": "全部"
+    },
+    "Category_Craft": {
+      "name": "制造"
+    },
+    "Category_Blueprint": {
+      "name": "蓝图"
+    },
+    "Category_Others": {
+      "name": "其它"
+    },
+    "Category_Decals": {
+      "name": "贴花"
+    },
+    "Category_InStorage": {
+      "name": "储存"
+    },
+    "Custo_Parts": {
+      "name": "装饰零件"
+    },
+    "Custo_Building": {
+      "name": "装饰建筑"
+    },
+    "Custo_Material": {
+      "name": "飞船材料"
+    },
+    "Custo_Decal": {
+      "name": "飞船贴花"
+    },
+    "Custo_Suit": {
+      "name": "角色服装"
+    },
+    "Custo_Trail": {
+      "name": "飞船尾焰"
+    }
   }
 }
