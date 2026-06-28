@@ -30,4 +30,19 @@
       <props.desc>Le poids de l'objet.</props.desc>
     </Weight>
   </sheet>
+  <sheet name="itemTag">
+    <Workshop_Smelter><props.label>Fonderie</props.label></Workshop_Smelter>
+  </sheet>
+  <sheet name="contract">
+    <Tuto><title>Echantillon de kit de module</title></Tuto>
+  </sheet>
+  <sheet name="spaceObject">
+    <Station_Start><name>Babylone</name></Station_Start>
+  </sheet>
+  <sheet name="faction">
+    <TheCo><name>La Compagnie</name></TheCo>
+  </sheet>
+  <sheet name="instance">
+    <DockStart><name>Baie d'amarrage</name></DockStart>
+  </sheet>
 </root>

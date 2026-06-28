@@ -12,7 +12,17 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from src.lib import craft, generate_icons, parse_items, parse_translations
+from src.lib import (
+    contracts,
+    craft,
+    factions,
+    generate_icons,
+    item_categories,
+    parse_items,
+    parse_translations,
+    space_objects,
+    workshops,
+)
 from tests.support import cdb_path, lang_dir, unpacked_root
 
 
@@ -91,6 +101,53 @@ class GenerateIconsIntegration(unittest.TestCase):
             # Every aliased id resolves to an icon file that was written.
             for icon_id, fname in alias_data["icons"].items():
                 self.assertTrue((out_dir / fname).exists(), f"{icon_id} -> missing {fname}")
+
+
+class NewParsersIntegration(unittest.TestCase):
+    def test_workshops_shape(self):
+        result = workshops.parse_workshops(cdb_path())
+        self.assertGreater(result["count"], 0)
+        for wid, rec in result["workshops"].items():
+            self.assertEqual(rec["id"], wid)
+            self.assertTrue(wid.startswith("Workshop_"))
+            self.assertNotIn("label", rec)
+
+    def test_contracts_shape(self):
+        result = contracts.parse_contracts(cdb_path())
+        self.assertGreater(result["count"], 0)
+        for cid, rec in result["contracts"].items():
+            self.assertEqual(rec["id"], cid)
+            self.assertNotIn("title", rec)
+
+    def test_item_categories_shape(self):
+        result = item_categories.parse_item_categories(cdb_path())
+        self.assertGreater(result["count"], 0)
+        for cid, rec in result["categories"].items():
+            self.assertEqual(rec["id"], cid)
+            self.assertNotIn("name", rec)
+
+    def test_space_objects_shape(self):
+        result = space_objects.parse_space_objects(cdb_path())
+        self.assertGreater(result["count"], 0)
+        for oid, rec in result["spaceObjects"].items():
+            self.assertEqual(rec["id"], oid)
+            self.assertNotIn("name", rec)
+
+    def test_factions_shape(self):
+        result = factions.parse_factions(cdb_path())
+        self.assertGreater(result["count"], 0)
+        for fid, rec in result["factions"].items():
+            self.assertEqual(rec["id"], fid)
+            self.assertNotIn("name", rec)
+
+
+class NewTranslationSectionsIntegration(unittest.TestCase):
+    def test_cdb_has_new_sections(self):
+        sheets = parse_translations.translations_from_cdb(parse_translations.load_cdb(cdb_path()))
+        for section in ("workshop", "contract", "spaceObject", "faction", "instance"):
+            self.assertIn(section, sheets)
+        for entry in sheets["workshop"].values():
+            self.assertIn("name", entry)
 
 
 if __name__ == "__main__":
