@@ -64,7 +64,7 @@ def parse_args(argv=None):
     parser.add_argument("--dir", type=Path, default=REPO_ROOT, help="Directory to serve (default: repo root).")
     parser.add_argument("--host", default="127.0.0.1", help="Bind host (default: 127.0.0.1).")
     parser.add_argument("--port", type=int, default=8000, help="Bind port (default: 8000).")
-    parser.add_argument("--page", default=DEFAULT_PAGE, help="Page path to open (default: server/items.html).")
+    parser.add_argument("--page", default=DEFAULT_PAGE, help="Page path to open (default: server/index.html).")
     parser.add_argument("--no-open", dest="open_browser", action="store_false", help="Do not open a browser.")
     return parser.parse_args(argv)
 
