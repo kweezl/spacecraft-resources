@@ -36,24 +36,25 @@ export const ItemsView = {
       { key: "attrs", label: "#attr" },
     ];
 
-    const typeGroups = computed(() => {
+    // The game groups items by their display category (the itemType the parser
+    // resolved into `displayCategory`), not by the leaf `type`. Items the parser
+    // left unresolved fall into one "(uncategorized)" bucket.
+    const UNCATEGORIZED = "(uncategorized)";
+    function itemCategory(it) {
+      return it.displayCategory || UNCATEGORIZED;
+    }
+    function catLabel(id) {
+      return id === UNCATEGORIZED ? "(uncategorized)" : categoryLabel(id);
+    }
+
+    const displayCategories = computed(() => {
       const counts = {};
       for (const it of props.items) {
-        const t = it.type || "(none)";
-        counts[t] = (counts[t] || 0) + 1;
+        const c = itemCategory(it);
+        counts[c] = (counts[c] || 0) + 1;
       }
-      const groups = {};
-      for (const t of Object.keys(counts)) {
-        const cat = props.categoriesById[t];
-        const parent = (cat && cat.parent) || "(other)";
-        (groups[parent] = groups[parent] || []).push({ name: t, count: counts[t] });
-      }
-      return Object.entries(groups)
-        .map(([parent, options]) => ({
-          parent,
-          label: parent === "(other)" ? "(other)" : categoryLabel(parent),
-          options: options.sort((a, b) => categoryLabel(a.name).localeCompare(categoryLabel(b.name))),
-        }))
+      return Object.entries(counts)
+        .map(([id, count]) => ({ id, label: catLabel(id), count }))
         .sort((a, b) => a.label.localeCompare(b.label));
     });
 
@@ -64,7 +65,7 @@ export const ItemsView = {
     const filtered = computed(() => {
       let list = props.items;
       if (typeFilter.value !== "all")
-        list = list.filter((i) => (i.type || "(none)") === typeFilter.value);
+        list = list.filter((i) => itemCategory(i) === typeFilter.value);
       if (missingOnly.value) list = list.filter((i) => !iconSrc(i.id));
       const q = search.value.trim().toLowerCase();
       if (q) {
@@ -108,8 +109,9 @@ export const ItemsView = {
 
     return {
       search, typeFilter, missingOnly, view, imgFailed, flashId,
-      chipFields, tableColumns, typeGroups, missingIconCount, filtered,
+      chipFields, tableColumns, displayCategories, missingIconCount, filtered,
       iconSrc, categoryIcon, name, desc, attrName, categoryLabel, scalars,
+      itemCategory, catLabel,
     };
   },
   template: `
@@ -127,10 +129,8 @@ export const ItemsView = {
     <div class="flex flex-wrap items-center gap-3 mb-4">
       <input v-model="search" type="search" placeholder="Search id, name or type…" class="flex-1 min-w-[12rem] border border-slate-300 rounded px-3 py-1.5 text-sm" />
       <select v-model="typeFilter" class="border border-slate-300 rounded px-2 py-1.5 text-sm">
-        <option value="all">All types ({{ items.length }})</option>
-        <optgroup v-for="g in typeGroups" :key="g.parent" :label="g.label">
-          <option v-for="t in g.options" :key="t.name" :value="t.name">{{ categoryLabel(t.name) }} ({{ t.count }})</option>
-        </optgroup>
+        <option value="all">All categories ({{ items.length }})</option>
+        <option v-for="c in displayCategories" :key="c.id" :value="c.id">{{ c.label }} ({{ c.count }})</option>
       </select>
       <label class="flex items-center gap-1.5 text-sm text-slate-600 select-none">
         <input type="checkbox" v-model="missingOnly" /> missing icon only
@@ -149,9 +149,9 @@ export const ItemsView = {
           <div class="min-w-0">
             <div class="font-medium truncate" :title="name(it.id) || it.id">{{ name(it.id) || it.id }}</div>
             <div class="text-xs text-slate-400 font-mono truncate" :title="it.id">{{ it.id }}</div>
-            <span v-if="it.type" class="inline-flex items-center gap-1 mt-1 text-[11px] bg-slate-100 rounded px-1.5 py-0.5" :title="it.type">
-              <img v-if="categoryIcon(it.type)" :src="categoryIcon(it.type)" :alt="it.type" loading="lazy" class="w-3 h-3" />
-              {{ categoryLabel(it.type) }}
+            <span v-if="it.type" class="inline-flex items-center gap-1 mt-1 text-[11px] bg-slate-100 rounded px-1.5 py-0.5" :title="'category: ' + itemCategory(it) + ' · type: ' + it.type">
+              <img v-if="it.displayCategory && categoryIcon(it.displayCategory)" :src="categoryIcon(it.displayCategory)" :alt="it.displayCategory" loading="lazy" class="w-3 h-3" />
+              {{ catLabel(itemCategory(it)) }}
             </span>
           </div>
         </div>
