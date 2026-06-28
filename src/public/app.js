@@ -154,7 +154,7 @@ createApp({
         </p>
       </div>
       <items-view v-else-if="route.view==='items'" :items="items" :aliases="aliases" :tr="tr" :base="dataBase" :categories-by-id="categoriesById" :category-aliases="categoryAliases" :focus-id="focusId" @notify="notify"></items-view>
-      <recipes-view v-else-if="route.view==='recipes'" :recipes="recipes" :aliases="aliases" :tr="tr" :base="dataBase"></recipes-view>
+      <recipes-view v-else-if="route.view==='recipes'" :recipes="recipes" :aliases="aliases" :tr="tr" :base="dataBase" :category-aliases="categoryAliases"></recipes-view>
       <workshops-view v-else-if="route.view==='workshops'" :workshops="workshops" :recipes="recipes" :tr="tr"></workshops-view>
       <contracts-view v-else-if="route.view==='contracts'" :contracts="contracts" :aliases="aliases" :tr="tr" :base="dataBase"></contracts-view>
       <categories-view v-else-if="route.view==='categories'" :categories="categories" :items="items" :tr="tr" :base="dataBase" :category-aliases="categoryAliases"></categories-view>
