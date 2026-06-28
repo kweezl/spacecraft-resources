@@ -30,7 +30,7 @@ def command(
     directory: str | None = typer.Option(None, "--dir", help="Directory to serve. Env: SC_SERVE_DIR (default: repo root)."),
     host: str | None = typer.Option(None, "--host", help="Bind host. Env: SC_SERVE_HOST."),
     port: str | None = typer.Option(None, "--port", help="Bind port. Env: SC_SERVE_PORT."),
-    page: str | None = typer.Option(None, "--page", help="Page to open (default: server/items.html)."),
+    page: str | None = typer.Option(None, "--page", help="Page to open (default: server/index.html)."),
     open_browser: bool = typer.Option(True, "--open/--no-open", help="Open a browser tab (default: open)."),
 ) -> None:
     raise typer.Exit(run(directory=directory, host=host, port=port, page=page, open_browser=open_browser))
