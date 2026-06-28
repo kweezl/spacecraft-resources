@@ -312,7 +312,8 @@
           try { localStorage.setItem(LANG_KEY, this.lang); } catch (e) {}
         },
         async loadJson(path) {
-          const res = await fetch(path);
+          // no-store: always read freshly generated data, never a stale cache.
+          const res = await fetch(path, { cache: "no-store" });
           if (!res.ok) throw new Error(path + " → HTTP " + res.status);
           return res.json();
         },
