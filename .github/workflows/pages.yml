@@ -25,9 +25,8 @@ jobs:
       - name: Assemble _site
         run: |
           mkdir -p _site/components _site/generated
-          cp server/app.js server/composables.js _site/
-          cp server/components/*.js _site/components/
-          cp .github/pages/index.html _site/index.html
+          cp src/public/index.html src/public/app.js src/public/composables.js _site/
+          cp src/public/components/*.js _site/components/
           cp -r generated/. _site/generated/
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3

@@ -19,7 +19,7 @@ Run the tool through the entry point (loads `.env` first via the Typer callback)
 python sc.py                 # no args -> help
 python sc.py pipeline        # parse-items, parse-craft, parse-translations, generate-icons
 python sc.py <cmd> --dry-run # most parse/generate cmds support dry-run (no writes)
-python sc.py serve           # static server + opens server/index.html
+python sc.py serve           # dev static server + opens the inspector at http://localhost:8000/
 ```
 
 Commands: `extract`, `parse-items`, `parse-craft`, `parse-translations`,
@@ -71,17 +71,19 @@ delegate. Each exposes a `run(...)` (callable, returns an int exit code, used by
 **Logic layer** — all implementation lives under `src/lib/`; commands never
 contain real logic. Two module styles coexist:
 - *Pure logic*, called directly by the command (the cleanest shape):
-  `parse-craft` -> `src/lib/craft.py`.
+  `parse-craft` -> `src/lib/craft.py`, `serve` -> `src/lib/serve.py`.
 - *Module with its own argparse `main()`*, which the command invokes by building
   an `argv` list: `extract`, `parse_items`, `parse_translations`,
-  `generate_icons`, `deduplicate_icons` -> `src/lib/*.py` (same precedent as
-  `server/serve.py`). New work should prefer the pure-logic shape.
+  `generate_icons`, `deduplicate_icons` -> `src/lib/*.py`. New work should prefer
+  the pure-logic shape.
 
-**Inspectors** — `server/` holds the Vue 3 + Tailwind (CDN, no build step) UI and
-`server/serve.py`, a static server that refuses dotfiles and serves the repo root
-so the pages can `fetch()` `generated/*.json` over HTTP (browsers block `file://`
-fetches). The UI is a **single-page app**: items and recipes are views switched
-client-side, not separate full-page documents (see Conventions).
+**Inspectors** — `src/public/` holds the Vue 3 + Tailwind (CDN, no build step) UI;
+`src/lib/serve.py` is a dev-only static server. It serves via a small mount table
+(`/generated` -> `generated/`, `/` -> `src/public/`), refusing dotfiles, so the
+page can `fetch()` `generated/*.json` over HTTP (browsers block `file://` fetches)
+and the local URL layout matches GitHub Pages. The UI is a **single-page app**:
+items and recipes are views switched client-side, not separate full-page documents
+(see Conventions).
 
 **Data flow** — `data.cdb` is a JSON export of the game's sheets. Parsers find a
 named sheet (`item`, `craft`) and emit `{source, sheet, count, skipped, <map>}`
@@ -116,7 +118,7 @@ logic. Add a `tests/lib/test_<name>.py` (pure-logic unit tests) and, for a new
 command, a `tests/commands/test_sc_<name>.py` (argv/exit-code wiring). Red → green
 → refactor; the suite must stay green.
 
-**Vue / frontend (`server/`)**
+**Vue / frontend (`src/public/`)**
 - The inspector is a **single-page app**: navigate between items/recipes views via
   client-side state/routing, not `<a href>` to another `.html` (no full reloads).
   Share one app shell, header, and language state across views.
@@ -125,10 +127,11 @@ command, a `tests/commands/test_sc_<name>.py` (argv/exit-code wiring). Red → g
   and computed properties over ad-hoc DOM work.
 - The SPA core (`app.js`, `components/*.js`, `composables.js`) is entry-agnostic:
   it reads its data base from `data-data-base` on the `#app` element and imports
-  siblings relatively. `server/index.html` is the local entry; `.github/pages/index.html`
-  is the GitHub Pages entry, deployed by `.github/workflows/pages.yml` (assembles
-  `_site/` from the `server/` JS + `generated/`). Keep the two entry shells in sync
-  (guarded by `tests/test_server_spa.py`).
+  siblings relatively. A single `src/public/index.html` (data-base `./generated`)
+  serves both local dev and GitHub Pages, since the mount table gives them the
+  same URL layout. Pages is deployed by `.github/workflows/pages.yml`, which
+  assembles `_site/` from `src/public/` + `generated/` (structure guarded by
+  `tests/test_server_spa.py`).
 
 **Docs are local, never committed** — design specs and implementation plans live
 under `docs/` (e.g. `docs/superpowers/{specs,plans}/`, dated markdown) and capture

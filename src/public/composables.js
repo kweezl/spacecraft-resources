@@ -4,11 +4,11 @@ import { ref } from "https://unpkg.com/vue@3/dist/vue.esm-browser.prod.js";
 export const LANGS = ["en", "de", "es", "fr", "pl", "pt-BR", "ru", "zh"];
 const LANG_KEY = "sc-lang";
 
-// Resolve where generated/ lives from the mount element. Each entry HTML sets
-// data-data-base; default keeps server/index.html working from the repo root.
+// Resolve where generated/ lives from the mount element. index.html sets
+// data-data-base="./generated" (served at /generated locally and on Pages).
 export function resolveDataBase(mountEl) {
   const base = mountEl && mountEl.dataset ? mountEl.dataset.dataBase : "";
-  return (base && base.replace(/\/+$/, "")) || "../generated";
+  return (base && base.replace(/\/+$/, "")) || "./generated";
 }
 
 // no-store: always read freshly generated data, never a stale cache.

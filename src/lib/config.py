@@ -28,8 +28,8 @@ GENERATE_ICONS_SHEET = Setting("SC_GENERATE_ICONS_SHEET", "item")
 GENERATE_ICONS_FORMAT = Setting("SC_GENERATE_ICONS_FORMAT", "webp")
 DEDUPLICATE_ICONS_MANIFEST = Setting("SC_DEDUPLICATE_ICONS_MANIFEST", "generated/icons_manifest.json")
 
-# serve: static server for the items inspector. Empty dir -> repo root.
-SERVE_DIR = Setting("SC_SERVE_DIR", "")
+# serve: dev-only static server for the items inspector (fixed mount table:
+# /generated -> generated/, / -> src/public/), so it has no directory setting.
 SERVE_HOST = Setting("SC_SERVE_HOST", "127.0.0.1")
 SERVE_PORT = Setting("SC_SERVE_PORT", "8000")
 
@@ -50,7 +50,6 @@ ALL_SETTINGS = [
     GENERATE_ICONS_SHEET,
     GENERATE_ICONS_FORMAT,
     DEDUPLICATE_ICONS_MANIFEST,
-    SERVE_DIR,
     SERVE_HOST,
     SERVE_PORT,
 ]
