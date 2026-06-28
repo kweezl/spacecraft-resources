@@ -33,6 +33,9 @@ jobs:
           # Full history is unnecessary; the source-leak guard only inspects
           # the tracked files in this checkout via `git ls-files`.
           fetch-depth: 1
+          # The icon sanity tests open the real WebP files, which are stored in
+          # Git LFS — without this they are pointer stubs and PIL can't read them.
+          lfs: true
 
       - uses: actions/setup-python@v6
         with:

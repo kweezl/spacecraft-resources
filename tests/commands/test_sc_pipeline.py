@@ -19,7 +19,10 @@ class PipelineTests(unittest.TestCase):
         )
 
     def test_aborts_on_first_failure(self):
+        # All steps before the failing one must be mocked too, otherwise they run
+        # for real against unpacked/ (absent in CI) and abort with the wrong code.
         with mock.patch("src.commands.parse_items.run", return_value=0), \
+             mock.patch("src.commands.parse_craft.run", return_value=0), \
              mock.patch("src.commands.parse_translations.run", return_value=3), \
              mock.patch("src.commands.generate_icons.run", return_value=0) as gen:
             code = cmd.run()
